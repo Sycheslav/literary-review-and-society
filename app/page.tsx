@@ -42,6 +42,32 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="concept-teaser">
+        <div className="container concept-teaser-inner">
+          <div>
+            <h2>Концепция и идеи исследований</h2>
+            <p>
+              Собственная программа проекта: цели, рабочий словарь, основной сценарий с сообществом
+              прогнозистов, гипотезы, портфель экспериментов и требования к стенду.
+            </p>
+          </div>
+          <ul>
+            <li>
+              <Link href="/concept/project">Проект в нескольких абзацах</Link>
+            </li>
+            <li>
+              <Link href="/concept/hypotheses">Проверяемые вопросы и гипотезы</Link>
+            </li>
+            <li>
+              <Link href="/concept/experiments">Портфель экспериментов</Link>
+            </li>
+            <li>
+              <Link href="/concept">Все 23 главы →</Link>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       <section className="section" id="start">
         <div className="container">
           <h2 className="section-title">С чего начать</h2>

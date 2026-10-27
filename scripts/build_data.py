@@ -6,6 +6,10 @@
   public/corpus/files/topics/*.md   — тематические разделы
   data/translations.json            — переводы названий и разделов (если есть)
   data/layout.json                  — фиксированные координаты графа (scripts/layout_graph.py)
+  data/curation.json                — ревизия корпуса: исключённые записи, артефакты
+                                      (код, данные, копии текста), которые становятся
+                                      ссылками в карточке основной работы, поправки значимости,
+                                      названий и года
 
 Выходы: data/works.json, data/details.json, data/topics.json, data/graph.json
 
@@ -29,6 +33,12 @@ SECTIONS = {
     "Ограничения и интерпретация": "limits",
 }
 IMPORTANCE_ORDER = {"core": 0, "supporting": 1, "peripheral": 2}
+LINK_LABELS = {
+    "project": "Код и материалы",
+    "dataset": "Данные",
+    "research": "Другая версия статьи",
+    "review": "Другая версия статьи",
+}
 
 
 def load(path, default=None):
@@ -87,8 +97,20 @@ def main():
     graph = load(os.path.join(CORPUS, "graph.json"))
     tr = load(os.path.join(DATA, "translations.json"), {"works": {}, "topics": {}})
     layout = load(os.path.join(DATA, "layout.json"), {})
+    curation = load(os.path.join(DATA, "curation.json"), {"remove": {}, "attach": {}, "importance": {}})
+    attach = curation["attach"]
+    excluded = set(curation["remove"]) | set(attach)
 
-    work_nodes = [n for n in graph["nodes"] if n["type"] == "work"]
+    all_nodes = {n["id"]: n for n in graph["nodes"] if n["type"] == "work"}
+    links = {}
+    for src, dst in attach.items():
+        n = all_nodes[src]
+        url = (n.get("source_urls") or [None])[0]
+        if url:
+            label = LINK_LABELS.get(n.get("source_kind"), "Страница проекта")
+            links.setdefault(dst, []).append({"label": label, "url": url})
+
+    work_nodes = [n for n in graph["nodes"] if n["type"] == "work" and n["id"] not in excluded]
     topic_nodes = [n for n in graph["nodes"] if n["type"] == "topic"]
     work_ids = {n["id"] for n in work_nodes}
 
@@ -107,6 +129,9 @@ def main():
         title = clean_title(t.get("title_ru") or original)
         if n.get("language") == "ru":
             title = original
+        fix = curation.get("fix", {}).get(wid, {})
+        if "title" in fix:
+            title, original = fix["title"], fix.get("original", title)
         text_path = next((m for m in n.get("materials", []) if m.endswith("/fulltext.md")), None)
         if text_path and not os.path.exists(os.path.join(CORPUS, "files", text_path)):
             text_path = None
@@ -117,10 +142,10 @@ def main():
                 "title": title,
                 "original": original if original != title else None,
                 "authors": n.get("authors") or [],
-                "year": n.get("year"),
+                "year": fix.get("year") or n.get("year"),
                 "kind": n.get("source_kind"),
                 "topics": n.get("topics") or [],
-                "importance": n.get("importance"),
+                "importance": curation["importance"].get(wid) or n.get("importance"),
                 "summary": t.get("summary") or n.get("summary_short") or "",
                 "hasText": bool(text_path),
             }
@@ -134,6 +159,7 @@ def main():
             "sections": sections,
             "related": sorted(related[wid]),
             "url": urls[0] if urls else None,
+            "links": [l for l in links.get(wid, []) if l["url"] != (urls[0] if urls else None)],
             "textPath": text_path,
         }
 
@@ -183,7 +209,10 @@ def main():
     dump("topics.json", topics)
     dump("graph.json", {"nodes": nodes, "edges": edges})
     translated = sum(1 for w in work_nodes if tr["works"].get(w["id"], {}).get("title_ru"))
-    print(f"works={len(works)} translated={translated} topics={len(topics)} edges={len(edges)}")
+    print(
+        f"works={len(works)} translated={translated} topics={len(topics)} edges={len(edges)} "
+        f"removed={len(curation['remove'])} attached={len(attach)}"
+    )
 
 
 if __name__ == "__main__":

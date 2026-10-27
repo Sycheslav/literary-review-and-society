@@ -108,6 +108,7 @@ a:hover {
   font-size: 15.5px;
 }
 .site-nav a {
+  white-space: nowrap;
   color: var(--ink-2);
   padding: 20px 0 18px;
   border-bottom: 2px solid transparent;
@@ -820,6 +821,23 @@ a:hover {
   display: grid;
   gap: 8px;
 }
+.extra-links {
+  margin-top: 16px;
+  font-size: 15px;
+}
+.extra-links li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+}
+.extra-links span {
+  font-size: 13px;
+  color: var(--faint);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .facts {
   margin-top: 28px;
   font-size: 15px;
@@ -1133,6 +1151,165 @@ body:has(.graph-page) .site-footer {
   color: var(--ink-2);
 }
 
+/* ---------- Концепция ---------- */
+
+.concept-teaser {
+  padding: 36px 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--accent-soft);
+}
+.concept-teaser-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 56px;
+  align-items: center;
+}
+.concept-teaser h2 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+}
+.concept-teaser p {
+  margin-top: 8px;
+  max-width: 640px;
+  color: var(--ink-2);
+}
+.concept-teaser li + li {
+  margin-top: 6px;
+}
+
+.concept-intro {
+  max-width: 780px;
+  margin-top: 20px;
+}
+.concept-parts {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 56px;
+}
+.chapter-list {
+  border-top: 1px solid var(--line);
+}
+.chapter-list li {
+  border-bottom: 1px solid var(--line);
+}
+.chapter-list a {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  padding: 14px 0;
+  color: var(--ink);
+}
+.chapter-list a:hover {
+  text-decoration: none;
+}
+.chapter-list a:hover .chapter-title {
+  color: var(--accent);
+}
+.chapter-num {
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--faint);
+}
+.chapter-title {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.35;
+}
+.chapter-lead {
+  grid-column: 2;
+  margin-top: 4px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.chapter-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 64px;
+}
+.chapter-toc {
+  align-self: start;
+  position: sticky;
+  top: 88px;
+  max-height: calc(100vh - 112px);
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.chapter-toc a {
+  display: block;
+  padding: 4px 0;
+  color: var(--ink-2);
+}
+.chapter-toc a span {
+  color: var(--faint);
+}
+.chapter-toc a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+}
+.chapter-toc-sub {
+  margin: 2px 0 8px 14px;
+  padding-left: 10px;
+  border-left: 1px solid var(--line-2);
+  font-size: 13.5px;
+}
+.chapter-toc-sub a {
+  color: var(--muted);
+}
+.chapter-main {
+  min-width: 0;
+  max-width: 800px;
+}
+.chapter-heading {
+  margin-top: 8px;
+  font-family: var(--serif);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.chapter-text {
+  margin-top: 28px;
+}
+.chapter-text h3 {
+  scroll-margin-top: 88px;
+  padding-top: 0.8em;
+  border-top: 1px solid var(--line);
+}
+.chapter-text table {
+  margin: 1.2em 0;
+}
+.chapter-pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.chapter-pager a {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+.chapter-pager small {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--muted);
+}
+.chapter-pager a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+.pager-next {
+  text-align: right;
+}
+
 /* ---------- Узкие экраны ---------- */
 
 @media (max-width: 1080px) {
@@ -1145,6 +1322,13 @@ body:has(.graph-page) .site-footer {
   }
   .work-aside {
     position: static;
+  }
+  .chapter-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .chapter-toc {
+    display: none;
   }
 }
 
@@ -1159,9 +1343,10 @@ body:has(.graph-page) .site-footer {
     padding-top: 10px;
   }
   .site-nav {
-    gap: 18px;
+    gap: 16px;
     width: 100%;
     overflow-x: auto;
+    scrollbar-width: none;
   }
   .site-nav a {
     padding: 8px 0 10px;
@@ -1182,6 +1367,8 @@ body:has(.graph-page) .site-footer {
     padding: 48px 0;
   }
   .start-list,
+  .concept-teaser-inner,
+  .concept-parts,
   .topic-list {
     grid-template-columns: 1fr;
   }
@@ -1194,7 +1381,8 @@ body:has(.graph-page) .site-footer {
   .page-title {
     font-size: 30px;
   }
-  .work-title {
+  .work-title,
+  .chapter-heading {
     font-size: 28px;
   }
   .section-head {

@@ -10,8 +10,10 @@ import networkx as nx
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = json.load(open(os.path.join(ROOT, "public", "corpus", "graph.json"), encoding="utf-8"))
+curation = json.load(open(os.path.join(ROOT, "data", "curation.json"), encoding="utf-8"))
+excluded = set(curation["remove"]) | set(curation["attach"])
 
-works = {n["id"]: n for n in src["nodes"] if n["type"] == "work"}
+works = {n["id"]: n for n in src["nodes"] if n["type"] == "work" and n["id"] not in excluded}
 topics = {n["id"]: n for n in src["nodes"] if n["type"] == "topic"}
 
 G = nx.Graph()

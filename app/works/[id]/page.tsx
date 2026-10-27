@@ -24,6 +24,14 @@ function meaningful(value: string) {
   return v && !v.startsWith("не ") && v !== "—";
 }
 
+function hostOf(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
 export default async function WorkPage({ params }: Props) {
   const { id } = await params;
   const work = getWork(id);
@@ -125,6 +133,19 @@ export default async function WorkPage({ params }: Props) {
                 </Link>
               )}
             </div>
+
+            {detail.links.length > 0 && (
+              <ul className="extra-links">
+                {detail.links.map((l) => (
+                  <li key={l.url}>
+                    <a href={l.url} target="_blank" rel="noreferrer">
+                      {l.label} ↗
+                    </a>
+                    <span>{hostOf(l.url)}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
 
             <dl className="facts">
               {work.year && (

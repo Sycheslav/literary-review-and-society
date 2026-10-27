@@ -32,6 +32,7 @@ export type WorkDetail = {
   sections: Partial<Record<SectionKey, string>>;
   related: string[];
   url: string | null;
+  links: { label: string; url: string }[];
   textPath: string | null;
 };
 
@@ -81,3 +82,17 @@ export function readFullText(textPath: string) {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?/);
   return match ? raw.slice(match[0].length) : raw;
 }
+
+export type ConceptChapter = {
+  slug: string;
+  num: number;
+  title: string;
+  lead: string;
+  body: string;
+  sections: { id: string; title: string }[];
+};
+
+export type Concept = { title: string; intro: string; chapters: ConceptChapter[] };
+
+export const getConcept = () => readJson<Concept>("concept.json");
+export const getChapter = (slug: string) => getConcept().chapters.find((c) => c.slug === slug);

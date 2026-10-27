@@ -36,12 +36,15 @@ export default function Md({ children, className }: { children: string; classNam
             const resolved = resolveHref(href);
             if (resolved) {
               const work = resolved.workId ? getWork(resolved.workId) : undefined;
+              // Работа исключена из обзора — оставляем подпись без ссылки.
+              if (resolved.workId && !work) return <>{children}</>;
               return (
                 <Link href={resolved.internal} {...(work ? previewProps(work) : {})}>
                   {work ? russianLabel(children, work.title) : children}
                 </Link>
               );
             }
+            if (href.startsWith("/")) return <Link href={href}>{children}</Link>;
             if (/^https?:/.test(href)) {
               return (
                 <a href={href} target="_blank" rel="noreferrer">
@@ -50,6 +53,10 @@ export default function Md({ children, className }: { children: string; classNam
               );
             }
             return <>{children}</>;
+          },
+          h3({ children }) {
+            const num = typeof children === "string" ? children.match(/^(\d+)\.(\d+)\./) : null;
+            return <h3 id={num ? `p${num[1]}-${num[2]}` : undefined}>{children}</h3>;
           },
         }}
       >
