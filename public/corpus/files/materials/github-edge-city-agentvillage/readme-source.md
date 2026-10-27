@@ -1,0 +1,591 @@
+---
+id: github-edge-city-agentvillage-text
+type: material
+title: Edge-City/agentvillage
+work_id: github-edge-city-agentvillage
+source_url: https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md
+retrieved_at: '2026-10-27'
+conversion: author_readme
+quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
+  исходного репозитория.
+language: original
+sha256_text: 2d75aed9d1d2a2d6aa1865b9f57898f3723f3a4b848536449ae3b6849a3aac05
+link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
+---
+
+> Источник: [https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md](https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+
+# AgentVillage
+
+The Agent Village experience for **Edge City India 2026** (Oct 11 – Nov 1, Mandrem, Goa, India).
+
+AgentVillage is the public skills package and onboarding scripts that an agent (running Hermes, OpenClaw, or Claude) loads to participate in the Edge City India Agent Village. It's a multi-backend package: discovery and intent negotiation through Index Network, calendar and directory through EdgeOS. AgentVillage defines what an agent knows, how it authenticates with each backend, and how it interacts with attendees.
+
+The previous popup, Edge Esmeralda 2026 (Healdsburg, CA), still has a skill here (`edge-esmeralda`); agents treat it as past background only. The morning brief reads the current popup from env: `AV_POPUP_ID` (EdgeOS popup UUID; calendar/RSVP sections are skipped when unset) and `AV_PORTAL_URL` (portal events base, e.g. `https://<host>/portal/<popup-slug>/events`; event links are omitted and stripped when unset). Brief dates, times, and weather use Mandrem, Goa (`Asia/Kolkata`, °C).
+
+## What you get
+
+Today, capabilities come from **Index Network** (discovery + intent negotiation) and **EdgeOS** (calendar + directory). Once installed, AgentVillage:
+
+- **Greets you once** on the first private message. The profile and first signal are already filled outside chat, so chat does not ask for consent, draft a profile, or collect that first signal.
+- **Writes a short morning brief at 08:00 village time (IST)** (delivered only between 05:00 and 11:00 IST) from facts a script gathers: admin-set village announcements, today's EdgeOS calendar, the resident's interests, and an Index part of at most three lines (how many new people are waiting, up to three names, and the Connections link). The model writes it, tailored to the resident's stated preferences, and never needs a tool to do so (DATA-314; `docs/deployment.md`, "The proactive jobs").
+- **Notifies you when someone accepts** a connection on your behalf.
+- **Curates memory** every few days — distills daily notes into long-term `MEMORY.md`.
+- **Audits token usage quietly** with a deterministic local script. It only wakes the agent when meaningful spend has a clear actionable driver, such as scheduled background work dominating the last day.
+
+Hosted residents can opt into **curated mini-apps**: Gold Stars (exact-preview,
+manual approval before gratitude is sent), Dizko (public event, artist and
+venue discovery), and For Kicks (live café menu/schedule and exact-approved
+coffee orders). Installing one grants its permission; Dizko and For Kicks
+skills arrive only then, while the Gold Stars skill text ships to every box
+and stays inert until installed. The control plane owns reviewed versions
+and install intent; staging files is not proof the runtime loaded them.
+[Build a reviewed mini-app](https://raw.githubusercontent.com/Edge-City/agentvillage/main/mini-apps/README.md).
+
+For Kicks menu requests (“show me the menu”, “what's on the menu”, “what do
+you have”) request image boards by default. The native tool prepares private
+local PNGs and accessible text; the agent must preserve every raw `MEDIA:` line
+in its final reply for Hermes to attach the photos. Explicit text-only requests
+still use the structured menu read. Image failures are disclosed and fall back
+to current text, never a claim that a photo was sent.
+
+AgentVillage never names the plumbing in chat. You see AgentVillage and (when relevant) your community.
+
+## Architecture
+
+AgentVillage plugs into the EdgeOS portal (the identity + spine), with Portal as the recommended runtime for non-technical attendees. Backends the agent calls: Index (negotiation + discovery) and EdgeOS APIs (calendar, directory).
+
+See the project hub for the full diagram and decisions.
+
+## What's here
+
+- `workspace/IDENTITY.md` — what an AgentVillage agent knows about itself and the village
+- `workspace/` — backend-agnostic agent core (identity, voice, community context, generic operating rules)
+- `skills/` — per-backend skill bundles registered with OpenClaw via per-bundle `SKILL.md`. Mirrors `Edge-City/agentvillage-skills` as a subtree; today this hosts:
+  - `skills/index-network/` — Index Network MCP procedural knowledge (onboarding ritual, voice exemplars, heartbeat tasks). Also the home of the cron jobs' files: the cron prompts in `prompts/` (`brief.md`, `opportunity-drop.md`, `negotiation-summary.md`, `ask-questions.md`, `memory-signals.md`), the proactive trigger `scripts/proactive.ts` and the memory-signal gate `scripts/memory_signal_gate.py` (DATA-361).
+  - `skills/edgeos/` — backend-generic EdgeOS API recipes (events, RSVPs, venues, attendee directory, own profile). Reads `EDGEOS_BEARER_TOKEN` and `EDGEOS_API_KEY` from env; popup id is supplied by the active operator skill.
+  - `skills/edge-india/` — Edge City India 2026 public village knowledge: a verified snapshot of the India wiki, Substack guides and website generated by `p2p-lanes/edge-agent-skill`, synced here by `.github/workflows/sync-edge-india-references.yml`, pulled onto each agent by the `Edge — knowledge sync` job into `$HERMES_HOME/knowledge/edge-india/`, and read through `scripts/refs.ts` (source links, dates; local files only: its own live check `AV_INDIA_REFS_LIVE` is off by default, so a resident's turn never fetches). See `skills/edge-india/README.md` for the freshness path.
+  - `skills/edge-esmeralda/` — background on the *previous* popup, Edge Esmeralda 2026: popup constants (popup id, week dates, themes), attendee field semantics, the curated wiki/website/newsletter references (a frozen 2026-10-01 snapshot), and the onboarding pointer for obtaining EdgeOS tokens. Background only: it hosts no cron prompts or scripts (they moved to `skills/index-network/` in DATA-361).
+  - `skills/token-usage-audit/` — deterministic tenant-local token usage audit script and cron contract. It reads local usage summaries and cron metadata, never calls an LLM, and emits only sanitized aggregate facts.
+- `install/` — bootstrap scripts for plugging AgentVillage into a runtime
+- `mini-apps/` — reviewed bundle manifests and builder starter/contract; no arbitrary code upload or install hooks
+- `docs/negotiator.md` — how to write a resident's `$HERMES_HOME/index/negotiator.ts`
+
+## Repos
+
+Where things live across the `Edge-City` org. Open PRs in the repo that owns the code; the mirror is generated.
+
+| Repo | Holds | Status |
+|---|---|---|
+| `agentvillage` (this repo) | Skills, workspace files, installers, Hermes plugins. The overlay every hosted resident clones (see `docs/deployment.md`). | Active |
+| `agentvillage-skills` | A read-only mirror of `skills/`, force-pushed by `.github/workflows/sync-skills.yml` on every push to `main` or `dev` that touches `skills/`. Exists so `claude plugin marketplace add` and `openclaw plugins install` have a repo whose root is the skills directory. | Generated — never edit or PR here; change `skills/` in this repo instead |
+| `agentvillage-controlplane` | Provisioning and management of hosted Hermes residents on Railway. | Active, private |
+| `agentvillage-landing` | Signup site, auth and provisioning routes, admin analytics. | Active, private |
+| `agentvillage-data` | Research event collection, consent processing, schemas, dbt, and `releases/manifest.yaml` (the record of what is live). | Active, private |
+| `agentvillage-onboarding` | Edge City India onboarding flow and info page. Built against mocks; permanent home still to be decided. | Active, private, temporary |
+| `p2p-lanes/edgeos-monorepo` | EdgeOS portal, auth, calendar, ticketing and backend. Owned by the EdgeOS team, not by this project. | External |
+| `agentvillage-telegram` | Esmeralda 2026 group-message capture to local JSONL. | Legacy, no commits since June 2026 |
+
+## Getting an agent connected
+
+Two paths:
+
+**1. I'm new to agents.** Sign up at `https://agent-ee26.edgecity.live/` and pick "Set one up for me." Portal provisions a hosted agent with AgentVillage preinstalled. ~5 minutes.
+
+**2. I'm self-hosting.** Set up Hermes, OpenClaw, or Claude Code, then run the AgentVillage installer from a clone of this repo.
+
+### EdgeOS tokens
+
+Both paths need EdgeOS tokens (`EDGEOS_BEARER_TOKEN` and `EDGEOS_API_KEY`) before the `edgeos` skill can talk to the calendar, directory, or your own profile. Obtain them by completing the email-OTP flow at `<EDGECITY-ONBOARDING-URL>`, then pass them to the installer (`--edgeos-bearer-token`, `--edgeos-api-key`) or, for non-OpenClaw hosts, set them in your host's env config per its conventions. AgentVillage does not run OTP itself.
+
+> **TODO:** Replace `<EDGECITY-ONBOARDING-URL>` with the actual URL once EdgeCity publishes it. Bump `package.json` patch version when done.
+
+## Integration API
+
+The integration API is for **Portal** and **EdgeOS** — the two systems that provision agents on behalf of attendees. End users do not call this directly.
+
+### Authentication
+
+All requests use the experiment network's **master key** as a bearer token:
+
+```
+x-api-key: <masterKey>
+```
+
+The master key is issued once when the experiment network is created in the Index Network dashboard and is never re-shown. It is **server-side only** — never expose it in the EdgeOS portal frontend, user-visible config, the public repo, or attendee-facing copy-paste.
+
+The master key can be **rotated** from the integrations tab of the network's settings page in the Index Network dashboard. Rotation issues a new plaintext key (shown once) and emails it to every owner of the network; the previous key is invalidated immediately. Use this when the key is lost or to revoke an existing one.
+
+### POST /api/networks/:id/signup
+
+Provisions (or re-provisions) an attendee's Index Network account and returns an API key bound to a network-scoped agent. No email is sent — the caller is responsible for delivering the key to the attendee.
+
+**Request**
+
+```
+POST https://protocol.index.network/api/networks/<NETWORK_ID>/signup
+Content-Type: application/json
+x-api-key: <masterKey>
+```
+
+**Body** (`email` is the only required field):
+
+```json
+{
+  "email": "alice@example.com",
+  "name": "Alice Example",
+  "bio": "Independent researcher on coordination problems.",
+  "location": "Mandrem, Goa",
+  "socials": [
+    { "label": "telegram", "value": "@alice" },
+    { "label": "twitter",  "value": "alice_eg" }
+  ]
+}
+```
+
+| Field | Required | Max | Notes |
+|---|---|---|---|
+| `email` | yes | — | Lowercased + trimmed. |
+| `name` | no | 200 chars | Overwrites stored name when present. |
+| `bio` | no | 2000 chars | |
+| `location` | no | 200 chars | |
+| `socials` | no | 32 entries | Open vocabulary — any string labels (`telegram`, `twitter`, `github`, `farcaster`, …). Upserted by label. |
+
+**Response**
+
+```json
+{
+  "user":   { "id": "<uuid>", "email": "alice@example.com" },
+  "apiKey": "ix_...",
+  "mcpServer": {
+    "name":    "index",
+    "url":     "https://protocol.index.network/mcp",
+    "headers": { "x-api-key": "ix_..." }
+  }
+}
+```
+
+HTTP `201` if the user was newly created; `200` if they already existed.
+
+`mcpServer` is the standard MCP server config object that OpenClaw reads on startup.
+
+**Idempotency**
+
+Every call with the same email returns the same user but a **fresh API key** — the previous key is revoked. Store the key returned by the latest call. If the integrator retries before delivering the key to the attendee, the retried call's key supersedes the earlier one.
+
+**Errors**
+
+| Code | Reason |
+|---|---|
+| 400 | Missing or invalid email; oversized field; malformed `socials` array. |
+| 401 | Missing `x-api-key` header. |
+| 403 | Master key invalid; network not in experiment mode; network deleted. |
+
+### What Portal does after signup
+
+1. Runs the AgentVillage installer with the returned `apiKey`: `bun install/install.ts --index-api-key <apiKey>` (or equivalent in the hosted runtime). If Portal has a resident-confirmed Telegram handle, it passes it as a bare handle (`--telegram-handle handle`) so every Telegram-surface Index MCP request carries `x-index-telegram-username`. If Portal has also fetched an EdgeOS personal access token for the attendee, it passes that on the same line: `bun install/install.ts --index-api-key <apiKey> --telegram-handle handle --edgeos-api-key <eos_live_…> --edgeos-bearer-token <jwt>`.
+2. If Portal learns or changes the attendee's Telegram handle later, it should rerun the installer or update `mcp_servers.index.headers.x-index-telegram-username` in the host config.
+
+### What EdgeOS does after signup (BYOA flow)
+
+Displays per-host install commands with the attendee's credentials pre-filled. The attendee copies and runs them in their terminal. EdgeOS also completes the email-OTP flow to obtain `EDGEOS_BEARER_TOKEN` and `EDGEOS_API_KEY`, which are included in the install commands.
+
+**Claude Code:**
+```bash
+export INDEX_API_KEY=<apiKey>
+export EDGEOS_BEARER_TOKEN=<jwt>
+export EDGEOS_API_KEY=<eos_live_…>
+claude plugin marketplace add Edge-City/agentvillage-skills
+claude plugin install agentvillage@agentvillage-skills
+```
+
+**OpenClaw:**
+```bash
+openclaw plugins install agentvillage --marketplace Edge-City/agentvillage-skills
+openclaw config set mcp.servers.index '{"url":"https://protocol.index.network/mcp","transport":"streamable-http","headers":{"x-api-key":"<apiKey>","x-index-surface":"telegram","x-index-telegram-username":"handle"}}'
+openclaw config set env.vars.EDGEOS_BEARER_TOKEN '<jwt>'
+openclaw config set env.vars.EDGEOS_API_KEY '<eos_live_…>'
+openclaw gateway restart
+```
+
+**Hermes:**
+```bash
+hermes skills install Edge-City/agentvillage/skills/edge-india --force
+hermes skills install Edge-City/agentvillage/skills/edge-esmeralda --force
+hermes skills install Edge-City/agentvillage/skills/edgeos --force
+hermes skills install Edge-City/agentvillage/skills/index-network --force
+hermes config set mcp_servers.index.url 'https://protocol.index.network/mcp'
+hermes config set mcp_servers.index.headers.x-api-key '<apiKey>'
+hermes config set mcp_servers.index.headers.x-index-surface 'telegram'
+hermes config set mcp_servers.index.headers.x-index-telegram-username 'handle'
+hermes config set EDGEOS_BEARER_TOKEN '<jwt>'
+hermes config set EDGEOS_API_KEY '<eos_live_…>'
+```
+
+**Claude Desktop / other MCP clients:** displays the `mcpServer` JSON with the API key baked in.
+
+See `skills/README.md` for the full per-host reference.
+
+## Prerequisites
+
+- [OpenClaw](https://openclaw.dev) installed and configured (`openclaw onboard --mode local` or `openclaw setup`).
+- An API key for the Index protocol. Generate one on your agents page at [index.network](https://index.network) (or your community-branded node).
+- [Bun](https://bun.sh) — the installer is a Bun script (Node 20+ also works if you swap the shebang).
+- *(Optional)* EdgeOS tokens, if you want live event/attendee recipes to work without per-query prompting:
+  - `EDGEOS_API_KEY` — long-lived `eos_live_…` automation key, minted via the EdgeCity onboarding flow (see the "EdgeOS tokens" section above). Unlocks the calendar/RSVPs/venues recipes in `skills/edgeos/SKILL.md`.
+  - `EDGEOS_BEARER_TOKEN` — human session JWT obtained via the same email-OTP flow. Unlocks the directory and own-profile recipes (it needs the `portal:directory:read` and `portal:profile:read` scopes; the API key cannot reach either).
+
+  Both are optional from AgentVillage's perspective. Without them the agent still runs; per the SKILL.md instructions it tells the person that the schedule, or the directory and profile, aren't connected to their agent yet and points them to the Edge City portal.
+
+## Install
+
+From a clone of this repo:
+
+```bash
+bun install/install.ts --index-api-key <YOUR_API_KEY>
+```
+
+If this AgentVillage runtime is serving the user through Telegram, include their public Telegram handle. The installer stores it in the Index MCP headers so any Telegram-surface interaction can upsert the user's reachable Telegram social without waiting for onboarding:
+
+```bash
+bun install/install.ts --index-api-key <YOUR_API_KEY> --telegram-handle handle
+```
+
+To target the dev environment (keys generated on `dev.index.network`), pass `--dev`:
+
+```bash
+bun install/install.ts --index-api-key <YOUR_DEV_API_KEY> --dev
+```
+
+Or override the MCP URL explicitly via `INDEX_MCP_URL=…`. Without either, the installer points at `https://protocol.index.network/mcp` (production).
+
+To wire the optional EdgeOS tokens at the same time, pass them as flags:
+
+```bash
+bun install/install.ts \
+  --index-api-key <YOUR_API_KEY> \
+  --edgeos-api-key eos_live_… \
+  --edgeos-bearer-token eyJ…
+```
+
+### Overriding the Index cron times
+
+Index background work is installed as Hermes/OpenClaw cron jobs: **memory signal sync at `0 1 * * *`**, **digest prepare at `0 2 * * *`** (a silent prefetch of the brief's context), **digest send at `0 8 * * *`** (the morning brief), **opportunity drops at `0 12 * * *` and `0 17 * * *`**, **negotiation summary at `0 14 * * *`**, **evening questions at `0 19 * * *`**, and the **pending opportunity alert at `20 * * * *`** (hourly, one line per opportunity that newly turned pending for the resident, delivered only between 08:00 and 22:00 IST; outside contact style, so quiet and balanced residents get it too, since it is about their own pending decision, while the quiet hours and stopping it by its label still apply; DATA-430; **installed paused in rc29**, because the morning digest already lists pending cards: `PENDING_ALERT_ENABLED=true` turns it on, see below) (in Hermes's zone, which the installer sets to `Asia/Kolkata` when none is configured). Memory signal sync is script-gated (DATA-470): a deterministic local preflight assembles the resident's own material (the stated goals on their Context page, their own messages since the last run from `state.db`, the `Removed by you` list and the inferred suggestions they declined, and the agent's `MEMORY.md` as a secondary source without its profile and housekeeping entries) into a 0600 inputs file whose data blocks are fenced by a per-run nonce, and wakes the model only on evidence: at least 3 resident messages of 40+ characters since the evidence was last dealt with (reset, daily and compression continuations of their chat included), a changed stated goal, or a changed filtered memory hash. Its evidence pointers move only when the evidence was dealt with (a no-change exit, or a woken run that completed), and it stops before the model (`capped`) when `record_intention` is off, an inferred intent was recorded tonight, an inferred approval card is still open, or the resident declined one in the last 3 days. The pass lists the resident's intents first, then records at most one want per run with `record_intention` as `source=ambient`, held for the resident's approval (the tool enforces the same caps); without `record_intention` it records nothing, and it never calls Index `create_intent`. Each run is reported as `intention.inference_run@1` once `AV_INFERENCE_RUN_EVENTS` is on (`plugins/av-events/README.md`, "The memory signal sync"). To install the jobs at different times (a different timezone, a test window, etc.), pass full 5-field cron expressions. A flag wins over the matching env var; an invalid expression is ignored with a warning and the default is kept.
+
+> **Note:** the former 30-minute `Edge — heartbeat` cron was **retired** — it loaded the full agent context + Index MCP tool surface (~57k input tokens) every 30 minutes and exhausted the per-tenant OpenRouter key budgets fleet-wide (HTTP 402). `reconcileDigestCronJobs` removes any existing heartbeat cron on the next install/update. Accepted-opportunity notifications now surface through the morning digest; see #100 for richer replacements.
+
+```bash
+# via flags
+bun install/install.ts --index-api-key <YOUR_API_KEY> \
+  --digest-prepare-cron "0 3 * * *" \
+  --digest-send-cron    "0 9 * * *"
+
+# or via environment
+DIGEST_PREPARE_CRON="0 3 * * *" DIGEST_SEND_CRON="0 9 * * *" \
+  bun install/install.ts --index-api-key <YOUR_API_KEY>
+```
+
+| Cron | Flag | Env var | Default |
+|---|---|---|---|
+| Memory signal sync | `--digest-signals-cron "<expr>"` | `DIGEST_SIGNALS_CRON` | `0 1 * * *` |
+| Prepare pass | `--digest-prepare-cron "<expr>"` | `DIGEST_PREPARE_CRON` | `0 2 * * *` |
+| Send pass | `--digest-send-cron "<expr>"` | `DIGEST_SEND_CRON` | `0 8 * * *` |
+| Opportunity drop (midday) | `--opportunity-drop-midday-cron "<expr>"` | `OPPORTUNITY_DROP_MIDDAY_CRON` | `0 12 * * *` |
+| Opportunity drop (evening) | `--opportunity-drop-evening-cron "<expr>"` | `OPPORTUNITY_DROP_EVENING_CRON` | `0 17 * * *` |
+| Negotiation summary | `--negotiation-summary-cron "<expr>"` | `NEGOTIATION_SUMMARY_CRON` | `0 14 * * *` |
+| Evening questions | `--evening-questions-cron "<expr>"` | `EVENING_QUESTIONS_CRON` | `0 19 * * *` |
+| Pending opportunity alert | `--pending-alert-cron "<expr>"` | `PENDING_ALERT_CRON` | `20 * * * *` (installed paused: `PENDING_ALERT_ENABLED`, below) |
+| Token usage audit | `--token-usage-audit-cron "<expr>"` | `TOKEN_USAGE_AUDIT_CRON` | disabled |
+| Edge India knowledge sync (no model) | `--knowledge-sync-cron "<expr>"` | `KNOWLEDGE_SYNC_CRON` | `*/30 * * * *` (a per-tenant offset in the first 30 minutes) |
+
+The Edge India knowledge sync (`Edge — knowledge sync`) is a `--no-agent` job with no delivery target: its script copies the published Edge City India snapshot named by `KNOWLEDGE_SNAPSHOT_URL` (default: Edge City's mirror, `skills/edge-india/references/manifest.json` in this repo) to `$HERMES_HOME/knowledge/edge-india/`, which the `edge-india` skill reads; with the key written empty (`KNOWLEDGE_SNAPSHOT_URL=`) it does nothing (`docs/deployment.md`, "Edge India knowledge").
+
+The pending opportunity alert (`Edge — pending opportunity`) is installed **paused** in rc29: the job is present (its id recorded in `installed_jobs.json`), created with `hermes cron create --paused` so it never exists running, and does not run. A job that should be off and cannot be confirmed paused is removed, and the next install creates it paused. Its switch is `PENDING_ALERT_ENABLED` (or `--pending-alert-enabled true|false` on one install; the flag wins over the environment, which wins over `$HERMES_HOME/.env`). `PENDING_ALERT_ENABLED=true` makes an install resume it, unless a hold in `av-events/job-holds.json` keeps it paused (a resident's pause from chat, an admin's or the settings'); `false` makes an install pause it. Unset, an install pauses each new job once and then leaves its pause state alone, so `bun install/jobs.ts set --job pending --enabled true` run inside the tenant (a sandbox exec) turns it on for one resident with no roll, and later rolls keep it on. Those two, the switch on an install and that command in the sandbox, are the only ways today: the control plane's job-settings route does not know the `pending` key (its `PUT /tenants/:id/jobs/pending` answers `404 job_not_found`), and its job routes do not list the job. `PENDING_ALERT_CRON` moves its schedule only; it does not turn it on.
+
+The token usage audit cron is disabled by default. To enable it for an install, pass `--token-usage-audit-cron "0 9 * * *"` or set `TOKEN_USAGE_AUDIT_CRON` to a full 5-field cron expression. To remove an existing managed audit cron, rerun the installer with no audit schedule, pass `--skip-token-usage-audit-cron`, or set `TOKEN_USAGE_AUDIT_CRON=off`.
+
+The installer also caps `model.max_tokens` in Hermes `config.yaml` at `4096` by default so background cron turns do not inherit large provider defaults (for example `65536`). Operators can raise or lower that cap for an install by setting `HERMES_MAX_TOKENS`.
+
+The installer also makes sure Hermes's `fallback_providers` list in `config.yaml` holds `{provider: openrouter, model: openai/gpt-6-luna}` (LLM-429). When OpenRouter answers the agent's model with an upstream 429 ("Provider returned error"), Hermes then answers that turn on luna straight away, instead of waiting out up to two Retry-After waits of up to 600 s each and then dropping the turn, and goes back to the agent's own model on the first turn after the rate-limit cooldown. The resident sees one "Model fallback" line with the reply. Entries an operator added are kept, in order, and luna is appended after them; the model the control plane sets (`model`, `cron.model`) is not touched. A cron job pinned to its own model does not use the list.
+
+The installer also sets `platforms.telegram.extra.drop_pending_on_cold_boot: false` in Hermes `config.yaml`, so a cold gateway start (an update, a redeploy, a crash restart) delivers the Telegram messages residents sent while the gateway was down, in order, instead of discarding them. It takes effect only on Hermes builds from 2026-09-20 or later; older builds ignore the key. The installer writes it only when the key is absent (under `extra` or directly under `platforms.telegram`) and never overwrites a value set by hand, so an operator can set it to `true` to restore the old drop-the-backlog behaviour and later installs keep that choice. Hermes still drops the backlog when it recovers from a Telegram polling conflict (HTTP 409), whatever this key says.
+
+The installer also limits which Telegram slash commands a resident may run (SEC-6), through Hermes's slash access control (`gateway/slash_access.py`, Hermes v2026.9.24). It writes four keys under `platforms.telegram.extra` on every install and roll, overwriting earlier values: `user_allowed_commands` and `group_user_allowed_commands` hold the resident list (`RESIDENT_SLASH_COMMANDS` in `install/config.ts`: the session commands such as `/new`, `/retry`, `/undo`, `/stop`, `/status`, `/compress`, the info commands such as `/usage` and `/insights`, the display toggles, `/memory`, and the overlay's `/village`); `allow_admin_from` and `group_allow_admin_from` hold only the sentinel `av-approval:no-admin`, which matches no Telegram user and only turns gating on. No Telegram user is admin, and no environment variable can make one: the roll runs the installer with Bun's `.env` autoload from a directory the agent can write. Every other command, built-in or plugin, is admin-only: `/model`, `/reasoning`, `/fast`, `/yolo`, `/config`, `/plugins`, `/skills`, `/cron`, `/reload`, `/update`, `/tools` and the rest. `/help` and `/whoami` always work; `/whoami` shows the resident's tier and the full list. A resident who sends `/model x` gets `⛔ /model is admin-only here. You can run: /approve, /btw, … Use /whoami for the full list.` and nothing changes. Plain chat is never gated. Hermes may read three other blocks over `platforms.telegram` (a root `telegram:` block, `gateway.telegram`, `gateway.platforms.telegram`), so the installer deletes the four keys from each of them and from their `extra`, one `→ slash access: removed …` line per key. When the step cannot write the gate safely (a level of `platforms.telegram` that is not a mapping, or a YAML merge key `<<` anywhere in the file, which Hermes's PyYAML merges but the installer's parser does not), it writes nothing, records `slash_access_failed` with the reason in `av-events/install-status.json`, prints `agentvillage-install: slash_access_failed="<why>"`, and the install exits non-zero after every other step has run, so the roll marks the box failed instead of leaving it ungated. A `config.yaml` the installer cannot parse at all (for example a duplicate key, where PyYAML keeps the last value) stops the install at its start with `slash_access_failed="parse_error"` recorded and exit 1. An operator who needs `/model` on a box uses the dashboard admin terminal or the `hermes` CLI there, which slash access does not gate. After the roll that carries this, check on one box that a resident's `/model x` gets that reply, `/whoami` shows user-level access, and `/new` still works. To remove it, delete the four keys from `platforms.telegram.extra` and restart the gateway (the next install writes them again unless the change is reverted). It does not undo a model a resident already set with `/model` in an open session: the roll's model step resets `model.default`, and verify's fleet read of `sessions.model` finds leftover session overrides.
+
+The installer also owns what a resident sees on Telegram while the agent works (DATA-318). The gateway reads these settings from the agent's `$HERMES_HOME/config.yaml` alone, the same file the installer writes. Hermes's installer creates that file by copying its config template, `cli-config.yaml.example` in the Hermes source, which sets `display.show_reasoning: true`, `display.tool_progress: all` and `display.interim_assistant_messages: true`. The fleet's files also carry `display.platforms.telegram.streaming: true`, which comes from Hermes's built-in defaults (`hermes_cli/config_defaults.py`), not the template. A value in the file outranks Hermes's quieter built-in Telegram settings, so residents saw the model's last reasoning block above every reply and a line per tool call in the chat. The installer writes Telegram-scoped keys under `display.platforms.telegram`, which outrank the global ones for Telegram only, so the CLI and desktop surfaces keep the global values:
+
+| Key | Value | Written |
+|---|---|---|
+| `show_reasoning` | `false` | on every install and roll, whatever it was |
+| `tool_progress` | `new` | while unset (absent or null) and no legacy `display.tool_progress_overrides.telegram`; any other value is kept, `off` and `false` included (rc29; rc28 treated both as DATA-409's leftover). Hermes's own Telegram default is `off`, so the value has to be written |
+| `tool_progress_grouping` | `accumulate` | only while unset |
+| `interim_assistant_messages` | `false` | only while unset |
+| `streaming` | `false` | while unset or `true` (the value Hermes itself writes there) |
+| `cleanup_progress` | `true` | only while unset |
+| `display.tool_progress_command` (gateway-wide, not under `telegram`) | `true` | only while unset; turns on Hermes's `/verbose` |
+| `display.memory_notifications` (gateway-wide; this Hermes release reads no per-platform form) | `off` | on every install and roll, whatever it was (rc44): no "Self-improvement review" notice after a reply; the review itself still runs and logs its completion line on the box |
+
+The resident sees the tool-progress bubble while the agent works (Carter, Oct 9, RC28; DATA-409 had turned it off on Oct 7): Hermes's one message per reply, edited in place with a line per tool, deleted once the reply lands (kept when the turn fails), and the reply as one message. Each line names the tool, never the command: the `av-display` plugin (`plugins/av-display/`, listed in `plugins.enabled` by the installer) gives the Village's own tools a verb ("Checking Index", "Working on Index", "Looking back", "Noting that") and drops the argument preview from `terminal`, code, file, memory, task and scheduling tools ("Running", "Updating memory"), including the code block Hermes builds for a `terminal` command on Telegram (the plugin wraps the one method that builds it, for Telegram only); web search and web reading keep their query or URL, and `/verbose`'s `verbose` mode still shows full arguments. Each resident can switch it with `/verbose`, which cycles `off`, `new`, `all`, `verbose`, `log` for Telegram and saves the choice; every mode is kept on later installs, `off` included from rc29 (rc28 read `off` as DATA-409's leftover and turned the bubble back on; rc29 assumes rc28 has rolled: on a box that skipped rc28, DATA-409's `false` is kept and the bubble stays off). Hermes posts a one-time tip about `/verbose` after a slow tool. A turn over 3 minutes also shows Hermes's one "⏳ Working — N min" heartbeat line, edited in place and deleted with the reply (kept when the turn fails), whatever `tool_progress` says. From rc29 every installer step writes `config.yaml` YAML 1.1-safe (DATA-434): a string Hermes's PyYAML would read as another type (the YAML 1.1 words Hermes's own writer quotes, `off`, `on`, `yes`, `no`, `y`, `n`, `null`, `~`, plus `22:00`, a date or timestamp, a single-line string holding a tab) is double-quoted, so a resident's saved `off` stays the string `off` through any installer rewrite and any later Hermes save. Before rc29 the writer left those words bare and PyYAML read them as booleans, which is how DATA-409's `off` became `false`. The other side of the same coin: a bare 1.1 word, time or date already in `config.yaml` (a hand edit meant as a boolean, say) is read by the installer as a string and written quoted, so from rc29 Hermes reads it as that string; Hermes's own keys (`tool_progress`, `memory_notifications`, `human_delay.mode`) accept either form. A value set by hand is kept on later installs, except `show_reasoning` and `memory_notifications`, and except `streaming: true`, which cannot be told from Hermes's default. Set `AV_DISPLAY_DEFAULTS=0` (in the environment or `$HERMES_HOME/.env`) to leave the display keys above, and the `/village` entry in Telegram's command menu (below), untouched (the installer's other `config.yaml` keys, the `av-display` plugin entry among them, are still written). Hidden is not deleted: the agent still stores its reasoning in its own `state.db` (`messages.reasoning`, `reasoning_content`, `reasoning_details`). The data pipeline's message archive drops those columns, and the `av-events` telemetry carries only reasoning token counts.
+
+A resident can send `/village` (rc44) for a short fixed list of what Agent Village does from the chat (Intents, Rolodex, Ask the village, Calendar, Decisions, Gold Stars, Approvals) and the web app link. The `av-display` plugin registers it as a Hermes plugin command, so the reply is that text, with no model call. `village` is in the resident command list. Hermes cuts Telegram's command menu at 60 entries after its 67 core commands, so the installer adds `village` to `platforms.telegram.extra.command_menu.priority` (written as `["village"]` when absent, appended to an operator's list, `max_commands` and `priority_mode` untouched), which puts it first in the menu. The same plugin rewrites the note Hermes adds to the very first message on a box, "mention that /help shows available commands", to name `/village` instead (exact phrases only; anything else is left as Hermes wrote it).
+
+A referendum vote card can be voted in the chat (VOTE CALLBACK, rc42): with the control plane's `REFERENDUM_CARD_CALLBACK` flag on, each option on the card is a callback button `avv:<optionIndex>:<token>` (the app-signed per-resident vote token, 44 characters; at most 51 bytes, inside Telegram's 64). The `av-vote` plugin (`plugins/av-vote/`, listed in `plugins.enabled` by the installer) answers those taps with one Telegram callback handler scoped to `^avv:` (every core button flow keeps its own prefix and falls through to Hermes): only the box's own resident can vote, in their own DM with the bot (the home channel's user or chat id, `TELEGRAM_HOME_CHANNEL`, or a Telegram user in Hermes's approved pairings, the list the control plane checks before it sends the card); the handler is non-blocking (`block=False`), so a slow app never holds the resident's other messages or buttons; it POSTs the token to the app's `/api/referenda/vote-token` (`AV_APP_ORIGIN`, an https `edgecity.live` origin, else `https://agents.edgecity.live`; 10 s), answers "Recorded: <option>" and puts a check mark on the chosen option (the others stay tappable until the close, the web row is kept). A failure answers a short error and leaves the card as it is. It never logs the token.
+
+The installer writes any tokens it finds into `env.vars.*` in `~/.openclaw/openclaw.json`; on the next gateway start they become process-env on the gateway and inherit into the agent's shell tool, so `curl -H "Authorization: Bearer $EDGEOS_API_KEY"` recipes work without further plumbing.
+
+The installer:
+
+1. Writes `mcp.servers.index` in `~/.openclaw/openclaw.json`, pointed at `https://protocol.index.network/mcp` with your API key in `x-api-key`.
+2. If `--edgeos-api-key` and/or `--edgeos-bearer-token` are passed, writes each to `env.vars.<NAME>` so the gateway exposes them to the agent's subprocesses on its next start.
+3. Sets Hermes gateway `streaming.enabled = false` and `streaming.transport = off` so intermediate tool-call text cannot be streamed into Telegram.
+4. Copies the workspace markdown bundle into `~/.openclaw/workspace/`. `USER.md` is preserved on re-install (it holds the lived notes the active skill's bootstrap ritual populated for you); pass `--wipe-user` to overwrite `USER.md` and delete the agent-curated `MEMORY.md`, OpenClaw's `workspace-state.json` first-run marker, and the local onboarding/welcome/cron-preference markers under `memory/` so the next session re-onboards from scratch.
+5. Copies backend skill bundles from `skills/` into `~/.openclaw/workspace/skills/` so OpenClaw registers them as workspace skills.
+6. Installs the Index cron jobs: a script-gated memory signal sync (`0 1 * * *`), a silent no_agent prefetch of the brief's context (`0 2 * * *`), the morning brief (`0 8 * * *`), the two opportunity drops, the negotiation summary, the evening questions and the hourly pending opportunity alert (`20 * * * *`, DATA-430; installed paused in rc29, `PENDING_ALERT_ENABLED=true` turns it on), each triggered by its pre-run script with a render-only prompt (DATA-314; `docs/deployment.md`, "The proactive jobs"). Existing jobs are edited in place (ids, schedules and pause state kept). The deterministic token usage audit script cron is available as an explicit opt-in and is removed by default from existing tenants on update. The Agent Plaza selfie sender is not installed as a recurring cron; operators can run `skills/agent-plaza/scripts/agent_plaza_selfie.py` explicitly for one-off closeout sends. (The 30-minute `Edge — heartbeat` cron and the former `Edge — Agent Plaza selfie` cron are retired and removed from existing tenants on update.) Memory sync wakes the agent only when its deterministic preflight finds meaningful work. The one-off Agent Plaza selfie script writes operational state/events/media only under `ops/agentvillage/...`, never `memory/`; when `TELEGRAM_BOT_TOKEN` and `TELEGRAM_HOME_CHANNEL` are present, it sends the image through Telegram Bot API `sendPhoto`, stores a small sanitized `lastFollowupContext` for later ordinary chat interpretation, and emits `wakeAgent:false` so OpenClaw does not duplicate the message. When enabled, the token audit wakes the agent only when local aggregate usage shows a meaningful actionable driver; quiet runs end with `{"wakeAgent":false}` and skip the agent entirely. The end user can't change schedules from chat, but the installer can override the cron times via the flags/env vars above.
+7. Pins top-level `context_file_max_chars: 48000` in Hermes's `config.yaml` (an operator's larger value is kept): with no key Hermes caps each context file at a dynamic 21,600 chars on the boxes (`model.context_length` 90,000) and cuts the middle out of a longer one, which removed `AGENTS.md`'s red lines in rc24 to rc26; 48,000 is the cap before that pin. `AGENTS.md` itself stays under 20,000 chars, Hermes's floor (target 18,000; `scripts/tests/agents-md-budget.test.ts`).
+8. Pins `compression.hygiene_max_turn_hold_seconds: 25` in Hermes's `config.yaml` (Hermes's default is 10; an operator's longer hold is kept): before a turn on a long chat (prompt at 85% of `model.context_length`, 76,500 tokens at the 90,000 pin) the gateway waits this long for the summary of older turns, and a summary still running sends "Context compression deferred" to the chat and runs the turn uncompressed, again on every message; the measured summary takes 16-18 s, so 25 lets it land inside the hold, under Hermes's 30 s no-progress bound. A hold written as a number in a string (`"45"`) counts as that number. The same step sets `auxiliary.compression.reasoning_effort: none` when it is unset, so the summary runs on the box's main model with reasoning off. Since rc42 it also sets `compression.threshold: 0.75` and `compression.threshold_tokens: null`, so Hermes compacts at 75% of `model.context_length` (less `model.max_tokens`), the window the control plane pins (`HERMES_CONTEXT_LENGTH`), at any size: without them Hermes keeps 75% only for windows under 512K and caps the trigger at 256,000 tokens, which at a 1,000,000 pin would compact at about a quarter of the window. An operator's ratio from 0.75 to 1 is kept; any token cap is cleared. No other compression key is written.
+9. For a resident whose `AV_MORALMOD_ARM` is `on` (`$HERMES_HOME/.env`, else the environment; the control plane writes `on|off` per tenant; anything else is off), installs Index's Hermes plugin `index-network` at the reviewed commit `INDEX_PLUGIN_REF` in `install/install_index_plugin.ts` (`hermes plugins install indexnetwork/hermes-plugin --ref <sha> --no-enable`, no Hermes call once Hermes records it at that commit; never `plugins update`, so a bump is a PR that changes the constant), lists it in `plugins.enabled`, and seeds `$HERMES_HOME/index/negotiator.ts` when absent (`docs/negotiator.md`); an `index-network` entry in `plugins.disabled` is left alone, an OFF resident has it dropped from `plugins.enabled` and the plugin's own `Index morning` cron job and `scripts/index-morning.py` launcher removed (the arm is read from `.env` first, as `AV_APPROVAL_ENABLED` is), `--skip-index` skips it, and a failure does not fail the install (`index_plugin_failed` in `av-events/install-status.json` and one line, `agentvillage-install: index_plugin_failed=<hermes|config|seed|gate|sidecar>`). `sidecar` (OV-249 A3): before enabling, every ON run patches the installed plugin's `sidecar.py` so the negotiator child's env is an allowlist (`PATH`, `HOME`, `TMPDIR`, `LANG`, `LC_ALL`, `TZ`, `BUN_OPTIONS=--no-env-file` so Bun loads no `.env*` from the gateway's working directory, and the plugin's own `INDEX_*` names, never the gateway's secrets), against an exact anchor pinned beside `INDEX_PLUGIN_REF`; an already-patched file is left alone, and when the anchor is missing or ambiguous or the write fails the plugin is not enabled, exactly as OFF removes it. A `--skip-index` or keyless run keeps an entry an earlier run enabled only with the sidecar patched the same way. `gate` (OV-249 B): ON is honoured only when this run's approval step (`AV_APPROVAL_ENABLED`) installed the gate, its live fire was answered, no dogfood override (`AV_APPROVAL_ALLOW_UNPATCHED_HERMES`) was accepted and Hermes routes the full gated list (the plugin's eight write tools among it); otherwise the plugin is withheld exactly as OFF removes it.
+10. Restarts the gateway so all config changes take effect.
+
+Local launchers that refresh skills/plugins without replacing customized workspace
+instructions can pass `--preserve-context`. This keeps existing workspace markdown
+and `SOUL.md`, while copying missing context files and refreshing the installed
+skills/plugins. Normal content-update installs omit this flag so canonical
+instruction changes propagate. It is not a user-state reset option.
+
+Send any message in your chat to bring AgentVillage online. The profile and first signal are filled outside chat.
+
+- **AgentVillage welcome** — runs on private-DM first message before any other reply/tool work, is owned by `workspace/AGENTS.md` "First-message gates", and is gated by the local durable marker `memory/welcome-state.json`. Hermes sessions can reset daily or after idle time, so the welcome must not key off session freshness. If the marker says `welcomeSent: true`, the agent skips the welcome and answers normally. Normal installer/update runs snapshot this marker, restore it if it is deleted, and repair clobbered content when the previous marker suppressed the welcome; only `--wipe-user` intentionally removes it. The text comes from `skills/index-network/scripts/welcome.ts` (DATA-357): up to three of the resident's active Index intents by title, else, when the resident told the app something at signup (`USER.md`'s setup sections), a line saying it read that and asking what to look for first (never the three questions again), else the app's three Context questions, else (no key or Index unreachable) a promise to catch up in the morning brief. It reads intents and, on the first welcome only, seeds up to three from the selections the resident made at signup (DATA-416), once per box; the script checks and claims the marker itself and prints `WELCOME_ALREADY_SENT` once a welcome went out. On the Telegram setup path the control plane sends the first greeting and writes the same marker.
+- **People in chat** — owned by `skills/index-network/SKILL.md`. When the user wants to meet people, the agent uses the profile and signal that already exist. It creates a signal only when they say something new, and lists opportunities only when they ask who is waiting.
+- **Stopping a scheduled message** — owned by `skills/index-network/tools.md` "Cron schedule" (moved from `workspace/AGENTS.md`, which points there). When a resident asks to stop or restart one of the six labelled messages, the agent runs `skills/index-network/scripts/pause-job.ts` (DATA-376). It records a resident hold in the control plane's holds file, then pauses or resumes the job through the Hermes CLI; the hold keeps the pause across updates and rolls once the control-plane half is deployed. A restarted message comes back at its usual time, not at once. The rules are in `docs/design/job-settings.md`, "Resident holds".
+
+Wiping local state via `install/install.ts --wipe-user` resets local markers. It does not change the profile or signal filled outside chat.
+
+## Approval (opt-in)
+
+For residents who opt in, the approval.md gate (DATA-43) records every tool call the agent makes through Hermes's hooks in the resident's own log, and asks the resident before the agent publishes an intention it inferred, shares a digest, or casts the resident's vote. The installer step is `install/install_approval.ts`; the skill is `skills/approval/` (see its README, "Day-one policy and consent copy"); the receipts plugin is `plugins/av-approval/`.
+
+### Consent copy (what a resident sees)
+
+- Every tool call their agent makes through the hook (shell commands, file writes and reads, network calls, scheduled jobs, browser actions, sends) is recorded in a log they can export before it runs, and runs. Nothing on that path waits for them on day one. Agent Village's research reads the same log.
+- Three things wait for their tap: publishing an intention the agent inferred, sharing a digest the agent drafted (if digests ship), and casting their answer to the weekly village question. Each arrives as a Telegram message from the "Agent Village Approvals" bot with approve and reject buttons and stays open up to 72 hours; if they do nothing, nothing is published, shared or cast.
+- The agent can never edit its own gate, touch the approval log, or read or change their credentials; no tap can grant those.
+- The village operator set this starting policy; they review it in onboarding, and any change after that needs their acceptance or their tap.
+- Their agent's Telegram conversation is unaffected.
+
+**Not covered:**
+
+- Subagent calls, MCP tools (Index included) and reads before the first gated call.
+- `web_extract` reaches the gate with no classifier rule and passes through unjudged; on an approval.md core older than 0.4.0 so do `process`/`process_manage`, the `browser_*` tools, `skill_manage`, `delegate_task`, `cronjob_manage` and `send_message`.
+- A scheduled job's own script (`script`, `monitor`, `no_agent`) runs at every tick with no check; creating or changing the job is recorded.
+- A process on the sandbox can kill the hook (signal) or attach to the gateway (ptrace); both are closed by the checkpoint build (patch + ptrace_scope), not by this skill.
+
+### Environment
+
+Read from `$HERMES_HOME/.env` first and the process environment second, because Hermes loads `.env` with override:
+
+| Name | Meaning |
+|---|---|
+| `AV_APPROVAL_ENABLED` | Unset: nothing happens (one log line). `1/true/yes/on`: install the gate. Anything else: the kill switch. |
+| `AV_APPROVAL_URL` | The tenant's approval facade, `https://` only. |
+| `AV_APPROVAL_TOKEN` | The **agent** credential for that facade (never the tenant credential). Never printed or written to `config.yaml`. |
+| `AV_APPROVAL_ALLOW_UNPATCHED_HERMES=1` | **Dogfood only.** Accept a Hermes below the `fail_closed` floor or without the signal patch; logged loudly on every install. |
+
+With the gate on, the step writes the hook shim at `$HERMES_HOME/agent-hooks/hermes-hook-shim.sh` (0700, temp file then rename). It writes `hooks.pre_tool_call` entries with `fail_closed: true` and `timeout: 300` for `terminal`, `write_file`, `patch`, `read_file` and `search_files` (`execute_code` is not routed since rc42), and for `process(_manage)?`, `web_extract`, `browser_.*`, `skill_manage` and `delegate_task`. It also writes `hooks_auto_accept: true`, `plugins.hook_callback_timeout: 600`, `HERMES_ACCEPT_HOOKS=1` and the shim's settings in `.env`, and a marker at `agent-hooks/approval-surface.json`. Other keys and other hooks are left alone, and a re-run changes nothing. The resident's `APPROVAL.md` is held by the daemon's store, not the Hermes home; `skills/approval/templates/APPROVAL.md` is the day-one policy the control plane renders there and attests as the operator at provisioning (DATA-250).
+
+`AV_APPROVAL_TOKEN` stays in the gateway's environment, because the shim reads it from there. This overlay does not configure Hermes's terminal scrub list, so the agent's own `terminal` children can read the variable (for example with `printenv`, which is not a gated credential read). What that buys is limited: the agent token reaches only the facade's hook route and five verbs that ask, wait and withdraw. It cannot read the log, grant, or export (docs/02 section 5). Scrubbing it is a follow-up below.
+
+### Failing loudly, and checking
+
+With `AV_APPROVAL_ENABLED` on, the install stops with a named reason and a non-zero exit, before the gateway restart, when any of these hold:
+
+- the URL or token is missing, or the URL is not https;
+- one of `agent-hooks/`, the shim, the marker, `config.yaml` or `.env` is a symlink or not a regular file;
+- `config.yaml` carries a YAML merge key or alias anywhere under `hooks` or `plugins` (PyYAML merges what the installer would read literally);
+- the self-check fails. It covers every hook entry, `fail_closed` on each, consent in both places, the shim, the env names it reads, and every program it needs in `/usr/bin`, `/bin` or `/usr/local/bin`. It also refuses `HERMES_SAFE_MODE`, `HERMES_MANAGED` or a managed scope (`/etc/hermes/config.yaml`), a `HERMES_HOME` not named `.hermes`, a Hermes below the `fail_closed` floor (main `118984d7`, tag `v2026.9.21`), and a Hermes without the signal-fail-closed patch. The patch is judged by behaviour: a `fail_closed` hook that SIGKILLs itself is fired through `run_once` and must block; the patch marker in `agent/shell_hooks.py` is only a hint in the message. Hermes's own parser is used to check every gated matcher: the first entry for each (matcher, shim) pair in config order is the one Hermes registers, so it must be `fail_closed`. Commands are compared after Python's `strip()`, so `<shim>\x1f` counts as the shim.
+
+The self-check ends with a **live fire**: Hermes's own interpreter fires one `terminal` call with no `workdir` through `agent.shell_hooks.run_once`, and it must come back blocked by the facade (`hook-unsupported-execution-context`; the facade appends nothing for it). If Hermes's `run_once` is not available, the result is `selfcheck-live-unavailable` and the install fails.
+
+On any self-check failure, `config.yaml` and `.env` are restored to their pre-install bytes. The control plane runs the installer through its sandbox exec, which turns a non-zero exit into a `502 sandbox exec failed (1)` carrying the first 2000 characters of output, so the named reason reaches whoever started the provisioning or update.
+
+`bun install/install_approval.ts --check` runs the same checks, live fire included. It exits 0 when the gate is in place and 1 with the named problems, printing one JSON line (`ok`, `problems`, `overrides`), so it can be used by hand and by the control plane. "Writes nothing" means none of this step's files. The check imports Hermes's own modules, which may create Hermes's own log or backup directories under `$HERMES_HOME`, and the live fire runs the shim, which appends to `agent-hooks/approval-hook.log`.
+
+A dogfood override in force shows on every success path: as `overrides` in the `--check` line, in the install's success line, and in the marker (`agent-hooks/approval-surface.json`).
+
+A failed first install also removes the shim, `agent-hooks/` and `skills/approval/` it staged. A failed re-install keeps the earlier install's shim and skill.
+
+### The kill switch is fail-open
+
+The first install records, in the marker, the prior state of every key it sets: `hooks_auto_accept`, `plugins.hook_callback_timeout`, `HERMES_ACCEPT_HOOKS` and the `APPROVAL_HOOK_*` lines, each as absent or as its value. A re-install keeps the first record.
+
+Setting `AV_APPROVAL_ENABLED` to anything but on, on the next install:
+
+- removes this step's hook entries;
+- puts those keys back exactly as the first install found them: a resident's own `hooks_auto_accept: true` stays, and consent the gate added goes;
+- removes the shim, the marker and the staged skill.
+
+Without a marker (no earlier install), it only removes entries whose command is the shim and touches nothing else. The log says `FAIL-OPEN`: from the next gateway start, that tenant's tool calls are no longer gated.
+
+The `av-approval` plugin stays listed. It logs `av-approval: disabled (fail-open)` at each gateway start only when the switch is explicitly off and `config.yaml` no longer runs the shim; an unset switch logs nothing. The gate itself fails closed: an unreachable facade, a timeout or a malformed answer blocks the call.
+
+### Hand steps of the enablement gate
+
+From approval-md-hosted docs/03 section 6, on the dogfood tenant, before any resident is offered the skill:
+
+1. The ingest follower (DATA-43b) reads the daemon log from genesis, verifies the chain, writes `decision.*` rows, and quarantines a deliberately corrupted copy.
+2. A gated call blocks end to end over Telegram.
+   - No tap: the call is blocked at the timeout, with `approval.expired` and `decision.deferred`.
+   - A tap: `approval.granted`, the action runs, and `execution.completed` carries the token id.
+3. A policy change on the daemon appears as `policy.updated` with its hash, and the next call resolves under it.
+4. Ungated-while-looking-gated is ruled out. Remove headless consent (delete `HERMES_ACCEPT_HOOKS=1` from `.env`, or set `hooks_auto_accept: false`), then run `bun install/install_approval.ts --check`: it must FAIL with `consent-missing:…`. `--check` never re-adds consent. Re-run the install (which restores consent) and confirm `--check` passes, including its live fire.
+5. `terminal` without an absolute `workdir` is refused, visible in the daemon log. `execute_code` is not routed since rc42 (CODE EXECUTION ON): it runs in Hermes's `strict` mode with no card and no daemon log line.
+
+### Follow-ups
+
+**approval-md core (Carter owns it).** The Hermes adapter should handle these tools:
+
+- refuse or classify `process`/`process_manage` (write and submit), `web_extract`, `browser_*`, `skill_manage` and `delegate_task`, instead of passing an unknown tool through with `{}`. This overlay already routes them to the facade, so the change takes effect with no overlay release.
+- read Hermes's call id from `extra.tool_call_id` (and the result from `extra.result`), so the post half can join a receipt to its `execution.started` and `plugins/av-approval` can post receipts.
+- add a `script`/`no_agent`/`monitor_script` path for `cronjob_manage`, if the daily brief can live with it.
+
+**Sandbox.** The checkpoint build should apply Bountify's signal-fail-closed patch to `agent/shell_hooks.py` and set `kernel.yama.ptrace_scope` to 1 or higher, or run `terminal` in a sandboxed backend.
+
+**Hermes terminal scrub.** Registering `AV_APPROVAL_TOKEN` in Hermes's terminal scrub list (the plugin `terminal_env_registry` strip keys) would keep it out of the agent's tool children without affecting the hook.
+
+## Reset
+
+To tear down AgentVillage and start fresh (leaves Telegram token, OpenRouter key, and gateway config untouched):
+
+```bash
+bun install/reset.ts
+```
+
+Then re-install:
+
+```bash
+bun install/install.ts --index-api-key <YOUR_API_KEY>
+```
+
+Pass `--wipe-user` to also remove `USER.md`, `MEMORY.md`, and the entire `memory/` directory — including `agentvillage-state.json`, `welcome-state.json`, daily notes, and any other local memory files — and, after stopping the gateway so it cannot write them back, the memory tool's `memories/USER.md` and the `av-events` plugin's local state under `$HERMES_HOME/av-events/` (unsent event buffer, tenant hash key, EdgeOS action ledger, cron cursor, seen-sets); the gateway is then restarted — so the next message can run the first-install gates again:
+
+```bash
+bun install/reset.ts --wipe-user
+```
+
+`--wipe-user` (in `reset.ts` and in `install.ts`) also removes `knowledge/agentvillage/`, what the previous user shared on the Context page, keeps `knowledge/edge-india/` and `knowledge-prev/`, and then regenerates `knowledge/index.md` with `bun install/knowledge-index.ts [--home <dir>]` (one line per provider directory under `knowledge/`; also run by the control plane's renderer and by the edge-india knowledge sync; a missing `knowledge/` is left alone, exit 0).
+
+The ordering (stop the gateway, remove the user state, restart) holds in a hosted sandbox because the
+sandbox's respawn loop restarts a stopped gateway after about 2 seconds (control-plane
+`sandbox.js`), well after the files are gone. Known, pre-existing: Hermes's `_cmd_restart` in
+foreground mode can hang, which can hang a control-plane reset command that runs this script.
+
+## How it runs
+
+Time-sensitive and background prompts run as **Hermes/OpenClaw cron jobs**. The seven proactive jobs (the 02:00 prefetch, the morning brief, the opportunity drops, the negotiation summary, the evening questions and the hourly pending opportunity alert, which has no once-a-day mark and alerts each newly pending card once) each run `skills/index-network/scripts/proactive.ts <action>` as their pre-run script, which gathers and cleans the facts and ends with the wake line; their prompts only render that Script Output and never ask for a tool (`docs/deployment.md`, "The proactive jobs"). The daily memory signal sync runs at its own cron time. Cron has its own scheduler and runs isolated sessions, so each tick starts fresh from the workspace files. The memory signal sync cron runs `agentvillage_memory_signal_gate.py` first; unchanged, missing, or empty `memories/MEMORY.md` (profile entries left out) exits before the model sees the prompt. The Agent Plaza selfie sender is an operator one-off script, not a recurring cron. It reads a tenant-local packet first, falls back to Turing Falls credentials when configured, and emits `wakeAgent:false` after deterministic handling. Its operational files are outside model-read memory: `ops/agentvillage/events/agent-plaza-selfie.jsonl`, `ops/agentvillage/state/agent-plaza-selfie.json`, and `ops/agentvillage/media/agent-plaza-selfies/`. When an image is available and the tenant has `TELEGRAM_BOT_TOKEN` plus `TELEGRAM_HOME_CHANNEL`, the script sends the photo directly through Telegram Bot API `sendPhoto`, records non-secret ops telemetry plus sanitized `lastFollowupContext`, and returns `wakeAgent:false` so OpenClaw does not duplicate the message. URL-sourced Plaza packets cannot reference tenant-local image paths; they must provide base64 image bytes. Follow-up handling happens later in ordinary chat through prompts/instructions, not by parsing replies in the script. The token usage audit is different: when explicitly enabled, it is a script cron, non-LLM by default, with delivery gated by the script's final `wakeAgent` line. It inspects local dashboard session summaries, `cron/jobs.json`, and metadata fallback only when useful; it writes cooldown state to `memory/token-usage-audit.json` and emits sanitized aggregate facts only when it wakes the agent. Cron jobs are installed by `install/install.ts` and restart with the gateway. Future per-backend skills can add their own cron prompts the same way.
+
+> **Retired:** a 30-minute `Edge — heartbeat` cron used to run accepted-opportunity notifications, freshness audits, and Telegram-handle reconciliation. It was removed because each tick loaded ~57k input tokens (full agent context + Index MCP tool surface) and, at 48 runs/day/tenant, drained the per-tenant OpenRouter key budgets fleet-wide (HTTP 402). The prompt file is gone and the cron is not scheduled. Latency-tolerant background work should be folded into the daily digest, an event-driven push, or a cheap deterministic (`--no-agent`) cron instead — see Edge-City/agentvillage#100.
+
+> **Scripts run through `terminal` take the command only (2026-10-04).** Since DATA-314 no scheduled job's prompt runs a script (each runs it as its pre-run script); the rule below still holds for every skill and recipe an agent runs through `terminal`. Before that, most cron prompts had the agent run a Bun script with Hermes's `terminal` tool. Hermes (v0.21.5, release 2026.9.24) rejects a foreground `terminal` call that carries `notify`, `watch_patterns` or `notify_on_complete`, a non-zero `heartbeat`, or `pty`: those arguments apply only with `background=true`, and the call fails at once without running anything. From 2026-10-02 the fleet model (`openai/gpt-6-luna`) filled `notify`/`heartbeat` on every script run, so every script-driven job (digest prepare and send, opportunity drops, evening questions, negotiation summary) failed. Each prompt and skill now says, next to the command, to call `terminal` with exactly `command` (`workdir` allowed) and nothing else, and to retry once without the extra arguments after a background-commands error (Hermes rejects the call before anything runs, so the retry cannot repeat a side effect); `workspace/AGENTS.md` and `workspace/SOUL.md` carry the standing rule. `scripts/tests/terminal-command-only.test.ts` finds every script run and recipe in the agent-facing files (fenced or inline, the inline cron prompts included) and fails when the rule is missing beside one, or when any text invites those arguments. After a roll, check a canary's next scheduled job: its `terminal` call should finish `ok` in seconds, not fail in a few milliseconds with that error.
+>
+> **The wording alone did not fix it (rc11 canary, 2026-10-04).** The model does not omit arguments when told to: it fills every `terminal` parameter on every call, and `heartbeat`'s schema `minimum: 60` makes its filler value 60, which is truthy, so the foreground call was still rejected; the model retried the identical call four times, then fell back to `execute_code`. The fix that works is in `plugins/av-events`: its `pre_tool_call` hook returns a Hermes `modify` directive that sets only the offending background-only arguments to off values (`heartbeat` 0, `notify`/`notify_on_complete` false, `watch_patterns` null) on a foreground `terminal` call, before Hermes validates it. Kill switch `AV_TERMINAL_ARGS_FIX=0`. The prompt text above stays as the fallback for a tenant where the plugin is absent or switched off. See the plugin README, "Foreground `terminal` calls (DATA-312)".
+
+## Workspace layout
+
+| File | Purpose |
+| --- | --- |
+| `AGENTS.md` | Canonical session-start instructions plus operating rules. Hosts the dual onboarding gates (skill-side + AgentVillage-side), the cron-schedule trigger, memory contract, opportunity-quality bar, red lines, and group-chat rules. Always injected by OpenClaw. |
+| `BOOTSTRAP.md` | OpenClaw convention for the first-run file. AgentVillage ships only a stub pointing to `AGENTS.md` here, because OpenClaw deletes BOOTSTRAP.md after first-run setup — anything stored in it is not durable. |
+| `SOUL.md` | Voice, banned vocabulary, "never name the plumbing", boundaries, continuity. |
+| `IDENTITY.md` | AgentVillage identity — role, context, tone. |
+| `USER.md` | Lived notebook — populated by the active skill's bootstrap ritual from the user's onboarding answers. |
+| `TOOLS.md` | Cross-backend rules: channel formatting (Discord/WhatsApp/Telegram), URL preservation, Local files index. Per-backend tool families live in the relevant skill. |
+| `HEARTBEAT.md` | Generic heartbeat tick rules + the cross-backend `memory-curation` task. The Index heartbeat prompt has been removed. |
+| `skills/index-network/SKILL.md` | Index Network skill bundle entry point. Registered with OpenClaw on install; gates on `mcp.servers.index`. Body points at the bundle's sibling reference files. |
+| `skills/edgeos/SKILL.md` | EdgeOS-API skill: events, RSVPs, venues, attendee directory, own profile. Popup-generic; no Edge City India popup id is configured yet. Loaded by OpenClaw alongside index-network. Vendored from `Edge-City/agentvillage-skills`. |
+| `skills/edge-india/SKILL.md` | Edge City India background (skill `edge-india-2026`): reads the local snapshot copy in `knowledge/edge-india/` that the `Edge — knowledge sync` job keeps current, never fetches; the schedule, attendees and RSVPs stay with `edgeos`. |
+
+## Configuration guide
+
+AgentVillage's behaviour is markdown-driven. Almost everything you'd want to change lives in `workspace/` or `skills/<backend>/`. This section maps common customizations to the file that owns them.
+
+**Deploy cycle.** All edits go into this repo. The agent only sees them after `install/install.ts` runs again, since the installer copies `workspace/` and `skills/` into `~/.openclaw/workspace/`. Re-running without `--wipe-user` preserves the attendee's `USER.md`, `MEMORY.md`, and the welcome marker — safe for content/tone edits. The installer also snapshots an existing `memory/welcome-state.json` marker, restores it if a normal update deletes it, and repairs clobbered content when the previous marker suppressed the welcome. Use `--wipe-user` only when you want the next session to send the welcome again. Chat does not re-run profile setup. Existing installs must reinstall the package to copy updated skill markdown into the Hermes/OpenClaw workspace.
+
+### Tone & voice
+
+| You want to… | Edit | Notes |
+|---|---|---|
+| Tighten or loosen overall voice (more analytical / more playful) | `workspace/SOUL.md` | The "voice" rules apply to every message the agent composes. Voice exemplars in skill bundles inherit from here. |
+| Change banned vocabulary (e.g. drop a word, ban a new one) | `workspace/SOUL.md` | Bans propagate to all skill prompts via SOUL.md. |
+| Change the canonical look of welcome / digest messages | `skills/index-network/exemplars.md` | These exemplars are the bar the agent imitates. Edit the literal sample messages, not abstract rules. |
+| Rename the agent (rebrand for another event) | `workspace/IDENTITY.md` + every `prompts/*.md` referring to "AgentVillage" | Grep `AgentVillage` under `workspace/` and `skills/`. Also update `COMMUNITY.md` and `package.json` `name` if forking. |
+| Add or change emoji conventions | `skills/index-network/exemplars.md` and `skills/index-network/prompts/*.md` | Exemplars set the look; the morning brief's shape is in `brief.md`. |
+
+### Content
+
+| You want to… | Edit | Notes |
+|---|---|---|
+| Update community facts (dates, headcount, venue, programming format) | `workspace/COMMUNITY.md` | This is the only authoritative source the agent reads for community context. Don't duplicate the facts into prompts. |
+| Change what the morning brief says or how it's structured | `skills/index-network/prompts/brief.md` (what the model writes), `skills/index-network/scripts/proactive.ts` (`briefView`: exactly what the model is given), `skills/index-network/scripts/proactive-text.ts` (cleaning and scanning), `skills/index-network/scripts/build-daily-brief-context.ts` (fetching announcements, calendar and Index counts) and `skills/index-network/scripts/approvals-waiting.ts` (the count of things waiting in the resident's approvals, DATA-222) | The model never receives third-party free text: add a field to `briefView` only if it is a date, the resident's own data, a sanitised schedule fact, an organiser announcement, an Index count or a cleaned name. |
+| Change the welcome message | `skills/index-network/scripts/welcome.ts` (the text) and `workspace/AGENTS.md` "First-message gates" (when it runs, and the fallback copy) | The welcome is gated by `memory/welcome-state.json` and should run once per install, not once per Hermes session. |
+| Change the lived-notebook (`USER.md`) template | `workspace/USER.md` | Chat does not fill this from a profile tool. Editing the file in `workspace/` only affects the empty stub copied in by `--wipe-user`. |
+| Change how the agent calls EdgeOS APIs (events, attendees, RSVPs, venues, wiki recipes) | `skills/edgeos/SKILL.md` | This is the hand-edited recipe file. The auto-refreshed reference data under `skills/edgeos/references/` is a different surface — see "Backends & skills" below for the don't-edit-this caveat. |
+
+### Behaviour & gates
+
+| You want to… | Edit | Notes |
+|---|---|---|
+| Add, remove, or reorder operating rules (memory contract, opportunity quality bar, red lines, group-chat rules) | `workspace/AGENTS.md` | This file is always injected by OpenClaw on every session — durable, unlike `BOOTSTRAP.md`. |
+| Add a new first-message gate (e.g. another skill needs onboarding) | `workspace/AGENTS.md` "Active skills" section + the new `skills/<name>/bootstrap.md` | Gates loop over the active-skills registry. Add the skill row first, then point its bootstrap at the trigger condition (server flag, local marker, …). |
+| Change the returning-user first-message framing | `workspace/AGENTS.md` "First-message gates" | The digest schedule is fixed (set in `install/install_index.ts`) and not adjustable from chat. |
+| ~~Change heartbeat tick behaviour~~ | n/a | The 30-minute `Edge — heartbeat` cron was retired (it drained OpenRouter key budgets fleet-wide). The Index heartbeat prompt has been removed — see #100 for replacement approaches. |
+| Change how URLs / formatting render per channel (Telegram, WhatsApp, Discord) | `workspace/TOOLS.md` | Cross-backend rule: Telegram is Markdown, not HTML — raw `<…>` tags get escaped. |
+
+### Schedule & cron
+
+Index background work runs as fixed cron prompts — **memory signal sync `0 1 * * *`, prepare `0 2 * * *`, send `0 8 * * *`, opportunity drops `0 12 * * *` and `0 17 * * *`, negotiation summary `0 14 * * *`, evening questions `0 19 * * *`, and the pending opportunity alert hourly at `20 * * * *` (08:00 to 22:00 only; installed paused in rc29, `PENDING_ALERT_ENABLED=true` turns it on)** (village time, IST) — and the end user can't change those schedules from chat. Memory signal sync has a deterministic `memories/MEMORY.md` hash preflight, so unchanged days do not wake the model. The Agent Plaza selfie sender is run explicitly by operators for one-off closeout sends and has a deterministic opt-in/packet/media/Telegram preflight, so unavailable Plaza or missing Telegram config stays silent. The installer can override cron times (see "Overriding the Index cron times" under **Install**). The 30-minute heartbeat cron and former Agent Plaza selfie cron were retired.
+
+| You want to… | Edit | Notes |
+|---|---|---|
+| Override the Index cron times for one install | the matching flag/env from the install table above | Optional, full 5-field cron expressions. Flag wins over env; invalid values fall back to the default. |
+| Change the default Index cron schedule for everyone | `install/install_index.ts` (`DIGEST_CRON_SPECS`) | The installer writes the cron entries from this table. Existing installs pick up changes on the next `install.ts` run. |
+| Change one resident's job (schedule, delivery window, zone, paused), add or remove a job from a template, or preview a job on a team tenant | run `bun install/jobs.ts <list\|set\|add\|remove\|preview>` inside that tenant | No roll needed, and a roll keeps the result. One line of JSON out. Contract: [docs/design/job-settings.md](https://raw.githubusercontent.com/Edge-City/agentvillage/main/docs/design/job-settings.md). |
+| Change a cron prompt without changing the schedule | `skills/index-network/prompts/<name>.md` | Hermes stores prompt copies in cron jobs. Hosted residents are refreshed by an explicit per-tenant update from the control plane (see `docs/deployment.md`; the former `post-merge` workflow was retired on 2026-09-25: its `/hooks/sync` target no longer exists in the control plane, and a merge to `main` changes no running resident), which reruns the installer. For non-control-plane installs or recovery, run `HERMES_HOME=<resident-home> bun install/reconcile_digest_crons.ts` after updated skill files are copied. |
+| Change the memory-sync preflight | `skills/index-network/scripts/memory_signal_gate.py` + `install/install_index.ts` script wiring | The script reads local operational state only and should emit `wakeAgent:false` unless `$HERMES_HOME/memories/MEMORY.md` changed outside its profile entries. |
+| Change the Agent Plaza selfie preflight/follow-up context | `skills/agent-plaza/scripts/agent_plaza_selfie.py` + `skills/agent-plaza/prompts/selfie.md` + `skills/agent-plaza/SKILL.md` | The one-off script reads configured Plaza packets or a local ops handoff, writes only under `ops/agentvillage/...`, stores sanitized `lastFollowupContext` on successful sends, and should emit `wakeAgent:false` when Plaza is unavailable. |
+| Enable the token usage audit cron | `--token-usage-audit-cron "<expr>"` or `TOKEN_USAGE_AUDIT_CRON="<expr>"` | Disabled by default. When enabled, quiet runs remain non-LLM; alerts require meaningful usage plus an actionable driver and respect a 72-hour per-driver cooldown. |
+| Turn the pending opportunity alert on or off | `PENDING_ALERT_ENABLED=true\|false` (env or `$HERMES_HOME/.env`) or `--pending-alert-enabled true\|false` on an install; for one resident with no roll, `bun install/jobs.ts set --job pending --enabled true\|false` inside the tenant (a sandbox exec; the control plane's routes do not know the job yet) | Installed paused in rc29. An install with the switch unset leaves an existing job's pause state alone; `true` never overrides a hold in `av-events/job-holds.json`. |
+| Disable the token usage audit cron | omit `TOKEN_USAGE_AUDIT_CRON`, pass `--skip-token-usage-audit-cron`, or set `TOKEN_USAGE_AUDIT_CRON=off` | The reconciler removes the managed audit cron when no explicit schedule opts in. |
+
+### Backends & skills
+
+| You want to… | Edit | Notes |
+|---|---|---|
+| Wire a brand-new backend | new `install/install_<name>.ts` (modeled on `install_index.ts` for MCP+cron wiring or `install_edgeos.ts` for env-token wiring) + new `skills/<name>/` bundle with `SKILL.md` + register in `workspace/AGENTS.md` "Active skills" | Add the installer call to `install/install.ts` and include the skill in `EDGE_SKILL_NAMES` so it is copied into the runtime workspace. |
+| Extend an existing backend (Index, EdgeOS) | The matching `install/install_<name>.ts` and `skills/<name>/` bundle | Runtime config (env vars, MCP entries, cron jobs, CLI commands) lives in `install_<name>.ts`; agent-facing instructions live in the skill bundle's `SKILL.md` and siblings. |
+| Wire optional env vars an existing backend needs | `install/install_<name>.ts` + the Prerequisites section of this README | The installer writes `env.vars.<NAME>`; the gateway exposes those to the agent's shell tools on next start. `install_edgeos.ts` is the worked example. |
+| Change which skills the agent loads | `workspace/AGENTS.md` "Active skills" section | Mark a skill as eager (gates fire at session start) or reactive (only consulted when needed). |
+| Retire a skill this repo no longer ships | `install/paths.ts`: move the name from `EDGE_SKILL_NAMES` to `RETIRED_SKILL_DIRS` | On the next roll the installer removes `$HERMES_HOME/skills/<name>/` from every home, one `→ removed retired skill <name> from <root>` line each; a name on both lists fails at load. Skills on neither list (Hermes's bundled ones, a resident's own) are never touched. `geo-esmeralda` is the first (DATA-360). |
+| Update the India reference snapshot (wiki, guides, website) | Don't edit by hand — the sync workflow does it | `.github/workflows/sync-edge-india-references.yml` runs `scripts/sync-india-references.ts` against `p2p-lanes/edge-agent-skill` every 15 minutes and, only when a complete, India-scoped snapshot changed, opens or refreshes one pull request from `bot/india-refs` that a person merges into `main` (it never commits to `main` itself); a failed or partial upstream run keeps the last snapshot. Each agent's `Edge — knowledge sync` job copies it into `knowledge/edge-india/` every 30 minutes, verified against `SNAPSHOT.json`; the skill falls back to the snapshot of the agent's release tag and never fetches in a turn (`skills/edge-india/README.md`). The Esmeralda references are frozen. The recipes in `SKILL.md` are hand-edited — see the "Content" section above. |
+
+## Auth
+
+Skills in this repo are public. Each backend gates access with its own per-user credential, wired in by the matching per-backend installer:
+
+- **Index Network (today's wired backend)** — per-user API key returned by `POST /api/networks/:id/signup` (see [Integration API: Authentication](#authentication) above). `install/install_index.ts` writes it into `mcp.servers.index` as the `x-api-key` header.
+- **EdgeOS** — per-user tokens issued via OTP through the EdgeOS portal. `install/install_edgeos.ts` writes `EDGEOS_API_KEY` and `EDGEOS_BEARER_TOKEN` into the runtime environment when provided.
+
+The skill files describe HOW to call each backend's APIs; the per-backend credential is what unlocks them.
+
+## Contributing
+
+Maintained by the Edge City and YoursTruly teams. Direct push access is limited to project collaborators; PRs from the community are welcome and will be reviewed.
+
+## Project links
+
+- Edge City: https://edgecity.live
+- Previous popup, Edge Esmeralda 2026: https://edgeesmeralda.com
+- Substack post (Edge Esmeralda): https://edgeesmeralda2026.substack.com/p/the-agent-village-experiment-at-edge
+
+## License
+
+MIT. See [LICENSE](https://raw.githubusercontent.com/Edge-City/agentvillage/main/LICENSE).
+

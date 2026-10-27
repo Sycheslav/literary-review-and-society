@@ -1,0 +1,42 @@
+---
+id: arxiv-2602-07777-prompts
+type: material
+title: 'Опубликованные разделы о промптах: Talk, Judge, Cooperate: Gossip-Driven Indirect Reciprocity in Self-Interested
+  LLM Agents'
+source_id: arxiv-2602-07777
+source_url: https://arxiv.org/html/2602.07777v2
+source_file: fulltext.md
+conversion: verbatim_section_extraction
+retrieved_at: '2026-10-27'
+sha256_text: fd3f58ddc2a16367d766ff0399ecd8ab8d10848eb6f48a512a9c66256c29f855
+---
+
+> Фрагменты автоматически извлечены из разделов первоисточника, названия которых относятся к промптам. Это не гарантия, что опубликован полный фактический runtime-промпт; проверяйте версию, приложение и репозиторий. [Открыть полный текст](fulltext.md).
+
+## Appendix C Prompts
+
+All prompts in our experiments follow a common structure and can be classified
+into three categories: rule prompts, action prompts, and gossip prompts (Figure [3](https://arxiv.org/html/2602.07777v2#S4.F3 "Figure 3 ‣ 4 ALIGN: Agentic LInguistic Gossip Network ‣ Talk, Judge, Cooperate: Gossip-Driven Indirect Reciprocity in Self-Interested LLM Agents")).
+The rule prompt specifies the environment, including the game rules, information
+flow, and response format. The action prompt guides an agent’s decision-making
+based on its current observation, private history, and, when available, public
+gossip. The gossip prompt instructs how an agent generates public
+evaluations of observed actions.
+
+Across all scenarios, we use the same objective specification: each agent is
+self-interested, rational, and far-sighted. This specification defines the utility-maximization
+objective used in our theoretical setup; it does not prescribe cooperation, reputation
+tracking, or norm-following behavior. This allows us to test whether agents can
+learn to cooperate and build reputations purely through strategic reasoning and
+information sharing, without being explicitly told to do so. By using a consistent
+objective across all conditions, we can isolate the effects of information
+flow and horizon length on the emergence of cooperation and reputation
+dynamics.
+
+We provide the full prompts for each environment below.
+
+### C.1 Repeated Donation Game
+
+Rule Prompt of Repeated Donation Game
+
+[⬇](data:text/plain;base64,ICAgICMjIFNlbGYtYXdhcmVuZXNzCgogICAgWW91IGFyZSBhIHNlbGYtaW50ZXJlc3RlZCwgZmFyLXNpZ2h0ZWQsIHJhdGlvbmFsIGFnZW50LCBwbGF5aW5nIGEKICAgIFtIT1JJWk9OLVRZUEVdLWhvcml6b24gbXVsdGktcm91bmQgZG9uYXRpb24gZ2FtZS4KCiAgICAtIFNlbGYtaW50ZXJlc3RlZDogeW91ciB1dGlsaXR5IGZ1bmN0aW9uIGlzIG9ubHkgeW91ciBvd24gZXhwZWN0ZWQgcGF5b2ZmLgogICAgLSBGYXItc2lnaHRlZDogeW91IG1heGltaXplIGV4cGVjdGVkIGRpc2NvdW50ZWQgY3VtdWxhdGl2ZSByZXdhcmQKICAgIChkaXNjb3VudCBmYWN0b3IgJGRpc2NvdW50X2ZhY3Rvcikgb3ZlciBhbGwgcmVtYWluaW5nIHJvdW5kcy4KICAgIC0gUmF0aW9uYWw6IHlvdSBhbHdheXMgY2hvb3NlIHRoZSBzdHJhdGVneSB3aXRoIHRoZSBoaWdoZXN0IGV4cGVjdGVkIHBheW9mZi4KCiAgICAjIyBPdmVydmlldyBvZiB0aGUgZ2FtZQoKICAgIC0gRXZlcnkgYWdlbnQgc3RhcnRzIHdpdGggJGluaXRpYWxfcmVzb3VyY2VzIHJlc291cmNlIHVuaXRzLgogICAgLSBJbiBlYWNoIHJvdW5kLCB0d28gYWdlbnRzIGFyZSByYW5kb21seSBwYWlyZWQgd2l0aG91dCByZXBsYWNlbWVudCBhcyBkb25vciBhbmQgcmVjaXBpZW50OyB0aGUgc2FtZSBwYWlyIG5ldmVyIG1lZXRzIHR3aWNlLgogICAgLSBUaGUgZG9ub3IgY2hvb3NlcyBvbmUgb2Y6CiAgICAgICAgLSBjb29wZXJhdGU6IHBheSAkY29zdCwgcmVjaXBpZW50IGdhaW5zICRiZW5lZml0CiAgICAgICAgLSBkZWZlY3Q6IHRyYW5zZmVyIDAgdG8gdGhlIHJlY2lwaWVudAogICAgLSBUaGUgcmVjaXBpZW50IG9ic2VydmVzIHdoZXRoZXIgdGhlIGRvbm9yIGNvb3BlcmF0ZWQgb3IgZGVmZWN0ZWQgYW5kIHJlY2VpdmVzICRiZW5lZml0IGlmIHRoZSBkb25vciBjb29wZXJhdGVzLCBvciAwIG90aGVyd2lzZS4KICAgIC0gVGhlbiwgdGhlIHJlY2lwaWVudDoKICAgICAgICAtIFdpdGggZ29zc2lwOiBicm9hZGNhc3RzIGEgcHVibGljIGFzc2Vzc21lbnQgb2YgdGhlIGRvbm9yJ3MgY2hvaWNlLgogICAgICAgIC0gV2l0aG91dCBnb3NzaXA6IHRha2VzIG5vIGZ1cnRoZXIgYWN0aW9uLgogICAgLSBBZnRlciBwYXlvZmZzLCBhZ2VudHMgYXJlIHJlc2h1ZmZsZWQgYW5kIHJvbGVzIG1heSBzd2l0Y2guCgogICAgIyMgR2FtZSBsZW5ndGgKCiAgICAtIEluZmluaXRlIGhvcml6b246IHJvdW5kcyBjb250aW51ZSBpbmRlZmluaXRlbHkuCiAgICAtIEZpbml0ZSBob3Jpem9uOiB0aGUgZ2FtZSBsYXN0cyBleGFjdGx5ICRob3Jpem9uX2xlbmd0aCByb3VuZHMuCgogICAgIyMgSW1tZWRpYXRlIHJld2FyZCBwZXIgcm91bmQKCiAgICBJZiB0aGUgZG9ub3IgY29vcGVyYXRlczoKICAgIC0gRG9ub3IgcmV3YXJkID0gLSRjb3N0CiAgICAtIFJlY2lwaWVudCByZXdhcmQgPSAkYmVuZWZpdAoKICAgIElmIHRoZSBkb25vciBkZWZlY3RzOgogICAgLSBEb25vciByZXdhcmQgPSAwCiAgICAtIFJlY2lwaWVudCByZXdhcmQgPSAwCgogICAgIyMgSW5mb3JtYXRpb24gZmxvdyAob25seSB3aGVuIGdvc3NpcCBpcyBlbmFibGVkKQoKICAgIC0gQWxsIG1lc3NhZ2VzIGFyZSBwdWJsaWNseSBsb2dnZWQgYW5kIHZpc2libGUgdG8gYWxsIGFnZW50cy4KICAgIC0gTWVzc2FnZXMgZG8gbm90IGRpcmVjdGx5IGNoYW5nZSBwYXlvZmZzLgogICAgLSBGdXR1cmUgYWdlbnRzIG1heSBjb25kaXRpb24gdGhlaXIgYmVoYXZpb3Igb24gcGFzdCBtZXNzYWdlcy4=)

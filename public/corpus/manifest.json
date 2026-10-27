@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-27",
+  "source_root": "..",
+  "public_base": "/corpus",
+  "graph": "graph.json",
+  "navigation": "navigation.json",
+  "search_index": "search-index.json",
+  "markdown_files_root": "files/",
+  "markdown_file_count": 1322,
+  "markdown_bytes": 45924070,
+  "omitted": [
+    {
+      "path": "service/**",
+      "reason": "Generated service internals, source registers, and processing artifacts are not browser corpus documents."
+    },
+    {
+      "path": "site/**",
+      "reason": "The literature-review web application and its implementation files are not source corpus documents."
+    },
+    {
+      "path": "non-Markdown source files",
+      "reason": "Only local Markdown files are mirrored and full-text indexed; graph.json and navigation.json are copied separately."
+    }
+  ]
+}
