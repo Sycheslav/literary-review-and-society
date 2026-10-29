@@ -52,7 +52,7 @@ export default async function ChapterPage({ params }: Props) {
 
           <article className="chapter-main">
             <p className="kicker">
-              Глава {chapter.num} из {chapters.length}
+              Глава {chapter.num}
             </p>
             <h1 className="chapter-heading">{chapter.title}</h1>
             <Md className="chapter-text">{chapter.body}</Md>

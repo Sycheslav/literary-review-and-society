@@ -45,6 +45,9 @@ def main():
     for i in range(1, len(parts), 2):
         slug, chunk = parts[i], parts[i + 1]
         heading, _, body = chunk.partition("\n")
+        # The site renderer assigns these IDs to numbered headings itself.
+        # Keep source-document anchors from appearing as escaped HTML in the UI.
+        body = re.sub(r'^<a id="[^"]+"></a>\s*\n', '', body, flags=re.M)
         match = re.match(r"(\d+)\.\s+(.+)", heading.strip())
         num, name = int(match.group(1)), match.group(2).strip()
         slugs[slug] = num

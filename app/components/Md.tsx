@@ -46,6 +46,7 @@ export default function Md({ children, className }: { children: string; classNam
                 </Link>
               );
             }
+            if (href.startsWith("#")) return <a href={href}>{children}</a>;
             if (href.startsWith("/")) return <Link href={href}>{children}</Link>;
             if (/^https?:/.test(href)) {
               return (

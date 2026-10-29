@@ -2060,6 +2060,13 @@
       "html_url": "https://literary-review-and-society-production.up.railway.app/topics/baselines"
     },
     {
+      "id": "concept:terms",
+      "type": "concept",
+      "title": "Термины и определения",
+      "markdown_url": "https://literary-review-and-society-production.up.railway.app/knowledge/concept/terms.md",
+      "html_url": "https://literary-review-and-society-production.up.railway.app/concept/terms"
+    },
+    {
       "id": "concept:project",
       "type": "concept",
       "title": "Проект в нескольких абзацах",
@@ -2072,13 +2079,6 @@
       "title": "Цели, границы и ожидаемый вклад",
       "markdown_url": "https://literary-review-and-society-production.up.railway.app/knowledge/concept/goals.md",
       "html_url": "https://literary-review-and-society-production.up.railway.app/concept/goals"
-    },
-    {
-      "id": "concept:terms",
-      "type": "concept",
-      "title": "Рабочий словарь",
-      "markdown_url": "https://literary-review-and-society-production.up.railway.app/knowledge/concept/terms.md",
-      "html_url": "https://literary-review-and-society-production.up.railway.app/concept/terms"
     },
     {
       "id": "concept:framework",
@@ -5799,6 +5799,12 @@
       "provenance": "data/details.json:related"
     },
     {
+      "source": "concept:terms",
+      "target": "concept:project",
+      "type": "next_chapter",
+      "provenance": "data/concept.json:chapters (order)"
+    },
+    {
       "source": "concept:project",
       "target": "concept:goals",
       "type": "next_chapter",
@@ -5806,12 +5812,6 @@
     },
     {
       "source": "concept:goals",
-      "target": "concept:terms",
-      "type": "next_chapter",
-      "provenance": "data/concept.json:chapters (order)"
-    },
-    {
-      "source": "concept:terms",
       "target": "concept:framework",
       "type": "next_chapter",
       "provenance": "data/concept.json:chapters (order)"

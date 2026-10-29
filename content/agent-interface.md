@@ -11,7 +11,7 @@
 | Изложение | путь `summaryPath` в `data/details.json`, публичный `summary.ru.md`, `summary.meta.json` | `/works/{id}/summary` | `/knowledge/summaries/{id}.md` | `summary:{id}` |
 | Направление | `data/topics.json`, принадлежность из `works.json` | `/topics/{id}` | `/knowledge/topics/{id}.md` | `topic-{id}` |
 | Глава | `data/concept.json`, пояснения `lib/concept.ts` | `/concept/{slug}` | `/knowledge/concept/{slug}.md` | `concept:{slug}` |
-| Эксперименты | существующие главы 12, 13, 19 | `/concept/experiments` | `/knowledge/experiments/index.md` → главы | без выдуманных отдельных карточек |
+| Эксперименты | существующие главы 11, 12, 18 | `/concept/experiments` | `/knowledge/experiments/index.md` → главы | без выдуманных отдельных карточек |
 | Экономика | `data/economics/snapshot.json`, `lib/economics-evidence.ts`, `details.json` | `/economics`, `/economics/studies/{id}` | `/knowledge/economics/index.md`, `/knowledge/economics/studies/{id}.md`, JSON | `economics:{id}` |
 | Рёбра | поля `topics`, `related`, `data/graph.json`; порядок глав | `/graph` | `/knowledge/graph.json`, `/knowledge/relations.md` | исходные ID узлов |
 

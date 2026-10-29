@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_version": "9e2bfc661912027cb0278039728bcbb9d43ebb63b0bc5ca3653e82e2a325ab77",
+  "data_version": "f9c15fa5886b331704569984e7b896248a6c41fdf97e0ab5f32338b5bbeff556",
   "counts": {
     "works": 281,
     "topics": 13,
@@ -1854,8 +1854,8 @@
     },
     {
       "path": "summaries/arxiv-2402-12348.md",
-      "bytes": 28209,
-      "sha256": "7fd9b99bf339ce494400eef80a059987ddcb4b3cce14182d820f080fc3014875"
+      "bytes": 28409,
+      "sha256": "9ea0c4130236fe85318ee996a4013a3c10b4c79f0306e4ee317e8ab9dec88b3b"
     },
     {
       "path": "works/arxiv-2407-07086.md",
@@ -2513,124 +2513,124 @@
       "sha256": "1ec59d8e972595f0ff03b93fe1ff7e6c221b9694ad38dec81cd4dce466099fbf"
     },
     {
+      "path": "concept/terms.md",
+      "bytes": 23721,
+      "sha256": "9662e65c70e57124ba89cfc141bc5b47f216ac7849d994960bd49cb46f920b66"
+    },
+    {
       "path": "concept/project.md",
-      "bytes": 6552,
-      "sha256": "47aa258060d901dd761e9fe8e019c29318e04f70a5761259cb95162e472c6761"
+      "bytes": 6610,
+      "sha256": "f92af2b4db08a0a9700f7016dcb9c611e4c495b40b2344628a941e3c5b3625a4"
     },
     {
       "path": "concept/goals.md",
-      "bytes": 6817,
-      "sha256": "fc89953b97bc020abd71a9c0ef7d048d7f0745808a5cb9a4d5e4c2fcf7afcc0a"
-    },
-    {
-      "path": "concept/terms.md",
-      "bytes": 8447,
-      "sha256": "625f2fcc8cd486d79c8620ec1894d011813de961173480965697a4a82e5ad4f8"
+      "bytes": 6879,
+      "sha256": "dafae2152cb9883a8bff787476e15ed244946350b79ee5f31163e04cd086c144"
     },
     {
       "path": "concept/framework.md",
-      "bytes": 10449,
-      "sha256": "5773c0c501649e6bcd88358aff6de822139812e1a2c79895f18962b5a1d416e2"
+      "bytes": 10477,
+      "sha256": "3bb8143310046d3d6d99b96c61fe15d0599021e9325e0f6f7c7fd07450c06991"
     },
     {
       "path": "concept/research-model.md",
       "bytes": 7575,
-      "sha256": "136c8a073cad958dc04faca55376bd19f11fa1ea926913557010aa97a1d3bf24"
+      "sha256": "efc757e49e2fe65fc6b24be94323c4456c66c5aa30fb296cfe12ebf76de39b65"
     },
     {
       "path": "concept/forecasting.md",
       "bytes": 10365,
-      "sha256": "3b20b0b443c6709098e31a5fa40b3904a16e49c9d4c15c3e8706989fd597622a"
+      "sha256": "e8833d33e1796886ac59d79aed5fafbed9beff8a444d8f10119b4c9c8057226d"
     },
     {
       "path": "concept/economy.md",
       "bytes": 10610,
-      "sha256": "d9525cf9aae1bb6fdbd22abee0675e63ab5c600d721183dc042f21a15dda51d3"
+      "sha256": "b7757cb2b9673ebb56d72b0e2959b25b64bc9144181fefac272628ca187612b6"
     },
     {
       "path": "concept/agents.md",
       "bytes": 6775,
-      "sha256": "73814e2d92e6fad950b920ab133132162ccadb5777cd6276a492d56fdcc32105"
+      "sha256": "09679a1fd7acc7a4d2626a4beb025c96bc0f390e72772523c690755e3017b443"
     },
     {
       "path": "concept/groups.md",
-      "bytes": 7436,
-      "sha256": "80585a352d63f97aefc06c0d28432eefd002fcc6527ba38c0803277b2a625a56"
+      "bytes": 7435,
+      "sha256": "ff186a3986f5be6bed5b3690988b329d485a77c9302466d24aad4001dd9f29ec"
     },
     {
       "path": "concept/host.md",
-      "bytes": 6137,
-      "sha256": "64f5925d66cda8b0078161e11ce3caf1b9f9f8cc7ee73ca0fee5e26a758aada5"
+      "bytes": 6130,
+      "sha256": "32f7c421388d21c3bf54d1ae630bffae07fd559402ba59fd33f469e0f0bc1749"
     },
     {
       "path": "concept/organization.md",
-      "bytes": 4817,
-      "sha256": "cc5ffababa548c0bbf885e3bc0eeab8f99b7c54989099ae379f081281237481a"
+      "bytes": 4816,
+      "sha256": "14ff8188b00c624a9e4bbf0b34458225fe034773cdf543aa2b1bc63f909b035c"
     },
     {
       "path": "concept/hypotheses.md",
       "bytes": 7802,
-      "sha256": "c029cea0986cf1024c56b94c4f96d16f4f78b5a68361955a3d91671f0cbf21fd"
+      "sha256": "687787933b3f0ee970fe77a7e86d3fbab6f3a958fd979b3515f8765c6ee58966"
     },
     {
       "path": "concept/experiments.md",
       "bytes": 23355,
-      "sha256": "f57b9eadec4224dac657581e252e99264e5f87df89af3974b75cb93cfe303aa6"
+      "sha256": "a919a1b7bea13dfbdd787bfa509db37aaa4cd3f4ad288dfe91788d420aac88f2"
     },
     {
       "path": "concept/metrics.md",
       "bytes": 8743,
-      "sha256": "c5dddca52529fcfbf769b82f866813280a265d8c181a273820e3bd09252ed0c3"
+      "sha256": "8669d10313d2c55915bb9b9e5eaf1ec03b8ab4edcbafe31d034420adc392fa08"
     },
     {
       "path": "concept/methodology.md",
       "bytes": 13723,
-      "sha256": "c86da8ffdd6098aad66fb21c7995220520482027409f050b07cbd86f8eaaa38e"
+      "sha256": "d02e51f66908a44da3780a8395c1e05c97fb35a244f58de7101f1632b30af307"
     },
     {
       "path": "concept/architecture.md",
       "bytes": 10394,
-      "sha256": "c379ba5cc61fa3b8105f9943c8f4a74c6bda87ff3b3ad0e04dfeda796a0b3bd6"
+      "sha256": "8e2ba6e144dcbb3f0d57766e2c5759f79f379f4e6d86d4bc7cab341215e05288"
     },
     {
       "path": "concept/technology.md",
       "bytes": 9547,
-      "sha256": "7377c114822444623bb8c7585ae66e052266b4240733e3cb08fb528d0ade0090"
+      "sha256": "095447d72fde526654a6ff1079b1795f63338ed3678dc6525a89f928bd5d71ac"
     },
     {
       "path": "concept/cost.md",
       "bytes": 7679,
-      "sha256": "dfeba8868b612ba9fbeefa48a0dc30c7bf67fd05e1eab38be954792d9f574ae7"
+      "sha256": "6b432b5fd84acc6cd3f92efa3d20bee3feb9d26988e77266d934ceb1e4173fb7"
     },
     {
       "path": "concept/literature.md",
       "bytes": 6111,
-      "sha256": "1685c5e1259a5565ade8bc4ba749c23a2880934e6aacf09acbcdc896c544621f"
+      "sha256": "40ff53cd9282c9efd2a1b80bec91fc293b832745775ca42b4933c204ad2da006"
     },
     {
       "path": "concept/roadmap.md",
       "bytes": 8345,
-      "sha256": "b6602efc0a0c4ca91821877aec0a9ccbe33a07d625780a0f94c0731c637f2927"
+      "sha256": "ebd54464ae383b500c1fcdf6e190856edf18fa35f4282a1bf9c8ba1abee82f12"
     },
     {
       "path": "concept/outputs.md",
       "bytes": 7193,
-      "sha256": "dd814c4851707df613a347d4d98435341988de0d9efdcdba46215f76fe14fd8a"
+      "sha256": "e8cfca27e8a99bb86ee402525d1c7ebc714183f5a1cd4b36c69019bdb4de124a"
     },
     {
       "path": "concept/decisions.md",
       "bytes": 6237,
-      "sha256": "2257901088014a2d84c4794c16855e641daabc14073be3fed03bea954ce22e6b"
+      "sha256": "7dc088f7a1b643b2ddc28d38238863ac929b9def253ee638bd8f476bc56ebd23"
     },
     {
       "path": "concept/site.md",
       "bytes": 7067,
-      "sha256": "acff773c53a6c255ebc79b24b6868af7eb9d0706804cce5f5d09324a7f4933b0"
+      "sha256": "1b1b2da8c59a3ea1542b832cd1c47111450163219449ef96e7c366f4f1144e01"
     },
     {
       "path": "concept/index.md",
-      "bytes": 7892,
-      "sha256": "bd93ce3477fb4f05b520b53f7d75255e21dcb65e0781fdf19a87a39b984ec104"
+      "bytes": 7906,
+      "sha256": "90c140435adc868ebe7c35ebad367fe4593575d2dd6671a86037df0727f5dbb0"
     },
     {
       "path": "topics/index.md",
@@ -2675,7 +2675,7 @@
     {
       "path": "experiments/index.md",
       "bytes": 1614,
-      "sha256": "58612646f077c5b539bcc2a50cab243db40d264b7526cde3c083487e5d255b27"
+      "sha256": "d4181e8e8f104a1eaf15216e761675b77c75d41226ddd10086a3be4d3b544ef4"
     },
     {
       "path": "overview.md",
@@ -4104,8 +4104,8 @@
     },
     {
       "path": "graph.json",
-      "bytes": 249240,
-      "sha256": "43b870eae844d2bfd08ae195ae90852774e068b37e7cee4f603b15d967733297"
+      "bytes": 249253,
+      "sha256": "36c359d2f59361f16247ca4e7085ff68c54a37dba511c70f5834e1ae5b7731a3"
     },
     {
       "path": "relations.md",
@@ -4129,13 +4129,13 @@
     },
     {
       "path": "bundle.json",
-      "bytes": 9367269,
-      "sha256": "b05b84e5f8daff23df8e0c4c3808227936295e7adb2f542be6ad8849e9777293"
+      "bytes": 9382983,
+      "sha256": "9067a6b6bb4a722d88c368ed568daf6c79eb85a64a4e42b1c4788926589f34de"
     },
     {
       "path": "llms.txt",
       "bytes": 2446,
-      "sha256": "5219654ec5c1b54d194e5694a56f2843d83523e91874ddfa72efe9d5ef2c1dcc"
+      "sha256": "61111eb4e7f43da56c48a38229c5c823955d2e51d86d7ee988320daca29125af"
     }
   ]
 }
