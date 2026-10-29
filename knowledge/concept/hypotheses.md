@@ -4,14 +4,14 @@ type: "concept"
 title: "11. Проверяемые вопросы и гипотезы"
 chapter: 11
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/hypotheses"
+html_url: "https://literature-review.up.railway.app/concept/hypotheses"
 ---
 
 # 11. Проверяемые вопросы и гипотезы
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/hypotheses)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/hypotheses)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

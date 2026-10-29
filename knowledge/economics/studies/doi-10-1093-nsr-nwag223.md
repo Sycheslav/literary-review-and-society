@@ -3,7 +3,7 @@ id: "economics:doi-10-1093-nsr-nwag223"
 type: "economics"
 title: "Экономика: Агенты LLM преодолевают «штраф за машинность» при справедливом поведении, но не при эгоистичном или альтруистичном"
 work_id: "doi-10-1093-nsr-nwag223"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/doi-10-1093-nsr-nwag223"
+html_url: "https://literature-review.up.railway.app/economics/studies/doi-10-1093-nsr-nwag223"
 topics: ["platforms"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/doi-10-1093-nsr-nwag223)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/doi-10-1093-nsr-nwag223)
 
 [Карточка работы](../../works/doi-10-1093-nsr-nwag223.md) · [Экономика](../index.md)
 

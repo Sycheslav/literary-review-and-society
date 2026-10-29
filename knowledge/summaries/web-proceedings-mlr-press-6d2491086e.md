@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://raw.githubusercontent.com/mlresearch/v306/main/assets/tewolde26a/tewolde26a.pdf"
 source_version: "PMLR 306 (ICML 2026), PDF; номер версии не указан"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/summary"
+html_url: "https://literature-review.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/summary)
 
 Редакционное изложение, не оригинал публикации.
 

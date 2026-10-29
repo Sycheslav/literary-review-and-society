@@ -9,7 +9,7 @@ kind: "research"
 importance: "core"
 status: "working_summary"
 source_url: "https://www.mathnet.ru/rus/at3151"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-mathnet-ru-699966184b"
+html_url: "https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-mathnet-ru-699966184b)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b)
 
 **Оригинальное название:** В. Н. Бурков, А. К. Еналеев, Д. А. Новиков, “Механизмы функционирования социально-экономических систем с сообщением информации”, Автомат. и телемех., 1996, № 3, 3–25; Autom. Remote Control, 57:3 (1996), 305–321
 
@@ -86,4 +86,4 @@ topics: ["networks"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-mathnet-ru-699966184b/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b/text).

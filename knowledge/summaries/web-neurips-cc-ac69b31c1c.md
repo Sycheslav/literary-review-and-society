@@ -8,7 +8,7 @@ source_status: "limited"
 source_url: "https://neurips.cc/virtual/2026/168260"
 source_version: "NeurIPS workshop entry and abstract, 2026"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-ac69b31c1c/summary"
+html_url: "https://literature-review.up.railway.app/works/web-neurips-cc-ac69b31c1c/summary"
 topics: ["methodology","economics"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","economics"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-ac69b31c1c/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-neurips-cc-ac69b31c1c/summary)
 
 Ограниченное изложение по доступным источникам: полный текст не прочитан.
 

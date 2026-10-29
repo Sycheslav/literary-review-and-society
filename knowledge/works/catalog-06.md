@@ -2,14 +2,14 @@
 id: "catalog:6"
 type: "index"
 title: "Каталог работ: 251–281"
-html_url: "https://literary-review-and-society-production.up.railway.app/works"
+html_url: "https://literature-review.up.railway.app/works"
 ---
 
 # Каталог работ: 251–281
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
 
 - [Что мы узнали об AI Village в 2025 году](web-aivillageblog-substack-com-c64f797f2d.md) · 2026 · ID: web-aivillageblog-substack-com-c64f797f2d · направления: methodology, communities
 - [Vending-Bench Arena](web-andonlabs-com-8ab433b48d.md) · 2025 · ID: web-andonlabs-com-8ab433b48d · направления: resources

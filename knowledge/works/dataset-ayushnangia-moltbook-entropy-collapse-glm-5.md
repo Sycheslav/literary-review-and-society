@@ -9,7 +9,7 @@ kind: "dataset"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://huggingface.co/datasets/Ayushnangia/moltbook-entropy-collapse-glm-5"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5"
+html_url: "https://literature-review.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5"
 topics: ["communities"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5)
 
 **Оригинальное название:** Moltbook Entropy Collapse — six-condition GLM-5 logs
 
@@ -69,4 +69,4 @@ topics: ["communities"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/text).

@@ -2,14 +2,14 @@
 id: "topic-baselines"
 type: "topic"
 title: "Классические ABM, RL и теоретические основания"
-html_url: "https://literary-review-and-society-production.up.railway.app/topics/baselines"
+html_url: "https://literature-review.up.railway.app/topics/baselines"
 ---
 
 # Классические ABM, RL и теоретические основания
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/topics/baselines)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/baselines)
 
 ### Классические модели и базовые сравнения
 

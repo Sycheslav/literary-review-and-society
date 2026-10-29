@@ -3,7 +3,7 @@ id: "economics:web-cuboulder-ds-github-io-8440afa966"
 type: "economics"
 title: "Экономика: The Werewolf Among Us: люди против LLM в многоагентных играх"
 work_id: "web-cuboulder-ds-github-io-8440afa966"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-cuboulder-ds-github-io-8440afa966"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-cuboulder-ds-github-io-8440afa966"
 topics: ["games","communities"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["games","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-cuboulder-ds-github-io-8440afa966)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-cuboulder-ds-github-io-8440afa966)
 
 [Карточка работы](../../works/web-cuboulder-ds-github-io-8440afa966.md) · [Экономика](../index.md)
 

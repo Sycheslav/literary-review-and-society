@@ -2,14 +2,14 @@
 id: "catalog:4"
 type: "index"
 title: "Каталог работ: 151–200"
-html_url: "https://literary-review-and-society-production.up.railway.app/works"
+html_url: "https://literature-review.up.railway.app/works"
 ---
 
 # Каталог работ: 151–200
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
 
 - [OrgAgent: организуйте многоагентную систему как компанию](arxiv-2604-01020.md) · 2026 · ID: arxiv-2604-01020 · направления: methodology, coordination
 - [Масштабировать команды или время? Обучение на протяжении всей жизни с опорой на память в многоагентных системах LLM](arxiv-2604-03295.md) · 2026 · ID: arxiv-2604-03295 · направления: memory, intelligence, platforms

@@ -3,7 +3,7 @@ id: "economics:web-mathnet-ru-699966184b"
 type: "economics"
 title: "Экономика: Механизмы функционирования социально-экономических систем с сообщением информации"
 work_id: "web-mathnet-ru-699966184b"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-mathnet-ru-699966184b"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-mathnet-ru-699966184b"
 topics: ["networks"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-mathnet-ru-699966184b)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-mathnet-ru-699966184b)
 
 [Карточка работы](../../works/web-mathnet-ru-699966184b.md) · [Экономика](../index.md)
 

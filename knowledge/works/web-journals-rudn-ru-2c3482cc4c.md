@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://journals.rudn.ru/miph/article/view/45258"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c"
+html_url: "https://literature-review.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c"
 topics: ["platforms"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c)
 
 **Оригинальное название:** On modelling multi-agent systems based on large language models
 
@@ -74,4 +74,4 @@ topics: ["platforms"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c/text).

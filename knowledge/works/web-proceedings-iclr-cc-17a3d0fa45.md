@@ -9,7 +9,7 @@ kind: "research"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45"
+html_url: "https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45"
 topics: ["platforms"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45)
 
 **Оригинальное название:** AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors
 
@@ -65,4 +65,4 @@ topics: ["platforms"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45/text).

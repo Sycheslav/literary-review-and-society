@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://neurips.cc/virtual/2026/176561"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-8406e8e000"
+html_url: "https://literature-review.up.railway.app/works/web-neurips-cc-8406e8e000"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-8406e8e000)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-neurips-cc-8406e8e000)
 
 **Оригинальное название:** Trust Models in Repeated Multi-Party Negotiation
 
@@ -69,4 +69,4 @@ topics: ["networks"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-8406e8e000/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-neurips-cc-8406e8e000/text).

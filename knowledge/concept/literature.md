@@ -4,14 +4,14 @@ type: "concept"
 title: "18. Как связывать литературный обзор с собственными исследованиями"
 chapter: 18
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/literature"
+html_url: "https://literature-review.up.railway.app/concept/literature"
 ---
 
 # 18. Как связывать литературный обзор с собственными исследованиями
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/literature)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/literature)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "core"
 status: "working_summary"
 source_url: "https://ojs.aaai.org/index.php/ICWSM/article/download/42677/50237/46778"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-05ecebb82a"
+html_url: "https://literature-review.up.railway.app/works/web-ojs-aaai-org-05ecebb82a"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-05ecebb82a)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ojs-aaai-org-05ecebb82a)
 
 **Оригинальное название:** Language-Grounded Co-evolution of Opinions and Ties: Paired Rewiring with Large Language Model Agents
 
@@ -78,4 +78,4 @@ topics: ["networks"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/text).

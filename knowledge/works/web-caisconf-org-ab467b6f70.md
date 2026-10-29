@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://www.caisconf.org/program/2026/papers/does-socialization-emerge-in-ai-agent-society-a-case-study-of-moltbook/"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-caisconf-org-ab467b6f70"
+html_url: "https://literature-review.up.railway.app/works/web-caisconf-org-ab467b6f70"
 topics: ["memory","communities"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-caisconf-org-ab467b6f70)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-caisconf-org-ab467b6f70)
 
 **Оригинальное название:** Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook
 
@@ -70,4 +70,4 @@ topics: ["memory","communities"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-caisconf-org-ab467b6f70/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-caisconf-org-ab467b6f70/text).

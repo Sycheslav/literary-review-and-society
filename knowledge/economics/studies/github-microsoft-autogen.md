@@ -3,7 +3,7 @@ id: "economics:github-microsoft-autogen"
 type: "economics"
 title: "Экономика: AutoGen: фреймворк многоагентных диалогов"
 work_id: "github-microsoft-autogen"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/github-microsoft-autogen"
+html_url: "https://literature-review.up.railway.app/economics/studies/github-microsoft-autogen"
 topics: ["platforms"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/github-microsoft-autogen)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/github-microsoft-autogen)
 
 [Карточка работы](../../works/github-microsoft-autogen.md) · [Экономика](../index.md)
 

@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://www.asc.upenn.edu/news-events/news/research-finds-tipping-point-large-scale-social-change"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-asc-upenn-edu-1680a84f0f"
+html_url: "https://literature-review.up.railway.app/works/web-asc-upenn-edu-1680a84f0f"
 topics: ["coordination"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["coordination"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-asc-upenn-edu-1680a84f0f)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-asc-upenn-edu-1680a84f0f)
 
 **Оригинальное название:** Experimental Evidence for Tipping Points in Social Convention
 

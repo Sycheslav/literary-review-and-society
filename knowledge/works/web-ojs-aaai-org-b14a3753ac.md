@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://ojs.aaai.org/index.php/ICWSM/article/view/35826"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-b14a3753ac"
+html_url: "https://literature-review.up.railway.app/works/web-ojs-aaai-org-b14a3753ac"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-b14a3753ac)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ojs-aaai-org-b14a3753ac)
 
 **Оригинальное название:** Understanding Online Polarization Through Human-Agent Interaction in a Synthetic LLM-Based Social Network
 
@@ -65,4 +65,4 @@ LLM-персонажи используют GPT-4o-mini. В статье под�
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-b14a3753ac/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-ojs-aaai-org-b14a3753ac/text).

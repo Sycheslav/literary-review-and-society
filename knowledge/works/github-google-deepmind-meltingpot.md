@@ -9,7 +9,7 @@ kind: "project"
 importance: "core"
 status: "working_summary"
 source_url: "https://github.com/google-deepmind/meltingpot"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-google-deepmind-meltingpot"
+html_url: "https://literature-review.up.railway.app/works/github-google-deepmind-meltingpot"
 topics: ["methodology","platforms"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology","platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-google-deepmind-meltingpot)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-google-deepmind-meltingpot)
 
 **Оригинальное название:** google-deepmind/meltingpot
 

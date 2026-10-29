@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://mlsd2025.ipu.ru/proceedings/1319.pdf"
 source_version: "Труды MLSD 2025 (PDF сборника), с. 1319–1323"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-mlsd2025-ipu-ru-044255dc4c/summary"
+html_url: "https://literature-review.up.railway.app/works/web-mlsd2025-ipu-ru-044255dc4c/summary"
 topics: ["memory"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["memory"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-mlsd2025-ipu-ru-044255dc4c/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-mlsd2025-ipu-ru-044255dc4c/summary)
 
 Редакционное изложение, не оригинал публикации.
 

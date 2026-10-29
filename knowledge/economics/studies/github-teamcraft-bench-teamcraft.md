@@ -3,7 +3,7 @@ id: "economics:github-teamcraft-bench-teamcraft"
 type: "economics"
 title: "Экономика: TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft"
 work_id: "github-teamcraft-bench-teamcraft"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/github-teamcraft-bench-teamcraft"
+html_url: "https://literature-review.up.railway.app/economics/studies/github-teamcraft-bench-teamcraft"
 topics: ["games","platforms"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["games","platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/github-teamcraft-bench-teamcraft)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/github-teamcraft-bench-teamcraft)
 
 [Карточка работы](../../works/github-teamcraft-bench-teamcraft.md) · [Экономика](../index.md)
 

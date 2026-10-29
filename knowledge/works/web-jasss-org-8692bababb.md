@@ -9,7 +9,7 @@ kind: "research"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://www.jasss.org/27/4/4.html"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-jasss-org-8692bababb"
+html_url: "https://literature-review.up.railway.app/works/web-jasss-org-8692bababb"
 topics: ["methodology"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-jasss-org-8692bababb)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-jasss-org-8692bababb)
 
 **Оригинальное название:** [In]Credible Models – Verification, Validation & Accreditation of Agent-Based Models to Support Policy-Making
 
@@ -65,4 +65,4 @@ topics: ["methodology"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-jasss-org-8692bababb/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-jasss-org-8692bababb/text).

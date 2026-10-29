@@ -8,7 +8,7 @@ kind: "web_material"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://dixon.ai/how-we-test/"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-dixon-ai-818fad3164"
+html_url: "https://literature-review.up.railway.app/works/web-dixon-ai-818fad3164"
 topics: ["communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-dixon-ai-818fad3164)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-dixon-ai-818fad3164)
 
 **Авторы:** DIXON.AI (авторский проект)  
 **Год:** 2026  
@@ -79,4 +79,4 @@ topics: ["communities"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-dixon-ai-818fad3164/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-dixon-ai-818fad3164/text).

@@ -2,14 +2,14 @@
 id: "topic-coordination"
 type: "topic"
 title: "Роли, лидерство, разделение труда и координация"
-html_url: "https://literary-review-and-society-production.up.railway.app/topics/coordination"
+html_url: "https://literature-review.up.railway.app/topics/coordination"
 ---
 
 # Роли, лидерство, разделение труда и координация
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/topics/coordination)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/coordination)
 
 ### От назначенных ролей к самоорганизации
 

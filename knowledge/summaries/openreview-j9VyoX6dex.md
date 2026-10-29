@@ -7,7 +7,7 @@ status: "working_summary"
 source_status: "limited"
 source_url: "https://openreview.net/forum?id=j9VyoX6dex"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/openreview-j9VyoX6dex/summary"
+html_url: "https://literature-review.up.railway.app/works/openreview-j9VyoX6dex/summary"
 topics: ["methodology","memory"]
 ---
 
@@ -15,7 +15,7 @@ topics: ["methodology","memory"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/openreview-j9VyoX6dex/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/openreview-j9VyoX6dex/summary)
 
 Ограниченное изложение по доступным источникам: полный текст не прочитан.
 

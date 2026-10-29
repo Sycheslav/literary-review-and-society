@@ -2,17 +2,17 @@
 id: "relations"
 type: "guide"
 title: "Типы связей графа"
-html_url: "https://literary-review-and-society-production.up.railway.app/graph"
+html_url: "https://literature-review.up.railway.app/graph"
 ---
 
 # Типы связей графа
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/graph)
+[К индексу](index.md) · [Страница сайта](https://literature-review.up.railway.app/graph)
 
 - belongs_to_topic: работа → направление, принадлежность в исходной разметке.
 - related_to: источник → связанный материал, редакционная/техническая связь без установленного влияния или цитирования. Направление хранения не означает направление научного влияния.
 - next_chapter: глава → следующая глава, порядок исходной концепции.
 
-В [JSON-графе](graph.json) каждое ребро содержит provenance — исходное поле данных. Связи uses_method_from, critiques, informs_experiment и tests_hypothesis не добавляются автоматически. Тематический поиск не создаёт доказанных связей. Существующий [/graph-data](https://literary-review-and-society-production.up.railway.app/graph-data) сохраняет прежний формат узлов, координат и пар рёбер.
+В [JSON-графе](graph.json) каждое ребро содержит provenance — исходное поле данных. Связи uses_method_from, critiques, informs_experiment и tests_hypothesis не добавляются автоматически. Тематический поиск не создаёт доказанных связей. Существующий [/graph-data](https://literature-review.up.railway.app/graph-data) сохраняет прежний формат узлов, координат и пар рёбер.

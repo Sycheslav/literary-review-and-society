@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://trudymai.ru/upload/iblock/37b/igcqmnclichg8pgx6lfxx16h7zkcmvwh/17-_novyy-Mchedlishvili-_-ISPOLZOVANIE-BOLSHIKH-YAZYKOVYKH-MODELEY-DLYA-IMITATSII-CHELOVECHESKOGO-POVEDENIYA-V-AEROPORTU-_2_.pdf?issue=145&lang=en"
 source_version: "Труды МАИ, 2025, № 145 (PDF)"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-elibrary-ru-21c8ac8b53/summary"
+html_url: "https://literature-review.up.railway.app/works/web-elibrary-ru-21c8ac8b53/summary"
 topics: ["methodology","networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-elibrary-ru-21c8ac8b53/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-elibrary-ru-21c8ac8b53/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -9,7 +9,7 @@ kind: "project"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://github.com/ybkim95/agent-scaling/"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-ybkim95-agent-scaling"
+html_url: "https://literature-review.up.railway.app/works/github-ybkim95-agent-scaling"
 topics: ["platforms","coordination","memory","communities"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["platforms","coordination","memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-ybkim95-agent-scaling)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-ybkim95-agent-scaling)
 
 **Оригинальное название:** Agent Scaling (code and artifacts for «Capable language models can outgrow the benefits of collaboration»)
 
@@ -78,4 +78,4 @@ README не публикует суммарной стоимости API; сра
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/github-ybkim95-agent-scaling/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/github-ybkim95-agent-scaling/text).

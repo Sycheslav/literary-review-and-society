@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://ojs.aaai.org/index.php/ICWSM/article/download/42677/50237/46778"
 source_version: "ICWSM 2026 PDF, 20(1), pp. 972-988"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/summary"
+html_url: "https://literature-review.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ojs-aaai-org-05ecebb82a/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -6,7 +6,7 @@ import ts from 'typescript';
 // Explicit allowlist: curated public data, never a recursive copy of the corpus.
 const root = process.cwd();
 const out = path.join(root, 'knowledge');
-const base = 'https://literary-review-and-society-production.up.railway.app';
+const base = 'https://literature-review.up.railway.app';
 const repo = 'https://github.com/Sycheslav/literary-review-and-society';
 const json = (p) => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
 const works = json('data/works.json');

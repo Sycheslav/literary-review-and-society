@@ -4,14 +4,14 @@ type: "concept"
 title: "13. Метрики и доказательства"
 chapter: 13
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/metrics"
+html_url: "https://literature-review.up.railway.app/concept/metrics"
 ---
 
 # 13. Метрики и доказательства
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/metrics)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/metrics)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

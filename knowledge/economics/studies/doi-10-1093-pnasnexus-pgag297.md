@@ -3,7 +3,7 @@ id: "economics:doi-10-1093-pnasnexus-pgag297"
 type: "economics"
 title: "Экономика: Как большие языковые модели оценивают человеческую кооперацию и влияют на неё"
 work_id: "doi-10-1093-pnasnexus-pgag297"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/doi-10-1093-pnasnexus-pgag297"
+html_url: "https://literature-review.up.railway.app/economics/studies/doi-10-1093-pnasnexus-pgag297"
 topics: ["networks","memory","influence","institutions"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["networks","memory","influence","institutions"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/doi-10-1093-pnasnexus-pgag297)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/doi-10-1093-pnasnexus-pgag297)
 
 [Карточка работы](../../works/doi-10-1093-pnasnexus-pgag297.md) · [Экономика](../index.md)
 

@@ -2,14 +2,14 @@
 id: "catalog:2"
 type: "index"
 title: "Каталог работ: 51–100"
-html_url: "https://literary-review-and-society-production.up.railway.app/works"
+html_url: "https://literature-review.up.railway.app/works"
 ---
 
 # Каталог работ: 51–100
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
 
 - [Об этических аспектах генеративных агентов](arxiv-2411-19211.md) · 2024 · ID: arxiv-2411-19211 · направления: methodology
 - [От индивида к обществу: обзор социальной симуляции на основе агентов с большими языковыми моделями](arxiv-2412-03563.md) · 2024 · ID: arxiv-2412-03563 · направления: methodology

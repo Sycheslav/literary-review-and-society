@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2602.14299v2"
 source_version: "arXiv v2, 2026-02-18; presented at ACM CAIS 2026"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-caisconf-org-ab467b6f70/summary"
+html_url: "https://literature-review.up.railway.app/works/web-caisconf-org-ab467b6f70/summary"
 topics: ["memory","communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-caisconf-org-ab467b6f70/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-caisconf-org-ab467b6f70/summary)
 
 Редакционное изложение, не оригинал публикации.
 

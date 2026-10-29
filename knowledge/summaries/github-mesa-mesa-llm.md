@@ -8,7 +8,7 @@ source_status: "repository"
 source_url: "https://github.com/mesa/mesa-llm"
 source_version: "README on main, retrieved 2026-10-29; documentation v0.3.2 also consulted"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-mesa-mesa-llm/summary"
+html_url: "https://literature-review.up.railway.app/works/github-mesa-mesa-llm/summary"
 topics: ["platforms","methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms","methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-mesa-mesa-llm/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-mesa-mesa-llm/summary)
 
 Изложение документации проекта; возможности не равны экспериментально подтверждённым результатам.
 

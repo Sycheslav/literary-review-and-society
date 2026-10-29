@@ -7,7 +7,7 @@ status: "working_summary"
 source_status: "repository"
 source_url: "https://huggingface.co/datasets/Ayushnangia/moltbook-entropy-collapse-glm-5"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/summary"
+html_url: "https://literature-review.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/summary"
 topics: ["communities"]
 ---
 
@@ -15,7 +15,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/summary)
 
 Изложение документации проекта; возможности не равны экспериментально подтверждённым результатам.
 

@@ -9,7 +9,7 @@ kind: "review"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://ijassa.ipu.ru/index.php/ijassa/article/view/401"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9"
+html_url: "https://literature-review.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9"
 topics: ["methodology"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9)
 
 **Оригинальное название:** Mathematical Models of Informational and Strategic Reflexion: a Survey
 
@@ -67,4 +67,4 @@ topics: ["methodology"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9/text).

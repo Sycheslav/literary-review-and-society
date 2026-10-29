@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://ojs.aaai.org/index.php/AIES/article/view/43326"
 source_version: "опубликованная версия, AIES 2026, pp. 2517-2527"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-8dc2f386c9/summary"
+html_url: "https://literature-review.up.railway.app/works/web-ojs-aaai-org-8dc2f386c9/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ojs-aaai-org-8dc2f386c9/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ojs-aaai-org-8dc2f386c9/summary)
 
 Редакционное изложение, не оригинал публикации.
 

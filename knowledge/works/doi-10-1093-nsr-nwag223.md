@@ -9,7 +9,7 @@ kind: "research"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://doi.org/10.1093/nsr/nwag223"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-nsr-nwag223"
+html_url: "https://literature-review.up.railway.app/works/doi-10-1093-nsr-nwag223"
 topics: ["platforms"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-nsr-nwag223)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/doi-10-1093-nsr-nwag223)
 
 **Оригинальное название:** LLM agents overcome the machine penalty when acting fairly but not when acting selfishly or altruistically
 
@@ -79,4 +79,4 @@ topics: ["platforms"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-nsr-nwag223/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/doi-10-1093-nsr-nwag223/text).

@@ -8,7 +8,7 @@ kind: "web_material"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://www.hse.ru/edu/vkr/1160302618"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-hse-ru-3b14505d82"
+html_url: "https://literature-review.up.railway.app/works/web-hse-ru-3b14505d82"
 topics: ["games","methodology","intelligence"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["games","methodology","intelligence"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-hse-ru-3b14505d82)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-hse-ru-3b14505d82)
 
 **Авторы:** Шевчук-Генне Глеб Константинович (автор ВКР)  
 **Год:** 2026  
@@ -85,4 +85,4 @@ qwen-large, kimi-k2-thinking-turbo, claude-opus-4.5, gemini-2.5-pro, gemini-3-pr
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-hse-ru-3b14505d82/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-hse-ru-3b14505d82/text).

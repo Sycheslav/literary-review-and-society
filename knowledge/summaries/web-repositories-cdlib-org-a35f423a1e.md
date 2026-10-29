@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2507.22049v1"
 source_version: "arXiv v1, 2025-07-29"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/summary"
+html_url: "https://literature-review.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -2,22 +2,22 @@
 id: "economics"
 type: "economics"
 title: "Экономика исследований"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics"
+html_url: "https://literature-review.up.railway.app/economics"
 ---
 
 # Экономика исследований
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics)
 
 Снимок цен: 2026-10-29T13:49:25.139710+00:00; [источник](https://openrouter.ai/docs/api/api-reference/endpoints/list-all-endpoints-for-a-model). Это исторический снимок, не актуальная оферта.
 
 - [Тарифы моделей и провайдеров: исходный JSON](snapshot.json)
 - [Реестр свидетельств и проверок: JSON](evidence.json)
 - [Стоимость и время в концепции](../concept/cost.md)
-- [Формулы, единицы и правила калькулятора (HTML, доступен GET без JavaScript)](https://literary-review-and-society-production.up.railway.app/economics/methodology)
-- [Локальные модели и инфраструктура (HTML, доступен GET без JavaScript)](https://literary-review-and-society-production.up.railway.app/economics/infrastructure)
+- [Формулы, единицы и правила калькулятора (HTML, доступен GET без JavaScript)](https://literature-review.up.railway.app/economics/methodology)
+- [Локальные модели и инфраструктура (HTML, доступен GET без JavaScript)](https://literature-review.up.railway.app/economics/infrastructure)
 
 Неизвестные расходы не равны нулю. Различайте затраты прогона, серии и проекта, авторскую оценку и сообщённые расходы. Интерактивные калькуляторы требуют JavaScript; их пояснения доступны в HTML.
 

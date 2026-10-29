@@ -2,14 +2,14 @@
 id: "topic-networks"
 type: "topic"
 title: "Формирование сетей, связи, доверие и репутация"
-html_url: "https://literary-review-and-society-production.up.railway.app/topics/networks"
+html_url: "https://literature-review.up.railway.app/topics/networks"
 ---
 
 # Формирование сетей, связи, доверие и репутация
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/topics/networks)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/networks)
 
 ### Как возникают и измеряются связи
 

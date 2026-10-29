@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://iclr.cc/virtual/2026/10018190"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-iclr-cc-8e103da977"
+html_url: "https://literature-review.up.railway.app/works/web-iclr-cc-8e103da977"
 topics: ["methodology","economics"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology","economics"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-iclr-cc-8e103da977)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-iclr-cc-8e103da977)
 
 **Оригинальное название:** How LLMs Reshape Equilibrium in Auctions
 

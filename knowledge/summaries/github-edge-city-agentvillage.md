@@ -8,7 +8,7 @@ source_status: "repository"
 source_url: "https://github.com/Edge-City/agentvillage"
 source_version: "README snapshot retrieved 2026-10-29"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-edge-city-agentvillage/summary"
+html_url: "https://literature-review.up.railway.app/works/github-edge-city-agentvillage/summary"
 topics: ["communities","platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["communities","platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-edge-city-agentvillage/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-edge-city-agentvillage/summary)
 
 Изложение документации проекта; возможности не равны экспериментально подтверждённым результатам.
 

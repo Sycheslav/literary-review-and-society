@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2406.07155v3"
 source_version: "arXiv v3, 2025-03-17; ICLR 2025"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/openreview-gFrVsxAEO4/summary"
+html_url: "https://literature-review.up.railway.app/works/openreview-gFrVsxAEO4/summary"
 topics: ["platforms","memory","communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms","memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/openreview-gFrVsxAEO4/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/openreview-gFrVsxAEO4/summary)
 
 Редакционное изложение, не оригинал публикации.
 

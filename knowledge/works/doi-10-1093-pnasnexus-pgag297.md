@@ -9,7 +9,7 @@ kind: "research"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://doi.org/10.1093/pnasnexus/pgag297"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-pnasnexus-pgag297"
+html_url: "https://literature-review.up.railway.app/works/doi-10-1093-pnasnexus-pgag297"
 topics: ["networks","memory","influence","institutions"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks","memory","influence","institutions"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-pnasnexus-pgag297)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/doi-10-1093-pnasnexus-pgag297)
 
 **Оригинальное название:** How large language models judge and influence human cooperation
 
@@ -72,4 +72,4 @@ topics: ["networks","memory","influence","institutions"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/text).

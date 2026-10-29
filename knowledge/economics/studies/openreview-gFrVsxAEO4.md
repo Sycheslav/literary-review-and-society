@@ -3,7 +3,7 @@ id: "economics:openreview-gFrVsxAEO4"
 type: "economics"
 title: "Экономика: Масштабирование совместной работы мультиагентных систем на основе больших языковых моделей"
 work_id: "openreview-gFrVsxAEO4"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/openreview-gFrVsxAEO4"
+html_url: "https://literature-review.up.railway.app/economics/studies/openreview-gFrVsxAEO4"
 topics: ["platforms","memory","communities"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms","memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/openreview-gFrVsxAEO4)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/openreview-gFrVsxAEO4)
 
 [Карточка работы](../../works/openreview-gFrVsxAEO4.md) · [Экономика](../index.md)
 

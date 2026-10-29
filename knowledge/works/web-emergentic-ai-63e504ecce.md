@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://emergentic.ai/case-studies/agent-societies/supplement"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce"
+html_url: "https://literature-review.up.railway.app/works/web-emergentic-ai-63e504ecce"
 topics: ["communities"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-emergentic-ai-63e504ecce)
 
 **Оригинальное название:** Agent Societies: What do agents build when given a 3D world and no directive?
 
@@ -73,4 +73,4 @@ topics: ["communities"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-emergentic-ai-63e504ecce/text).

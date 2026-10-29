@@ -4,14 +4,14 @@ type: "concept"
 title: "8. Объединения и коллективная субъектность"
 chapter: 8
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/groups"
+html_url: "https://literature-review.up.railway.app/concept/groups"
 ---
 
 # 8. Объединения и коллективная субъектность
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/groups)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/groups)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

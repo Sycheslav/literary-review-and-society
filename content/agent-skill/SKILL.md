@@ -5,32 +5,53 @@ description: Ищите и читайте исследования о социу
 
 # Социумы ИИ-агентов — доступ к графу знаний
 
-Сайт: https://literary-review-and-society-production.up.railway.app
+Сайт: https://literature-review.up.railway.app
 
 Читайте обычными HTTP GET из командной строки или инструментом загрузки URL. Браузер, виртуальный экран, JavaScript и MCP-сервер для этого не нужны. Это рабочий литературный обзор и исследовательская концепция, а не отчёт о выполнении всех предложенных опытов.
 
-## С чего начать
+## Обязательная первичная ориентация
 
-- [Короткая точка входа /llms.txt](https://literary-review-and-society-production.up.railway.app/llms.txt)
-- [Карта набора](https://literary-review-and-society-production.up.railway.app/knowledge/index.md)
-- [Инструкция, схема поиска и скачивание](https://literary-review-and-society-production.up.railway.app/knowledge/guide.md)
-- [Главы концепции](https://literary-review-and-society-production.up.railway.app/knowledge/concept/index.md)
-- [Направления](https://literary-review-and-society-production.up.railway.app/knowledge/topics/index.md)
-- [Работы](https://literary-review-and-society-production.up.railway.app/knowledge/works/index.md)
-- [Эксперименты и гипотезы](https://literary-review-and-society-production.up.railway.app/knowledge/experiments/index.md)
-- [Экономика](https://literary-review-and-society-production.up.railway.app/knowledge/economics/index.md)
-- [Смысл связей](https://literary-review-and-society-production.up.railway.app/knowledge/relations.md)
+Перед поиском по сайту и первым содержательным ответом в новой беседе прочитайте следующие материалы через HTTP GET:
+
+1. Прочитайте [обзор исследований](https://literature-review.up.railway.app/knowledge/overview.md) целиком, включая выводы и ограничения.
+2. Просмотрите [оглавление концепции](https://literature-review.up.railway.app/knowledge/concept/index.md), затем прочитайте основные главы: [термины](https://literature-review.up.railway.app/knowledge/concept/terms.md), [проект](https://literature-review.up.railway.app/knowledge/concept/project.md), [цели и границы](https://literature-review.up.railway.app/knowledge/concept/goals.md), [связь с «Верхумом» и Лабораторией № 57](https://literature-review.up.railway.app/knowledge/concept/framework.md) и [методология](https://literature-review.up.railway.app/knowledge/concept/methodology.md).
+
+Прочитайте сами тексты ответов, не только названия и метаданные. После этой ориентации ищите материалы по конкретному вопросу и читайте связанные главы и карточки по мере необходимости. Сделайте это один раз в новой беседе; если эти тексты уже полностью есть в текущем контексте, повторно загружать их не нужно.
+
+Пример запросов:
+
+```bash
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/overview.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/index.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/terms.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/project.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/goals.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/framework.md'
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/concept/methodology.md'
+```
+
+## Дополнительные точки входа
+
+- [Короткая точка входа /llms.txt](https://literature-review.up.railway.app/llms.txt)
+- [Карта набора](https://literature-review.up.railway.app/knowledge/index.md)
+- [Инструкция, схема поиска и скачивание](https://literature-review.up.railway.app/knowledge/guide.md)
+- [Главы концепции](https://literature-review.up.railway.app/knowledge/concept/index.md)
+- [Направления](https://literature-review.up.railway.app/knowledge/topics/index.md)
+- [Работы](https://literature-review.up.railway.app/knowledge/works/index.md)
+- [Эксперименты и гипотезы](https://literature-review.up.railway.app/knowledge/experiments/index.md)
+- [Экономика](https://literature-review.up.railway.app/knowledge/economics/index.md)
+- [Смысл связей](https://literature-review.up.railway.app/knowledge/relations.md)
 
 Не загружайте весь корпус в контекст для одного вопроса. Выберите направление, найдите карточки и при необходимости прочитайте подробные изложения, на которые они ссылаются. Markdown-ссылки относительны URL текущего документа; та же структура работает в локальной папке knowledge/.
 
 ## Поиск командами
 
 ```bash
-curl --fail --get 'https://literary-review-and-society-production.up.railway.app/api/search' \
+curl --fail --get 'https://literature-review.up.railway.app/api/search' \
   --data-urlencode 'q=частн информац' --data-urlencode 'type=concept' --data-urlencode 'limit=5'
-curl --fail --get 'https://literary-review-and-society-production.up.railway.app/api/search' \
+curl --fail --get 'https://literature-review.up.railway.app/api/search' \
   --data-urlencode 'q=cooperation' --data-urlencode 'limit=5'
-curl --fail 'https://literary-review-and-society-production.up.railway.app/knowledge/concept/experiments.md'
+curl --fail 'https://literature-review.up.railway.app/knowledge/concept/experiments.md'
 ```
 
 В PowerShell используйте `curl.exe`, если `curl` обозначает псевдоним другой команды, либо `Invoke-RestMethod`.
@@ -44,11 +65,11 @@ curl --fail 'https://literary-review-and-society-production.up.railway.app/knowl
 Один файл без исходного кода сайта:
 
 ```bash
-curl --fail --location 'https://literary-review-and-society-production.up.railway.app/knowledge/bundle.json' --output ai-societies-data.json
-curl --fail --location 'https://literary-review-and-society-production.up.railway.app/knowledge/manifest.json' --output ai-societies-manifest.json
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/bundle.json' --output ai-societies-data.json
+curl --fail --location 'https://literature-review.up.railway.app/knowledge/manifest.json' --output ai-societies-manifest.json
 ```
 
-`bundle.json` содержит `schema_version`, `data_version`, массив `documents` с `path` и `text` (Markdown с YAML front matter), `graph` с узлами и типизированными рёбрами, `economics` и текст этого skill. Пути `documents[].path` относительны knowledge/. Сравните `data_version` с манифестом; для проверки скачивания вычислите SHA-256 файла и сравните с записью `bundle.json` в `manifest.files`. Для графовых запросов достаточно [graph.json](https://literary-review-and-society-production.up.railway.app/knowledge/graph.json). Старый [graph-data](https://literary-review-and-society-production.up.railway.app/graph-data) содержит координаты и прежний формат рёбер; семантика новых типов описана в relations.md.
+`bundle.json` содержит `schema_version`, `data_version`, массив `documents` с `path` и `text` (Markdown с YAML front matter), `graph` с узлами и типизированными рёбрами, `economics` и текст этого skill. Пути `documents[].path` относительны knowledge/. Сравните `data_version` с манифестом; для проверки скачивания вычислите SHA-256 файла и сравните с записью `bundle.json` в `manifest.files`. Для графовых запросов достаточно [graph.json](https://literature-review.up.railway.app/knowledge/graph.json). Старый [graph-data](https://literature-review.up.railway.app/graph-data) содержит координаты и прежний формат рёбер; семантика новых типов описана в relations.md.
 
 GitHub: [Sycheslav/literary-review-and-society, папка knowledge](https://github.com/Sycheslav/literary-review-and-society/tree/main/knowledge). Получение только папки данных в рабочее дерево:
 

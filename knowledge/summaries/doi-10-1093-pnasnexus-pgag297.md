@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://doi.org/10.1093/pnasnexus/pgag297"
 source_version: "PNAS Nexus, DOI 10.1093/pnasnexus/pgag297 (PMC13621558)"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/summary"
+html_url: "https://literature-review.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/summary"
 topics: ["networks","memory","influence","institutions"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks","memory","influence","institutions"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/doi-10-1093-pnasnexus-pgag297/summary)
 
 Редакционное изложение, не оригинал публикации.
 

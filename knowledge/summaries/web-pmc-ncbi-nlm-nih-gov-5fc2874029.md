@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4801235/"
 source_version: "PNAS 2016;113(11):2982-2987"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-5fc2874029/summary"
+html_url: "https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-5fc2874029/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-5fc2874029/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-5fc2874029/summary)
 
 Редакционное изложение, не оригинал публикации.
 

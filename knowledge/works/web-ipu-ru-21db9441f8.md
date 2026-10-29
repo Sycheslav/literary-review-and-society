@@ -8,7 +8,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://www.ipu.ru/node/83140"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ipu-ru-21db9441f8"
+html_url: "https://literature-review.up.railway.app/works/web-ipu-ru-21db9441f8"
 topics: ["platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ipu-ru-21db9441f8)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ipu-ru-21db9441f8)
 
 **Авторы:** ИПУ РАН  
 **Год:** 2026  

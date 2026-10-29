@@ -3,7 +3,7 @@ id: "economics:web-hse-ru-3b14505d82"
 type: "economics"
 title: "Экономика: Языковые модели как социальные агенты: экспериментальный анализ алайнмента в экономических играх"
 work_id: "web-hse-ru-3b14505d82"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-hse-ru-3b14505d82"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-hse-ru-3b14505d82"
 topics: ["games","methodology","intelligence"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["games","methodology","intelligence"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-hse-ru-3b14505d82)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-hse-ru-3b14505d82)
 
 [Карточка работы](../../works/web-hse-ru-3b14505d82.md) · [Экономика](../index.md)
 

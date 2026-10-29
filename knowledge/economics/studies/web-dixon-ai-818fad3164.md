@@ -3,7 +3,7 @@ id: "economics:web-dixon-ai-818fad3164"
 type: "economics"
 title: "Экономика: The Village: журнал действий и проверка заявлений LLM-жителей"
 work_id: "web-dixon-ai-818fad3164"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-dixon-ai-818fad3164"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-dixon-ai-818fad3164"
 topics: ["communities"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-dixon-ai-818fad3164)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-dixon-ai-818fad3164)
 
 [Карточка работы](../../works/web-dixon-ai-818fad3164.md) · [Экономика](../index.md)
 

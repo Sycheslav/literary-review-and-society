@@ -9,7 +9,7 @@ kind: "review"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://www.cambridge.org/core/product/B92267DC26195C7F36E63EA04A47D2FE"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d"
+html_url: "https://literature-review.up.railway.app/works/web-cambridge-org-47d8659e3d"
 topics: ["methodology"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-cambridge-org-47d8659e3d)
 
 **Оригинальное название:** Synthetic Replacements for Human Survey Data? The Perils of Large Language Models
 
@@ -79,4 +79,4 @@ topics: ["methodology"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-cambridge-org-47d8659e3d/text).

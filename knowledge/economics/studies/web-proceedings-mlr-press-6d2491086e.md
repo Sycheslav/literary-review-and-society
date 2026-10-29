@@ -3,7 +3,7 @@ id: "economics:web-proceedings-mlr-press-6d2491086e"
 type: "economics"
 title: "Экономика: CoopEval: сравнительная оценка механизмов поддержания кооперации и LLM-агентов в социальных дилеммах"
 work_id: "web-proceedings-mlr-press-6d2491086e"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-proceedings-mlr-press-6d2491086e"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-proceedings-mlr-press-6d2491086e"
 topics: ["networks"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-proceedings-mlr-press-6d2491086e)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-proceedings-mlr-press-6d2491086e)
 
 [Карточка работы](../../works/web-proceedings-mlr-press-6d2491086e.md) · [Экономика](../index.md)
 

@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://www.asc.upenn.edu/sites/default/files/2021-03/Experimental%20evidence%20for%20tipping%20points%20in%20social%20convention.pdf"
 source_version: "Science 360(6393), 1116-1119, 2018; complete PDF and supplement read online"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-asc-upenn-edu-1680a84f0f/summary"
+html_url: "https://literature-review.up.railway.app/works/web-asc-upenn-edu-1680a84f0f/summary"
 topics: ["coordination"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["coordination"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-asc-upenn-edu-1680a84f0f/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-asc-upenn-edu-1680a84f0f/summary)
 
 Редакционное изложение, не оригинал публикации.
 

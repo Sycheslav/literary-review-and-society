@@ -4,14 +4,14 @@ type: "concept"
 title: "1. Проект в нескольких абзацах"
 chapter: 1
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/project"
+html_url: "https://literature-review.up.railway.app/concept/project"
 ---
 
 # 1. Проект в нескольких абзацах
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/project)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/project)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

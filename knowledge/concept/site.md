@@ -4,14 +4,14 @@ type: "concept"
 title: "22. Содержательная структура будущего сайта"
 chapter: 22
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/site"
+html_url: "https://literature-review.up.railway.app/concept/site"
 ---
 
 # 22. Содержательная структура будущего сайта
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/site)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/site)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

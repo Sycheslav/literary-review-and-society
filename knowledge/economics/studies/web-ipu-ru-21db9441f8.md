@@ -3,7 +3,7 @@ id: "economics:web-ipu-ru-21db9441f8"
 type: "economics"
 title: "Экономика: Лаборатория №57 «Активных систем» ИПУ РАН: официальные направления"
 work_id: "web-ipu-ru-21db9441f8"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-ipu-ru-21db9441f8"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-ipu-ru-21db9441f8"
 topics: ["platforms"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-ipu-ru-21db9441f8)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-ipu-ru-21db9441f8)
 
 [Карточка работы](../../works/web-ipu-ru-21db9441f8.md) · [Экономика](../index.md)
 

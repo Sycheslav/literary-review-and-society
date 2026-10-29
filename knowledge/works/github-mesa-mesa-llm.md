@@ -8,7 +8,7 @@ kind: "project"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://github.com/mesa/mesa-llm"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-mesa-mesa-llm"
+html_url: "https://literature-review.up.railway.app/works/github-mesa-mesa-llm"
 topics: ["platforms","methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms","methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-mesa-mesa-llm)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-mesa-mesa-llm)
 
 **Оригинальное название:** mesa/mesa-llm
 
@@ -80,4 +80,4 @@ topics: ["platforms","methodology"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/github-mesa-mesa-llm/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/github-mesa-mesa-llm/text).

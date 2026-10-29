@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://dixon.ai/village/record/"
 source_version: "Live record and seasons page snapshot, 2026-10-29"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-dixon-ai-818fad3164/summary"
+html_url: "https://literature-review.up.railway.app/works/web-dixon-ai-818fad3164/summary"
 topics: ["communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-dixon-ai-818fad3164/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-dixon-ai-818fad3164/summary)
 
 Редакционное изложение, не оригинал публикации.
 

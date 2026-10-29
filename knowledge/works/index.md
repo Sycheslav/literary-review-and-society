@@ -2,16 +2,16 @@
 id: "works"
 type: "index"
 title: "Каталог исследований"
-html_url: "https://literary-review-and-society-production.up.railway.app/works"
+html_url: "https://literature-review.up.railway.app/works"
 ---
 
 # Каталог исследований
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
 
-Всего 281 работ. Для тематического поиска используйте [направления](../topics/index.md) или [HTTP-поиск](https://literary-review-and-society-production.up.railway.app/api/search?q=cooperation).
+Всего 281 работ. Для тематического поиска используйте [направления](../topics/index.md) или [HTTP-поиск](https://literature-review.up.railway.app/api/search?q=cooperation).
 
 - [acl-2024.emnlp-main.7 … arxiv-2411-12977](catalog-01.md)
 - [arxiv-2411-19211 … arxiv-2507-21166](catalog-02.md)

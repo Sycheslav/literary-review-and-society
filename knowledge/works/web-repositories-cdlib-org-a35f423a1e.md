@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://repositories.cdlib.org/uc/item/6dg1f4s7"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e"
+html_url: "https://literature-review.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e"
 topics: ["methodology"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e)
 
 **Оригинальное название:** Validating Generative Agent-Based Models of Social Norm Enforcement: From Replication to Novel Predictions
 
@@ -79,4 +79,4 @@ topics: ["methodology"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-repositories-cdlib-org-a35f423a1e/text).

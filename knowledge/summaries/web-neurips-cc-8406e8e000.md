@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2610.31971"
 source_version: "arXiv v1, 2026-10-22; related to SocialAgent@NeurIPS 2026 poster under earlier title"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-8406e8e000/summary"
+html_url: "https://literature-review.up.railway.app/works/web-neurips-cc-8406e8e000/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-neurips-cc-8406e8e000/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-neurips-cc-8406e8e000/summary)
 
 Редакционное изложение, не оригинал публикации.
 

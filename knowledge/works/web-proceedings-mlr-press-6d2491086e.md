@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://proceedings.mlr.press/v306/tewolde26a.html"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e"
+html_url: "https://literature-review.up.railway.app/works/web-proceedings-mlr-press-6d2491086e"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-proceedings-mlr-press-6d2491086e)
 
 **Оригинальное название:** CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas
 
@@ -69,4 +69,4 @@ CoopEval сравнивает повторение (repetition), репутац�
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/text).

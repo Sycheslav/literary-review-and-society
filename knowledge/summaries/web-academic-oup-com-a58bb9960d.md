@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2402.10659v7"
 source_version: "arXiv v7, 2025-10-05; accepted at PNAS Nexus"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-academic-oup-com-a58bb9960d/summary"
+html_url: "https://literature-review.up.railway.app/works/web-academic-oup-com-a58bb9960d/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-academic-oup-com-a58bb9960d/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-academic-oup-com-a58bb9960d/summary)
 
 Редакционное изложение, не оригинал публикации.
 

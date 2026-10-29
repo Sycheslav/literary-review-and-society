@@ -9,7 +9,7 @@ kind: "research"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6884058"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-papers-ssrn-com-035b5e222b"
+html_url: "https://literature-review.up.railway.app/works/web-papers-ssrn-com-035b5e222b"
 topics: ["platforms"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-papers-ssrn-com-035b5e222b)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-papers-ssrn-com-035b5e222b)
 
 **Оригинальное название:** When Talk is not Cheap: Communication and Agency Problems in LLM Agents
 

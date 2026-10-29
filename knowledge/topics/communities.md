@@ -2,14 +2,14 @@
 id: "topic-communities"
 type: "topic"
 title: "Реальные агентные сообщества и практические эксперименты"
-html_url: "https://literary-review-and-society-production.up.railway.app/topics/communities"
+html_url: "https://literature-review.up.railway.app/topics/communities"
 ---
 
 # Реальные агентные сообщества и практические эксперименты
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/topics/communities)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/communities)
 
 ### Сообщества за пределами контролируемой симуляции
 

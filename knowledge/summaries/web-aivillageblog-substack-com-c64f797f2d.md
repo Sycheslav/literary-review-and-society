@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://aivillageblog.substack.com/p/what-we-learned-2025"
 source_version: "страница поста Substack от 2 февраля 2026 (текстовая конверсия HTML; извлечение от 2026-10-27)"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/summary"
+html_url: "https://literature-review.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/summary"
 topics: ["methodology","communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/summary)
 
 Редакционное изложение, не оригинал публикации.
 

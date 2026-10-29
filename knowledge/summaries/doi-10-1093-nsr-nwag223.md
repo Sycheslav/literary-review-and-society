@@ -7,7 +7,7 @@ status: "working_summary"
 source_status: "fulltext"
 source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13192581/"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-nsr-nwag223/summary"
+html_url: "https://literature-review.up.railway.app/works/doi-10-1093-nsr-nwag223/summary"
 topics: ["platforms"]
 ---
 
@@ -15,7 +15,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/doi-10-1093-nsr-nwag223/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/doi-10-1093-nsr-nwag223/summary)
 
 Редакционное изложение, не оригинал публикации.
 

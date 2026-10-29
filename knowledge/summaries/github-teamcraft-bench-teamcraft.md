@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://arxiv.org/html/2412.05255"
 source_version: "arXiv:2412.05255v1, 2024-12-06"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-teamcraft-bench-teamcraft/summary"
+html_url: "https://literature-review.up.railway.app/works/github-teamcraft-bench-teamcraft/summary"
 topics: ["games","platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["games","platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-teamcraft-bench-teamcraft/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-teamcraft-bench-teamcraft/summary)
 
 Редакционное изложение, не оригинал публикации.
 

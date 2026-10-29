@@ -3,7 +3,7 @@ id: "economics:web-ojs-aaai-org-8dc2f386c9"
 type: "economics"
 title: "Экономика: Симуляция как алиби: как общественный порядок передаётся на аутсорсинг агентам LLM"
 work_id: "web-ojs-aaai-org-8dc2f386c9"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-ojs-aaai-org-8dc2f386c9"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-ojs-aaai-org-8dc2f386c9"
 topics: ["methodology"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-ojs-aaai-org-8dc2f386c9)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-ojs-aaai-org-8dc2f386c9)
 
 [Карточка работы](../../works/web-ojs-aaai-org-8dc2f386c9.md) · [Экономика](../index.md)
 

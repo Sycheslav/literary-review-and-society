@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
 source_version: "Political Analysis 32(4), 2024; опубликованная версия (DOI 10.1017/pan.2024.5)"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d/summary"
+html_url: "https://literature-review.up.railway.app/works/web-cambridge-org-47d8659e3d/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-cambridge-org-47d8659e3d/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -3,7 +3,7 @@ id: "economics:web-papers-ssrn-com-035b5e222b"
 type: "economics"
 title: "Экономика: Когда слова чего-то стоят: проблемы коммуникации и агентских отношений в LLM-агентах"
 work_id: "web-papers-ssrn-com-035b5e222b"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-papers-ssrn-com-035b5e222b"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-papers-ssrn-com-035b5e222b"
 topics: ["platforms"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-papers-ssrn-com-035b5e222b)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-papers-ssrn-com-035b5e222b)
 
 [Карточка работы](../../works/web-papers-ssrn-com-035b5e222b.md) · [Экономика](../index.md)
 

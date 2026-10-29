@@ -9,7 +9,7 @@ kind: "research"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://academic.oup.com/pnasnexus/article/4/12/pgaf317/8361967"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-academic-oup-com-a58bb9960d"
+html_url: "https://literature-review.up.railway.app/works/web-academic-oup-com-a58bb9960d"
 topics: ["networks"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-academic-oup-com-a58bb9960d)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-academic-oup-com-a58bb9960d)
 
 **Оригинальное название:** Network formation and dynamics among multi-LLMs
 
@@ -69,4 +69,4 @@ topics: ["networks"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-academic-oup-com-a58bb9960d/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-academic-oup-com-a58bb9960d/text).

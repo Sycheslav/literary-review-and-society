@@ -3,7 +3,7 @@ id: "economics:web-asc-upenn-edu-1680a84f0f"
 type: "economics"
 title: "Экономика: Экспериментальные данные о точках перелома в социальной конвенции (tipping points)"
 work_id: "web-asc-upenn-edu-1680a84f0f"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-asc-upenn-edu-1680a84f0f"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-asc-upenn-edu-1680a84f0f"
 topics: ["coordination"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["coordination"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-asc-upenn-edu-1680a84f0f)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-asc-upenn-edu-1680a84f0f)
 
 [Карточка работы](../../works/web-asc-upenn-edu-1680a84f0f.md) · [Экономика](../index.md)
 

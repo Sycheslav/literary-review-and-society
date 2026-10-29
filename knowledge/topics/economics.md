@@ -2,14 +2,14 @@
 id: "topic-economics"
 type: "topic"
 title: "Экономические игры, рынки, стимулы и сговор"
-html_url: "https://literary-review-and-society-production.up.railway.app/topics/economics"
+html_url: "https://literature-review.up.railway.app/topics/economics"
 ---
 
 # Экономические игры, рынки, стимулы и сговор
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/topics/economics)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/economics)
 
 ### Стратегическое поведение и стимулы
 

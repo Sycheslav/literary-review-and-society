@@ -4,14 +4,14 @@ type: "concept"
 title: "5. Основной сценарий: сообщество прогнозистов"
 chapter: 5
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/forecasting"
+html_url: "https://literature-review.up.railway.app/concept/forecasting"
 ---
 
 # 5. Основной сценарий: сообщество прогнозистов
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/forecasting)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/forecasting)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

@@ -8,7 +8,7 @@ source_status: "limited"
 source_url: "https://openreview.net/pdf?id=ovNjAsvBu7"
 source_version: "OpenReview paper PDF, indexed first page and abstract inspected 2026-10-29"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-iclr-cc-8e103da977/summary"
+html_url: "https://literature-review.up.railway.app/works/web-iclr-cc-8e103da977/summary"
 topics: ["methodology","economics"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","economics"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-iclr-cc-8e103da977/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-iclr-cc-8e103da977/summary)
 
 Ограниченное изложение по доступным источникам: полный текст не прочитан.
 

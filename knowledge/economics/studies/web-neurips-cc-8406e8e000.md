@@ -3,7 +3,7 @@ id: "economics:web-neurips-cc-8406e8e000"
 type: "economics"
 title: "Экономика: Модели доверия в повторяющихся многосторонних переговорах"
 work_id: "web-neurips-cc-8406e8e000"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-neurips-cc-8406e8e000"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-neurips-cc-8406e8e000"
 topics: ["networks"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-neurips-cc-8406e8e000)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-neurips-cc-8406e8e000)
 
 [Карточка работы](../../works/web-neurips-cc-8406e8e000.md) · [Экономика](../index.md)
 

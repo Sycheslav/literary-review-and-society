@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/REPORT.md"
 source_version: "v1.0; observation run 2026-07-21"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/github-monocolachannel-project-will-observation-1/summary"
+html_url: "https://literature-review.up.railway.app/works/github-monocolachannel-project-will-observation-1/summary"
 topics: ["methodology","institutions","games","communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","institutions","games","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/github-monocolachannel-project-will-observation-1/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-monocolachannel-project-will-observation-1/summary)
 
 Редакционное изложение, не оригинал публикации.
 

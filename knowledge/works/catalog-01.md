@@ -2,14 +2,14 @@
 id: "catalog:1"
 type: "index"
 title: "Каталог работ: 1–50"
-html_url: "https://literary-review-and-society-production.up.railway.app/works"
+html_url: "https://literature-review.up.railway.app/works"
 ---
 
 # Каталог работ: 1–50
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
 
 - [Исследование социума агентов на основе LLM: сотрудничество и противостояние в игре Avalon](acl-2024.emnlp-main.7.md) · 2024 · ID: acl-2024.emnlp-main.7 · направления: games, communities
 - [Спонтанная щедрость и расчётливая жадность в языковых моделях](acl-2025.emnlp-main.267.md) · 2025 · ID: acl-2025.emnlp-main.267 · направления: games, institutions

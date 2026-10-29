@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12627210/"
 source_version: "Journal article, DOI 10.1007/s10462-025-11412-6"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary"
+html_url: "https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary)
 
 Редакционное изложение, не оригинал публикации.
 

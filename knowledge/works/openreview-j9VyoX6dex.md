@@ -9,7 +9,7 @@ kind: "research"
 importance: "core"
 status: "working_summary"
 source_url: "https://openreview.net/forum?id=j9VyoX6dex"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/openreview-j9VyoX6dex"
+html_url: "https://literature-review.up.railway.app/works/openreview-j9VyoX6dex"
 topics: ["methodology","memory"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology","memory"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/openreview-j9VyoX6dex)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/openreview-j9VyoX6dex)
 
 **Оригинальное название:** ORALMEM: Post-Witness Collective Memory in LLM Societies
 

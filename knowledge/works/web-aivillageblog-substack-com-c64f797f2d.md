@@ -9,7 +9,7 @@ kind: "web_material"
 importance: "peripheral"
 status: "working_summary"
 source_url: "https://aivillageblog.substack.com/p/what-we-learned-2025"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d"
+html_url: "https://literature-review.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d"
 topics: ["methodology","communities"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d)
 
 **Оригинальное название:** What we learned from the AI Village in 2025
 
@@ -88,4 +88,4 @@ topics: ["methodology","communities"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/text).

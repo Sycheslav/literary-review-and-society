@@ -3,7 +3,7 @@ id: "economics:web-ojs-aaai-org-05ecebb82a"
 type: "economics"
 title: "Экономика: Языково обоснованная коэволюция мнений и связей: парное переподключение с агентами на основе больших языковых моделей"
 work_id: "web-ojs-aaai-org-05ecebb82a"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-ojs-aaai-org-05ecebb82a"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-ojs-aaai-org-05ecebb82a"
 topics: ["networks"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-ojs-aaai-org-05ecebb82a)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-ojs-aaai-org-05ecebb82a)
 
 [Карточка работы](../../works/web-ojs-aaai-org-05ecebb82a.md) · [Экономика](../index.md)
 

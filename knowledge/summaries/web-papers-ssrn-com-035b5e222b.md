@@ -8,7 +8,7 @@ source_status: "limited"
 source_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6884058"
 source_version: "SSRN page/abstract inspected 2026-10-29; 47-page paper advertised"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-papers-ssrn-com-035b5e222b/summary"
+html_url: "https://literature-review.up.railway.app/works/web-papers-ssrn-com-035b5e222b/summary"
 topics: ["platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-papers-ssrn-com-035b5e222b/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-papers-ssrn-com-035b5e222b/summary)
 
 Ограниченное изложение по доступным источникам: полный текст не прочитан.
 

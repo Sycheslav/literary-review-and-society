@@ -2,14 +2,14 @@
 id: "guide"
 type: "guide"
 title: "Как читать и скачать граф"
-html_url: "https://literary-review-and-society-production.up.railway.app/"
+html_url: "https://literature-review.up.railway.app/"
 ---
 
 # Как читать и скачать граф
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/)
+[К индексу](index.md) · [Страница сайта](https://literature-review.up.railway.app/)
 
 ## Чтение
 
@@ -17,7 +17,7 @@ html_url: "https://literary-review-and-society-production.up.railway.app/"
 
 ## Поиск
 
-GET https://literary-review-and-society-production.up.railway.app/api/search?q=cooperation&limit=5
+GET https://literature-review.up.railway.app/api/search?q=cooperation&limit=5
 
 Параметры: q (2–200 символов), limit (1–50, по умолчанию 10), offset (0–10000), type (work, summary, topic, concept, economics, overview, guide, index), topic (ID направления). Ответ: schema_version, data_version, total, offset, next_offset, results; каждый результат содержит id, type, title, snippet, markdown_url, html_url. Токены запроса объединяются условием AND, без учёта регистра и ё/е, без морфологии и семантических синонимов. При пустом ответе сократите запрос или смените язык. Ошибки параметров — 400; локальное ограничение 60 запросов/мин на адрес — 429 с Retry-After. Лимит действует на процесс, не является распределённой защитой.
 

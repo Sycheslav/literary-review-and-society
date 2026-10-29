@@ -7,7 +7,7 @@ status: "working_summary"
 source_status: "fulltext"
 source_url: "https://emergentic.ai/case-studies/agent-societies/supplement"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce/summary"
+html_url: "https://literature-review.up.railway.app/works/web-emergentic-ai-63e504ecce/summary"
 topics: ["communities"]
 ---
 
@@ -15,7 +15,7 @@ topics: ["communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-emergentic-ai-63e504ecce/summary)
 
 Редакционное изложение, не оригинал публикации.
 

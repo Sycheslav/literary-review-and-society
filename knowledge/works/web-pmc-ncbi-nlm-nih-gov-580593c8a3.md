@@ -9,7 +9,7 @@ kind: "research"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3"
+html_url: "https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3"
 topics: ["methodology","intelligence"]
 ---
 
@@ -17,7 +17,7 @@ topics: ["methodology","intelligence"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3)
 
 **Оригинальное название:** Wisdom of the silicon crowd: LLM ensemble prediction capabilities rival human crowd accuracy
 
@@ -76,4 +76,4 @@ topics: ["methodology","intelligence"]
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/text).

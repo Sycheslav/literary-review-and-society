@@ -3,7 +3,7 @@ id: "economics:web-andonlabs-com-8ab433b48d"
 type: "economics"
 title: "Экономика: Vending-Bench Arena"
 work_id: "web-andonlabs-com-8ab433b48d"
-html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-andonlabs-com-8ab433b48d"
+html_url: "https://literature-review.up.railway.app/economics/studies/web-andonlabs-com-8ab433b48d"
 topics: ["resources"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["resources"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-andonlabs-com-8ab433b48d)
+[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/web-andonlabs-com-8ab433b48d)
 
 [Карточка работы](../../works/web-andonlabs-com-8ab433b48d.md) · [Экономика](../index.md)
 

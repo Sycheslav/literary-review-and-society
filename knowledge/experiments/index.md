@@ -2,14 +2,14 @@
 id: "experiments"
 type: "index"
 title: "Эксперименты и гипотезы проекта"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/experiments"
+html_url: "https://literature-review.up.railway.app/concept/experiments"
 ---
 
 # Эксперименты и гипотезы проекта
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/experiments)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/experiments)
 
 Это предложения проекта, а не результаты экспериментов. Самостоятельные карточки линий и редакторские связи с публикациями пока не созданы.
 

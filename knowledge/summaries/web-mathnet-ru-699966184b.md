@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://www.mathnet.ru/at3151"
 source_version: "Автоматика и телемеханика, 1996, № 3, pp. 3–25"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-mathnet-ru-699966184b/summary"
+html_url: "https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-mathnet-ru-699966184b/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -4,14 +4,14 @@ type: "concept"
 title: "10. Режимы исследования организации"
 chapter: 10
 status: "project_proposal"
-html_url: "https://literary-review-and-society-production.up.railway.app/concept/organization"
+html_url: "https://literature-review.up.railway.app/concept/organization"
 ---
 
 # 10. Режимы исследования организации
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/concept/organization)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/organization)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

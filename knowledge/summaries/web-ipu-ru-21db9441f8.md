@@ -8,7 +8,7 @@ source_status: "limited"
 source_url: "https://www.ipu.ru/node/83140"
 source_version: "Official institutional profile checked 2026-10-29; related researcher publications page also checked"
 prepared_at: "2026-10-29"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-ipu-ru-21db9441f8/summary"
+html_url: "https://literature-review.up.railway.app/works/web-ipu-ru-21db9441f8/summary"
 topics: ["platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-ipu-ru-21db9441f8/summary)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ipu-ru-21db9441f8/summary)
 
 Ограниченное изложение по доступным источникам: полный текст не прочитан.
 

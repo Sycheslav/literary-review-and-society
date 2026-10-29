@@ -8,7 +8,7 @@ kind: "web_material"
 importance: "supporting"
 status: "working_summary"
 source_url: "https://andonlabs.com/evals/vending-bench-arena"
-html_url: "https://literary-review-and-society-production.up.railway.app/works/web-andonlabs-com-8ab433b48d"
+html_url: "https://literature-review.up.railway.app/works/web-andonlabs-com-8ab433b48d"
 topics: ["resources"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["resources"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/works/web-andonlabs-com-8ab433b48d)
+[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-andonlabs-com-8ab433b48d)
 
 **Авторы:** Andon Labs  
 **Год:** 2025  
@@ -71,4 +71,4 @@ Andon представляет Arena как первую многомодель�
 
 ## Полный текст
 
-Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-andonlabs-com-8ab433b48d/text).
+Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-andonlabs-com-8ab433b48d/text).
