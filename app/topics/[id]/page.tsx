@@ -28,6 +28,7 @@ export default async function TopicPage({ params }: Props) {
           <Link href="/topics">Направления</Link>
         </nav>
         <h1 className="page-title">{topic.title}</h1>
+        <p><a href={`/knowledge/topics/${topic.id}.md`}>Markdown для ИИ-агентов</a></p>
         <p className="page-sub">
           {topic.count} {worksWord(topic.count)}
           {topic.core > 0 ? `, из них ${topic.core} ключевых` : ""}

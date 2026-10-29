@@ -1,0 +1,22 @@
+---
+id: "economics:web-mlsd2025-ipu-ru-044255dc4c"
+type: "economics"
+title: "Экономика: Теория аргументационных коммуникаций и большие языковые модели"
+work_id: "web-mlsd2025-ipu-ru-044255dc4c"
+html_url: "https://literary-review-and-society-production.up.railway.app/economics/studies/web-mlsd2025-ipu-ru-044255dc4c"
+topics: ["memory"]
+---
+
+# Экономика: Теория аргументационных коммуникаций и большие языковые модели
+
+Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
+
+[К индексу](../../index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/economics/studies/web-mlsd2025-ipu-ru-044255dc4c)
+
+[Карточка работы](../../works/web-mlsd2025-ipu-ru-044255dc4c.md) · [Экономика](../index.md)
+
+Отдельная сверка расходов по первоисточнику не зарегистрирована.
+
+## Сведения карточки
+
+Расходы на API или вычисления (compute), токены и тарифы не указаны.

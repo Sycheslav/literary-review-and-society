@@ -6,7 +6,12 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "knowledge:build": "node scripts/build-agent-knowledge.mjs",
+    "knowledge:check": "node scripts/check-agent-knowledge.mjs",
+    "knowledge:test": "node scripts/test-agent-http.mjs",
+    "predev": "npm run knowledge:build",
     "dev": "next dev",
+    "prebuild": "npm run knowledge:build && npm run knowledge:check",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
