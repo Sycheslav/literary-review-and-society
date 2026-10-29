@@ -1,6 +1,6 @@
 import GraphView from "../components/GraphView";
 
-export const metadata = { title: "Карта связей" };
+export const metadata = { title: "Граф знаний" };
 
 export default function GraphPage() {
   return (

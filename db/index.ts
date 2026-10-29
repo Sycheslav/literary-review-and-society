@@ -18,8 +18,17 @@ async function prepareDatabase(client: ReturnType<typeof postgres>) {
       author_name TEXT NOT NULL,
       body TEXT NOT NULL,
       selected_quote TEXT,
+      anchor_offset INTEGER,
+      anchor_prefix TEXT,
+      anchor_suffix TEXT,
       created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
     )
+  `);
+  await client.unsafe(`
+    ALTER TABLE literary_review.comments
+      ADD COLUMN IF NOT EXISTS anchor_offset INTEGER,
+      ADD COLUMN IF NOT EXISTS anchor_prefix TEXT,
+      ADD COLUMN IF NOT EXISTS anchor_suffix TEXT
   `);
   await client.unsafe(`
     CREATE INDEX IF NOT EXISTS comments_target_created_idx

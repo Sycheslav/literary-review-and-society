@@ -3,6 +3,7 @@ export const COMMENT_LIMITS = {
   authorName: 80,
   body: 4_000,
   selectedQuote: 1_000,
+  anchorContext: 120,
   requestBytes: 8_192,
 } as const;
 
@@ -11,6 +12,9 @@ export type NewComment = {
   authorName: string;
   body: string;
   selectedQuote: string | null;
+  anchorOffset: number | null;
+  anchorPrefix: string | null;
+  anchorSuffix: string | null;
 };
 
 type ValidationResult =
@@ -27,6 +31,13 @@ function cleanText(value: string) {
     .replace(/\r\n?/g, "\n")
     .replace(CONTROL_CHARACTERS, "")
     .trim();
+}
+
+function cleanContext(value: string) {
+  return value
+    .normalize("NFC")
+    .replace(/\r\n?/g, "\n")
+    .replace(CONTROL_CHARACTERS, "");
 }
 
 function hasValidLength(value: string, maximum: number) {
@@ -62,6 +73,23 @@ export function validateNewComment(input: unknown): ValidationResult {
   ) {
     return { ok: false, error: "selectedQuote must be a string" };
   }
+  for (const field of ["anchorPrefix", "anchorSuffix"] as const) {
+    const value = payload[field];
+    if (value !== undefined && value !== null && typeof value !== "string") {
+      return { ok: false, error: `${field} must be a string` };
+    }
+  }
+  const rawAnchorOffset = payload.anchorOffset;
+  if (
+    rawAnchorOffset !== undefined &&
+    rawAnchorOffset !== null &&
+    (typeof rawAnchorOffset !== "number" ||
+      !Number.isSafeInteger(rawAnchorOffset) ||
+      rawAnchorOffset < 0 ||
+      rawAnchorOffset > 2_147_483_647)
+  ) {
+    return { ok: false, error: "anchorOffset must be a non-negative integer" };
+  }
 
   const targetId = normalizeTargetId(payload.targetId);
   if (!targetId) {
@@ -93,7 +121,20 @@ export function validateNewComment(input: unknown): ValidationResult {
     };
   }
 
-  if ([authorName, body, selectedQuote ?? ""].some((value) => HTML_TAG.test(value))) {
+  const anchorPrefix = typeof payload.anchorPrefix === "string" ? cleanContext(payload.anchorPrefix) : null;
+  const anchorSuffix = typeof payload.anchorSuffix === "string" ? cleanContext(payload.anchorSuffix) : null;
+  if (
+    [anchorPrefix, anchorSuffix].some(
+      (value) => value !== null && !hasValidLength(value, COMMENT_LIMITS.anchorContext),
+    )
+  ) {
+    return {
+      ok: false,
+      error: `anchor context must be at most ${COMMENT_LIMITS.anchorContext} characters`,
+    };
+  }
+
+  if ([authorName, body].some((value) => HTML_TAG.test(value))) {
     return { ok: false, error: "HTML markup is not allowed" };
   }
 
@@ -104,6 +145,9 @@ export function validateNewComment(input: unknown): ValidationResult {
       authorName,
       body,
       selectedQuote: selectedQuote || null,
+      anchorOffset: typeof rawAnchorOffset === "number" ? rawAnchorOffset : null,
+      anchorPrefix,
+      anchorSuffix,
     },
   };
 }

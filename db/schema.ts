@@ -1,4 +1,4 @@
-import { index, pgSchema, serial, text, timestamp } from "drizzle-orm/pg-core";
+import { index, integer, pgSchema, serial, text, timestamp } from "drizzle-orm/pg-core";
 
 const literatureReview = pgSchema("literary_review");
 
@@ -10,6 +10,9 @@ export const comments = literatureReview.table(
     authorName: text("author_name").notNull(),
     body: text("body").notNull(),
     selectedQuote: text("selected_quote"),
+    anchorOffset: integer("anchor_offset"),
+    anchorPrefix: text("anchor_prefix"),
+    anchorSuffix: text("anchor_suffix"),
     createdAt: timestamp("created_at", { withTimezone: true, mode: "string" })
       .notNull()
       .defaultNow(),

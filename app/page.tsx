@@ -147,7 +147,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <div>
-              <h2 className="section-title">Карта связей</h2>
+              <h2 className="section-title">Граф знаний</h2>
               <p className="section-lead">
                 Тёмные узлы — направления, синие — работы. Щёлкните по узлу, чтобы увидеть его связи.
               </p>

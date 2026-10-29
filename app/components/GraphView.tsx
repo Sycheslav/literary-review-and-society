@@ -38,7 +38,7 @@ const SIZES = { core: 16, supporting: 10, peripheral: 7, topic: 24 };
 
 type Selected = { kind: "work"; work: GWork } | { kind: "topic"; topic: GTopic };
 
-export default function GraphView({ full = false }: { full?: boolean }) {
+export default function GraphView({ full = false, view }: { full?: boolean; view?: "topics" | "works" }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null);
   const highlightRef = useRef<(id: string | null) => void>(() => {});
@@ -246,6 +246,17 @@ export default function GraphView({ full = false }: { full?: boolean }) {
     });
   }
 
+  function focusTopic(topic: GTopic) {
+    const id = `topic-${topic.id}`;
+    setQuery("");
+    setSelected({ kind: "topic", topic });
+    highlightRef.current(id);
+    networkRef.current?.focus(id, {
+      scale: 1.4,
+      animation: { duration: 500, easingFunction: "easeInOutQuad" },
+    });
+  }
+
   function clearSelection() {
     setSelected(null);
     highlightRef.current(null);
@@ -253,7 +264,7 @@ export default function GraphView({ full = false }: { full?: boolean }) {
 
   return (
     <div className={full ? "graph graph-full" : "graph"}>
-      <div ref={containerRef} className="graph-canvas" aria-label="Карта связей между работами и направлениями" />
+      <div ref={containerRef} className="graph-canvas" aria-label="Граф знаний: работы и направления" />
 
       {!data && !error && <p className="graph-status">Загрузка карты…</p>}
       {error && <p className="graph-status">Не удалось загрузить карту. Обновите страницу.</p>}
@@ -283,6 +294,29 @@ export default function GraphView({ full = false }: { full?: boolean }) {
                   </button>
                 </li>
               ))}
+            </ul>
+          )}
+          {data && view && query.trim().length < 2 && (
+            <ul className="graph-search-results graph-browse">
+              {view === "topics"
+                ? data.topics.map((t) => (
+                    <li key={t.id}>
+                      <button type="button" onClick={() => focusTopic(t)}>
+                        <span>{t.title}</span>
+                        <small>
+                          {t.count} {worksWord(t.count)}
+                        </small>
+                      </button>
+                    </li>
+                  ))
+                : data.works.map((w) => (
+                    <li key={w.id}>
+                      <button type="button" onClick={() => focusWork(w)}>
+                        <span>{w.title}</span>
+                        <small>{[authorsShort(w.authors), w.year].filter(Boolean).join(", ")}</small>
+                      </button>
+                    </li>
+                  ))}
             </ul>
           )}
         </div>

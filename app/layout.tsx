@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PT_Sans, PT_Serif } from "next/font/google";
 import HoverPreview from "./components/HoverPreview";
-import SiteNav from "./components/SiteNav";
+import PageComments from "./components/PageComments";
+import SiteNav, { SiteSubNav } from "./components/SiteNav";
 import "./globals.css";
 
 const sans = PT_Sans({
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <input type="search" name="q" placeholder="Поиск работ" aria-label="Поиск работ" />
             </form>
           </div>
+          <SiteSubNav />
         </header>
         <main>{children}</main>
         <footer className="site-footer">
@@ -57,6 +59,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </p>
           </div>
         </footer>
+        <PageComments />
         <HoverPreview />
       </body>
     </html>

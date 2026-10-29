@@ -99,3 +99,7 @@ CoopEval сравнивает repetition, reputation, mediation и contract в �
 ## Происхождение записи
 
 - `исходники исследований лит обзор/Литературный обзор социумы LLM-агентов.md`, строка 114.
+
+## Подробное изложение на русском
+
+[Открыть изложение](../materials/web-proceedings-mlr-press-6d2491086e/summary.ru.md)

@@ -83,6 +83,9 @@ function toPublicComment(row: typeof comments.$inferSelect) {
     authorName: row.authorName,
     body: row.body,
     selectedQuote: row.selectedQuote,
+    anchorOffset: row.anchorOffset,
+    anchorPrefix: row.anchorPrefix,
+    anchorSuffix: row.anchorSuffix,
     createdAt: row.createdAt,
   };
 }
