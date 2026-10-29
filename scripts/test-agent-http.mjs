@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 
 const base = process.argv[2] ?? 'http://localhost:3000';
-const publicBase = 'https://literary-review-and-society-production.up.railway.app';
+const publicBase = 'https://literature-review.up.railway.app';
 const timeout = () => AbortSignal.timeout(60000);
 const local = url => url.replace(publicBase, base);
 async function get(p, init) { return fetch(p.startsWith('http') ? local(p) : base + p, { signal: timeout(), ...init }); }
