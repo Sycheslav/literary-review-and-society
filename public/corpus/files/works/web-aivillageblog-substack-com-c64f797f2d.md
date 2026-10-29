@@ -112,3 +112,7 @@ Claims: rumor list propagated to all agents; 64 deliberate fabrication instances
 ## Происхождение записи
 
 - `исходники исследований лит обзор/Литературный обзор социумы LLM-агентов.md`, строка 283.
+
+## Подробное изложение на русском
+
+[Открыть изложение](../materials/web-aivillageblog-substack-com-c64f797f2d/summary.ru.md)

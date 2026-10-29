@@ -1,0 +1,9 @@
+{
+  "work_id": "doi-10-4218-etrij-2026-0186",
+  "source_status": "limited",
+  "source_url": "https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2026-0186",
+  "source_path": "materials/doi-10-4218-etrij-2026-0186/fulltext.md",
+  "source_version": null,
+  "source_note": "Полный текст статьи не получен: страница издателя вернула HTTP 403. Изложение построено по HTML-снимку README репозитория https://github.com/int-park422/llm-multiagent-data-poisoning (fulltext.md, снимок от 2026-10-27). Методы, числа и выводы статьи не проверены по её тексту.",
+  "prepared_at": "2026-10-29"
+}

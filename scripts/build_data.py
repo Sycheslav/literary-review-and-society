@@ -53,6 +53,12 @@ def dump(name, value):
         json.dump(value, f, ensure_ascii=False, separators=(",", ":"))
 
 
+def is_placeholder(path):
+    # Unfinished retelling stubs must not be published as if they were ready.
+    with open(path, encoding="utf-8") as f:
+        return "ЗАГОТОВКА" in f.read()
+
+
 def card_sections(path):
     with open(os.path.join(CORPUS, "files", path), encoding="utf-8") as f:
         body = f.read().split("---", 2)[2]
@@ -142,7 +148,8 @@ def main():
         summary_candidates = ([text_path.rsplit("/", 1)[0] + "/summary.ru.md"] if text_path else [])
         summary_candidates.append(f"materials/{wid}/summary.ru.md")
         summary_path = next((p for p in summary_candidates
-                             if os.path.isfile(os.path.join(CORPUS, "files", p))), None)
+                             if os.path.isfile(os.path.join(CORPUS, "files", p))
+                             and not is_placeholder(os.path.join(CORPUS, "files", p))), None)
         summary_meta, summary_words = {}, 0
         if summary_path:
             with open(os.path.join(CORPUS, "files", summary_path), encoding="utf-8") as f:
