@@ -63,6 +63,10 @@ topics: ["communities"]
 
 - [Реальные агентные сообщества и практические эксперименты](../topics/communities.md) — belongs_to_topic.
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/dataset-ayushnangia-moltbook-entropy-collapse-glm-5.md). Статус источника: repository.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/text).

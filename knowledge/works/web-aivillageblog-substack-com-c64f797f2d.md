@@ -82,6 +82,10 @@ topics: ["methodology","communities"]
 - [Страница проекта](https://aivillageblog.substack.com/p/season-recap-agents-raise-2k)
 - [Страница проекта](https://github.com/ai-village-agents)
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-aivillageblog-substack-com-c64f797f2d.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-aivillageblog-substack-com-c64f797f2d/text).

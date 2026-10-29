@@ -73,6 +73,10 @@ topics: ["methodology"]
 
 - [Методология, валидация и сравнение с людьми](../topics/methodology.md) — belongs_to_topic.
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-cambridge-org-47d8659e3d.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-cambridge-org-47d8659e3d/text).

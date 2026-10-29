@@ -11,7 +11,7 @@ html_url: "https://literary-review-and-society-production.up.railway.app/"
 
 [К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/)
 
-Набор: 281 работ, 13 направлений, 23 глав и 157 подробных изложений.
+Набор: 281 работ, 13 направлений, 23 глав и 205 подробных изложений.
 
 - [Обзор и основные выводы](overview.md)
 - [Как пользоваться, поиск, HTTP и Git](guide.md)

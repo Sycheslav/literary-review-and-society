@@ -67,6 +67,10 @@ topics: ["communities"]
 
 - [Страница проекта](https://emergentic.ai/case-studies/agent-societies)
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-emergentic-ai-63e504ecce.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-emergentic-ai-63e504ecce/text).

@@ -80,6 +80,10 @@ topics: ["games","communities"]
 
 - [Код и материалы](https://github.com/cuboulder-ds/CSCI-5423-Final)
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-cuboulder-ds-github-io-8440afa966.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-cuboulder-ds-github-io-8440afa966/text).

@@ -81,6 +81,10 @@ GigaChat Lite (7B)
 
 - [Страница проекта](https://mai.ru/upload/iblock/570/yp5twfv09atj6vo6jxwt8l3z8p3dwuhn/17-_-newMchedlishvili-_-ISPOLZOVANIE-BOLSHIKH-YAZYKOVYKH-MODELEY-DLYA-IMITATSII-CHELOVECHESKOGO-POVEDENIYA-V-AEROPORTU.pdf)
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-elibrary-ru-21c8ac8b53.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-elibrary-ru-21c8ac8b53/text).

@@ -63,6 +63,10 @@ CoopEval сравнивает повторение (repetition), репутац�
 
 - [Формирование сетей, связи, доверие и репутация](../topics/networks.md) — belongs_to_topic.
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-proceedings-mlr-press-6d2491086e.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literary-review-and-society-production.up.railway.app/works/web-proceedings-mlr-press-6d2491086e/text).
