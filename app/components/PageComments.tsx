@@ -572,16 +572,18 @@ export default function PageComments() {
         </aside>
       )}
 
-      <button
-        type="button"
-        className={`page-comment-toggle${showComments ? " is-open" : ""}`}
-        onClick={() => setShowComments((open) => !open)}
-        aria-expanded={showComments}
-        aria-controls={showComments ? "page-comment-panel" : undefined}
-      >
-        {showComments ? "Скрыть комментарии" : "Комментарии"}
-        <span>{loading ? "…" : comments.length}</span>
-      </button>
+      {comments.length > 0 && (
+        <button
+          type="button"
+          className={`page-comment-toggle${showComments ? " is-open" : ""}`}
+          onClick={() => setShowComments((open) => !open)}
+          aria-expanded={showComments}
+          aria-controls={showComments ? "page-comment-panel" : undefined}
+        >
+          {showComments ? "Скрыть комментарии" : "Комментарии"}
+          <span>{comments.length}</span>
+        </button>
+      )}
     </div>
   );
 }
