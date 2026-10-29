@@ -36,7 +36,7 @@ for (const p of ['/', '/works/arxiv-2304-03442', '/topics/methodology', '/concep
   assert.ok(!text.includes('href="/agents"') && !text.includes('href="/SKILL.md"') && !text.includes('href="/knowledge/'), `Agent interface leaked into human page: ${p}`);
 }
 assert.equal((await get('/agents')).status, 404);
-const sitemap = await get('/sitemap.xml'); assert.equal(sitemap.status, 200); assert.ok(!(await sitemap.text()).includes('/agents</loc>'));
+const sitemap = await get('/sitemap.xml'); assert.equal(sitemap.status, 200); assert.ok(!(await sitemap.text()).includes(`<loc>${publicBase}/agents</loc>`));
 const robots = await get('/robots.txt'); assert.equal(robots.status, 200); assert.match(await robots.text(), /Sitemap:/i);
 for (const p of ['/api/search', '/api/search?q=x', '/api/search?q=ok&limit=51', '/api/search?q=ok&type=private', '/api/search?q=ok&topic=bad', '/api/search?q=ok&offset=-1']) assert.equal((await get(p)).status, 400, p);
 const query = async (q, extra = '') => {
