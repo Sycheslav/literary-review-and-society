@@ -74,6 +74,10 @@ topics: ["methodology","intelligence"]
 - [Методология, валидация и сравнение с людьми](../topics/methodology.md) — belongs_to_topic.
 - [Коллективный интеллект, дебаты и конформизм](../topics/intelligence.md) — belongs_to_topic.
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-pmc-ncbi-nlm-nih-gov-580593c8a3.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/text).

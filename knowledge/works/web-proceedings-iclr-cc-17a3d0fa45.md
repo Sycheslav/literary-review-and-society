@@ -63,6 +63,10 @@ topics: ["platforms"]
 
 - [Архитектуры, платформы и масштабирование](../topics/platforms.md) — belongs_to_topic.
 
+## Подробное изложение
+
+[Изложение на русском](../summaries/web-proceedings-iclr-cc-17a3d0fa45.md). Статус источника: fulltext.
+
 ## Полный текст
 
 Полные тексты третьих лиц в этот экспорт не входят: права на распространение в исходной схеме не указаны. Используйте ссылку на первоисточник или [уже существующую страницу оригинала на сайте](https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45/text).
