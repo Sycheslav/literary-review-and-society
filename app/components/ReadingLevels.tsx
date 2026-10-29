@@ -6,9 +6,6 @@ type Props = { id: string; detail: WorkDetail; current: "annotation" | "summary"
 export default function ReadingLevels({ id, detail, current }: Props) {
   return (
     <nav className="reading-levels" aria-label="Глубина чтения">
-      <a href={`/knowledge/${current === "summary" ? "summaries" : "works"}/${id}.md`}>
-        <small>Для ИИ-агентов</small><span>Markdown</span>
-      </a>
       <Link href={`/works/${id}`} aria-current={current === "annotation" ? "page" : undefined}>
         <small>1 · Кратко</small><span>Аннотация</span>
       </Link>

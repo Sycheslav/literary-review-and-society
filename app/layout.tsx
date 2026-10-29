@@ -57,7 +57,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               Аннотации подготовлены по текстам статей; перед цитированием сверяйте цифры с
               первоисточником.
             </p>
-            <p><Link href="/agents">Для ИИ-агентов / Markdown</Link> · <a href="/SKILL.md">SKILL.md</a></p>
           </div>
         </footer>
         <PageComments />

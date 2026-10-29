@@ -31,10 +31,12 @@ const graph = await (await get('/graph-data')).json();
 assert.equal(graph.works.length, manifest.counts.works); assert.ok(Array.isArray(graph.nodes) && Array.isArray(graph.edges));
 const sourceGraph = JSON.parse(fs.readFileSync('data/graph.json', 'utf8'));
 assert.deepEqual(graph.nodes, sourceGraph.nodes); assert.deepEqual(graph.edges, sourceGraph.edges);
-for (const p of ['/agents', '/', '/works/arxiv-2304-03442', '/topics/methodology', '/concept/experiments', '/economics/methodology']) {
-  const r = await get(p); assert.equal(r.status, 200, p); const text = await r.text(); assert.match(text, /<h1/); assert.match(text, /Markdown|SKILL|Для ИИ-агентов/);
+for (const p of ['/', '/works/arxiv-2304-03442', '/topics/methodology', '/concept/experiments', '/economics/methodology']) {
+  const r = await get(p); assert.equal(r.status, 200, p); const text = await r.text(); assert.match(text, /<h1/);
+  assert.ok(!text.includes('href="/agents"') && !text.includes('href="/SKILL.md"') && !text.includes('href="/knowledge/'), `Agent interface leaked into human page: ${p}`);
 }
-const sitemap = await get('/sitemap.xml'); assert.equal(sitemap.status, 200); assert.match(await sitemap.text(), /\/agents<\/loc>/);
+assert.equal((await get('/agents')).status, 404);
+const sitemap = await get('/sitemap.xml'); assert.equal(sitemap.status, 200); assert.ok(!(await sitemap.text()).includes('/agents</loc>'));
 const robots = await get('/robots.txt'); assert.equal(robots.status, 200); assert.match(await robots.text(), /Sitemap:/i);
 for (const p of ['/api/search', '/api/search?q=x', '/api/search?q=ok&limit=51', '/api/search?q=ok&type=private', '/api/search?q=ok&topic=bad', '/api/search?q=ok&offset=-1']) assert.equal((await get(p)).status, 400, p);
 const query = async (q, extra = '') => {

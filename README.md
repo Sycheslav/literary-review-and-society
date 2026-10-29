@@ -49,7 +49,7 @@ python scripts/build_concept.py   # после обновления content/conc
 
 ## Доступ для ИИ-агентов
 
-Страница `/agents` позволяет передать коллегам `/SKILL.md`. Агент читает весь опубликованный обзор по GET через `/llms.txt` и `/knowledge/index.md`, ищет через `/api/search?q=...`, скачивает только данные в `/knowledge/bundle.json` или папку `knowledge/` через Git sparse checkout. MCP не нужен. Граф JSON, статусы источников и версия SHA-256 входят в пакет; сторонние полные тексты в новый экспорт не включаются.
+Файл `/SKILL.md` передаётся коллегам отдельно; человеческий интерфейс сайта не изменяется. Агент читает опубликованный обзор по GET через `/llms.txt` и `/knowledge/index.md`, ищет через `/api/search?q=...`, скачивает только данные в `/knowledge/bundle.json` или папку `knowledge/` через Git sparse checkout. MCP не нужен. Граф JSON, статусы источников и версия SHA-256 входят в пакет; сторонние полные тексты в новый экспорт не включаются.
 
 Генерация: `npm run knowledge:build` (также перед `dev` и `build`); проверка данных и ссылок: `npm run knowledge:check`; HTTP-проверка: `npm run knowledge:test -- http://localhost:3000`. Источники, карта маршрутов, ограничения и публикация описаны в [content/agent-interface.md](content/agent-interface.md). Генерируемую папку `knowledge/` публикуйте вместе с исходными изменениями; вручную её не редактируйте.
 

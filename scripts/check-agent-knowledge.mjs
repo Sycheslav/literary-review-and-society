@@ -19,7 +19,7 @@ const parser = unified().use(remarkParse).use(remarkGfm);
 const errors = [];
 let links = 0;
 const origin = 'https://literary-review-and-society-production.up.railway.app';
-const html = new Set(['/', '/agents', '/concept', '/works', '/topics', '/graph', '/graph/topics', '/graph/works', '/economics', '/economics/models', '/economics/studies', '/economics/calculator', '/economics/infrastructure', '/economics/methodology', '/graph-data', '/llms.txt', '/SKILL.md']);
+const html = new Set(['/', '/concept', '/works', '/topics', '/graph', '/graph/topics', '/graph/works', '/economics', '/economics/models', '/economics/studies', '/economics/calculator', '/economics/infrastructure', '/economics/methodology', '/graph-data', '/llms.txt', '/SKILL.md']);
 for (const w of works) {
   html.add(`/works/${w.id}`); html.add(`/economics/studies/${w.id}`);
   if (details[w.id].summaryPath) html.add(`/works/${w.id}/summary`);

@@ -2,14 +2,14 @@
 id: "knowledge"
 type: "index"
 title: "Социумы ИИ-агентов: граф знаний"
-html_url: "https://literary-review-and-society-production.up.railway.app/agents"
+html_url: "https://literary-review-and-society-production.up.railway.app/"
 ---
 
 # Социумы ИИ-агентов: граф знаний
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/agents)
+[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/)
 
 Набор: 281 работ, 13 направлений, 23 глав и 157 подробных изложений.
 

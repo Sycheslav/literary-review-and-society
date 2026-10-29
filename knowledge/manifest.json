@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_version": "547306219e7d048bf30350d5017fe327d09b38ad3c5be87ef99257c5da9587a7",
+  "data_version": "eacf32a10178fd92524e90b3f21d166389f2f0d76f248c789032d871436cf3f6",
   "counts": {
     "works": 281,
     "topics": 13,
@@ -3879,23 +3879,23 @@
     },
     {
       "path": "guide.md",
-      "bytes": 5123,
-      "sha256": "7d573c880b35ed0a39cdf64c277dd81111263c42bfdaf8a9f2265d4bde605a15"
+      "bytes": 5111,
+      "sha256": "e36d6750c580a35d8cda3b09f633de0a892ee99c154f0d869b0e16122fd5a836"
     },
     {
       "path": "index.md",
-      "bytes": 1921,
-      "sha256": "beefa774ab3951d0f221a04fa6c23f4201beefa9194c48a1da50346754b5cee9"
+      "bytes": 1909,
+      "sha256": "49105f95de608f784131f961d1f7de8e8eff45d4fe7cb24f12ea77ba8305e594"
     },
     {
       "path": "bundle.json",
-      "bytes": 7950865,
-      "sha256": "712e273bd80c929efb6ef6bd86e13ded387eea8530132d5456a89028b2cca8b4"
+      "bytes": 7950829,
+      "sha256": "fda724dcbab968332c511f82ae9b5cb1032acf0baaf32c037bc652288a047231"
     },
     {
       "path": "llms.txt",
       "bytes": 2446,
-      "sha256": "4ca0ef2c6f860e7b7541e8e9690674ab2fcbec80c9d8f0d54ddc50bc58277590"
+      "sha256": "0916c012dee20c44430afc908f132690671faea64f9abeea6186c46ed323f4f5"
     }
   ]
 }

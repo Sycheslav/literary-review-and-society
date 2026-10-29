@@ -55,7 +55,6 @@ export default async function ChapterPage({ params }: Props) {
               Глава {chapter.num} из {chapters.length}
             </p>
             <h1 className="chapter-heading">{chapter.title}</h1>
-            <p><a href={`/knowledge/concept/${chapter.slug}.md`}>Markdown для ИИ-агентов</a></p>
             <Md className="chapter-text">{chapter.body}</Md>
 
             <nav className="chapter-pager" aria-label="Соседние главы">

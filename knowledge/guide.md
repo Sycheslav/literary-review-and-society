@@ -2,14 +2,14 @@
 id: "guide"
 type: "guide"
 title: "Как читать и скачать граф"
-html_url: "https://literary-review-and-society-production.up.railway.app/agents"
+html_url: "https://literary-review-and-society-production.up.railway.app/"
 ---
 
 # Как читать и скачать граф
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/agents)
+[К индексу](index.md) · [Страница сайта](https://literary-review-and-society-production.up.railway.app/)
 
 ## Чтение
 

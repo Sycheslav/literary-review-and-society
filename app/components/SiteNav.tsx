@@ -27,7 +27,6 @@ const SECTIONS: Section[] = [
   },
   { href: "/concept", label: "Концепция", roots: ["/concept"] },
   { href: "/economics", label: "Экономика", roots: ["/economics"] },
-  { href: "/agents", label: "Для ИИ-агентов", roots: ["/agents"] },
 ];
 
 function isUnder(pathname: string, root: string) {
