@@ -160,7 +160,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section" id="about">
+      <section className="section section-about" id="about">
         <div className="container narrow">
           <details className="about">
             <summary>Об обзоре и его ограничениях</summary>
@@ -186,16 +186,13 @@ export default function HomePage() {
                 Аннотации и разборы — пересказ, а не цитата. Перед использованием цифр в статье или
                 заявке сверяйте их с указанной таблицей первоисточника: версии препринтов меняются.
               </p>
-              <details style={{ marginTop: 24 }}>
-                <summary>Для ИИ-агентов</summary>
-                <p>
-                  Передайте файл агенту: в нём описано, как читать обзор, искать материалы и получать
-                  данные сайта.
-                </p>
-                <p>
-                  <a href="/SKILL.md" download="SKILL.md">Скачать SKILL.md</a>
-                </p>
-              </details>
+              <div className="agent-access">
+                <div>
+                  <p className="agent-access-title"><strong>Для ИИ-агентов</strong></p>
+                  <p>Передайте файл агенту, чтобы он мог читать обзор и искать материалы.</p>
+                </div>
+                <a href="/SKILL.md" download="SKILL.md">Скачать SKILL.md</a>
+              </div>
             </div>
           </details>
         </div>
