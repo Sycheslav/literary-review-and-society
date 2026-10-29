@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
 export type Importance = "core" | "supporting" | "peripheral";
@@ -81,6 +81,17 @@ export function readFullText(textPath: string) {
   const raw = readFileSync(file, "utf-8");
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?/);
   return match ? raw.slice(match[0].length) : raw;
+}
+
+export function readSummaryRu(textPath: string) {
+  const file = path.join(
+    process.cwd(),
+    "public",
+    "corpus",
+    "files",
+    textPath.replace(/fulltext\.md$/, "summary.ru.md")
+  );
+  return existsSync(file) ? readFileSync(file, "utf-8") : null;
 }
 
 export type ConceptChapter = {
