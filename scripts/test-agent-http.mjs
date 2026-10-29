@@ -49,9 +49,13 @@ const page2 = await query('agent', `&type=work&offset=${page1.next_offset}`);
 assert.ok(page1.results.every(a => page2.results.every(b => a.id !== b.id)));
 assert.equal((await query('zyxwvu987654321')).total, 0);
 const filtered = await query('agent', '&type=work&topic=methodology'); assert.ok(filtered.results.every(r => r.type === 'work'));
-for (let i = 0; i < 61; i++) {
-  const r = await get('/api/search?q=x', { headers: { 'X-Forwarded-For': '203.0.113.57' } });
-  if (i === 60) { assert.equal(r.status, 429); assert.ok(Number(r.headers.get('retry-after')) > 0); }
+// Exercise the limiter only against a local process, without exhausting the
+// caller's shared proxy address on the published site.
+if (['localhost', '127.0.0.1'].includes(new URL(base).hostname)) {
+  for (let i = 0; i < 61; i++) {
+    const r = await get('/api/search?q=x', { headers: { 'X-Forwarded-For': '203.0.113.57' } });
+    if (i === 60) { assert.equal(r.status, 429); assert.ok(Number(r.headers.get('retry-after')) > 0); }
+  }
 }
 
 // Agent-style acceptance: discover indexes from llms, follow them and read source
