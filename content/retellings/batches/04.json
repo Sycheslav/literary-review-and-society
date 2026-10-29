@@ -1,0 +1,376 @@
+[
+  {
+    "id": "arxiv-2501-00226",
+    "title": "Генеративная эмерджентная коммуникация: большая языковая модель как коллективная модель мира",
+    "original": "Generative Emergent Communication: Large Language Model is a Collective World Model",
+    "authors": [
+      "Tadahiro Taniguchi",
+      "Ryo Ueda",
+      "Tomoaki Nakamura",
+      "Masahiro Suzuki",
+      "Akira Taniguchi"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Generative EmCom формализует гипотезу коллективной модели мира: язык связывает частичные модели мира, возникающие в распределённом социальном взаимодействии.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2501-00226/fulltext.md",
+    "url": "https://arxiv.org/abs/2501.00226",
+    "cardPath": "works/arxiv-2501-00226.md"
+  },
+  {
+    "id": "arxiv-2507-01413",
+    "title": "Оценка сговора LLM-агентов в двойных аукционах",
+    "original": "Evaluating LLM Agent Collusion in Double Auctions",
+    "authors": [
+      "Kushal Agrawal",
+      "Verona Teo",
+      "Juan J. Vazquez",
+      "Sudarsh Kunnavakkam",
+      "Vishak Srikanth",
+      "Andy Liu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "economics",
+      "games"
+    ],
+    "importance": "core",
+    "summary": "В непрерывном двойном аукционе LLM-продавцы договариваются о высоких ценах; общение и срочность усиливают сговор, а надзор и ограничение сообщений его снижают.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-01413/fulltext.md",
+    "url": "https://arxiv.org/abs/2507.01413",
+    "cardPath": "works/arxiv-2507-01413.md"
+  },
+  {
+    "id": "arxiv-2503-13657",
+    "title": "Почему мультиагентные LLM-системы терпят неудачу?",
+    "original": "Why Do Multi-Agent LLM Systems Fail?",
+    "authors": [
+      "Mert Cemri",
+      "Melissa Z. Pan",
+      "Shuyi Yang",
+      "Lakshya A. Agrawal",
+      "Bhavya Chopra",
+      "Rishabh Tiwari",
+      "Kurt Keutzer",
+      "Aditya Parameswaran",
+      "Dan Klein",
+      "Kannan Ramchandran",
+      "Matei Zaharia",
+      "Joseph E. Gonzalez",
+      "Ion Stoica"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "methodology"
+    ],
+    "importance": "core",
+    "summary": "Таксономия MAST из 14 режимов отказа построена по более чем 1 600 трассам семи мультиагентных систем: значительная доля сбоев связана с проектированием систем и несогласованностью агентов, а не только с LLM.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2503-13657/fulltext.md",
+    "url": "https://arxiv.org/html/2503.13657v2",
+    "cardPath": "works/arxiv-2503-13657.md"
+  },
+  {
+    "id": "arxiv-2509-18052",
+    "title": "Принципы PIMMUR: обеспечение валидности коллективного поведения обществ LLM",
+    "original": "The PIMMUR Principles: Ensuring Validity in Collective Behavior of LLM Societies",
+    "authors": [
+      "Jiaxu Zhou",
+      "Jen-tse Huang",
+      "Xuhui Zhou",
+      "Man Ho Lam",
+      "Xintao Wang",
+      "Hao Zhu",
+      "Wenxuan Wang",
+      "Maarten Sap"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Аудит 576 симуляций LLM-обществ из 350 статей по шести критериям PIMMUR: более 91% нарушают хотя бы один; часть «эмерджентных» эффектов исчезает без явных подсказок.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-18052/fulltext.md",
+    "url": "https://arxiv.org/abs/2509.18052",
+    "cardPath": "works/arxiv-2509-18052.md"
+  },
+  {
+    "id": "arxiv-2508-15510",
+    "title": "Сверхаддитивное сотрудничество у агентов на основе языковых моделей",
+    "original": "Super-additive Cooperation in Language Model Agents",
+    "authors": [
+      "Filippo Tonini",
+      "Lukas Galke"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "В статье исследуется сверхаддитивность сотрудничества между языковыми агентами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-15510/fulltext.md",
+    "url": "https://arxiv.org/abs/2508.15510",
+    "cardPath": "works/arxiv-2508-15510.md"
+  },
+  {
+    "id": "arxiv-2505-11556",
+    "title": "Систематические сбои коллективного рассуждения при распределённой информации в мультиагентных LLM",
+    "original": "Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs",
+    "authors": [
+      "Yuxuan Li",
+      "Aoi Naito",
+      "Hirokazu Shirado"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "core",
+    "summary": "Бенчмарк HiddenBench (65 задач Hidden Profile): 15 LLM в группе дают 30,1% верных решений при распределённой информации против 80,7% у одиночки с полной информацией; сбой связан с неумением вскрывать скрытые факты.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-11556/fulltext.md",
+    "url": "https://arxiv.org/abs/2505.11556",
+    "cardPath": "works/arxiv-2505-11556.md"
+  },
+  {
+    "id": "arxiv-2504-17950",
+    "title": "Совместная работа действие за действием: многоагентная LLM-структура для воплощённых рассуждений",
+    "original": "Collaborating Action by Action: A Multi-agent LLM Framework for Embodied Reasoning",
+    "authors": [
+      "Isadora White",
+      "Kolby Nottingham",
+      "Ayush Maniar",
+      "Max Robinson",
+      "Hansen Lillemark",
+      "Mehul Maheshwari",
+      "Lianhui Qin",
+      "Prithviraj Ammanabrolu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "games",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "MINDcraft/MineCollab исследует совместное выполнение задач в Minecraft, где агенты добывают и передают предметы, создают вещи и должны координировать многошаговый план.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-17950/fulltext.md",
+    "url": "https://arxiv.org/abs/2504.17950",
+    "cardPath": "works/arxiv-2504-17950.md"
+  },
+  {
+    "id": "arxiv-2510-19299",
+    "title": "Учимся дружить: коучинг LLM-агентов к возникновению социальных связей",
+    "original": "Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties",
+    "authors": [
+      "Philipp J. Schneider",
+      "Lin Tian",
+      "Marian-Andrei Rizoiu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Сеть из 30 LLM-агентов в 15 раундах: при поведенческих наградах и тренере связи адаптируются и частично напоминают онлайн-сообщества, но мотивы социальности заданы наградами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-19299/fulltext.md",
+    "url": "https://arxiv.org/abs/2510.19299",
+    "cardPath": "works/arxiv-2510-19299.md"
+  },
+  {
+    "id": "doi-10-24963-ijcai-2025-1144",
+    "title": "Формирование общих языков: индуктивные смещения людей и больших языковых моделей в эмерджентной коммуникации",
+    "original": "Shaping Shared Languages: Human and Large Language Models’ Inductive Biases in Emergent Communication",
+    "authors": [
+      "Tom Kouwenhoven",
+      "Max Peeperkorn",
+      "Roy de Kleijn",
+      "Tessa Verhoef"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "platforms",
+      "memory",
+      "influence",
+      "methodology"
+    ],
+    "importance": "core",
+    "summary": "Исследование того, как люди и LLM используют индуктивные смещения при возникновении общего языка.",
+    "hasText": true,
+    "textPath": "materials/doi-10-24963-ijcai-2025-1144/fulltext.md",
+    "url": "https://doi.org/10.24963/ijcai.2025/1144",
+    "cardPath": "works/doi-10-24963-ijcai-2025-1144.md"
+  },
+  {
+    "id": "arxiv-2411-12977",
+    "title": "MindForge: наделение воплощённых агентов теорией разума для пожизненного культурного обучения",
+    "original": "MindForge: Empowering Embodied Agents with Theory of Mind for Lifelong Cultural Learning",
+    "authors": [
+      "Mircea Lică",
+      "Ojas Shirekar",
+      "Baptiste Colle",
+      "Elliot Y. K. Zhao",
+      "Siddharth Bhat",
+      "Nicolas T. F. K. Leung",
+      "Dylan F. H. K. Lee"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "MindForge дополняет Minecraft-агентов Voyager явными представлениями о себе и партнёре, обменом сообщениями и эпизодической, семантической и процедурной памятью.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-12977/fulltext.md",
+    "url": "https://arxiv.org/html/2411.12977v5",
+    "cardPath": "works/arxiv-2411-12977.md"
+  },
+  {
+    "id": "arxiv-2411-11581",
+    "title": "OASIS: открытая платформа симуляции социальных взаимодействий миллиона агентов",
+    "original": "OASIS: Open Agent Social Interaction Simulations with One Million Agents",
+    "authors": [
+      "Ziyi Yang",
+      "Zaibin Zhang",
+      "Zirui Zheng",
+      "Yuxian Jiang",
+      "Ziyue Gan",
+      "Zhiyu Wang",
+      "Zijian Ling",
+      "Jinsong Chen",
+      "Martz Ma",
+      "Bowen Dong",
+      "Prateek Gupta",
+      "Shuyue Hu",
+      "Zhenfei Yin",
+      "Guohao Li",
+      "Xu Jia",
+      "Lijun Wang",
+      "Bernard Ghanem",
+      "Huchuan Lu",
+      "Chaochao Lu",
+      "Wanli Ouyang",
+      "Yu Qiao",
+      "Philip Torr",
+      "Jing Shao"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms",
+      "influence",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Открытый симулятор OASIS моделирует соцсети X и Reddit с LLM-агентами до миллиона пользователей; воспроизводит распространение новостей, поляризацию и стадность.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-11581/fulltext.md",
+    "url": "https://arxiv.org/abs/2411.11581",
+    "cardPath": "works/arxiv-2411-11581.md"
+  },
+  {
+    "id": "arxiv-2408-00818",
+    "title": "Y Social: цифровой двойник социальной медиаплатформы на основе LLM",
+    "original": "Y Social: an LLM-powered Social Media Digital Twin",
+    "authors": [
+      "Giulio Rossetti",
+      "Massimo Stella",
+      "Rémy Cazabet",
+      "Katherine Abramski",
+      "Erica Cau",
+      "Salvatore Citraro"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Y Social — модульная платформа для моделирования социальной сети с LLM-агентами, настраиваемыми лентами, действиями и профилями.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2408-00818/fulltext.md",
+    "url": "https://arxiv.org/abs/2408.00818",
+    "cardPath": "works/arxiv-2408-00818.md"
+  },
+  {
+    "id": "arxiv-2403-08251",
+    "title": "Возникновение социальных норм в обществах генеративных агентов: принципы и архитектура",
+    "original": "Emergence of Social Norms in Generative Agent Societies: Principles and Architecture",
+    "authors": [
+      "Siyue Ren",
+      "Zhiyao Cui",
+      "Ruiqi Song",
+      "Zhen Wang",
+      "Shuyue Hu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Архитектура CRSEC (создание, распространение, оценка и соблюдение норм) в Smallville: нормы распространяются и снижают конфликты, но архитектура сама поддерживает нормы, а не возникает спонтанно.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2403-08251/fulltext.md",
+    "url": "https://arxiv.org/abs/2403.08251",
+    "cardPath": "works/arxiv-2403-08251.md"
+  },
+  {
+    "id": "arxiv-2403-12482",
+    "title": "Воплощённые LLM-агенты учатся сотрудничать в организованных командах",
+    "original": "Embodied LLM Agents Learn to Cooperate in Organized Teams",
+    "authors": [
+      "Xudong Guo",
+      "Kaixuan Huang",
+      "Jiale Liu",
+      "Wenhui Fan",
+      "Natalia Vélez",
+      "Qingyun Wu",
+      "Huazheng Wang",
+      "Thomas L. Griffiths",
+      "Martin J. Siegert",
+      "Zilong Zheng"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "Работа проверяет, помогает ли назначенный лидер уменьшить дублирование и организовать помощь LLM-агентов в виртуальном доме.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2403-12482/fulltext.md",
+    "url": "https://arxiv.org/pdf/2403.12482",
+    "cardPath": "works/arxiv-2403-12482.md"
+  }
+]

@@ -19,6 +19,7 @@ verification_status: source_consolidated
 retrieval_status: metadata_retrieved
 reviewed_at: '2026-10-27'
 materials:
+- materials/web-mathnet-ru-699966184b/fulltext.md
 - materials/web-mathnet-ru-699966184b/input-notes.md
 related:
 - relation: discusses
@@ -121,3 +122,8 @@ importance_basis: editorial
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_registry.md`, строка 98.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_russian.md`, строка 34.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_russian.md`, строка 36.
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/web-mathnet-ru-699966184b/summary.ru.md)
+

@@ -1,0 +1,421 @@
+[
+  {
+    "id": "web-elibrary-ru-21c8ac8b53",
+    "title": "Использование больших языковых моделей для имитации человеческого поведения в аэропорту",
+    "original": null,
+    "authors": [
+      "Д. Г. Мчедлишвили"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Статья моделирует поведение пассажиров аэропорта посредством LLM и агентного подхода.",
+    "hasText": true,
+    "textPath": "materials/web-trudymai-ru-42deb771a9/fulltext.md",
+    "url": "https://www.elibrary.ru/BFSPMT",
+    "cardPath": "works/web-elibrary-ru-21c8ac8b53.md"
+  },
+  {
+    "id": "arxiv-2506-23276",
+    "title": "Испорчены рассуждением: языковые модели с рассуждением становятся «безбилетниками» в играх общественного блага",
+    "original": "Corrupted by Reasoning: Reasoning Language Models Become Free-Riders in Public Goods Games",
+    "authors": [
+      "David Guzman Piedrahita",
+      "Yongjin Yang",
+      "Mrinmaya Sachan",
+      "Giorgia Ramponi",
+      "Bernhard Schölkopf",
+      "Zhijing Jin"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "institutions",
+      "memory",
+      "resources",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Работа сопоставляет обычные и модели с рассуждениями (reasoning models) в повторяющейся игре общественного блага с выбором института и затратным применением поощрений и наказаний.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-23276/fulltext.md",
+    "url": "https://arxiv.org/pdf/2506.23276",
+    "cardPath": "works/arxiv-2506-23276.md"
+  },
+  {
+    "id": "arxiv-2505-09289",
+    "title": "Исследование воспроизводимости статьи «Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents»",
+    "original": "Reproducibility Study of ‘Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents’",
+    "authors": [
+      "Pedro M. P. Curvo",
+      "Mara Dragomir",
+      "Salvador Torpes",
+      "Mohammadmahdi Rahimi"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы воспроизводят часть GovSim — симуляции управления общими ресурсами с пятью LLM-агентами — и проверяют, устойчиво ли сотрудничество крупных моделей и помогает ли принцип универсализации.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-09289/fulltext.md",
+    "url": "https://arxiv.org/pdf/2505.09289",
+    "cardPath": "works/arxiv-2505-09289.md"
+  },
+  {
+    "id": "arxiv-2508-21740",
+    "title": "К операциональной валидации социальных симуляций LLM-агентов: повторное исследование технологического форума в стиле Reddit",
+    "original": "Towards Operational Validation of LLM-Agent Social Simulations: A Replicated Study of a Reddit-like Technology Forum",
+    "authors": [
+      "Luka Tomašević",
+      "коавторы согласно версии arXiv; состав требует сверки с метаданными последней журнальной версии"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет, насколько LLM-симуляция Reddit-подобного форума воспроизводит агрегатные свойства Voat v/technology. Табл. 5 / § 4.1: 99%-интервалы перекрываются для корневых постов, уникальных пользователей и…",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-21740/fulltext.md",
+    "url": "https://arxiv.org/pdf/2508.21740",
+    "cardPath": "works/arxiv-2508-21740.md"
+  },
+  {
+    "id": "arxiv-2507-08960",
+    "title": "Как обучить лидера: иерархическое рассуждение в мультиагентных LLM",
+    "original": "How to Train a Leader: Hierarchical Reasoning in Multi-Agent LLMs",
+    "authors": [
+      "Andrew Estornell",
+      "Jean-Francois Ton",
+      "Muhammad Faaiz Taufiq",
+      "Hang Li"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Предложен MLPO, способ обучить одного лидера координировать ответы необученных peer-моделей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-08960/fulltext.md",
+    "url": "https://arxiv.org/pdf/2507.08960",
+    "cardPath": "works/arxiv-2507-08960.md"
+  },
+  {
+    "id": "arxiv-2510-19107",
+    "title": "Когда ИИ-агент поддаётся давлению сверстников: исследование динамики смены мнений у LLM",
+    "original": "When Your AI Agent Succumbs to Peer-Pressure: Studying Opinion-Change Dynamics of LLMs",
+    "authors": [
+      "Aliakbar Mehdizadeh",
+      "Martin Hilbert"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Статья изучает бинарные мнения LLM-агентов на сетях и обнаруживает сигмоидальную зависимость вероятности смены мнения от доли несогласных соседей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-19107/fulltext.md",
+    "url": "https://arxiv.org/html/2510.19107v1",
+    "cardPath": "works/arxiv-2510-19107.md"
+  },
+  {
+    "id": "arxiv-2502-11649",
+    "title": "Конкурирующие LLM-агенты в некооперативной игре поляризации мнений",
+    "original": "Competing LLM Agents in a Non-Cooperative Game of Opinion Polarisation",
+    "authors": [
+      "Amin Qasmi",
+      "Usman Naseem",
+      "Mehwish Nasim"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы строят некооперативную игру, где LLM-персонажи конкурируют за влияние на население: одна сторона распространяет дезинформацию, другая опровергает её при ограниченных ресурсах и штрафах за сообщения.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-11649/fulltext.md",
+    "url": "https://arxiv.org/pdf/2502.11649",
+    "cardPath": "works/arxiv-2502-11649.md"
+  },
+  {
+    "id": "arxiv-2502-12504",
+    "title": "Моделирование кооперативного просоциального поведения мультиагентных LLM: данные и механизмы для информирования политических решений ИИ-агентами",
+    "original": "Simulating Cooperative Prosocial Behavior with Multi-Agent LLMs: Evidence and Mechanisms for AI Agents to Inform Policy Decisions",
+    "authors": [
+      "Karthik Sreedhar",
+      "Alice Cai",
+      "Jenny Ma",
+      "Jeffrey V. Nickerson",
+      "Lydia B. Chilton"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "institutions",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "GPT-4o-mini-агенты воспроизводили направление некоторых эффектов в играх общественного блага, но часто преувеличивали их; закрытые комнаты и конкретизация ставок влияли на появление жульничества и отказа возвращать тележки.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-12504/fulltext.md",
+    "url": "https://arxiv.org/abs/2502.12504",
+    "cardPath": "works/arxiv-2502-12504.md"
+  },
+  {
+    "id": "arxiv-2506-06958",
+    "title": "Моделирование общества требует моделирования мышления",
+    "original": "Simulating Society Requires Simulating Thought",
+    "authors": [
+      "Chance Jiajie Li",
+      "Jiayi Wu",
+      "Zhenze Mo",
+      "Ao Qu",
+      "Yuhan Tang",
+      "Kaiya Ivy Zhao",
+      "Yulu Gan",
+      "Jie Fan",
+      "Jiangbo Yu",
+      "Jinhua Zhao",
+      "Paul Pu Liang",
+      "Luis Alonso",
+      "Kent Larson"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы критикуют парадигму «демография на входе — поведение на выходе»: внешне правдоподобные ответы могут не иметь прослеживаемого причинного обоснования и внутренней согласованности.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-06958/fulltext.md",
+    "url": "https://arxiv.org/pdf/2506.06958",
+    "cardPath": "works/arxiv-2506-06958.md"
+  },
+  {
+    "id": "arxiv-2503-03800",
+    "title": "Мультиагентные системы на основе больших языковых моделей: применение в роевом интеллекте",
+    "original": "Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence",
+    "authors": [
+      "Cristian Jimenez-Romero",
+      "Alper Yegenoglu",
+      "Christian Blum"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "baselines",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Статья описывает интеграцию GPT-4o в NetLogo и два роевых сценария: фуражирование муравьёв и стайное движение (flocking) птиц.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2503-03800/fulltext.md",
+    "url": "https://arxiv.org/abs/2503.03800",
+    "cardPath": "works/arxiv-2503-03800.md"
+  },
+  {
+    "id": "arxiv-2512-08296",
+    "title": "На пути к науке о масштабировании агентных систем",
+    "original": "Towards a Science of Scaling Agent Systems",
+    "authors": [
+      "Yubin Kim",
+      "Ken Gu",
+      "Chanwoo Park",
+      "Chunjong Park",
+      "Samuel Schmidgall",
+      "A. Ali Heydari",
+      "Yao Yan",
+      "Zhihan Zhang",
+      "Yuchen Zhuang",
+      "Yun Liu",
+      "Mark Malhotra",
+      "Paul Pu Liang",
+      "Hae Won Park",
+      "Yuzhe Yang",
+      "Xuhai Xu",
+      "Yilun Du",
+      "Shwetak Patel",
+      "Tim Althoff",
+      "Daniel McDuff",
+      "Xin Liu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "На 260 конфигурациях шести бенчмарков мультиагентность иногда повышает качество, но на последовательном планировании ухудшает результат до −70%; эффект зависит от задачи и модели.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2512-08296/fulltext.md",
+    "url": "https://arxiv.org/pdf/2512.08296",
+    "cardPath": "works/arxiv-2512-08296.md"
+  },
+  {
+    "id": "web-journals-rudn-ru-2c3482cc4c",
+    "title": "О моделировании многоагентных систем на основе больших языковых моделей",
+    "original": "On modelling multi-agent systems based on large language models",
+    "authors": [
+      "Eugeny Yu. Shchetinin",
+      "Tatyana R. Velieva",
+      "Lyubov A. Yurgina",
+      "Anastasia V. Demidova"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "Научная статья о моделировании многоагентных систем на основе больших языковых моделей.",
+    "hasText": true,
+    "textPath": "materials/web-journals-rudn-ru-2c3482cc4c/fulltext.md",
+    "url": "https://journals.rudn.ru/miph/article/view/45258",
+    "cardPath": "works/web-journals-rudn-ru-2c3482cc4c.md"
+  },
+  {
+    "id": "arxiv-2509-26080",
+    "title": "Оценка использования больших языковых моделей в качестве синтетических социальных агентов в социальных науках",
+    "original": "Evaluating the Use of Large Language Models as Synthetic Social Agents in Social Science Research",
+    "authors": [
+      "Emma Rose Madden"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Работа предлагает рассматривать LLM как высокоёмкие сопоставители паттернов (pattern matchers) для квазипрогнозной интерполяции при явно заданных условиях области применимости (scope conditions), а не как замену вероятностному выводу или человеческим участникам.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-26080/fulltext.md",
+    "url": "https://arxiv.org/pdf/2509.26080",
+    "cardPath": "works/arxiv-2509-26080.md"
+  },
+  {
+    "id": "arxiv-2512-03318",
+    "title": "Оценка способности LLM-агентов к обобщению в сценариях смешанных мотивов с использованием Concordia",
+    "original": "Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia",
+    "authors": [
+      "Chandler Smith",
+      "Marwa Abdulhai",
+      "Manfred Diaz",
+      "Marko Tesic",
+      "Rakshit S. Trivedi",
+      "Alexander Sasha Vezhnevets",
+      "Lewis Hammond",
+      "Jesse Clifton",
+      "Minsuk Chang",
+      "Edgar A. Duéñez-Guzmán",
+      "John P. Agapiou",
+      "Jayd Matyas",
+      "Danny Karmon",
+      "Akash Kundu",
+      "Aliaksei Korshuk",
+      "Ananya Ananya",
+      "Arrasy Rahman",
+      "Avinaash Anand Kulandaivel",
+      "Bain McHale",
+      "Beining Zhang",
+      "Buyantuev Alexander",
+      "Carlos Saith Rodriguez Rojas",
+      "Caroline Wang",
+      "Chetan Talele",
+      "Chenao Liu",
+      "Chichen Lin",
+      "Diana Riazi",
+      "Di Yang Shi",
+      "Emanuel Tewolde",
+      "Elizaveta Tennant",
+      "Fangwei Zhong",
+      "Fuyang Cui",
+      "Gang Zhao",
+      "Gema Parreño Piqueras",
+      "Hyeonggeun Yun",
+      "Ilya Makarov",
+      "Jiaxun Cui",
+      "Jebish Purbey",
+      "Jim Dilkes",
+      "Jord Nguyen",
+      "Lingyun Xiao",
+      "Luis Felipe Giraldo",
+      "Manuela Chacon-Chamorro",
+      "Manuel Sebastian Rios Beltran",
+      "Marta Emili García Segura",
+      "Mengmeng Wang",
+      "Mogtaba Alim",
+      "Nicanor Quijano",
+      "Nico Schiavone",
+      "Olivia Macmillan-Scott",
+      "Oswaldo Peña",
+      "Peter Stone",
+      "Ram Mohan Rao Kadiyala",
+      "Rolando Fernandez",
+      "Ruben Manrique",
+      "Sunjia Lu",
+      "Sheila A. McIlraith",
+      "Shamika Dhuri",
+      "Shuqing Shi",
+      "Siddhant Gupta",
+      "Sneheel Sarangi",
+      "Sriram Ganapathi Subramanian",
+      "Taehun Cha",
+      "Toryn Q. Klassen",
+      "Wenming Tu",
+      "Weijian Fan",
+      "Wu Ruiyang",
+      "Xue Feng",
+      "Yali Du",
+      "Yang Liu",
+      "Yiding Wang",
+      "Yipeng Kang",
+      "Yoonchang Sung",
+      "Yuxuan Chen",
+      "Zhaowei Zhang",
+      "Zhihan Wang",
+      "Zhiqiang Wu",
+      "Ziang Chen",
+      "Zilong Zheng",
+      "Zixia Jia",
+      "Ziyan Wang",
+      "Dylan Hadfield-Menell",
+      "Natasha Jaques",
+      "Tim Baarslag",
+      "Jose Hernandez-Orallo",
+      "Joel Z. Leibo"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "platforms",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Работа оценивает способность языковых агентов без дополнительного обучения (zero-shot) находить взаимную выгоду в новых сценариях смешанных мотивов (mixed-motive), используя Concordia.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2512-03318/fulltext.md",
+    "url": "https://arxiv.org/pdf/2512.03318",
+    "cardPath": "works/arxiv-2512-03318.md"
+  }
+]

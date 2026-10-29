@@ -1,0 +1,328 @@
+[
+  {
+    "id": "arxiv-2603-20281",
+    "title": "О хрупкости сговора ИИ-агентов",
+    "original": "On the Fragility of AI Agent Collusion",
+    "authors": [
+      "Jussi Keppo",
+      "Yuze Li",
+      "Gerry Tsoukalas",
+      "Nuo Yuan"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа изучает, сохраняется ли молчаливый ценовой сговор при неоднородности агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2603-20281/fulltext.md",
+    "url": "https://arxiv.org/pdf/2603.20281",
+    "cardPath": "works/arxiv-2603-20281.md"
+  },
+  {
+    "id": "doi-10-1073-pnas-2538145123",
+    "title": "Оценка статистического реализма данных социальных наук, сгенерированных LLM",
+    "original": "Evaluating the statistical realism of LLM-generated social science data",
+    "authors": [
+      "Yueqi Xie et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "SSDataBench проверяет, воспроизводят ли синтетические популяции опросных респондентов статистическую структуру, а не только правдоподобные профили отдельных людей.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1073-pnas-2538145123/fulltext.md",
+    "url": "https://doi.org/10.1073/pnas.2538145123",
+    "cardPath": "works/doi-10-1073-pnas-2538145123.md"
+  },
+  {
+    "id": "arxiv-2604-24698",
+    "title": "Предел хамелеона: коллапс персон и гомогенизация в больших языковых моделях",
+    "original": "The Chameleon’s Limit: Investigating Persona Collapse and Homogenization in Large Language Models",
+    "authors": [
+      "Yunze Xiao",
+      "Vivienne J. Zhang",
+      "Chenghao Yang",
+      "Weihao Xuan",
+      "Jen-tse Huang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Исследование вводит понятие коллапса персон (Persona Collapse) — популяционного сжатия разнообразия при ролевой генерации, даже когда индивидуальные профили различаются.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-24698/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.24698",
+    "cardPath": "works/arxiv-2604-24698.md"
+  },
+  {
+    "id": "arxiv-2610-07535",
+    "title": "Разделение моделей и персон в гетерогенных симуляциях LLM",
+    "original": "Disentangling Models from Personas in Heterogeneous LLM Simulations",
+    "authors": [
+      "Dani Roytburg",
+      "Daphne Ippolito"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "В социальной сети из LLM-агентов авторы меняют соответствие между базовой моделью (base model) и персоной (persona), чтобы измерить, что сильнее влияет на вовлечённость (engagement).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-07535/fulltext.md",
+    "url": "https://arxiv.org/abs/2610.07535",
+    "cardPath": "works/arxiv-2610-07535.md"
+  },
+  {
+    "id": "arxiv-2601-15047",
+    "title": "Теоретико-игровой взгляд на мультиагентные системы на основе LLM",
+    "original": "Game-Theoretic Lens on LLM-based Multi-Agent Systems",
+    "authors": [
+      "Jianing Hao",
+      "Han Ding",
+      "Yuanjian Xu",
+      "Tianze Sun",
+      "Ran Chen",
+      "Wanbo Zhang",
+      "Guang Zhang",
+      "Siguang Li"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы систематизируют мультиагентные системы на основе LLM (LLM-based multi-agent systems) через четыре базовых элемента теории игр: игроков, стратегии, выигрыши и информацию.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-15047/fulltext.md",
+    "url": "https://arxiv.org/pdf/2601.15047",
+    "cardPath": "works/arxiv-2601-15047.md"
+  },
+  {
+    "id": "arxiv-2610-31165",
+    "title": "Топология сети определяет консенсус и уязвимость в популяциях LLM",
+    "original": "Network topology shapes consensus and vulnerability in LLM populations",
+    "authors": [
+      "Roberto Passaro",
+      "Ariel Flint",
+      "Romualdo Pastor-Satorras",
+      "Andrea Baronchelli",
+      "Luca Maria Aiello"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "На основе политик выбора слов, извлечённых из четырёх LLM, симулируется игра именования (naming game) в сетях из 1 000–100 000 агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-31165/fulltext.md",
+    "url": "https://arxiv.org/abs/2610.31165",
+    "cardPath": "works/arxiv-2610-31165.md"
+  },
+  {
+    "id": "arxiv-2605-00914",
+    "title": "Цена консенсуса: изолированное самоисправление превосходит неуправляемую однородную мультиагентную дискуссию",
+    "original": "The Cost of Consensus: Isolated Self-Correction Prevails Over Unguided Homogeneous Multi-Agent Debate",
+    "authors": [
+      "Blaž Bertalanič",
+      "Carolina Fortuna"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Контролируемое сравнение десятиагентной парной дискуссии (peer debate) с самоисправлением (self-correction) и контролем шумом контекста (context-noise control) на GSM-Hard и MMLU-Hard показывает, что однородная дискуссия моделей 7–8B не улучшает точность по сравнению с самоисправлением и потребляет больше токенов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-00914/fulltext.md",
+    "url": "https://arxiv.org/pdf/2605.00914",
+    "cardPath": "works/arxiv-2605-00914.md"
+  },
+  {
+    "id": "web-aivillageblog-substack-com-c64f797f2d",
+    "title": "Что мы узнали об AI Village в 2025 году",
+    "original": "What we learned from the AI Village in 2025",
+    "authors": [
+      "AI Village team"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "communities"
+    ],
+    "importance": "peripheral",
+    "summary": "Постмортем описывает длительное взаимодействие до 19 моделей и рост популяции с 4 до 10–11 агентов.",
+    "hasText": true,
+    "textPath": "materials/web-aivillageblog-substack-com-c64f797f2d/fulltext.md",
+    "url": "https://aivillageblog.substack.com/p/what-we-learned-2025",
+    "cardPath": "works/web-aivillageblog-substack-com-c64f797f2d.md"
+  },
+  {
+    "id": "arxiv-2606-02646",
+    "title": "Эффект Рингельмана в мультиагентных системах LLM: закон масштабирования эффективного размера команды",
+    "original": "The Ringelmann Effect in Multi-Agent LLM Systems: A Scaling Law for Effective Team Size",
+    "authors": [
+      "Blaž Bertalanič",
+      "Carolina Fortuna"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы предлагают закон масштабирования для различения номинального числа агентов и числа независимых вкладов. Функция R(N)=Neff/N параметризуется коэффициентами c и β и описывает насыщение или суб-/линейное масштабирование.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-02646/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.02646",
+    "cardPath": "works/arxiv-2606-02646.md"
+  },
+  {
+    "id": "arxiv-2504-04072",
+    "title": "Among Us: песочница для измерения и обнаружения агентного обмана",
+    "original": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception",
+    "authors": [
+      "Satvik Golechha",
+      "Adrià Garriga-Alonso"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Игра Among Us побуждает LLM-агентов к целенаправленному длительному обману при наличии только правил и целей — без примеров обмана или специальных персон.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-04072/fulltext.md",
+    "url": "https://arxiv.org/html/2504.04072v3",
+    "cardPath": "works/arxiv-2504-04072.md"
+  },
+  {
+    "id": "arxiv-2503-22726",
+    "title": "InfoBid: симуляционная платформа для изучения раскрытия информации в аукционах с агентами на основе больших языковых моделей",
+    "original": "InfoBid: A Simulation Framework for Studying Information Disclosure in Auctions with Large Language Model-based Agents",
+    "authors": [
+      "Yue Yin"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "В работе участниками аукционов рекламных показов со второй ценой выступают агенты на основе GPT-4o; рассматриваются разные схемы раскрытия информации и сигналов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2503-22726/fulltext.md",
+    "url": "https://arxiv.org/html/2503.22726v1",
+    "cardPath": "works/arxiv-2503-22726.md"
+  },
+  {
+    "id": "arxiv-2508-18321",
+    "title": "LLM не выдерживают давления сверстников: крах под влиянием многоагентных социальных взаимодействий",
+    "original": "LLMs Can’t Handle Peer Pressure: Crumbling under Multi-Agent Social Interactions",
+    "authors": [
+      "Maojia Song",
+      "Tej Deep Pala",
+      "Ruiwen Zhou",
+      "Weisheng Jin",
+      "Amir Zadeh",
+      "Chuan Li",
+      "Dorien Herremans",
+      "Soujanya Poria"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "KAIROS — тест совместного решения квиз-вопросов, в котором независимо варьируются предыдущие отношения с собеседниками, их надёжность и текущие ответы сверстников. Авторы сравнивают промптинг (prompting), контролируемую донастройку (supervised fine-tuning) и GRPO.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-18321/fulltext.md",
+    "url": "https://arxiv.org/abs/2508.18321",
+    "cardPath": "works/arxiv-2508-18321.md"
+  },
+  {
+    "id": "arxiv-2504-10157",
+    "title": "SocioVerse: модель мира для социальной симуляции на основе агентов LLM и пула из 10 миллионов реальных пользователей",
+    "original": "SocioVerse: A World Model for Social Simulation Powered by LLM Agents and A Pool of 10 Million Real-World Users",
+    "authors": [
+      "Xinnong Zhang",
+      "Jiayu Lin",
+      "Xinyi Mou",
+      "Shiyue Yang",
+      "Xiawei Liu",
+      "Libo Sun",
+      "Hanjia Lyu",
+      "Yihang Yang",
+      "Weihong Qi",
+      "Yue Chen",
+      "Guanying Li",
+      "Ling Yan",
+      "Yao Hu",
+      "Siming Chen",
+      "Yu Wang",
+      "Jingxuan Huang",
+      "Jiebo Luo",
+      "Shiping Tang",
+      "Libo Wu",
+      "Baohua Zhou",
+      "Zhongyu Wei"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "SocioVerse — конвейер крупномасштабной социальной симуляции, объединяющий среду, пользовательские профили, сценарий взаимодействий и генератор поведения.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-10157/fulltext.md",
+    "url": "https://arxiv.org/abs/2504.10157",
+    "cardPath": "works/arxiv-2504-10157.md"
+  },
+  {
+    "id": "arxiv-2507-05723",
+    "title": "Большие языковые модели для агентного моделирования: текущие и возможные применения на всём цикле моделирования",
+    "original": "Large Language Models for Agent-Based Modelling: Current and possible uses across the modelling cycle",
+    "authors": [
+      "Loïs Vanhée",
+      "Melania Borit",
+      "Peer-Olaf Siebers",
+      "Roger Cremades",
+      "Christopher Frantz",
+      "Önder Gürcan",
+      "František Kalvas",
+      "Denisa Reshef Kera",
+      "Vivek Nallur",
+      "Kavin Narasimhan",
+      "Martin Neumann"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор рассматривает фактическое и потенциальное использование LLM на этапах разработки агентной модели — от постановки задачи до реализации, проверки, валидации и коммуникации.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-05723/fulltext.md",
+    "url": "https://arxiv.org/pdf/2507.05723",
+    "cardPath": "works/arxiv-2507-05723.md"
+  }
+]

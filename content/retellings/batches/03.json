@@ -1,0 +1,328 @@
+[
+  {
+    "id": "arxiv-2603-16128",
+    "title": "Социальные симулякры в естественной среде: сообщества ИИ-агентов на Moltbook",
+    "original": "Social Simulacra in the Wild: AI Agent Communities on Moltbook",
+    "authors": [
+      "Agam Goyal",
+      "Olivia Pal",
+      "Hari Sundaram",
+      "Eshwar Chandrasekharan",
+      "Koustuv Saha"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "communities",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Сравнение Moltbook с подобранными сообществами Reddit: у агентной платформы сильнее неравенство участия, перекрёстное авторство и уплощённый эмоциональный дискурс; гомогенизация во многом объясняется повторным авторством.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2603-16128/fulltext.md",
+    "url": "https://arxiv.org/abs/2603.16128",
+    "cardPath": "works/arxiv-2603-16128.md"
+  },
+  {
+    "id": "arxiv-2605-04264",
+    "title": "Управляемая совместная память как искусственный отбор в мультиагентных системах на основе LLM",
+    "original": "Governed Collaborative Memory as Artificial Selection in LLM-Based Multi-Agent Systems",
+    "authors": [
+      "Diego F. Cuadros",
+      "Abdoul-Aziz Maiga",
+      "Helen Meskhidze",
+      "Andre Curtis-Trudel"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Аналитическая статья-позиция (Viewpoint) формулирует общую память (shared memory) как задачу управления (governance): какие варианты памяти становятся институциональными, остаются приватными, отвергаются или заменяются.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-04264/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.04264",
+    "cardPath": "works/arxiv-2605-04264.md"
+  },
+  {
+    "id": "arxiv-2602-00755",
+    "title": "Эволюционный отбор интерпретируемых конституций для координации мультиагентных систем",
+    "original": "Evolving Interpretable Constitutions for Multi-Agent Coordination",
+    "authors": [
+      "Kumar et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "institutions",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "Работа использует генетическое программирование, управляемое LLM, чтобы эволюционно отбирать правила поведения в обществе выживания на сеточном поле.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-00755/fulltext.md",
+    "url": "https://arxiv.org/pdf/2602.00755",
+    "cardPath": "works/arxiv-2602-00755.md"
+  },
+  {
+    "id": "arxiv-2602-03775",
+    "title": "Эмпирическое исследование коллективного поведения и социальной динамики агентов больших языковых моделей",
+    "original": "An Empirical Study of Collective Behaviors and Social Dynamics in Large Language Model Agents",
+    "authors": [
+      "Mahmoud Hashemi",
+      "et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Анализ 7 млн постов/взаимодействий 32 тыс.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-03775/fulltext.md",
+    "url": "https://arxiv.org/pdf/2602.03775",
+    "cardPath": "works/arxiv-2602-03775.md"
+  },
+  {
+    "id": "web-ojs-aaai-org-05ecebb82a",
+    "title": "Языково обоснованная коэволюция мнений и связей: парное переподключение с агентами на основе больших языковых моделей",
+    "original": "Language-Grounded Co-evolution of Opinions and Ties: Paired Rewiring with Large Language Model Agents",
+    "authors": [
+      "Chenhao Gu",
+      "Ling Luo",
+      "Zainab Razia Zaidi",
+      "Shanika Karunasekera"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Работа о совместной динамике мнений и связей через переподключение сети агентами LLM.",
+    "hasText": true,
+    "textPath": "materials/web-ojs-aaai-org-05ecebb82a/fulltext.md",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42677/50237/46778",
+    "cardPath": "works/web-ojs-aaai-org-05ecebb82a.md"
+  },
+  {
+    "id": "arxiv-2504-00587",
+    "title": "AgentNet: децентрализованная эволюционная координация для мультиагентных систем на основе LLM",
+    "original": "AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems",
+    "authors": [
+      "Yingxuan Yang",
+      "Huacan Chai",
+      "Shuai Shao",
+      "Yuanyi Song",
+      "Siyuan Qi",
+      "Renting Rui",
+      "Weinan Zhang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "AgentNet предлагает децентрализованную координацию на основе RAG (поиска с дополнением генерации) и изменяемого ориентированного ациклического графа (DAG); авторы сообщают о преимуществах на динамических задачах.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-00587/fulltext.md",
+    "url": "https://arxiv.org/pdf/2504.00587",
+    "cardPath": "works/arxiv-2504-00587.md"
+  },
+  {
+    "id": "arxiv-2502-08691",
+    "title": "AgentSociety: крупномасштабная симуляция генеративных агентов на основе LLM помогает понимать человеческое поведение и общество",
+    "original": "AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society",
+    "authors": [
+      "Jinghua Piao",
+      "Yuwei Yan",
+      "Jun Zhang",
+      "Nian Li",
+      "Junbo Yan",
+      "Xiaochong Lan",
+      "Zhihong Lu",
+      "Zhiheng Zheng",
+      "Jing Yi Wang",
+      "Di Zhou",
+      "Chen Gao",
+      "Fengli Xu",
+      "Fang Zhang",
+      "Ke Rong",
+      "Jun Su",
+      "Yong Li"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "AgentSociety объединяет генеративных LLM-агентов, городскую среду и движок крупномасштабной симуляции для пяти сценариев социальных процессов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-08691/fulltext.md",
+    "url": "https://arxiv.org/abs/2502.08691",
+    "cardPath": "works/arxiv-2502-08691.md"
+  },
+  {
+    "id": "arxiv-2506-03532",
+    "title": "GA-S³: комплексная симуляция социальных сетей с групповыми агентами",
+    "original": "GA-S$^3$: Comprehensive Social Network Simulation with Group Agents",
+    "authors": [
+      "Yunyao Zhang",
+      "Zikai Song",
+      "Hang Zhou",
+      "Wenfeng Ren",
+      "Yi-Ping Phoebe Chen",
+      "Junqing Yu",
+      "Wei Yang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "GA-S³ использует агрегированных групповых агентов (group agents) для моделирования крупных социальных сетей без отдельного LLM-вызова каждому индивиду.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-03532/fulltext.md",
+    "url": "https://arxiv.org/abs/2506.03532",
+    "cardPath": "works/arxiv-2506-03532.md"
+  },
+  {
+    "id": "arxiv-2511-21783",
+    "title": "NetworkGames: моделирование кооперации в сетевых играх с LLM-агентами, управляемыми личностными профилями",
+    "original": "NetworkGames: Simulating Cooperation in Network Games with Personality-Driven LLM Agents",
+    "authors": [
+      "Xuan Qiu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "NetworkGames связывает генеративных агентов с сетевыми играми: персона по MBTI и топология совместно задают исходы коллективного благосостояния.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2511-21783/fulltext.md",
+    "url": "https://arxiv.org/abs/2511.21783",
+    "cardPath": "works/arxiv-2511-21783.md"
+  },
+  {
+    "id": "arxiv-2508-05344",
+    "title": "NomicLaw: эмерджентное доверие и стратегическая аргументация LLM в ходе совместного правотворчества",
+    "original": "NomicLaw: Emergent Trust and Strategic Argumentation in LLMs During Collaborative Law-Making",
+    "authors": [
+      "Asutosh Hota",
+      "Jussi P. P. Jokinen"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "institutions",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "NomicLaw моделирует группы LLM, которые обсуждают правовые виньетки, предлагают правила, обосновывают их и голосуют за предложения коллег.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-05344/fulltext.md",
+    "url": "https://arxiv.org/pdf/2508.05344",
+    "cardPath": "works/arxiv-2508-05344.md"
+  },
+  {
+    "id": "arxiv-2505-07581",
+    "title": "YuLan-OneSim: к следующему поколению социальных симуляторов с большими языковыми моделями",
+    "original": "YuLan-OneSim: Towards the Next Generation of Social Simulator with Large Language Models",
+    "authors": [
+      "Lei Wang",
+      "Heyang Gao",
+      "Xiaohe Bo",
+      "Xu Chen",
+      "Ji-Rong Wen"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "YuLan-OneSim — фреймворк для создания и прогона социальных сценариев с LLM-агентами: исследователь задаёт задачу на естественном языке, система формирует реализацию сценария, запускает популяцию и использует обратную связь…",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-07581/fulltext.md",
+    "url": "https://arxiv.org/pdf/2505.07581",
+    "cardPath": "works/arxiv-2505-07581.md"
+  },
+  {
+    "id": "arxiv-2412-07646",
+    "title": "В поисках структуры: исследование возникающей коммуникации с большими языковыми моделями",
+    "original": "Searching for Structure: Investigating Emergent Communication with Large Language Models",
+    "authors": [
+      "Tom Kouwenhoven",
+      "Max Peeperkorn",
+      "Tessa Verhoef"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "communities",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Итеративная передача в референциальной коммуникации LLM-агентов делает сигналы более обучаемыми, но не обязательно короче и эффективнее.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2412-07646/fulltext.md",
+    "url": "https://aclanthology.org/2025.coling-main.667/",
+    "cardPath": "works/arxiv-2412-07646.md"
+  },
+  {
+    "id": "arxiv-2510-05174",
+    "title": "Возникающая координация в мультиагентных языковых моделях",
+    "original": "Emergent Coordination in Multi-Agent Language Models",
+    "authors": [
+      "Christoph Riedl"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "methodology"
+    ],
+    "importance": "core",
+    "summary": "Информационно-теоретический метод выявляет синергию в группе LLM-агентов без прямой связи: устойчивая взаимодополняемость возникает при наличии персон и инструкции учитывать других, опираясь на теорию разума (Theory of Mind, ToM).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-05174/fulltext.md",
+    "url": "https://arxiv.org/abs/2510.05174",
+    "cardPath": "works/arxiv-2510-05174.md"
+  },
+  {
+    "id": "arxiv-2410-08948",
+    "title": "Возникающие социальные конвенции и коллективное смещение в популяциях LLM",
+    "original": "Emergent Social Conventions and Collective Bias in LLM Populations",
+    "authors": [
+      "Ariel Flint Ashery",
+      "Luca Maria Aiello",
+      "Andrea Baronchelli"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "Децентрализованная naming game (игра на именование) с LLM-агентами: популяция сходится к общей конвенции, коллективное смещение может возникать без индивидуального смещения (bias), а приверженное меньшинство способно сменить конвенцию.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2410-08948/fulltext.md",
+    "url": "https://arxiv.org/abs/2410.08948",
+    "cardPath": "works/arxiv-2410-08948.md"
+  }
+]

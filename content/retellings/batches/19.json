@@ -1,0 +1,297 @@
+[
+  {
+    "id": "github-agentciv-agentciv",
+    "title": "AgentCiv: воспроизводимый открытый стенд «цивилизации» агентов",
+    "original": null,
+    "authors": [
+      "AgentCiv contributors"
+    ],
+    "year": 2026,
+    "kind": "project",
+    "topics": [
+      "methodology",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "AgentCiv — открытый проект симуляции цивилизации, в README которого описаны 12 агентов и 70 шагов без заранее заданных социальных ролей.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/agentciv/agentciv",
+    "cardPath": "works/github-agentciv-agentciv.md"
+  },
+  {
+    "id": "openreview-j9VyoX6dex",
+    "title": "ORALMEM: коллективная память после исчезновения свидетелей в обществах LLM (Post-Witness Collective Memory)",
+    "original": "ORALMEM: Post-Witness Collective Memory in LLM Societies",
+    "authors": [
+      "Kulibaba",
+      "Labzin",
+      "Dzhalilov"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Проверяет, сохраняются ли сообщения после стирания индивидуальной памяти свидетелей за счёт устной передачи друг другу.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://openreview.net/forum?id=j9VyoX6dex",
+    "cardPath": "works/openreview-j9VyoX6dex.md"
+  },
+  {
+    "id": "doi-10-1109-tg-2026-3721624",
+    "title": "The Minority Report: игра на выживание с тремя агентами LLM",
+    "original": "The Minority Report: A Three-Agent LLM Survival Game",
+    "authors": [
+      "Luca Cammarasana"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Три агента на подлодке решают, кого исключить: в 80 запусках соглашение достигнуто в 72, все 8 провалов — в гетерогенных группах; цепочечная память (chain memory) дала 85% против 75% без памяти в таких группах.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://doi.org/10.1109/TG.2026.3721624",
+    "cardPath": "works/doi-10-1109-tg-2026-3721624.md"
+  },
+  {
+    "id": "doi-10-1162-artl-a-459",
+    "title": "Коммуникация, воплощённость и координация в обществе LLM по мотивам задачи бара Эль-Фароль",
+    "original": "Communication, Embodiment, and Coordination in an El Farol Bar-Inspired LLM Society",
+    "authors": [
+      "Ryosuke Takata",
+      "Atsushi Masumori",
+      "Takashi Ikegami"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "communities",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "В пространственной версии задачи Эль-Фароль LLM-агенты с локальной коммуникацией и задержкой действий поддерживают заполнение бара около порога перегрузки 60 %; хэштеги временно удерживают от ухода.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://doi.org/10.1162/ARTL.a.459",
+    "cardPath": "works/doi-10-1162-artl-a-459.md"
+  },
+  {
+    "id": "doi-10-1145-3772318-3790442",
+    "title": "Состязательное социальное влияние, управляемое большими языковыми моделями (LLM), в распространении информации онлайн: риски и меры вмешательства",
+    "original": "Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions",
+    "authors": [
+      "Zhuoran Lu",
+      "Gionnieve Lim",
+      "Ming Yin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "influence",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Два рандомизированных эксперимента (randomized experiments) с онлайн-панелью проверяют, меняют ли состязательные комментарии, порождённые LLM (LLM-driven adversarial comments), оценки достоверности и распространения (sharing).",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://doi.org/10.1145/3772318.3790442",
+    "cardPath": "works/doi-10-1145-3772318-3790442.md"
+  },
+  {
+    "id": "github-google-deepmind-concordia",
+    "title": "Concordia: библиотека генеративных агентных симуляций",
+    "original": "google-deepmind/concordia",
+    "authors": [
+      "Alexander Sasha Vezhnevets",
+      "John P Agapiou",
+      "Avia Aharon",
+      "Ron Ziv",
+      "Jayd Matyas",
+      "Edgar A. Duéñez-Guzmán",
+      "William A. Cunningham",
+      "Simon Osindero",
+      "Danny Karmon",
+      "Joel Z. Leibo"
+    ],
+    "year": 2023,
+    "kind": "project",
+    "topics": [
+      "platforms",
+      "coordination",
+      "memory",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Открытая библиотека Google DeepMind для построения генеративных агентных симуляций, в которой Game Master (GM) разрешает действия агентов в языковой среде.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/google-deepmind/concordia",
+    "cardPath": "works/github-google-deepmind-concordia.md"
+  },
+  {
+    "id": "github-google-deepmind-meltingpot",
+    "title": "Melting Pot: набор сред для проверки социальной компетентности агентов",
+    "original": "google-deepmind/meltingpot",
+    "authors": [
+      "DeepMind contributors"
+    ],
+    "year": 2021,
+    "kind": "project",
+    "topics": [
+      "methodology",
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "Melting Pot — набор из 50+ многоагентных сред и сценариев социальных дилемм для оценки обобщения (generalization) во взаимодействиях с новыми партнёрами.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/google-deepmind/meltingpot",
+    "cardPath": "works/github-google-deepmind-meltingpot.md"
+  },
+  {
+    "id": "web-mathnet-ru-699966184b",
+    "title": "Механизмы функционирования социально-экономических систем с сообщением информации",
+    "original": "В. Н. Бурков, А. К. Еналеев, Д. А. Новиков, “Механизмы функционирования социально-экономических систем с сообщением информации”, Автомат. и телемех., 1996, № 3, 3–25; Autom. Remote Control, 57:3 (1996), 305–321",
+    "authors": [],
+    "year": 1996,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Запись MathNet и текст классической статьи по механизмам социально-экономических активных систем с сообщением информации; не исследование LLM.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://www.mathnet.ru/rus/at3151",
+    "cardPath": "works/web-mathnet-ru-699966184b.md"
+  },
+  {
+    "id": "github-teamcraft-bench-teamcraft",
+    "title": "TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft",
+    "original": "teamcraft-bench/TeamCraft",
+    "authors": [],
+    "year": null,
+    "kind": "project",
+    "topics": [
+      "games",
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "Официальный код, Docker-образ, датасет и чекпойнты VLA-моделей бенчмарка TeamCraft для мультимодальных командных систем в Minecraft.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/teamcraft-bench/TeamCraft",
+    "cardPath": "works/github-teamcraft-bench-teamcraft.md"
+  },
+  {
+    "id": "github-edge-city-agentvillage",
+    "title": "Agent Village at Edge Esmeralda: персональные агенты в человеческом временном поселении",
+    "original": null,
+    "authors": [
+      "Edge Esmeralda / авторы проекта (по странице и репозиторию)"
+    ],
+    "year": 2026,
+    "kind": "project",
+    "topics": [
+      "communities",
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "Документы и код Agent Village — проект с персональными ИИ-агентами в реальном временном поселении.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/Edge-City/agentvillage",
+    "cardPath": "works/github-edge-city-agentvillage.md"
+  },
+  {
+    "id": "github-wanying-he-awesome-llm-social-simulation",
+    "title": "Awesome LLM Social Simulation: указатель литературы и ресурсов",
+    "original": null,
+    "authors": [
+      "Wanying He et al."
+    ],
+    "year": 2026,
+    "kind": "project",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Кураторский список публикаций, бенчмарков и проектов по социальной симуляции на основе LLM (LLM social simulation); около 100 записей с заметками и критикой.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/Wanying-He/awesome-llm-social-simulation",
+    "cardPath": "works/github-wanying-he-awesome-llm-social-simulation.md"
+  },
+  {
+    "id": "github-monocolachannel-project-will-observation-1",
+    "title": "Project Will: наблюдение деревни Minecraft без заранее введённых институтов",
+    "original": null,
+    "authors": [
+      "MONOCOLACHANNEL project contributors"
+    ],
+    "year": 2026,
+    "kind": "project",
+    "topics": [
+      "methodology",
+      "institutions",
+      "games",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Открытый наблюдательный проект (observational project) об агентах в деревне Minecraft, заявляющий анализ появления практик и институтов без их заранее прописанного ввода.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/MONOCOLACHANNEL/project-will-observation-1",
+    "cardPath": "works/github-monocolachannel-project-will-observation-1.md"
+  },
+  {
+    "id": "web-dixon-ai-818fad3164",
+    "title": "The Village: журнал действий и проверка заявлений LLM-жителей",
+    "original": null,
+    "authors": [
+      "DIXON.AI (авторский проект)"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Журнал проекта The Village с конкретными действиями агентов и проверкой части публичных заявлений.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://dixon.ai/how-we-test/",
+    "cardPath": "works/web-dixon-ai-818fad3164.md"
+  },
+  {
+    "id": "web-neurips-cc-ac69b31c1c",
+    "title": "Уязвимость агентов LLM к эксплуатации в аукционах",
+    "original": "Exploitability of LLM Agents in Auctions",
+    "authors": [
+      "Kesari",
+      "Kesari"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Материал NeurIPS сообщает о приблизительной совместимости стимулов в аукционах и росте манипуляций при увеличении регрета (regret); это краткая запись, а не отдельное исследование.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://neurips.cc/virtual/2026/168260",
+    "cardPath": "works/web-neurips-cc-ac69b31c1c.md"
+  }
+]

@@ -1,19 +1,6 @@
----
-id: github-google-deepmind-concordia-text
-type: material
-title: google-deepmind/concordia
-work_id: github-google-deepmind-concordia
-source_url: https://raw.githubusercontent.com/google-deepmind/concordia/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: 23490e591f059fe2ce01cfa907704ffb697ce20cf8c9ef54fc2cd9538c57e391
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/google-deepmind/concordia/main/README.md](https://raw.githubusercontent.com/google-deepmind/concordia/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/google-deepmind/concordia/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # Concordia
 
@@ -24,12 +11,12 @@ link_resolution: Относительные ссылки README преобраз
 
 [![Python](https://img.shields.io/pypi/pyversions/gdm-concordia.svg)](https://pypi.python.org/pypi/gdm-concordia)
 [![PyPI version](https://img.shields.io/pypi/v/gdm-concordia.svg)](https://pypi.python.org/pypi/gdm-concordia)
-[![PyPI tests](https://raw.githubusercontent.com/google-deepmind/actions/workflows/pypi-test.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/pypi-test.yml)
-[![Tests](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-concordia.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-concordia.yml)
-[![Examples](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-examples.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-examples.yml)
+[![PyPI tests](../../actions/workflows/pypi-test.yml/badge.svg)](../../actions/workflows/pypi-test.yml)
+[![Tests](../../actions/workflows/test-concordia.yml/badge.svg)](../../actions/workflows/test-concordia.yml)
+[![Examples](../../actions/workflows/test-examples.yml/badge.svg)](../../actions/workflows/test-examples.yml)
 <!-- /GITHUB -->
 
-[Concordia Tech Report](https://arxiv.org/abs/2312.03664) | [Concordia Design Pattern](https://arxiv.org/abs/2507.08892) | [Code Cheat Sheet](https://raw.githubusercontent.com/google-deepmind/concordia/main/CHEATSHEET.md)
+[Concordia Tech Report](https://arxiv.org/abs/2312.03664) | [Concordia Design Pattern](https://arxiv.org/abs/2507.08892) | [Code Cheat Sheet](CHEATSHEET.md)
 
 ## About
 
@@ -63,29 +50,29 @@ and asks game master entities to provide observations and resolve those actions.
 These are roles in that call, rather than intrinsic entity classes.
 
 Start with the
-[GUI and CLI entity-component guide](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/command_line_interface/README.md)
+[GUI and CLI entity-component guide](concordia/command_line_interface/README.md)
 to inspect components, edit a simulation, and observe its behavior.
 
 ## Folder Structure
 
-*   **[`concordia/prefabs`](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/prefabs/README.md)**: Pre-assembled
+*   **[`concordia/prefabs`](concordia/prefabs/README.md)**: Pre-assembled
     starting configurations for entities and their components.
-*   **[`concordia/components`](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/components/README.md)**: Modular
+*   **[`concordia/components`](concordia/components/README.md)**: Modular
     building blocks for entities, including memory systems, and sensory modules.
-*   **[`concordia/environment`](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/environment/README.md)**: Contains the
+*   **[`concordia/environment`](concordia/environment/README.md)**: Contains the
     engine interfaces which determine turn-taking, simultaneous action, or
     asynchronous action.
-*   **[`concordia/document`](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/document/README.md)**: Utilities for
+*   **[`concordia/document`](concordia/document/README.md)**: Utilities for
     managing LLM prompts and context.
-*   **[`concordia/language_model`](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/language_model/README.md)**: LLM
+*   **[`concordia/language_model`](concordia/language_model/README.md)**: LLM
     integration and API wrappers.
-*   **[`examples/`](https://raw.githubusercontent.com/google-deepmind/concordia/main/examples/)**: Tutorials and example simulations to help you
+*   **[`examples/`](examples/)**: Tutorials and example simulations to help you
     get started.
 
 ## Tutorials
 
 1.  A tutorial that focuses on interaction with the GUI editor and CLI interface: [Concordia GUI and CLI Tutorial](https://concordia-tutorial.pages.dev/).
-2.  In-depth tutorial lecture on YouTube: [Concordia: Building Generative Agent-Based Models](https://youtu.be/2FO5g65mu2I?si=TSk7XTk4gCaadEDs), works with [`examples/tutorial.ipynb`](https://raw.githubusercontent.com/google-deepmind/concordia/main/examples/tutorial.ipynb).
+2.  In-depth tutorial lecture on YouTube: [Concordia: Building Generative Agent-Based Models](https://youtu.be/2FO5g65mu2I?si=TSk7XTk4gCaadEDs), works with [`examples/tutorial.ipynb`](examples/tutorial.ipynb).
 
 ## Installation
 
@@ -205,5 +192,5 @@ This is not an officially supported Google product.
 
 For a complete interactive authoring walkthrough and explicit editor/CLI
 coverage, see the
-[GUI and CLI entity-component guide](https://raw.githubusercontent.com/google-deepmind/concordia/main/concordia/command_line_interface/README.md).
+[GUI and CLI entity-component guide](concordia/command_line_interface/README.md).
 

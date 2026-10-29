@@ -1,19 +1,6 @@
----
-id: github-google-deepmind-meltingpot-text
-type: material
-title: google-deepmind/meltingpot
-work_id: github-google-deepmind-meltingpot
-source_url: https://raw.githubusercontent.com/google-deepmind/meltingpot/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: 8ebf8c19383c274823f617f48c74f88d786ff356b15db0704087a4e884d529ae
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/google-deepmind/meltingpot/main/README.md](https://raw.githubusercontent.com/google-deepmind/meltingpot/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/google-deepmind/meltingpot/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # Melting Pot
 
@@ -23,9 +10,9 @@ link_resolution: Относительные ссылки README преобраз
 <!-- GITHUB -->
 [![Python](https://img.shields.io/pypi/pyversions/dm-meltingpot.svg)](https://pypi.python.org/pypi/dm-meltingpot)
 [![PyPI version](https://img.shields.io/pypi/v/dm-meltingpot.svg)](https://pypi.python.org/pypi/dm-meltingpot)
-[![PyPI tests](https://raw.githubusercontent.com/google-deepmind/actions/workflows/pypi-test.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/pypi-test.yml)
-[![Tests](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-meltingpot.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-meltingpot.yml)
-[![Examples](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-examples.yml/badge.svg)](https://raw.githubusercontent.com/google-deepmind/actions/workflows/test-examples.yml)
+[![PyPI tests](../../actions/workflows/pypi-test.yml/badge.svg)](../../actions/workflows/pypi-test.yml)
+[![Tests](../../actions/workflows/test-meltingpot.yml/badge.svg)](../../actions/workflows/test-meltingpot.yml)
+[![Examples](../../actions/workflows/test-examples.yml/badge.svg)](../../actions/workflows/test-examples.yml)
 <!-- /GITHUB -->
 <!-- linter on -->
 

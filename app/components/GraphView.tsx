@@ -14,6 +14,7 @@ type GWork = {
   importance: "core" | "supporting" | "peripheral";
   topics: string[];
   summary: string;
+  hasRetelling: boolean;
 };
 type GTopic = { id: string; title: string; count: number; lead: string };
 type GData = {
@@ -311,9 +312,16 @@ export default function GraphView({ full = false }: { full?: boolean }) {
                 <p className="graph-card-meta">{authorsShort(selected.work.authors, 3)}</p>
               )}
               <p className="graph-card-text">{selected.work.summary}</p>
-              <Link href={`/works/${selected.work.id}`} className="button">
-                Открыть карточку работы
-              </Link>
+              <div className="aside-actions">
+                {selected.work.hasRetelling && (
+                  <Link href={`/works/${selected.work.id}/summary`} className="button">
+                    Читать изложение на русском
+                  </Link>
+                )}
+                <Link href={`/works/${selected.work.id}`} className="button button-quiet">
+                  Открыть карточку работы
+                </Link>
+              </div>
             </>
           ) : (
             <>

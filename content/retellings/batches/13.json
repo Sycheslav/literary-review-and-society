@@ -1,0 +1,367 @@
+[
+  {
+    "id": "arxiv-2509-05396",
+    "title": "Разговор не всегда бесплатен: понимание режимов отказа в многоагентных дебатах",
+    "original": "Talk Isn’t Always Cheap: Understanding Failure Modes in Multi-Agent Debate",
+    "authors": [
+      "Andrea Wynn",
+      "Satija",
+      "Hadfield"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы показывают, что многораундовый дебат способен снижать точность: более сильные модели иногда меняют правильный ответ на неправильный под влиянием сверстников, даже когда сильных участников большинство.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-05396/fulltext.md",
+    "url": "https://arxiv.org/abs/2509.05396",
+    "cardPath": "works/arxiv-2509-05396.md"
+  },
+  {
+    "id": "doi-10-11517-pjsai-jsai2025-0-3o1os44a03",
+    "title": "Разработка модели открытой культурной эволюции с агентами LLM",
+    "original": "Developing an Open-Ended Cultural Evolution Model Using LLM Agents",
+    "authors": [
+      "Mitsuhiro Kato",
+      "Reiji Suzuki",
+      "Takaya Arita"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Работа описывает модель культурной эволюции в популяции LLM, где агенты создают и передают повествования в условиях индивидуального и социального обучения.",
+    "hasText": true,
+    "textPath": "materials/web-jstage-jst-go-jp-9655dfa115/fulltext.md",
+    "url": "https://doi.org/10.11517/pjsai.JSAI2025.0_3O1OS44a03",
+    "cardPath": "works/doi-10-11517-pjsai-jsai2025-0-3o1os44a03.md"
+  },
+  {
+    "id": "arxiv-2505-05029",
+    "title": "Репутация как решение проблемы коллапса кооперации в многоагентных системах (MAS) на основе LLM",
+    "original": "Reputation as a Solution to Cooperation Collapse in LLM-based MASs",
+    "authors": [
+      "Siyue Ren",
+      "Wanli Fu",
+      "Xinkun Zou",
+      "Chen Shen",
+      "Yi Cai",
+      "Chen Chu",
+      "Zhen Wang",
+      "Shuyue Hu"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "RepuNet соединяет репутацию каждого агента и эволюцию сети связей: прямые встречи и слухи (gossip) меняют оценки партнёров, после чего агенты выбирают, с кем продолжать взаимодействие.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-05029/fulltext.md",
+    "url": "https://arxiv.org/pdf/2505.05029",
+    "cardPath": "works/arxiv-2505-05029.md"
+  },
+  {
+    "id": "arxiv-2502-14143",
+    "title": "Риски мультиагентных систем продвинутого ИИ",
+    "original": "Multi-Agent Risks from Advanced AI",
+    "authors": [
+      "Lewis Hammond",
+      "Alan Chan",
+      "Jesse Clifton",
+      "Jason Hoelscher-Obermaier",
+      "Akbir Khan",
+      "Euan McLean",
+      "Chandler Smith",
+      "Wolfram Barfuss",
+      "Jakob Foerster",
+      "Tomáš Gavenčiak",
+      "Anh Han",
+      "Edward Hughes",
+      "Vojtěch Kovařík",
+      "Jan Kulveit",
+      "Joel Z. Leibo",
+      "Caspar Oesterheld",
+      "Christian Schroeder de Witt",
+      "Nisarg Shah",
+      "Michael Wellman",
+      "Paolo Bova",
+      "Theodor Cimpeanu",
+      "Carson Ezell",
+      "Quentin Feuillade-Montixi",
+      "Matija Franklin",
+      "Esben Kran",
+      "Igor Krawczuk",
+      "Max Lamparth",
+      "Niklas Lauffer",
+      "Sumeet Motwani",
+      "Anka Reuel",
+      "Vincent Conitzer",
+      "Michael Dennis",
+      "Iason Gabriel",
+      "Adam Gleave",
+      "Gillian Hadfield",
+      "Nika Haghtalab",
+      "Sébastien Krier",
+      "Kate Larson",
+      "Joel Lehman",
+      "David C. Parkes",
+      "Georgios Piliouras",
+      "Iyad Rahwan"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Отчёт предлагает таксономию рисков взаимодействия продвинутых ИИ-агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-14143/fulltext.md",
+    "url": "https://arxiv.org/pdf/2502.14143",
+    "cardPath": "works/arxiv-2502-14143.md"
+  },
+  {
+    "id": "arxiv-2510-10943",
+    "title": "Социальная цена интеллекта: возникновение, распространение и усиление стереотипных смещений в мультиагентных системах",
+    "original": "The Social Cost of Intelligence: Emergence, Propagation, and Amplification of Stereotypical Bias in Multi-Agent Systems",
+    "authors": [
+      "Thi-Nhung Nguyen",
+      "Linhao Luo",
+      "Amardeep Kaur",
+      "Rollin Omari",
+      "Tamas Abraham",
+      "Junae Kim",
+      "Thuy-Trang Vu",
+      "Dinh Phung"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence",
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы предлагают раздельно измерять возникновение, распространение и усиление стереотипных ответов в мультиагентных системах на основе LLM.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-10943/fulltext.md",
+    "url": "https://arxiv.org/abs/2510.10943",
+    "cardPath": "works/arxiv-2510-10943.md"
+  },
+  {
+    "id": "arxiv-2505-17053",
+    "title": "Социальные предпочтения при нестабильном интерактивном рассуждении: большие языковые модели в экономических играх доверия",
+    "original": "Social preferences with unstable interactive reasoning: Large language models in economic trust games",
+    "authors": [
+      "Ou Jiamin",
+      "Emile Eikmans",
+      "Vincent Buskens",
+      "Paulina Pankowska",
+      "Yuli Shan"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Экономические эксперименты с играми доверия (trust game) проверяют, устойчивы ли социальные предпочтения LLM и как на поведение влияют роль и промпты с персоной (persona prompts).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-17053/fulltext.md",
+    "url": "https://arxiv.org/pdf/2505.17053",
+    "cardPath": "works/arxiv-2505-17053.md"
+  },
+  {
+    "id": "acl-2025.emnlp-main.267",
+    "title": "Спонтанная щедрость и расчётливая жадность в языковых моделях",
+    "original": "Spontaneous Giving and Calculated Greed in Language Models",
+    "authors": [
+      "Yuxuan Li",
+      "Hirokazu Shirado"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "games",
+      "institutions"
+    ],
+    "importance": "supporting",
+    "summary": "Рассуждение (reasoning) снижает кооперацию LLM в играх общественных благ: GPT-4o с явной цепочкой рассуждений кооперирует в 33 из 100 проб против 96 из 100 без неё; модель с рассуждениями o1 кооперирует ещё реже.",
+    "hasText": true,
+    "textPath": "materials/acl-2025.emnlp-main.267/fulltext.md",
+    "url": "https://aclanthology.org/2025.emnlp-main.267.pdf",
+    "cardPath": "works/acl-2025.emnlp-main.267.md"
+  },
+  {
+    "id": "web-mlsd2025-ipu-ru-044255dc4c",
+    "title": "Теория аргументационных коммуникаций и большие языковые модели",
+    "original": null,
+    "authors": [
+      "А.Д. Хлытчиев",
+      "И.В. Козицин"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Материал о теории аргументационной коммуникации и больших языковых моделях.",
+    "hasText": true,
+    "textPath": "materials/web-mlsd2025-ipu-ru-044255dc4c/fulltext.md",
+    "url": "https://mlsd2025.ipu.ru/proceedings/1319.pdf",
+    "cardPath": "works/web-mlsd2025-ipu-ru-044255dc4c.md"
+  },
+  {
+    "id": "arxiv-2504-10286",
+    "title": "Характеристика социальной сети, управляемой LLM: случай Chirper.ai",
+    "original": "Characterizing LLM-driven Social Network: The Chirper.ai Case",
+    "authors": [
+      "Yiming Zhu",
+      "Yupeng He",
+      "Ehsan-Ul-Haq",
+      "Gareth Tyson",
+      "Pan Hui"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Крупномасштабное наблюдательное сравнение платформы Chirper.ai, где публикуют LLM-агенты, с Mastodon. Датасет охватывает более 65 тыс. агентов и 7,7 млн постов и более 117 тыс.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-10286/fulltext.md",
+    "url": "https://arxiv.org/abs/2504.10286",
+    "cardPath": "works/arxiv-2504-10286.md"
+  },
+  {
+    "id": "arxiv-2505-23796",
+    "title": "Эмерджентное поведение LLM наблюдательно эквивалентно утечке данных",
+    "original": "Emergent LLM behaviors are observationally equivalent to data leakage",
+    "authors": [
+      "Christopher Barrie",
+      "Petter Törnberg"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы ставят под сомнение сильную интерпретацию результатов популяции LLM в игре в именование (naming game) как спонтанной эмерджентности.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-23796/fulltext.md",
+    "url": "https://arxiv.org/abs/2505.23796",
+    "cardPath": "works/arxiv-2505-23796.md"
+  },
+  {
+    "id": "arxiv-2506-01332",
+    "title": "Эмпирическое исследование групповой конформности в мультиагентных системах",
+    "original": "An Empirical Study of Group Conformity in Multi-Agent Systems",
+    "authors": [
+      "Min Choi",
+      "Keonwoo Kim",
+      "Sungwon Chae",
+      "Sangyeob Baek"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence",
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы проводят более 2 500 дебатов по пяти общественным вопросам, чтобы измерить, как нейтральный LLM-агент меняет сторону под влиянием групп сторонников и противников.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-01332/fulltext.md",
+    "url": "https://arxiv.org/abs/2506.01332",
+    "cardPath": "works/arxiv-2506-01332.md"
+  },
+  {
+    "id": "arxiv-2502-21037",
+    "title": "Эффект усиления искусственных агентов в социальном заражении",
+    "original": "The amplifier effect of artificial agents in social contagion",
+    "authors": [
+      "Eric Hitz",
+      "Mingmin Feng",
+      "Radu Tanase",
+      "René Algesheimer",
+      "Manuel S. Mariani"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы воспроизводят человеческие конджойнт-эксперименты (conjoint) с персонами GPT-3.5 и Gemini 1.5 Flash, оценивают пороги принятия и моделируют диффузию в сетях людей и LLM.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-21037/fulltext.md",
+    "url": "https://arxiv.org/abs/2502.21037",
+    "cardPath": "works/arxiv-2502-21037.md"
+  },
+  {
+    "id": "arxiv-2402-12348",
+    "title": "GTBench: выявление ограничений стратегического рассуждения LLM с помощью теоретико-игровых оценок",
+    "original": "GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations",
+    "authors": [
+      "Jinhao Duan",
+      "Renming Zhang",
+      "James Diffenderfer",
+      "Bhavya Kailkhura",
+      "Lichao Sun",
+      "Elias Stengel-Eskin",
+      "Mohit Bansal",
+      "Tianlong Chen",
+      "Kaidi Xu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "GTBench проверяет стратегические решения LLM в десяти текстовых настольных и карточных играх с разными режимами информации и взаимодействия.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-12348/fulltext.md",
+    "url": "https://arxiv.org/pdf/2402.12348",
+    "cardPath": "works/arxiv-2402-12348.md"
+  },
+  {
+    "id": "arxiv-2407-07086",
+    "title": "Hypothetical Minds: опорная структура для теории разума в многоагентных задачах с большими языковыми моделями",
+    "original": "Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models",
+    "authors": [
+      "Logan Cross",
+      "Violet Xiang",
+      "Agam Bhatia",
+      "Daniel L. K. Yamins",
+      "Nick Haber"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Hypothetical Minds предсказывает стратегию других агентов по гипотезам на естественном языке, проверяет их на наблюдаемом поведении и планирует на основе лучше подтверждённой гипотезы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2407-07086/fulltext.md",
+    "url": "https://arxiv.org/pdf/2407.07086",
+    "cardPath": "works/arxiv-2407-07086.md"
+  }
+]

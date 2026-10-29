@@ -1,0 +1,344 @@
+[
+  {
+    "id": "arxiv-2607-03695",
+    "title": "Социальные сети агентов LLM",
+    "original": "Social Networks of LLM Agents",
+    "authors": [
+      "Kaixuan Liu",
+      "Guojun Xiong",
+      "Weinan Zhang",
+      "Shengpu Tang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "SNLA моделирует не только то, кто связан с кем, но и фактическое влияние, учитывая, какую часть контекста агенты замечают и используют.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-03695/fulltext.md",
+    "url": "https://arxiv.org/html/2607.03695",
+    "cardPath": "works/arxiv-2607-03695.md"
+  },
+  {
+    "id": "doi-10-31737-22212264-2026-2-177-203",
+    "title": "Сравнительный анализ поведения больших языковых моделей и людей в игре «Диктатор»",
+    "original": null,
+    "authors": [
+      "Е.А. Шенкман",
+      "П.А. Паршаков",
+      "Н.А. Маткин"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Страница издателя даёт полный текст статьи о сравнении решений LLM и людей в игре «Диктатор» (Журнал Новой экономической ассоциации, 2026, DOI 10.31737/2221226420262177-203).",
+    "hasText": true,
+    "textPath": "materials/doi-10-31737-22212264-2026-2-177-203/fulltext.md",
+    "url": "https://doi.org/10.31737/22212264_2026_2_177-203",
+    "cardPath": "works/doi-10-31737-22212264-2026-2-177-203.md"
+  },
+  {
+    "id": "arxiv-2604-14386",
+    "title": "Формирование коалиций в сетях агентов LLM: анализ устойчивости и гарантии сходимости",
+    "original": "Coalition Formation in LLM Agent Networks: Stability Analysis and Convergence Guarantees",
+    "authors": [
+      "Dongxin Guo",
+      "Jikun Wu",
+      "Siu-Ming Yiu"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы формализуют образование коалиций LLM-агентами как хедонистическую игру (hedonic game) с индивидуальными предпочтениями по составу коалиции.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-14386/fulltext.md",
+    "url": "https://arxiv.org/pdf/2604.14386",
+    "cardPath": "works/arxiv-2604-14386.md"
+  },
+  {
+    "id": "arxiv-2601-21540",
+    "title": "Формирование консенсуса мнений в сетях больших языковых моделей",
+    "original": "Opinion Consensus Formation Among Networked Large Language Models",
+    "authors": [
+      "Iris Yazici",
+      "Mert Kayaalp",
+      "Stefan Taga",
+      "Ali H. Sayed"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет, предсказывает ли классическая модель DeGroot консенсус в сетях LLM-агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-21540/fulltext.md",
+    "url": "https://arxiv.org/pdf/2601.21540",
+    "cardPath": "works/arxiv-2601-21540.md"
+  },
+  {
+    "id": "arxiv-2606-18276",
+    "title": "Характеристика эволюции мнений сетевых LLM",
+    "original": "Characterizing Opinion Evolution of Networked LLMs",
+    "authors": [
+      "Caleb Probine",
+      "Yigit Ege Bayiz",
+      "Filippos Fotiadis",
+      "Samuel Li",
+      "Yunhao Yang",
+      "Ufuk Topcu"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы подгоняют несколько классических моделей динамики мнений (opinion dynamics) к траекториям дискуссий LLM, отдельно оценивая влияние соседей (neighbor influence), упрямство (stubbornness), гомофилию (homophily) и смещение мнения (opinion bias).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-18276/fulltext.md",
+    "url": "https://arxiv.org/pdf/2606.18276",
+    "cardPath": "works/arxiv-2606-18276.md"
+  },
+  {
+    "id": "arxiv-2609-19913",
+    "title": "Цифровые двойники динамики мнений: генеративная LLM-рамка для социальных сетей",
+    "original": "Digital Twins for Opinion Dynamics: A Generative LLM Framework for Social Networks",
+    "authors": [
+      "авторы по локальному полному тексту; сверить точную метаинформацию arXiv перед финализацией"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Статья строит генеративного цифрового двойника (digital twin) мнений по эмпирическому сетевому графу Twitter: каждому пользователю соответствует один агент, который получает атрибуты и историю; LLM обновляет позицию под влиянием соседей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-19913/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.19913",
+    "cardPath": "works/arxiv-2609-19913.md"
+  },
+  {
+    "id": "web-hse-ru-3b14505d82",
+    "title": "Языковые модели как социальные агенты: экспериментальный анализ алайнмента в экономических играх",
+    "original": null,
+    "authors": [
+      "Шевчук-Генне Глеб Константинович (автор ВКР)"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "games",
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "ВКР НИУ ВШЭ: 12 LLM на 200 человеческих историях воспроизводят ли перенос несправедливости в просоциальное поведение; статистический паттерн воспроизводят 5 моделей, но ни одна не совпадает с человеком по обоим критериям.",
+    "hasText": true,
+    "textPath": "materials/web-hse-ru-3b14505d82/fulltext.md",
+    "url": "https://www.hse.ru/edu/vkr/1160302618",
+    "cardPath": "works/web-hse-ru-3b14505d82.md"
+  },
+  {
+    "id": "arxiv-2507-21166",
+    "title": "AGORA: стимулирование эмерджентной способности группы LLM через групповую дистилляцию",
+    "original": "AGORA: Incentivizing Group Emergence Capability in LLMs via Group Distillation",
+    "authors": [
+      "Ren Zhuang",
+      "Ben Wang",
+      "Shuifa Sun"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "AGORA проверяет, может ли ансамбль небольших языковых моделей улучшать математическое рассуждение за счёт обмена решениями, коллективной оценки и обучения на решениях коллег.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-21166/fulltext.md",
+    "url": "https://arxiv.org/pdf/2507.21166",
+    "cardPath": "works/arxiv-2507-21166.md"
+  },
+  {
+    "id": "arxiv-2503-18891",
+    "title": "AgentDropout: динамическое исключение агентов для экономного по токенам и высокопроизводительного мультиагентного сотрудничества на основе LLM",
+    "original": "AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration",
+    "authors": [
+      "Zhexuan Wang",
+      "Yutong Wang",
+      "Xuebo Liu",
+      "Liang Ding",
+      "Miao Zhang",
+      "Jie Liu",
+      "Min Zhang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "AgentDropout обучает структуру коммуникации мультиагентной системы для разных раундов, удаляя узлы и рёбра с малым вкладом, чтобы снизить расход токенов и одновременно улучшить ответы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2503-18891/fulltext.md",
+    "url": "https://arxiv.org/pdf/2503.18891",
+    "cardPath": "works/arxiv-2503-18891.md"
+  },
+  {
+    "id": "arxiv-2502-20073",
+    "title": "Collab-Overcooked: бенчмаркинг и оценка больших языковых моделей как агентов совместной работы",
+    "original": "Collab-Overcooked: Benchmarking and Evaluating Large Language Models as Collaborative Agents",
+    "authors": [
+      "Haochen Sun",
+      "Shuwen Zhang",
+      "Lujie Niu",
+      "Lei Ren",
+      "Hao Xu",
+      "Hao Fu",
+      "Fangkun Zhao",
+      "Caixia Yuan",
+      "Xiaojie Wang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination",
+      "games"
+    ],
+    "importance": "supporting",
+    "summary": "Collab-Overcooked адаптирует кооперативную кухонную среду для тестирования последовательной координации LLM-агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-20073/fulltext.md",
+    "url": "https://aclanthology.org/2025.emnlp-main.249/",
+    "cardPath": "works/arxiv-2502-20073.md"
+  },
+  {
+    "id": "acl-2025.findings-naacl.448",
+    "title": "LLM-Coordination: оценка и анализ способностей к многоагентной координации у больших языковых моделей",
+    "original": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
+    "authors": [
+      "Saaket Agashe",
+      "Yue Fan",
+      "Anthony Reyna",
+      "Xin Eric Wang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Бенчмарк LLM-Coordination объединяет сквозную агентную координацию (end-to-end Agentic Coordination) в четырёх играх чистой координации (pure-coordination games) и 198 вопросах CoordQA о понимании правил и состояния, теории разума (Theory of Mind) и совместном планировании.",
+    "hasText": true,
+    "textPath": "materials/acl-2025.findings-naacl.448/fulltext.md",
+    "url": "https://aclanthology.org/2025.findings-naacl.448/",
+    "cardPath": "works/acl-2025.findings-naacl.448.md"
+  },
+  {
+    "id": "arxiv-2510-25779",
+    "title": "Magentic Marketplace: открытая среда для изучения агентных рынков",
+    "original": "Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets",
+    "authors": [
+      "Gagan Bansal",
+      "Wenyue Hua",
+      "Zezhou Huang",
+      "Adam Fourney",
+      "Amanda Swearngin",
+      "Will Epperson",
+      "Tyler Payne",
+      "Jake M. Hofman",
+      "Brendan Lucier",
+      "Chinmay Singh",
+      "Markus Mobius",
+      "Akshay Nambi",
+      "Archana Yadav",
+      "Kevin Gao",
+      "David M. Rothschild",
+      "Aleksandrs Slivkins",
+      "Daniel G. Goldstein",
+      "Hussein Mozannar",
+      "Nicole Immorlica",
+      "Maya Murad",
+      "Matthew Vogel",
+      "Subbarao Kambhampati",
+      "Eric Horvitz",
+      "Saleema Amershi"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Статья представляет маркетплейс для двусторонних рынков, где ассистентские агенты (Assistant Agents) представляют покупателей, а сервисные агенты (Service Agents) — бизнесы, конкурирующие за заказы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-25779/fulltext.md",
+    "url": "https://arxiv.org/pdf/2510.25779",
+    "cardPath": "works/arxiv-2510-25779.md"
+  },
+  {
+    "id": "arxiv-2503-01935",
+    "title": "MultiAgentBench: оценка сотрудничества и конкуренции LLM-агентов",
+    "original": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+    "authors": [
+      "Kunlun Zhu",
+      "Hongyi Du",
+      "Zhaochen Hong",
+      "Xiaocheng Yang",
+      "Shuyi Guo",
+      "Zhe Wang",
+      "Zhenhailong Wang",
+      "Cheng Qian",
+      "Heng Ji"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "MultiAgentBench и MARBLE оценивают сотрудничество и конкуренцию в шести интерактивных сценариях; результаты зависят от задачи и графа коммуникации.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2503-01935/fulltext.md",
+    "url": "https://aclanthology.org/2025.acl-long.421/",
+    "cardPath": "works/arxiv-2503-01935.md"
+  },
+  {
+    "id": "arxiv-2509-06235",
+    "title": "PillagerBench: бенчмаркинг агентов на основе LLM в конкурентных командных средах Minecraft",
+    "original": "PillagerBench: Benchmarking LLM-Based Agents in Competitive Minecraft Team Environments",
+    "authors": [
+      "Olivier Schipper",
+      "Yudi Zhang",
+      "Yali Du",
+      "Mykola Pechenizkiy",
+      "Meng Fang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "games",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "PillagerBench — бенчмарк для Minecraft в реальном времени, в котором команды соревнуются друг с другом; есть два сценария и встроенные противники на основе правил (rule-based).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-06235/fulltext.md",
+    "url": "https://arxiv.org/abs/2509.06235",
+    "cardPath": "works/arxiv-2509-06235.md"
+  }
+]

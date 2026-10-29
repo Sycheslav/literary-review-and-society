@@ -12,6 +12,7 @@ export function GET() {
     importance: w.importance,
     topics: w.topics,
     summary: w.summary,
+    hasRetelling: w.hasRetelling,
   }));
   const topics = getTopics().map((t) => ({ id: t.id, title: t.title, count: t.count, lead: t.lead }));
   return Response.json({ works, topics, ...getGraph() });

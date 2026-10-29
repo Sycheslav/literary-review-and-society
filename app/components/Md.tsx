@@ -12,6 +12,8 @@ function resolveHref(href: string): { internal: string; workId?: string } | null
   if (topic) return { internal: `/topics/${topic[1]}` };
   const text = href.match(/(?:^|\/)materials\/([^/]+)\/fulltext\.md$/);
   if (text) return { internal: `/works/${text[1]}/text` };
+  const summary = href.match(/(?:^|\/)materials\/([^/]+)\/summary\.ru\.md$/);
+  if (summary) return { internal: `/works/${summary[1]}/summary` };
   if (/README\.md/.test(href)) return { internal: "/" };
   return null;
 }
@@ -53,6 +55,10 @@ export default function Md({ children, className }: { children: string; classNam
               );
             }
             return <>{children}</>;
+          },
+          h2({ children }) {
+            const num = typeof children === "string" ? children.match(/^(\d+)\.\s/) : null;
+            return <h2 id={num ? `section-${num[1]}` : undefined}>{children}</h2>;
           },
           h3({ children }) {
             const num = typeof children === "string" ? children.match(/^(\d+)\.(\d+)\./) : null;

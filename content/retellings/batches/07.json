@@ -1,0 +1,336 @@
+[
+  {
+    "id": "arxiv-2610-22201",
+    "title": "Децентрализованные рабочие процессы LLM на основе последовательных аукционов",
+    "original": "Decentralized LLM Workflows via Sequential Auctions",
+    "authors": [
+      "Ian Gemp",
+      "Shubhendu Trivedi",
+      "Adam Fisch",
+      "Fantine Huot",
+      "Michael Kaisers",
+      "Mirella Lapata",
+      "William W. Cohen",
+      "Alekh Agarwal",
+      "Kate Larson",
+      "Jacob Eisenstein"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Децентрализованное распределение задач между агентами через последовательные аукционы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-22201/fulltext.md",
+    "url": "https://arxiv.org/pdf/2610.22201",
+    "cardPath": "works/arxiv-2610-22201.md"
+  },
+  {
+    "id": "arxiv-2604-17220",
+    "title": "Динамика когнитивной гетерогенности: поведенческие смещения в многоэтапных цепочках поставок при симуляции на основе LLM",
+    "original": "Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation",
+    "authors": [
+      "Jiuyun Jiang",
+      "Yuecheng Hong",
+      "Bo Yang",
+      "Jin Yang",
+      "Guangxin Jiang",
+      "Xiaomeng Guo",
+      "Guang Xiao"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics",
+      "resources",
+      "influence"
+    ],
+    "importance": "supporting",
+    "summary": "В Beer Distribution Game модели GPT и DeepSeek играют роли цепочки поставок; исследование связывает когнитивные возможности с координацией и эффектом обмена информацией.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-17220/fulltext.md",
+    "url": "https://arxiv.org/pdf/2604.17220",
+    "cardPath": "works/arxiv-2604-17220.md"
+  },
+  {
+    "id": "arxiv-2604-20582",
+    "title": "Доверие, ложь и долгая память: эмерджентная социальная динамика и репутация в многораундовом Avalon с агентами LLM",
+    "original": "Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents",
+    "authors": [
+      "Suveen Ellawela"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "games"
+    ],
+    "importance": "supporting",
+    "summary": "В игре Avalon пять LLM-агентов многократно получают скрытые роли и сохраняют структурированные воспоминания о предыдущих играх.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-20582/fulltext.md",
+    "url": "https://arxiv.org/pdf/2604.20582",
+    "cardPath": "works/arxiv-2604-20582.md"
+  },
+  {
+    "id": "arxiv-2610-31971",
+    "title": "Знать, кому доверять, недостаточно: разрыв между доверием и согласием в повторяющихся многосторонних переговорах LLM (TASMAN)",
+    "original": "Knowing Whom to Trust is not Enough: The Trust–Agreement Gap in Repeated Multi-Party LLM Negotiation (TASMAN)",
+    "authors": [
+      "Amit Sarker",
+      "Moumita Choudhury",
+      "Saaduddin Mahmud",
+      "Shlomo Zilberstein"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа вводит TASMAN — повторяющиеся многопартийные переговоры, где одна роль тайно саботирует заключение сделки, а участники копят попарное доверие к партнёрам между эпизодами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-31971/fulltext.md",
+    "url": "https://arxiv.org/abs/2610.31971",
+    "cardPath": "works/arxiv-2610-31971.md"
+  },
+  {
+    "id": "arxiv-2602-11865",
+    "title": "Интеллектуальное делегирование ИИ",
+    "original": "Intelligent AI Delegation",
+    "authors": [
+      "Nenad Tomašev",
+      "Matija Franklin",
+      "Simon Osindero"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы рассматривают делегирование как цепочку взаимосвязанных решений: разбиение задачи, выбор исполнителя, передача полномочий и ответственности, установление границ и мониторинг выполнения.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-11865/fulltext.md",
+    "url": "https://arxiv.org/pdf/2602.11865",
+    "cardPath": "works/arxiv-2602-11865.md"
+  },
+  {
+    "id": "doi-10-1093-pnasnexus-pgag297",
+    "title": "Как большие языковые модели оценивают человеческую кооперацию и влияют на неё",
+    "original": "How large language models judge and influence human cooperation",
+    "authors": [
+      "Alexandre S. Pires",
+      "Laurens Samson",
+      "Sennay Ghebreab",
+      "Fernando P. Santos"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "memory",
+      "influence",
+      "institutions"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы извлекают нормы косвенной взаимности (indirect reciprocity) из решений 21 LLM по 43 200 искусственным социальным ситуациям, после чего подставляют полученные вероятностные нормы в эволюционно-игровую модель кооперации.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1093-pnasnexus-pgag297/fulltext.md",
+    "url": "https://doi.org/10.1093/pnasnexus/pgag297",
+    "cardPath": "works/doi-10-1093-pnasnexus-pgag297.md"
+  },
+  {
+    "id": "arxiv-2606-29354",
+    "title": "Когда LLM вырабатывают языки: символьная коммуникация для эффективного многоагентного рассуждения",
+    "original": "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning",
+    "authors": [
+      "Zhengqi Pei",
+      "Qingming Huang",
+      "Shuhui Wang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "CLSR предлагает агентам самостоятельно создавать компактные фреймворки языковой символики (Language Symbolism Frameworks, LSF) и использовать их как протокол обмена при решении задач.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-29354/fulltext.md",
+    "url": "https://arxiv.org/pdf/2606.29354",
+    "cardPath": "works/arxiv-2606-29354.md"
+  },
+  {
+    "id": "doi-10-1038-s41598-026-42705-7",
+    "title": "Когда сотрудничество терпит неудачу: состязательное влияние, основанное на убеждении, в многоагентных дебатах больших языковых моделей",
+    "original": "When collaboration fails: persuasion driven adversarial influence in multi agent large language model debate",
+    "authors": [
+      "Insaf Kraidia",
+      "Iyas Qaddara",
+      "Alhanof Almutairi",
+      "Nada Alzaben",
+      "Samir Brahim Belhouari"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence",
+      "influence",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Один убедительный состязательный участник (persuasive adversary) в многоагентных дебатах (debate) целенаправленно ведёт кооператоров к неправильному ответу; статья сообщает падение точности на 10–40% и рост ошибочного консенсуса >30%.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1038-s41598-026-42705-7/fulltext.md",
+    "url": "https://doi.org/10.1038/s41598-026-42705-7",
+    "cardPath": "works/doi-10-1038-s41598-026-42705-7.md"
+  },
+  {
+    "id": "acl-2026.findings-emnlp.1716",
+    "title": "Коллаборативная ОС для мультиагентных систем (MAS-OS)",
+    "original": "Collaborative OS of Multi-Agent Systems (MAS-OS)",
+    "authors": [
+      "Jiazheng Kang",
+      "Ruochen Zhao",
+      "Dongying Lin",
+      "Gezi Li",
+      "Ting Bai"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "MAS-OS совместно управляет памятью, выбором исполнителя и контекстом в мультиагентных рабочих процессах (workflow); заявленное авторами среднее превышение над базовыми системами — 17.42% на четырёх бенчмарках.",
+    "hasText": true,
+    "textPath": "materials/acl-2026.findings-emnlp.1716/fulltext.md",
+    "url": "https://aclanthology.org/2026.findings-emnlp.1716/",
+    "cardPath": "works/acl-2026.findings-emnlp.1716.md"
+  },
+  {
+    "id": "arxiv-2604-18005",
+    "title": "Коллапс разнообразия в мультиагентных системах LLM: структурная связанность и коллективный сбой при генерации идей в открытой постановке",
+    "original": "Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation",
+    "authors": [
+      "Nuo Chen",
+      "Yicheng Tong",
+      "Yuzhe Yang",
+      "Yufei He",
+      "Xueyi Zhang",
+      "Qingyun Zou",
+      "Qian Wang",
+      "Bingsheng He"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Исследование проверяет, расширяет ли мультиагентное взаимодействие пространство идей или приводит к семантическому схлопыванию.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-18005/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.18005",
+    "cardPath": "works/arxiv-2604-18005.md"
+  },
+  {
+    "id": "arxiv-2604-11312",
+    "title": "Коллективная динамика мнений в структурированных популяциях LLM",
+    "original": "Collective Opinion Dynamics in Structured LLM Populations",
+    "authors": [
+      "Erica Cau",
+      "Andrea Failla",
+      "Giulio Rossetti"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы сравнивают динамику мнений LLM-популяций в пяти сетях с контролируемой гомофилией (homophily), меняя размер групп и доступность локальной информации. На каждую конфигурацию проведено десять независимых запусков.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-11312/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.11312",
+    "cardPath": "works/arxiv-2604-11312.md"
+  },
+  {
+    "id": "arxiv-2510-25595",
+    "title": "Коммуникация и верификация в LLM-агентах для совместной работы в условиях информационной асимметрии",
+    "original": "Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry",
+    "authors": [
+      "Run Peng",
+      "Ziqiao Ma",
+      "Amy Pang",
+      "Sikai Li",
+      "Zhang Xi-Jia",
+      "Yingzhuo Yu",
+      "Cristian-Paul Bara",
+      "Joyce Chai"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Два LLM-агента решают адаптированную настольную головоломку Einstein Puzzle, имея разделённые ограничения и физический доступ к разным частям стола.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-25595/fulltext.md",
+    "url": "https://arxiv.org/abs/2510.25595",
+    "cardPath": "works/arxiv-2510-25595.md"
+  },
+  {
+    "id": "arxiv-2610-05041",
+    "title": "Коммуникация формирует коллективный вывод в самоадаптирующихся обществах LLM: данные из игры Mafia",
+    "original": "Communication Shapes Collective Inference in Self-Adapting LLM Societies: Evidence from Mafia",
+    "authors": [
+      "Haonan Huang",
+      "Joey Xiao"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination",
+      "games"
+    ],
+    "importance": "supporting",
+    "summary": "Эксперимент проверяет, когда коммуникация помогает большинству жителей выявить меньшинство мафии в игре со скрытыми ролями, и как ценность общения меняется при адаптации стратегии.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-05041/fulltext.md",
+    "url": "https://arxiv.org/abs/2610.05041",
+    "cardPath": "works/arxiv-2610-05041.md"
+  },
+  {
+    "id": "arxiv-2609-02580",
+    "title": "Конкурентное рыночное поведение LLM",
+    "original": "Competitive Market Behavior of LLMs",
+    "authors": [
+      "Pawel Struski",
+      "Jakub Swistak",
+      "Inez Okulska",
+      "Przemyslaw Biecek"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "LLM-трейдеры в двойном аукционе (double auction) не сходятся к конкурентному равновесию и распределяют ресурсы менее эффективно, чем человеческий эталон.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-02580/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.02580",
+    "cardPath": "works/arxiv-2609-02580.md"
+  }
+]

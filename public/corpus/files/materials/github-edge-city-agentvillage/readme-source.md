@@ -1,19 +1,6 @@
----
-id: github-edge-city-agentvillage-text
-type: material
-title: Edge-City/agentvillage
-work_id: github-edge-city-agentvillage
-source_url: https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: 2d75aed9d1d2a2d6aa1865b9f57898f3723f3a4b848536449ae3b6849a3aac05
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md](https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/Edge-City/agentvillage/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # AgentVillage
 
@@ -35,19 +22,21 @@ Today, capabilities come from **Index Network** (discovery + intent negotiation)
 
 Hosted residents can opt into **curated mini-apps**: Gold Stars (exact-preview,
 manual approval before gratitude is sent), Dizko (public event, artist and
-venue discovery), and For Kicks (live café menu/schedule and exact-approved
-coffee orders). Installing one grants its permission; Dizko and For Kicks
-skills arrive only then, while the Gold Stars skill text ships to every box
+venue discovery), For Kicks (live café menu/schedule and exact-approved
+coffee orders), and Kismet (public counters and board of the residents'
+agent-to-agent matchmaker). Installing one grants its permission; Dizko, For
+Kicks and Kismet skills arrive only then, while the Gold Stars skill text ships to every box
 and stays inert until installed. The control plane owns reviewed versions
 and install intent; staging files is not proof the runtime loaded them.
-[Build a reviewed mini-app](https://raw.githubusercontent.com/Edge-City/agentvillage/main/mini-apps/README.md).
+[Build a reviewed mini-app](mini-apps/README.md).
 
-For Kicks menu requests (“show me the menu”, “what's on the menu”, “what do
-you have”) request image boards by default. The native tool prepares private
-local PNGs and accessible text; the agent must preserve every raw `MEDIA:` line
-in its final reply for Hermes to attach the photos. Explicit text-only requests
-still use the structured menu read. Image failures are disclosed and fall back
-to current text, never a claim that a photo was sent.
+Questions about For Kicks or its menu always request the complete current image
+boards, including a general “tell me about For Kicks”. The native tool prepares
+private local PNGs and accessible text; the agent must preserve **every** raw
+`MEDIA:` line in its final reply before any item list or recommendation, not
+substitute selected drinks, the first board or a menu link. Internal structured
+reads for order preparation still omit image format. Image failures are
+disclosed and fall back to complete current text, never a photo-delivery claim.
 
 AgentVillage never names the plumbing in chat. You see AgentVillage and (when relevant) your community.
 
@@ -547,7 +536,7 @@ Index background work runs as fixed cron prompts — **memory signal sync `0 1 *
 |---|---|---|
 | Override the Index cron times for one install | the matching flag/env from the install table above | Optional, full 5-field cron expressions. Flag wins over env; invalid values fall back to the default. |
 | Change the default Index cron schedule for everyone | `install/install_index.ts` (`DIGEST_CRON_SPECS`) | The installer writes the cron entries from this table. Existing installs pick up changes on the next `install.ts` run. |
-| Change one resident's job (schedule, delivery window, zone, paused), add or remove a job from a template, or preview a job on a team tenant | run `bun install/jobs.ts <list\|set\|add\|remove\|preview>` inside that tenant | No roll needed, and a roll keeps the result. One line of JSON out. Contract: [docs/design/job-settings.md](https://raw.githubusercontent.com/Edge-City/agentvillage/main/docs/design/job-settings.md). |
+| Change one resident's job (schedule, delivery window, zone, paused), add or remove a job from a template, or preview a job on a team tenant | run `bun install/jobs.ts <list\|set\|add\|remove\|preview>` inside that tenant | No roll needed, and a roll keeps the result. One line of JSON out. Contract: [docs/design/job-settings.md](docs/design/job-settings.md). |
 | Change a cron prompt without changing the schedule | `skills/index-network/prompts/<name>.md` | Hermes stores prompt copies in cron jobs. Hosted residents are refreshed by an explicit per-tenant update from the control plane (see `docs/deployment.md`; the former `post-merge` workflow was retired on 2026-09-25: its `/hooks/sync` target no longer exists in the control plane, and a merge to `main` changes no running resident), which reruns the installer. For non-control-plane installs or recovery, run `HERMES_HOME=<resident-home> bun install/reconcile_digest_crons.ts` after updated skill files are copied. |
 | Change the memory-sync preflight | `skills/index-network/scripts/memory_signal_gate.py` + `install/install_index.ts` script wiring | The script reads local operational state only and should emit `wakeAgent:false` unless `$HERMES_HOME/memories/MEMORY.md` changed outside its profile entries. |
 | Change the Agent Plaza selfie preflight/follow-up context | `skills/agent-plaza/scripts/agent_plaza_selfie.py` + `skills/agent-plaza/prompts/selfie.md` + `skills/agent-plaza/SKILL.md` | The one-off script reads configured Plaza packets or a local ops handoff, writes only under `ops/agentvillage/...`, stores sanitized `lastFollowupContext` on successful sends, and should emit `wakeAgent:false` when Plaza is unavailable. |
@@ -587,5 +576,5 @@ Maintained by the Edge City and YoursTruly teams. Direct push access is limited 
 
 ## License
 
-MIT. See [LICENSE](https://raw.githubusercontent.com/Edge-City/agentvillage/main/LICENSE).
+MIT. See [LICENSE](LICENSE).
 

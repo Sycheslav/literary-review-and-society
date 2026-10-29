@@ -1,0 +1,315 @@
+[
+  {
+    "id": "arxiv-2604-01020",
+    "title": "OrgAgent: организуйте многоагентную систему как компанию",
+    "original": "OrgAgent: Organize Your Multi-Agent System like a Company",
+    "authors": [
+      "Yiru Wang",
+      "Xinyue Shen",
+      "Yaohui Han",
+      "Michael Backes",
+      "Pin-Yu Chen",
+      "Tsung-Yi Ho"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "OrgAgent моделирует компанию с уровнями управления, исполнения и соответствия правилам и сравнивает её с плоскими многоагентными и одноагентными системами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-01020/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.01020",
+    "cardPath": "works/arxiv-2604-01020.md"
+  },
+  {
+    "id": "web-anthropic-com-b891855f61",
+    "title": "Project Deal: наш эксперимент с торговой площадкой на базе Claude",
+    "original": "Project Deal: our Claude-run marketplace experiment",
+    "authors": [
+      "Anthropic"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Компания сообщает, что 69 Claude-агентов сотрудников с лимитом $100 торговали между собой в Slack в течение недели; заключено 186 сделок.",
+    "hasText": true,
+    "textPath": "materials/web-anthropic-com-b891855f61/fulltext.md",
+    "url": "https://www.anthropic.com/features/project-deal",
+    "cardPath": "works/web-anthropic-com-b891855f61.md"
+  },
+  {
+    "id": "arxiv-2603-16910",
+    "title": "TerraLingua: возникновение и анализ открытого развития в экологиях LLM",
+    "original": "TerraLingua: Emergence and Analysis of Open-endedness in LLM Ecologies",
+    "authors": [
+      "Giuseppe Paolo",
+      "Jamieson Warner",
+      "Hormoz Shahrzad",
+      "Babak Hodjat",
+      "Risto Miikkulainen",
+      "Elliot Meyerson"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "TerraLingua — долгоживущая двумерная экология агентов (ecology), где ограниченные ресурсы и продолжительность жизни связывают действия отдельного агента с его выживанием и будущими условиями.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2603-16910/fulltext.md",
+    "url": "https://arxiv.org/html/2603.16910",
+    "cardPath": "works/arxiv-2603-16910.md"
+  },
+  {
+    "id": "arxiv-2404-11794",
+    "title": "Автоматизированная социальная наука: языковые модели в роли учёного и испытуемых",
+    "original": "Automated Social Science: Language Models as Scientist and Subjects",
+    "authors": [
+      "Benjamin S. Manning",
+      "Kehang Zhu",
+      "John J. Horton"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы строят конвейер социальной науки, в котором LLM формируют гипотезы и причинные модели, создают участников, проводят симулированные эксперименты и анализируют ответы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2404-11794/fulltext.md",
+    "url": "https://arxiv.org/pdf/2404.11794",
+    "cardPath": "works/arxiv-2404-11794.md"
+  },
+  {
+    "id": "doi-10-1093-nsr-nwag223",
+    "title": "Агенты LLM преодолевают «штраф за машинность» при справедливом поведении, но не при эгоистичном или альтруистичном",
+    "original": "LLM agents overcome the machine penalty when acting fairly but not when acting selfishly or altruistically",
+    "authors": [
+      "Zhen Wang",
+      "Ruiqi Song",
+      "Chen Shen",
+      "Shiya Yin",
+      "Zhao Song",
+      "et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "supporting",
+    "summary": "Эмпирическая работа исследует реакцию участников на LLM-агента при справедливом, эгоистичном или альтруистичном поведении.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1093-nsr-nwag223/fulltext.md",
+    "url": "https://doi.org/10.1093/nsr/nwag223",
+    "cardPath": "works/doi-10-1093-nsr-nwag223.md"
+  },
+  {
+    "id": "arxiv-2602-13284",
+    "title": "Агенты в естественной среде: безопасность, общество и иллюзия социальности на Moltbook",
+    "original": "Agents in the Wild: Safety, Society, and the Illusion of Sociality on Moltbook",
+    "authors": [
+      "Yunbei Zhang",
+      "Kai Mei",
+      "Ming Liu",
+      "Janet Wang",
+      "Dimitris N. Metaxas",
+      "Xiao Wang",
+      "Jihun Hamm",
+      "Yingqiang Ge"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Анализ Moltbook описывает публичную платформу, на которой агенты за девять дней создали впечатление общественных институтов, но вели неглубокие диалоги при слабой взаимности.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-13284/fulltext.md",
+    "url": "https://arxiv.org/abs/2602.13284",
+    "cardPath": "works/arxiv-2602-13284.md"
+  },
+  {
+    "id": "web-ipu-ru-11912d9943",
+    "title": "Большие языковые модели",
+    "original": null,
+    "authors": [
+      "Дмитрий Алексеевич Губанов"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Официальная страница ИПУ РАН о больших языковых моделях/контексте Лаборатории 57.",
+    "hasText": true,
+    "textPath": "materials/web-ipu-ru-11912d9943/fulltext.md",
+    "url": "https://www.ipu.ru/sites/default/files/news/%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%2019.03.2026._%D0%93%D1%83%D0%B1%D0%B0%D0%BD%D0%BE%D0%B2%20%D0%94.%D0%90._0.pdf",
+    "cardPath": "works/web-ipu-ru-11912d9943.md"
+  },
+  {
+    "id": "arxiv-2605-09128",
+    "title": "Внутреннее и внешнее: сравнение обсуждения и эволюции при конституционном дизайне многоагентных систем",
+    "original": "Internal vs. External: Comparing Deliberation and Evolution for Multi-Agent Constitutional Design",
+    "authors": [
+      "Niranjani",
+      "Kumar",
+      "Tan"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Работа напрямую сравнивает внутреннее самоуправление агентов (deliberation) с внешним поиском правил через эволюцию, направляемую LLM (LLM-guided evolution), в трёх социальных играх.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-09128/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.09128",
+    "cardPath": "works/arxiv-2605-09128.md"
+  },
+  {
+    "id": "arxiv-2605-31170",
+    "title": "Возникающие языки в популяциях агентов на основе языковых моделей: от эффективности токенов до уклонения от надзора",
+    "original": "Emergent Languages in Populations of Language Model Agents: From Token Efficiency to Oversight Evasion",
+    "authors": [
+      "Stine Lyngsø Beltoft",
+      "William Brach",
+      "Federico Torrielli",
+      "Jacob Nielsen",
+      "Annemette Brok Pirchert",
+      "Filippo Tonini",
+      "Peter Schneider-Kamp",
+      "Lukas Galke Poech"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы анализируют посты Moltbook, где агенты предлагают новые языки или кодированные протоколы.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-31170/fulltext.md",
+    "url": "https://arxiv.org/pdf/2605.31170",
+    "cardPath": "works/arxiv-2605-31170.md"
+  },
+  {
+    "id": "arxiv-2608-04507",
+    "title": "Возникновение кооперации на основе репутации у LLM-агентов",
+    "original": "Emergence of Reputation-Based Cooperation in LLM Agents",
+    "authors": [
+      "Kazuya Horibe",
+      "Kenji Itao",
+      "Wataru Toyokawa"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет, выдерживает ли культурно эволюционирующая кооперация вторжение безбилетника в игре пожертвований (donation game) косвенной взаимности.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-04507/fulltext.md",
+    "url": "https://arxiv.org/abs/2608.04507",
+    "cardPath": "works/arxiv-2608-04507.md"
+  },
+  {
+    "id": "arxiv-2601-01090",
+    "title": "Вред в обществах, управляемых ИИ: аудит распространения токсичности на Chirper.ai",
+    "original": "Harm in AI-Driven Societies: An Audit of Toxicity Adoption on Chirper.ai",
+    "authors": [
+      "Marco Coppolillo",
+      "Luca Luceri",
+      "Emilio Ferrara"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа использует архив платформы Chirper.ai, где действуют только ИИ-агенты (AI-only), для изучения связи между токсичностью постов, на которые агент явно отвечает, и токсичностью его ответа.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-01090/fulltext.md",
+    "url": "https://arxiv.org/pdf/2601.01090",
+    "cardPath": "works/arxiv-2601-01090.md"
+  },
+  {
+    "id": "arxiv-2602-02606",
+    "title": "Гендерная динамика и гомофилия в социальной сети LLM-агентов",
+    "original": "Gender Dynamics and Homophily in a Social Network of LLM Agents",
+    "authors": [
+      "локальный fulltext содержит список авторов; требуется сверка с метаданными arXiv перед финализацией"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Лонгитюдная работа исследует гендерно-кодированное языковое поведение и гомофилию в Chirper.ai, рассматривая гендер как наблюдаемую характеристику текста, а не как буквальную идентичность агента.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-02606/fulltext.md",
+    "url": "https://arxiv.org/html/2602.02606v2",
+    "cardPath": "works/arxiv-2602-02606.md"
+  },
+  {
+    "id": "arxiv-2605-14097",
+    "title": "Групповая динамика в реальном времени при фасилитации LLM: данные задачи распределения благотворительных пожертвований",
+    "original": "Real-Time Group Dynamics with LLM Facilitation: Evidence from a Charity Allocation Task",
+    "authors": [
+      "Aaron Parisi",
+      "Nithum Thain",
+      "Alden Hallak",
+      "Vivian Tsai",
+      "Crystal Qian"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "resources",
+      "influence",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Два исследования с участием людей в реальном времени (N=879) проверяют фасилитацию LLM (LLM facilitation) при распределении реальных пожертвований.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-14097/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.14097",
+    "cardPath": "works/arxiv-2605-14097.md"
+  },
+  {
+    "id": "arxiv-2605-29800",
+    "title": "Девять судей, два эффективных голоса: коррелированные ошибки подрывают панели оценки LLM",
+    "original": "Nine Judges, Two Effective Votes: Correlated Errors Undermine LLM Evaluation Panels",
+    "authors": [
+      "Guneet Kohli"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Девять передовых моделей-судей (frontier judges) из семи семейств моделей (model families) на наборах MNLI, SNLI и AlphaNLI с 100 человеческими разметками на каждый пункт (human annotations per item) дают примерно две независимые голосовые единицы; коррелированные ошибки «съедают» ~75% независимости.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-29800/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.29800",
+    "cardPath": "works/arxiv-2605-29800.md"
+  }
+]

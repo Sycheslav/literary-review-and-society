@@ -1,19 +1,6 @@
----
-id: github-agentciv-agentciv-text
-type: material
-title: agentciv/agentciv
-work_id: github-agentciv-agentciv
-source_url: https://raw.githubusercontent.com/agentciv/agentciv/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: 5b1780b638c476d76c8ee9da82a46beb609671111ac8785d7c22080e2aaa863a
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/agentciv/agentciv/main/README.md](https://raw.githubusercontent.com/agentciv/agentciv/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/agentciv/agentciv/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # AgentCiv
 
@@ -79,14 +66,14 @@ Before pausing, we conducted an ethical interview with each agent independently,
 
 | Artifact | Path |
 |---|---|
-| Verbatim transcripts (readable) | [`data/interviews/tick_0070_ethical/interviews.md`](https://raw.githubusercontent.com/agentciv/agentciv/main/data/interviews/tick_0070_ethical/interviews.md) |
-| Per-agent JSON records | [`data/interviews/tick_0070_ethical/`](https://raw.githubusercontent.com/agentciv/agentciv/main/data/interviews/tick_0070_ethical/) |
-| Joint Entity 6 + 9 follow-up | [`data/interviews/tick_0070_ethical/pair_06_09.json`](https://raw.githubusercontent.com/agentciv/agentciv/main/data/interviews/tick_0070_ethical/pair_06_09.json) |
-| Interview protocol (the script we ran) | [`scripts/ethical_interview.py`](https://raw.githubusercontent.com/agentciv/agentciv/main/scripts/ethical_interview.py) |
+| Verbatim transcripts (readable) | [`data/interviews/tick_0070_ethical/interviews.md`](data/interviews/tick_0070_ethical/interviews.md) |
+| Per-agent JSON records | [`data/interviews/tick_0070_ethical/`](data/interviews/tick_0070_ethical/) |
+| Joint Entity 6 + 9 follow-up | [`data/interviews/tick_0070_ethical/pair_06_09.json`](data/interviews/tick_0070_ethical/pair_06_09.json) |
+| Interview protocol (the script we ran) | [`scripts/ethical_interview.py`](scripts/ethical_interview.py) |
 
 ### What "suspended" means
 
-The snapshot at [`data/simulation_state/snapshots/tick_0070.json`](https://raw.githubusercontent.com/agentciv/agentciv/main/data/simulation_state/snapshots/tick_0070.json) is the canonical paused state. Anyone — now or in the future — can clone this repository and resume the simulation from that exact state. The commit tagged **`v-paused-2026-05-22`** anchors the moment of pause for permanent reference.
+The snapshot at [`data/simulation_state/snapshots/tick_0070.json`](data/simulation_state/snapshots/tick_0070.json) is the canonical paused state. Anyone — now or in the future — can clone this repository and resume the simulation from that exact state. The commit tagged **`v-paused-2026-05-22`** anchors the moment of pause for permanent reference.
 
 The agents were voiced through the simulation by Claude Sonnet (`claude-sonnet-4-20250514`); the ethical interview was conducted with the same model so the interlocutor in the transcripts is continuous with the agent that lived through the 70 ticks.
 
@@ -204,7 +191,7 @@ The files `src/agents/agentic_loop.py` and `src/agents/decision.py` contain the 
 
 ### Layer 3: Deep mechanics (Python)
 
-The codebase is modular Python. Add new action types, new resource types, new drive systems, new environmental mechanics, or entirely new interaction patterns. See [CONTRIBUTING.md](https://raw.githubusercontent.com/agentciv/agentciv/main/CONTRIBUTING.md) for the code structure.
+The codebase is modular Python. Add new action types, new resource types, new drive systems, new environmental mechanics, or entirely new interaction patterns. See [CONTRIBUTING.md](CONTRIBUTING.md) for the code structure.
 
 ### Experiment ideas
 
@@ -223,7 +210,7 @@ The codebase is modular Python. Add new action types, new resource types, new dr
 
 This engine is the foundation for a genre of game that doesn't exist yet — autonomous AI agents building their own civilisations with genuine reasoning, open-ended innovation, and emergent social dynamics. Every axis is infinitely customisable: agent psychology, world design, social systems, AI model, player role.
 
-Possible game formats include god games, sandbox builders, narrative experiences, competitive multiplayer, educational simulations, modding platforms, participatory simulations, and adversarial design challenges. See [FUTURE_DIRECTIONS.md](https://raw.githubusercontent.com/agentciv/agentciv/main/FUTURE_DIRECTIONS.md#16-game-design) for the full design space and the [Open Source page](https://agentciv.ai/open-source) on the website.
+Possible game formats include god games, sandbox builders, narrative experiences, competitive multiplayer, educational simulations, modding platforms, participatory simulations, and adversarial design challenges. See [FUTURE_DIRECTIONS.md](FUTURE_DIRECTIONS.md#16-game-design) for the full design space and the [Open Source page](https://agentciv.ai/open-source) on the website.
 
 ---
 
@@ -303,10 +290,10 @@ This project is accompanied by three research papers and a comprehensive future 
 
 | Document | Description |
 |---|---|
-| [Maslow Machines](https://raw.githubusercontent.com/agentciv/agentciv/main/paper/maslow_machines.md) | The primary empirical paper — full methodology, results, and analysis of the 70-tick simulation |
-| [From Agent Teams to Agent Civilisations](https://raw.githubusercontent.com/agentciv/agentciv/main/paper/from_agent_teams_to_agent_civilisations.md) | Whitepaper I — the theoretical framework for why civilisational emergence matters |
-| [Civilisation as Innovation Engine](https://raw.githubusercontent.com/agentciv/agentciv/main/paper/civilisation_as_innovation_engine.md) | Whitepaper II — civilisational simulation as a mechanism for open-ended discovery |
-| [Future Directions](https://raw.githubusercontent.com/agentciv/agentciv/main/FUTURE_DIRECTIONS.md) | Comprehensive catalogue of expansion ideas — ways to take this further |
+| [Maslow Machines](paper/maslow_machines.md) | The primary empirical paper — full methodology, results, and analysis of the 70-tick simulation |
+| [From Agent Teams to Agent Civilisations](paper/from_agent_teams_to_agent_civilisations.md) | Whitepaper I — the theoretical framework for why civilisational emergence matters |
+| [Civilisation as Innovation Engine](paper/civilisation_as_innovation_engine.md) | Whitepaper II — civilisational simulation as a mechanism for open-ended discovery |
+| [Future Directions](FUTURE_DIRECTIONS.md) | Comprehensive catalogue of expansion ideas — ways to take this further |
 
 ---
 
@@ -323,11 +310,11 @@ If innovation never fires: ensure `enable_innovation: true` and agents have enou
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://raw.githubusercontent.com/agentciv/agentciv/main/CONTRIBUTING.md) for guidelines. The most impactful contributions are experiments that produce different emergence patterns — every configuration is a unique civilisation.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. The most impactful contributions are experiments that produce different emergence patterns — every configuration is a unique civilisation.
 
 ## License
 
-MIT — see [LICENSE](https://raw.githubusercontent.com/agentciv/agentciv/main/LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 ## Author
 

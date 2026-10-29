@@ -1,0 +1,351 @@
+[
+  {
+    "id": "arxiv-2412-10270",
+    "title": "Культурная эволюция кооперации среди LLM-агентов",
+    "original": "Cultural Evolution of Cooperation among LLM Agents",
+    "authors": [
+      "Aron Vallinder",
+      "Edward Hughes"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "institutions"
+    ],
+    "importance": "core",
+    "summary": "Культурная эволюция кооперации в игре донора: стратегии передаются между 10 поколениями LLM-агентов; надёжно улучшает результат только Claude 3.5 Sonnet, для Gemini 1.5 Flash и GPT-4o это не подтверждается.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2412-10270/fulltext.md",
+    "url": "https://arxiv.org/html/2412.10270",
+    "cardPath": "works/arxiv-2412-10270.md"
+  },
+  {
+    "id": "arxiv-2410-13909",
+    "title": "Многоагентная симуляция распространения новостей на основе больших языковых моделей при различных структурах сети",
+    "original": "Large Language Model-driven Multi-Agent Simulation for News Diffusion Under Different Network Structures",
+    "authors": [
+      "Xinyi Li",
+      "Yu Xu",
+      "Yongfeng Zhang",
+      "Edward C. Malthouse"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Работа моделирует распространение дезинформации при разных структурах сети, характеристиках агентов и мерах противодействия.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2410-13909/fulltext.md",
+    "url": "https://arxiv.org/abs/2410.13909",
+    "cardPath": "works/arxiv-2410-13909.md"
+  },
+  {
+    "id": "arxiv-2404-16698",
+    "title": "Сотрудничать или рухнуть: возникновение устойчивой кооперации в обществе LLM-агентов",
+    "original": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+    "authors": [
+      "Giorgio Piatti",
+      "Zhijing Jin",
+      "Max Kleiman-Weiner",
+      "Bernhard Schölkopf",
+      "Mrinmaya Sachan",
+      "Rada Mihalcea"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "В игре общего ресурса с пятью агентами большинство протестированных LLM не удерживает устойчивость; коммуникация повышает кооперацию, подсказка универсализации усиливает устойчивость.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2404-16698/fulltext.md",
+    "url": "https://arxiv.org/abs/2404.16698",
+    "cardPath": "works/arxiv-2404-16698.md"
+  },
+  {
+    "id": "arxiv-2411-03252",
+    "title": "Спонтанное возникновение индивидуальности агентов в ходе социальных взаимодействий в сообществах на основе LLM",
+    "original": "Spontaneous Emergence of Agent Individuality through Social Interactions in LLM-Based Communities",
+    "authors": [
+      "Ryosuke Takata",
+      "Atsushi Masumori",
+      "Takashi Ikegami"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Десять агентов одной модели Llama-2-7b-chat на решётке 50×50 без заданных персон и памяти показывают дифференциацию поведения и текста; авторы связывают её с общением и пространственным масштабом.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-03252/fulltext.md",
+    "url": "https://arxiv.org/abs/2411.03252",
+    "cardPath": "works/arxiv-2411-03252.md"
+  },
+  {
+    "id": "arxiv-2409-00993",
+    "title": "Эволюция социальных норм у LLM-агентов на естественном языке",
+    "original": "Evolution of Social Norms in LLM Agents using Natural Language",
+    "authors": [
+      "Ilya Horiguchi",
+      "Takahide Yoshida",
+      "Takashi Ikegami"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions"
+    ],
+    "importance": "core",
+    "summary": "Языковой вариант метанормной игры Аксельрода: агенты обсуждением на естественном языке формируют стратегии наказания и метанормы; игра, допустимые действия и выигрыши заданы заранее.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2409-00993/fulltext.md",
+    "url": "https://arxiv.org/abs/2409.00993",
+    "cardPath": "works/arxiv-2409-00993.md"
+  },
+  {
+    "id": "arxiv-2304-03442",
+    "title": "Generative Agents: интерактивные симулякры человеческого поведения",
+    "original": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "authors": [
+      "Joon Sung Park",
+      "Joseph C. O’Brien",
+      "Carrie J. Cai",
+      "Meredith Ringel Morris",
+      "Percy Liang",
+      "Michael S. Bernstein"
+    ],
+    "year": 2023,
+    "kind": "research",
+    "topics": [
+      "platforms",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Архитектура генеративных агентов (память, рефлексия, планирование) в Smallville из 25 персонажей: правдоподобное поведение, распространение приглашений и координация вокруг заданной цели.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2304-03442/fulltext.md",
+    "url": "https://arxiv.org/abs/2304.03442",
+    "cardPath": "works/arxiv-2304-03442.md"
+  },
+  {
+    "id": "arxiv-2310-11667",
+    "title": "SOTOPIA: интерактивная оценка социального интеллекта языковых агентов",
+    "original": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+    "authors": [
+      "Xuhui Zhou",
+      "Hao Zhu",
+      "Leena Mathur",
+      "Ruohong Zhang",
+      "Zhengyang Qi",
+      "Haofei Yu",
+      "Louis-Philippe Morency",
+      "Yonatan Bisk",
+      "Daniel Fried",
+      "Graham Neubig",
+      "Maarten Sap"
+    ],
+    "year": 2023,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "SOTOPIA — интерактивная среда, где языковые агенты разыгрывают социальные ситуации с частично приватными целями и сведениями о персонажах.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2310-11667/fulltext.md",
+    "url": "https://arxiv.org/abs/2310.11667",
+    "cardPath": "works/arxiv-2310-11667.md"
+  },
+  {
+    "id": "arxiv-2311-11388",
+    "title": "Машинная культура",
+    "original": "Machine Culture",
+    "authors": [
+      "Levin Brinkmann",
+      "Fabian Baumann",
+      "Jean-François Bonnefon",
+      "Maxime Derex",
+      "Thomas F. Müller",
+      "Anne-Marie Nussberger",
+      "Agnieszka Czaplicka",
+      "Alberto Acerbi",
+      "Thomas L. Griffiths",
+      "Joseph Henrich",
+      "Joel Z. Leibo",
+      "Richard McElreath",
+      "Pierre-Yves Oudeyer",
+      "Jonathan Stray",
+      "Iyad Rahwan"
+    ],
+    "year": 2023,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Работа предлагает рамку анализа машинной культуры через вариативность, отбор и передачу культурных артефактов; доказательства преимущественно теоретические и кейсовые.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2311-11388/fulltext.md",
+    "url": "https://arxiv.org/abs/2311.11388",
+    "cardPath": "works/arxiv-2311-11388.md"
+  },
+  {
+    "id": "arxiv-2609-31590",
+    "title": "AgentWorld: бенчмарк долгосрочного сотрудничества мультиагентных LLM",
+    "original": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+    "authors": [
+      "Raphael Shu",
+      "Yusen Zhang",
+      "Young Min Cho",
+      "Jin Mo Yang",
+      "Yuan Yuan",
+      "Wenliang Zheng",
+      "Sharath Chandra Guntuku",
+      "Lyle Ungar",
+      "Zhou Yu",
+      "Rui Zhang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Бенчмарк включает 100 задач MMORPG, написанных людьми, и 100 расширенных вариантов. В задачах требуются 3–20 агентов, асимметричные роли и не менее 50 раундов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-31590/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.31590",
+    "cardPath": "works/arxiv-2609-31590.md"
+  },
+  {
+    "id": "arxiv-2602-06039",
+    "title": "DyTopo: динамическая маршрутизация топологии для мультиагентного рассуждения через семантическое сопоставление",
+    "original": "DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching",
+    "authors": [
+      "Yuxing Lu",
+      "Yucheng Hu",
+      "Xukai Zhao",
+      "Jiuxin Cao"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "DyTopo на каждом раунде строит разреженный ориентированный граф обмена сообщениями, маршрутизируя сообщения по смысловому соответствию текущей цели, нужд и предложений агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-06039/fulltext.md",
+    "url": "https://arxiv.org/pdf/2602.06039",
+    "cardPath": "works/arxiv-2602-06039.md"
+  },
+  {
+    "id": "arxiv-2609-01491",
+    "title": "GlossoGen: эмерджентный язык в сложных взаимодействиях мультиагентных LLM-систем",
+    "original": "GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions",
+    "authors": [
+      "Elias Stengel-Eskin",
+      "Newton Sander",
+      "Carlos Bonetti",
+      "Sasha Boguraev",
+      "James Bowler",
+      "Hale Sirin",
+      "Simon Kirby"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "GlossoGen — платформа для изучения того, как язык формируется между агентами, которым нужно координироваться в условиях частичной наблюдаемости и временного и коммуникационного давления.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-01491/fulltext.md",
+    "url": "https://arxiv.org/html/2609.01491v1",
+    "cardPath": "works/arxiv-2609-01491.md"
+  },
+  {
+    "id": "arxiv-2602-00685",
+    "title": "HumanStudy-Bench: к дизайну ИИ-агентов для симуляции участников исследований",
+    "original": "HumanStudy-Bench: Towards AI Agent Design for Participant Simulation",
+    "authors": [
+      "Xuan Liu",
+      "Haoyang Shang",
+      "Zizhang Liu",
+      "Xinyan Liu",
+      "Yunze Xiao",
+      "Yiwen Tu",
+      "Haojian Jin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "baselines"
+    ],
+    "importance": "supporting",
+    "summary": "HumanStudy-Bench: тест на 12 классических эффектах показывает, что LLM-агенты часто совпадают по знаку эффекта, но не по величине и распределению человеческих ответов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-00685/fulltext.md",
+    "url": "https://arxiv.org/abs/2602.00685",
+    "cardPath": "works/arxiv-2602-00685.md"
+  },
+  {
+    "id": "arxiv-2606-27845",
+    "title": "LLM-агенты как статические игроки level-k в поведенческих играх",
+    "original": "LLM Agents as Static Level-k Players in Behavioural Games",
+    "authors": [
+      "Po Han Teo"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "baselines",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Локальные LLM в играх ведут себя как статические игроки level-k: уровень рассуждения задаётся размером модели, сдвиг сотрудничества и тренд отличаются от людей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-27845/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.27845",
+    "cardPath": "works/arxiv-2606-27845.md"
+  },
+  {
+    "id": "arxiv-2507-09083",
+    "title": "LLM-участники аукционов воспроизводят порядок сложности механизмов, характерный для людей",
+    "original": "LLM Bidders Preserve the Mechanism-Level Orderings of Human Bidders",
+    "authors": [
+      "Anand Shah",
+      "Kehang Zhu",
+      "Yanchen Jiang",
+      "Jeffrey G. Wang",
+      "Arif K. Dayi",
+      "John J. Horton",
+      "David C. Parkes"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Пять LLM в семи форматах аукционов: модели не совпадают с людьми по величине отклонений, но три крупные модели без режима рассуждения (non-reasoning) сохраняют порядок форматов по трудности.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-09083/fulltext.md",
+    "url": "https://arxiv.org/pdf/2507.09083",
+    "cardPath": "works/arxiv-2507-09083.md"
+  }
+]

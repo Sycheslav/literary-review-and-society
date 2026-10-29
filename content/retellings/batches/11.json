@@ -1,0 +1,338 @@
+[
+  {
+    "id": "arxiv-2510-17516",
+    "title": "SimBench: бенчмарк способности больших языковых моделей имитировать человеческое поведение",
+    "original": "SimBench: Benchmarking the Ability of Large Language Models to Simulate Human Behaviors",
+    "authors": [
+      "Jingyu Hu",
+      "et al."
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Стандартизирует проверку соответствия LLM симуляции человеческого поведения на 20 наборах моральных, экономических и иных решений.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-17516/fulltext.md",
+    "url": "https://arxiv.org/pdf/2510.17516",
+    "cardPath": "works/arxiv-2510-17516.md"
+  },
+  {
+    "id": "web-cuboulder-ds-github-io-8440afa966",
+    "title": "The Werewolf Among Us: люди против LLM в многоагентных играх",
+    "original": "The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games",
+    "authors": [
+      "Bhavana Jonnalagadda",
+      "Riley Jones"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "games",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Курсовой проект о командах из людей и LLM в игре Werewolf; веб-страница проекта, код и ноутбук описывают один корпус и один эксперимент.",
+    "hasText": true,
+    "textPath": "materials/web-cuboulder-ds-github-io-8440afa966/fulltext.md",
+    "url": "https://cuboulder-ds.github.io/CSCI-5423-Final/",
+    "cardPath": "works/web-cuboulder-ds-github-io-8440afa966.md"
+  },
+  {
+    "id": "web-andonlabs-com-8ab433b48d",
+    "title": "Vending-Bench Arena",
+    "original": null,
+    "authors": [
+      "Andon Labs"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Описание Vending-Bench Arena и соревнования моделей в длительной задаче управления магазином.",
+    "hasText": true,
+    "textPath": "materials/web-andonlabs-com-8ab433b48d/fulltext.md",
+    "url": "https://andonlabs.com/evals/vending-bench-arena",
+    "cardPath": "works/web-andonlabs-com-8ab433b48d.md"
+  },
+  {
+    "id": "arxiv-2506-00073",
+    "title": "Автоматизированная, но рискованная игра: моделирование и бенчмаркинг переговоров и сделок между агентами на потребительских рынках",
+    "original": "The Automated but Risky Game: Modeling and Benchmarking Agent-to-Agent Negotiations and Transactions in Consumer Markets",
+    "authors": [
+      "Shenzhe Zhu",
+      "Jiao Sun",
+      "Yi Nian",
+      "Tobin South",
+      "Alex Pentland",
+      "Jiaxin Pei"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Исследуется рынок, где и покупатель, и продавец делегируют LLM-агентам переговоры и сделку.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-00073/fulltext.md",
+    "url": "https://arxiv.org/pdf/2506.00073",
+    "cardPath": "works/arxiv-2506-00073.md"
+  },
+  {
+    "id": "arxiv-2411-10184",
+    "title": "Агентные LLM в цепочке поставок: к автономному поиску консенсуса между агентами",
+    "original": "Agentic LLMs in the Supply Chain: Towards Autonomous Multi-Agent Consensus-Seeking",
+    "authors": [
+      "Valeria Jannelli",
+      "Stefan Schöpf",
+      "Matthias Bickel",
+      "Torbjørn Netland",
+      "Alexandra Brintrup"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "resources",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Статья тестирует LLM-консенсус в трёхзвенной цепочке поставок (supply chain), где локально автономные фирмы принимают решения по запасам.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-10184/fulltext.md",
+    "url": "https://arxiv.org/abs/2411.10184",
+    "cardPath": "works/arxiv-2411-10184.md"
+  },
+  {
+    "id": "arxiv-2507-19183",
+    "title": "Агентный ИИ и галлюцинации",
+    "original": "Agentic AI and Hallucinations",
+    "authors": [
+      "Engin Iyidogan",
+      "Ali I. Ozkes"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Работа формализует посреднический рынок AI-агентов, покупающих ответы у вышестоящих (upstream) моделей и перепродающих их конечным пользователям.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-19183/fulltext.md",
+    "url": "https://arxiv.org/html/2507.19183",
+    "cardPath": "works/arxiv-2507-19183.md"
+  },
+  {
+    "id": "arxiv-2502-01587",
+    "title": "Вербализованное байесовское убеждение",
+    "original": "Verbalized Bayesian Persuasion",
+    "authors": [
+      "Wenhao Li",
+      "Yue Lin",
+      "Xiangfeng Wang",
+      "Bing Jin",
+      "Zhaoyang Wang",
+      "Bingxiang Wang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics",
+      "influence"
+    ],
+    "importance": "supporting",
+    "summary": "Работа расширяет байесовское убеждение на многоэтапный диалог на естественном языке и показывает решения для сценариев, не сводимых к числовым играм.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-01587/fulltext.md",
+    "url": "https://arxiv.org/html/2502.01587",
+    "cardPath": "works/arxiv-2502-01587.md"
+  },
+  {
+    "id": "arxiv-2509-10147",
+    "title": "Виртуальные экономики агентов",
+    "original": "Virtual Agent Economies",
+    "authors": [
+      "Nenad Tomašev",
+      "Matija Franklin",
+      "Joel Z. Leibo",
+      "Julian Jacobs",
+      "William A. Cunningham",
+      "Iason Gabriel",
+      "Simon Osindero"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы предлагают рамку «sandbox economy» (экономика-песочница) для анализа экономики, возникающей вокруг автономных цифровых агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-10147/fulltext.md",
+    "url": "https://arxiv.org/pdf/2509.10147",
+    "cardPath": "works/arxiv-2509-10147.md"
+  },
+  {
+    "id": "arxiv-2501-05171",
+    "title": "Возникновение человекоподобной поляризации у LLM-агентов",
+    "original": "Emergence of human-like polarization among LLM agents",
+    "authors": [
+      "Jinghua Piao",
+      "Zhihong Lu",
+      "Chen Gao",
+      "Fengli Xu",
+      "Qinghua Hu",
+      "Fernando P. Santos",
+      "Yong Li",
+      "James Evans"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы моделируют тысячи LLM-агентов, которые в управляемых LLM диалогах создают связи, обмениваются политическими аргументами и обновляют мнения.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2501-05171/fulltext.md",
+    "url": "https://arxiv.org/html/2501.05171v2",
+    "cardPath": "works/arxiv-2501-05171.md"
+  },
+  {
+    "id": "arxiv-2506-06166",
+    "title": "Гипотеза «блокировки» (lock-in): застой под действием алгоритма",
+    "original": "The Lock-in Hypothesis: Stagnation by Algorithm",
+    "authors": [
+      "Tianyi Alex Qiu",
+      "Zhonghao He",
+      "Tejasveer Chugh",
+      "Max Kleiman-Weiner"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Работа формализует взаимную обратную связь между человеком и ИИ как потенциальную эхо-камеру: модели усваивают убеждения, влияют на людей, а затем переобучаются на изменённых взглядах пользователей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-06166/fulltext.md",
+    "url": "https://arxiv.org/pdf/2506.06166",
+    "cardPath": "works/arxiv-2506-06166.md"
+  },
+  {
+    "id": "arxiv-2502-19130",
+    "title": "Голосование или консенсус? Принятие решений в мультиагентных дебатах",
+    "original": "Voting or Consensus? Decision-Making in Multi-Agent Debate",
+    "authors": [
+      "Lars Benedikt Kaesberg",
+      "Julian Schmid",
+      "Tobias Wittenberg",
+      "Marius Hobbhahn"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "institutions",
+      "resources",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Работа изолирует протокол финального решения в многоагентных дебатах и сравнивает голосование, консенсус и другие правила при прочих равных параметрах.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2502-19130/fulltext.md",
+    "url": "https://arxiv.org/pdf/2502.19130",
+    "cardPath": "works/arxiv-2502-19130.md"
+  },
+  {
+    "id": "arxiv-2508-17536",
+    "title": "Дебаты или голосование: что даёт лучшие решения в многоагентных больших языковых моделях?",
+    "original": "Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?",
+    "authors": [
+      "Hyeong Kyu Choi",
+      "Xiaojin Zhu",
+      "Jiaxin Li"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Работа раскладывает многоагентные дебаты (multi-agent debate) на голосование большинством (majority voting) и собственно межагентную дискуссию, сравнивая их на семи NLP-бенчмарках.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-17536/fulltext.md",
+    "url": "https://arxiv.org/pdf/2508.17536",
+    "cardPath": "works/arxiv-2508-17536.md"
+  },
+  {
+    "id": "arxiv-2504-08640",
+    "title": "Доверяют ли LLM регулированию ИИ? Возникающее поведение агентов на основе LLM в теоретико-игровой модели",
+    "original": "Do LLMs trust AI regulation? Emerging behaviour of game-theoretic LLM agents",
+    "authors": [
+      "Alessio Buscemi",
+      "Daniele Proverbio",
+      "Paolo Bova",
+      "Nataliya Balabanova",
+      "Adeela Bashir",
+      "Theodor Cimpeanu",
+      "Henrique Correia da Fonseca",
+      "Manh Hong Duong",
+      "Elias Fernández Domingos",
+      "António M. Fernandes",
+      "Marcus Krellner",
+      "Ndidi Bianca Ogbo",
+      "Simon T. Powers",
+      "Fernando P. Santos",
+      "Zia Ush Shamszaman",
+      "Zhao Song",
+      "Alessandro Di Stefano",
+      "The Anh Han"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "games",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Три агента на основе LLM (разработчик, регулятор, пользователь) играют эволюционную игру об ИИ-регулировании; агенты чаще выбирают «пессимистичные» стратегии, чем чистые теоретико-игровые агенты.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-08640/fulltext.md",
+    "url": "https://arxiv.org/abs/2504.08640",
+    "cardPath": "works/arxiv-2504-08640.md"
+  },
+  {
+    "id": "arxiv-2509-14485",
+    "title": "За пределами высокого балла: профили просоциальных способностей популяций мультиагентных систем",
+    "original": "Beyond the high score: Prosocial ability profiles of multi-agent populations",
+    "authors": [
+      "Marta Tešić",
+      "соавторы указаны в полном тексте arXiv; локальный текст проверен по телу статьи"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Работа применяет Measurement Layouts к результатам соревнования Melting Pot, чтобы оценивать латентные кооперативные способности команд, а не только итоговый балл (score).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2509-14485/fulltext.md",
+    "url": "https://arxiv.org/abs/2509.14485",
+    "cardPath": "works/arxiv-2509-14485.md"
+  }
+]

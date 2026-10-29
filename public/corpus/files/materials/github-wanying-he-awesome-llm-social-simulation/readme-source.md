@@ -1,18 +1,6 @@
----
-id: github-wanying-he-awesome-llm-social-simulation-text
-type: material
-title: Wanying-He/awesome-llm-social-simulation
-work_id: github-wanying-he-awesome-llm-social-simulation
-source_url: https://raw.githubusercontent.com/Wanying-He/awesome-llm-social-simulation/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные
-  ссылки разрешаются относительно исходного репозитория.
-language: original
-sha256_text: aa391c804c6706bda0070a2d52acd0b0111e5e8e2fa12afb3568ff0cc52a4285
----
-
-> Источник: [https://raw.githubusercontent.com/Wanying-He/awesome-llm-social-simulation/main/README.md](https://raw.githubusercontent.com/Wanying-He/awesome-llm-social-simulation/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/Wanying-He/awesome-llm-social-simulation/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # Awesome LLM Social Simulation
 

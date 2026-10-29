@@ -1,0 +1,329 @@
+[
+  {
+    "id": "openreview-gFrVsxAEO4",
+    "title": "Масштабирование совместной работы мультиагентных систем на основе больших языковых моделей",
+    "original": "Scaling Large Language Model-Based Multi-Agent Collaboration",
+    "authors": [
+      "Chen Qian",
+      "Zihao Xie",
+      "YiFei Wang",
+      "Wei Liu",
+      "Kunlun Zhu",
+      "Hanchen Xia",
+      "Yufan Dang",
+      "Zhuoyun Du",
+      "Weize Chen",
+      "Cheng Yang",
+      "Zhiyuan Liu",
+      "Maosong Sun"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "platforms",
+      "memory",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "MACNET размещает агентов-исполнителей в узлах ориентированного ациклического графа, а агентов-критиков — на рёбрах; система решает задачи и сравнивает структуры сети, включая масштаб более 1 000 агентов.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://openreview.net/forum?id=gFrVsxAEO4",
+    "cardPath": "works/openreview-gFrVsxAEO4.md"
+  },
+  {
+    "id": "web-academic-oup-com-a58bb9960d",
+    "title": "Формирование и динамика сетей между несколькими LLM",
+    "original": "Network formation and dynamics among multi-LLMs",
+    "authors": [
+      "Marios Papachristou",
+      "Yuan Yuan"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет, способны ли LLM при локальном выборе социальных связей воспроизводить предпочтительное присоединение (preferential attachment), триадическое замыкание и гомофилию.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://academic.oup.com/pnasnexus/article/4/12/pgaf317/8361967",
+    "cardPath": "works/web-academic-oup-com-a58bb9960d.md"
+  },
+  {
+    "id": "github-stanfordhci-genagents",
+    "title": "genagents: генеративные агенты, отвечающие от имени реальных людей",
+    "original": "StanfordHCI/genagents",
+    "authors": [
+      "Joon Sung Park (контактный автор)",
+      "Соавторы статьи Park et al. (2024), на которую ссылается README; полный список в README не приведён"
+    ],
+    "year": 2024,
+    "kind": "project",
+    "topics": [
+      "methodology",
+      "memory",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Код архитектуры генеративных агентов, которые отвечают на опросы от имени реальных людей на основе качественных интервью и демографического банка GSS (General Social Survey).",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/StanfordHCI/genagents",
+    "cardPath": "works/github-stanfordhci-genagents.md"
+  },
+  {
+    "id": "web-asc-upenn-edu-1680a84f0f",
+    "title": "Экспериментальные данные о точках перелома в социальной конвенции (tipping points)",
+    "original": "Experimental Evidence for Tipping Points in Social Convention",
+    "authors": [
+      "Damon Centola",
+      "Joshua Becker",
+      "Devon Brackbill",
+      "Andrea Baronchelli"
+    ],
+    "year": 2018,
+    "kind": "web_material",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Экспериментальное исследование точек перелома (tipping points) при возникновении социальной конвенции.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://www.asc.upenn.edu/news-events/news/research-finds-tipping-point-large-scale-social-change",
+    "cardPath": "works/web-asc-upenn-edu-1680a84f0f.md"
+  },
+  {
+    "id": "web-pmc-ncbi-nlm-nih-gov-5fc2874029",
+    "title": "Частичная связность увеличивает накопление культуры внутри групп",
+    "original": "Partial connectivity increases cultural accumulation within groups",
+    "authors": [
+      "Maxime Derex",
+      "Robert Boyd"
+    ],
+    "year": 2016,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Человеческий эксперимент о том, как частичная связность способствует накоплению культуры в группах.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4801235",
+    "cardPath": "works/web-pmc-ncbi-nlm-nih-gov-5fc2874029.md"
+  },
+  {
+    "id": "github-mesa-mesa-llm",
+    "title": "Mesa-LLM: языковые модели в агентном моделировании Mesa",
+    "original": "mesa/mesa-llm",
+    "authors": [
+      "Проект Mesa (организация mesa на GitHub; отдельные авторы в README не указаны)"
+    ],
+    "year": null,
+    "kind": "project",
+    "topics": [
+      "platforms",
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Открытая библиотека Mesa-LLM, которая подключает LLM как агентов принятия решений к фреймворку агентного моделирования Mesa.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/mesa/mesa-llm",
+    "cardPath": "works/github-mesa-mesa-llm.md"
+  },
+  {
+    "id": "github-ybkim95-agent-scaling",
+    "title": "Agent Scaling: код и артефакты к статье «Capable language models can outgrow the benefits of collaboration»",
+    "original": "Agent Scaling (code and artifacts for «Capable language models can outgrow the benefits of collaboration»)",
+    "authors": [
+      "Yoon Kim et al.; see associated paper record"
+    ],
+    "year": 2026,
+    "kind": "project",
+    "topics": [
+      "platforms",
+      "coordination",
+      "memory",
+      "communities"
+    ],
+    "importance": "peripheral",
+    "summary": "Официальные артефакты к статье в Nature Machine Intelligence о том, когда рост возможностей модели уменьшает выигрыш от мультиагентного сотрудничества (multi-agent collaboration).",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/ybkim95/agent-scaling/",
+    "cardPath": "works/github-ybkim95-agent-scaling.md"
+  },
+  {
+    "id": "web-caisconf-org-ab467b6f70",
+    "title": "Возникает ли социализация в обществе ИИ-агентов? Кейс Moltbook",
+    "original": "Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook",
+    "authors": [
+      "Ming Li",
+      "Xirui Li",
+      "Tianyi Zhou"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "memory",
+      "communities"
+    ],
+    "importance": "peripheral",
+    "summary": "Запись конференции описывает анализ Moltbook как социальной платформы LLM-агентов и заявляет признаки социализации — стабилизацию семантики, устойчивость влияния и коллективное формирование консенсуса.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://www.caisconf.org/program/2026/papers/does-socialization-emerge-in-ai-agent-society-a-case-study-of-moltbook/",
+    "cardPath": "works/web-caisconf-org-ab467b6f70.md"
+  },
+  {
+    "id": "web-iclr-cc-8e103da977",
+    "title": "Как LLM меняют равновесие в аукционах",
+    "original": "How LLMs Reshape Equilibrium in Auctions",
+    "authors": [
+      "Zhao",
+      "Chen",
+      "Zhang"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Исследование LLM-участников торгов (bidders) в аукционах с общей ценностью (common-value auctions) сообщает об отклонении от равновесия (equilibrium); история исходов смягчает его.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://iclr.cc/virtual/2026/10018190",
+    "cardPath": "works/web-iclr-cc-8e103da977.md"
+  },
+  {
+    "id": "web-papers-ssrn-com-035b5e222b",
+    "title": "Когда слова чего-то стоят: проблемы коммуникации и агентских отношений в LLM-агентах",
+    "original": "When Talk is not Cheap: Communication and Agency Problems in LLM Agents",
+    "authors": [
+      "Shiyun Hu",
+      "Shumiao Ouyang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Аннотация SSRN (SSRN abstract) сообщает о тесте 93 LLM в игре доверия (Trust Game, Charness–Dufwenberg) и сценарии конфликта финансового советника (financial-advisor conflict scenario).",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6884058",
+    "cardPath": "works/web-papers-ssrn-com-035b5e222b.md"
+  },
+  {
+    "id": "web-ipu-ru-21db9441f8",
+    "title": "Лаборатория №57 «Активных систем» ИПУ РАН: официальные направления",
+    "original": null,
+    "authors": [
+      "ИПУ РАН"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Страница фиксирует исследовательский контекст Лаборатории №57: механизмы управления мультиагентными активными системами, многоуровневые системы и синтез структур/сетей, информационное управление с учётом рефлексивного…",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://www.ipu.ru/node/83140",
+    "cardPath": "works/web-ipu-ru-21db9441f8.md"
+  },
+  {
+    "id": "web-neurips-cc-8406e8e000",
+    "title": "Модели доверия в повторяющихся многосторонних переговорах",
+    "original": "Trust Models in Repeated Multi-Party Negotiation",
+    "authors": [
+      "Amit Sarker et al. (полный список авторов не подтверждён)"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "networks"
+    ],
+    "importance": "peripheral",
+    "summary": "Краткая запись утверждает, что в повторных переговорах модель доверия помогает выявить саботажника только тогда, когда агентам прямо велят учитывать доверие.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://neurips.cc/virtual/2026/176561",
+    "cardPath": "works/web-neurips-cc-8406e8e000.md"
+  },
+  {
+    "id": "doi-10-1016-j-knosys-2026-116947",
+    "title": "Обзор симуляции социальных сетей в эпоху LLM: от классических моделей к генеративным агентам",
+    "original": "A survey of social network simulation in the LLM era: From classical models to Generative Agents",
+    "authors": [
+      "Thanh Tam Nguyen",
+      "Trinh Pham",
+      "Viet Huynh",
+      "Minh Hieu Nguyen",
+      "Bay Vo",
+      "Liang Qu",
+      "Jianxin Li",
+      "Hongzhi Yin",
+      "Quoc Viet Hung Nguyen"
+    ],
+    "year": 2026,
+    "kind": "review",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор систематизирует 97 работ за семь десятилетий по пяти парадигмам: модели сетевой структуры, распространение информации, динамика мнений, агентные модели на основе правил (rule-based agent-based models) и агентные симуляции на основе LLM.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://doi.org/10.1016/j.knosys.2026.116947",
+    "cardPath": "works/doi-10-1016-j-knosys-2026-116947.md"
+  },
+  {
+    "id": "web-repositories-cdlib-org-a35f423a1e",
+    "title": "Валидация генеративных агентных моделей принуждения к социальным нормам: от репликации к новым предсказаниям",
+    "original": "Validating Generative Agent-Based Models of Social Norm Enforcement: From Replication to Novel Predictions",
+    "authors": [
+      "Cross",
+      "Haber",
+      "Yamins"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа предлагает двухэтапную валидацию модели принуждения к социальным нормам (enforcement): сначала воспроизвести известные эффекты человеческих экспериментов (human experimental effects), затем проверить новые предсказания.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://repositories.cdlib.org/uc/item/6dg1f4s7",
+    "cardPath": "works/web-repositories-cdlib-org-a35f423a1e.md"
+  },
+  {
+    "id": "github-microsoft-autogen",
+    "title": "AutoGen: фреймворк многоагентных диалогов",
+    "original": "microsoft/autogen",
+    "authors": [
+      "Microsoft Research / AutoGen community"
+    ],
+    "year": 2023,
+    "kind": "project",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "AutoGen — фреймворк для составления LLM-систем из настраиваемых агентов, инструментов и автоматических диалогов.",
+    "hasText": false,
+    "textPath": null,
+    "url": "https://github.com/microsoft/autogen",
+    "cardPath": "works/github-microsoft-autogen.md"
+  }
+]

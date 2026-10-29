@@ -114,3 +114,8 @@ importance_basis: editorial
 ## Происхождение записи
 
 - `исходники исследований лит обзор/Литературный обзор социумы LLM-агентов.md`, строка 56.
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/github-wanying-he-awesome-llm-social-simulation/summary.ru.md)
+

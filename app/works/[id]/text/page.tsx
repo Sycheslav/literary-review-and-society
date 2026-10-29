@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getDetail, getWork, readFullText, readSummaryRu } from "@/lib/data";
+import { getDetail, getWork, readFullText } from "@/lib/data";
 import Md from "../../../components/Md";
+import ReadingLevels from "../../../components/ReadingLevels";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -20,7 +21,6 @@ export default async function FullTextPage({ params }: Props) {
   const detail = getDetail(id);
   if (!work || !detail?.textPath) notFound();
   const text = readFullText(detail.textPath);
-  const summary = readSummaryRu(detail.textPath);
 
   return (
     <article className="section page-top">
@@ -30,12 +30,7 @@ export default async function FullTextPage({ params }: Props) {
         </nav>
         <h1 className="work-title">{work.title}</h1>
         {work.original && <p className="work-original">{work.original}</p>}
-        {summary && (
-          <section lang="ru" className="fulltext">
-            <h2>Изложение на русском</h2>
-            <Md>{summary}</Md>
-          </section>
-        )}
+        <ReadingLevels id={id} detail={detail} current="text" />
         <p className="note">
           Текст оригинала, автоматически извлечённый из PDF или веб-страницы: таблицы, формулы и
           подписи к рисункам могут быть искажены.

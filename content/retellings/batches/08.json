@@ -1,0 +1,341 @@
+[
+  {
+    "id": "arxiv-2604-00487",
+    "title": "Конкуренция и кооперация LLM-агентов в играх",
+    "original": "Competition and Cooperation of LLM Agents in Games",
+    "authors": [
+      "Jiayi Yao",
+      "Cong Chen",
+      "Baosen Zhang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "resources",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Работа сравнивает стратегические действия LLM (LLM strategic action) в распределении ресурсов в сети Келли (Kelly network resource allocation) и в конкуренции по Курно (Cournot competition).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-00487/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.00487",
+    "cardPath": "works/arxiv-2604-00487.md"
+  },
+  {
+    "id": "doi-10-1057-s41599-026-07194-z",
+    "title": "Кризис как катализатор: оценка этической согласованности и кооперации LLM в сценариях с высокими ставками",
+    "original": "Crisis as catalyst: evaluating ethical consistency and cooperation in LLMs under high-stakes scenarios",
+    "authors": [
+      "Aoxiang Yang",
+      "Mingyang Zuo",
+      "Rui Peng",
+      "Chen Gao",
+      "Zongchao Peng"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "communities",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы проверяют этическую согласованность LLM в двух кризисных сценариях: распределении ресурсов при бедствии и реакции на панику толпы (crowd-panic response).",
+    "hasText": true,
+    "textPath": "materials/doi-10-1057-s41599-026-07194-z/fulltext.md",
+    "url": "https://doi.org/10.1057/s41599-026-07194-z",
+    "cardPath": "works/doi-10-1057-s41599-026-07194-z.md"
+  },
+  {
+    "id": "arxiv-2606-01637",
+    "title": "Легче ввести в заблуждение, чем поправить: вредные и полезные пересмотры ответов при конформизме LLM",
+    "original": "Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity",
+    "authors": [
+      "Jiaming Qu",
+      "Lucheng Fu",
+      "Yibo Hu"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "influence",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "В контролируемом эксперименте модель сначала самостоятельно отвечает на вопрос, затем получает ответы шести вымышленных peer-агентов и отвечает ещё раз.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-01637/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.01637",
+    "cardPath": "works/arxiv-2606-01637.md"
+  },
+  {
+    "id": "acl-2026.acl-srw.1",
+    "title": "Многоагентное рассуждение повышает вычислительную эффективность: парето-оптимальное масштабирование на этапе инференса",
+    "original": "Multi-Agent Reasoning Improves Compute Efficiency: Pareto-Optimal Test-Time Scaling",
+    "authors": [
+      "Florian Valentin Wunderlich",
+      "Lars Benedikt Kaesberg",
+      "Jan Philip Wahle",
+      "Terry Ruas",
+      "Bela Gipp"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "platforms",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Сравниваются четыре стратегии масштабирования на этапе инференса — self-consistency, self-refinement, debate и mixture-of-agents (MoA) — на MMLU-Pro и BIG-Bench Hard при сопоставлении вычислительных затрат.",
+    "hasText": true,
+    "textPath": "materials/acl-2026.acl-srw.1/fulltext.md",
+    "url": "https://aclanthology.org/2026.acl-srw.1/",
+    "cardPath": "works/acl-2026.acl-srw.1.md"
+  },
+  {
+    "id": "arxiv-2609-22600",
+    "title": "Могут ли агенты адаптировать свои институты и жертвовать собой во время коллапса? Исполняемое самоуправление в общем ресурсе GovSim",
+    "original": "Can Agents Adapt Their Institutions And Sacrifice Themselves During Collapse? Executable Self-Governance in a GovSim Commons",
+    "authors": [
+      "Gregory B. Rehm"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "В общем ресурсе GovSim (GovSim commons) агенты пишут исполняемые законы на Python, тестируют их, голосуют и применяют.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-22600/fulltext.md",
+    "url": "https://arxiv.org/pdf/2609.22600",
+    "cardPath": "works/arxiv-2609-22600.md"
+  },
+  {
+    "id": "arxiv-2601-10825",
+    "title": "Модели рассуждений порождают «общества мыслей»",
+    "original": "Reasoning Models Generate Societies of Thought",
+    "authors": [
+      "Joon Sung Park",
+      "et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы интерпретируют трассы рассуждений (reasoning traces) как внутреннюю симуляцию нескольких перспектив: модели рассуждений (reasoning models) демонстрируют больше разнообразия перспектив (perspective diversity), смен точки зрения и примирения (reconciliation), чем базовые и инструктивно настроенные (instruction-tuned) модели…",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-10825/fulltext.md",
+    "url": "https://arxiv.org/abs/2601.10825",
+    "cardPath": "works/arxiv-2601-10825.md"
+  },
+  {
+    "id": "arxiv-2606-18264",
+    "title": "Моделирование каскадов языка вражды с агентами на основе нескольких LLM: эмпирическая основа, точность моделирования и стратегии вмешательства",
+    "original": "Simulating Hate Speech Cascades with Multi-LLM Agents: Empirical Grounding, Modeling Fidelity, and Intervention Strategies",
+    "authors": [
+      "Fan Huang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Изучаются три реальных каскада распространения ненавистнического контента (hateful content) в Bluesky и контрольный каскад безвредного контента (benign) сопоставимого размера.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-18264/fulltext.md",
+    "url": "https://arxiv.org/pdf/2606.18264",
+    "cardPath": "works/arxiv-2606-18264.md"
+  },
+  {
+    "id": "arxiv-2607-23982",
+    "title": "Моральный риск в мультиагентных языковых моделях",
+    "original": "Moral Hazard in Multi-Agent Language Models",
+    "authors": [
+      "авторы согласно arXiv fulltext; требуется metadata verification"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет моральный риск (moral hazard) в задачах с агентами, где один участник располагает скрытым фактом и должен заплатить цену за его раскрытие.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-23982/fulltext.md",
+    "url": "https://arxiv.org/pdf/2607.23982",
+    "cardPath": "works/arxiv-2607-23982.md"
+  },
+  {
+    "id": "arxiv-2606-19911",
+    "title": "Мультиагентная транзактивная память",
+    "original": "Multi-Agent Transactive Memory",
+    "authors": [
+      "To Eun Kim",
+      "Xuhong He",
+      "Dishank Jain",
+      "Ambuj Agrawal",
+      "Negar Arabzadeh",
+      "Fernando Diaz"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Общая память траекторий популяции агентов с обучаемым ранжированием: в ALFWorld успешность растёт с 47% до 64%, сокращается число шагов; в WebArena прирост скромнее.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-19911/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.19911",
+    "cardPath": "works/arxiv-2606-19911.md"
+  },
+  {
+    "id": "arxiv-2605-17036",
+    "title": "Надёжность и эффективность автономных ИИ-агентов в управлении цепочками поставок",
+    "original": "Reliability and Effectiveness of Autonomous AI Agents in Supply Chain Management",
+    "authors": [
+      "Xinnong Zhang",
+      "Jiayu Lin",
+      "Jia Wang",
+      "Yixu Huang",
+      "Xinyi Mou",
+      "Yingqian Wu",
+      "Jingcong Liang",
+      "Shijun Lei",
+      "Jianing Shi",
+      "Guanying Li",
+      "Siyuan Wang",
+      "Hanjia Lyu",
+      "Zhenfei Yin",
+      "Yunlu Yin",
+      "Siming Chen",
+      "Yulan He",
+      "Jiebo Luo",
+      "Xuanjing Huang",
+      "Liyin Jin",
+      "Baohua Zhou",
+      "Hanqi Yan",
+      "Zhongyu Wei"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "resources",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "В игре MIT Beer Game оцениваются автономные LLM в многозвенной цепочке поставок.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-17036/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.17036",
+    "cardPath": "works/arxiv-2605-17036.md"
+  },
+  {
+    "id": "doi-10-64898-2026-08-06-26359905",
+    "title": "Назначенные роли меняют распределение общих ресурсов клиническими ИИ-агентами",
+    "original": "Assigned roles change how clinical AI agents allocate shared resources",
+    "authors": [
+      "Alon Gorenshtein",
+      "Mahmud Omar",
+      "Yiftach Barash",
+      "Jonathan B. Kruskal",
+      "Muneeb Ahmed",
+      "Olga R. Brook",
+      "Eyal Klang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "resources",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы изучают, как заданная профессиональная роль меняет решения клинических ИИ-агентов о совместно используемых ресурсах, когда интересы пациентов конкурируют.",
+    "hasText": true,
+    "textPath": "materials/doi-10-64898-2026-08-06-26359905/fulltext.md",
+    "url": "https://doi.org/10.64898/2026.08.06.26359905",
+    "cardPath": "works/doi-10-64898-2026-08-06-26359905.md"
+  },
+  {
+    "id": "acl-2026.eacl-long.51",
+    "title": "Не доверяйте генеративным агентам имитацию коммуникации в социальных сетях без проверки их эмпирической реалистичности",
+    "original": "Don’t Trust Generative Agents to Mimic Communication on Social Networks Unless You Benchmarked their Empirical Realism",
+    "authors": [
+      "Simon Münker",
+      "Nils Schwager",
+      "Achim Rettinger"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Работа проверяет эмпирическую реалистичность LLM как участников коммуникации в социальных сетях на англо- и немецкоязычных данных.",
+    "hasText": true,
+    "textPath": "materials/acl-2026.eacl-long.51/fulltext.md",
+    "url": "https://aclanthology.org/2026.eacl-long.51.pdf",
+    "cardPath": "works/acl-2026.eacl-long.51.md"
+  },
+  {
+    "id": "arxiv-2604-06452",
+    "title": "Обучение прерыванию в многоагентной коммуникации на естественном языке",
+    "original": "Learning to Interrupt in Language-based Multi-agent Communication",
+    "authors": [
+      "Danqing Wang",
+      "Da Yin",
+      "Ruta Desai",
+      "Lei Li",
+      "Asli Celikyilmaz",
+      "Ansong Ni"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Слушатель может прервать потоковое сообщение говорящего.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-06452/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.06452",
+    "cardPath": "works/arxiv-2604-06452.md"
+  },
+  {
+    "id": "arxiv-2607-03228",
+    "title": "Организационная память для исполнения агентных бизнес-процессов",
+    "original": "Organizational Memory for Agentic Business Process Execution",
+    "authors": [
+      "Lukas Kirchdorfer",
+      "Adrian Rebmann",
+      "Christian Warmuth",
+      "Timotheus Kampik",
+      "Theiss Heilker",
+      "Gregor Berg"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "institutions"
+    ],
+    "importance": "supporting",
+    "summary": "Организационная память как общий управляемый слой правил для агентов закупок: 10 сценариев P2P (purchase-to-pay), соответствие политике 88–95% у памяти против 70–80% у RAG и 30% без знаний.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-03228/fulltext.md",
+    "url": "https://arxiv.org/abs/2607.03228",
+    "cardPath": "works/arxiv-2607-03228.md"
+  }
+]

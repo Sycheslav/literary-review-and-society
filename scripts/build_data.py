@@ -135,6 +135,22 @@ def main():
         text_path = next((m for m in n.get("materials", []) if m.endswith("/fulltext.md")), None)
         if text_path and not os.path.exists(os.path.join(CORPUS, "files", text_path)):
             text_path = None
+        # Newly recovered originals need not already be listed in the historical graph.
+        recovered = f"materials/{wid}/fulltext.md"
+        if not text_path and os.path.exists(os.path.join(CORPUS, "files", recovered)):
+            text_path = recovered
+        summary_candidates = ([text_path.rsplit("/", 1)[0] + "/summary.ru.md"] if text_path else [])
+        summary_candidates.append(f"materials/{wid}/summary.ru.md")
+        summary_path = next((p for p in summary_candidates
+                             if os.path.isfile(os.path.join(CORPUS, "files", p))), None)
+        summary_meta, summary_words = {}, 0
+        if summary_path:
+            with open(os.path.join(CORPUS, "files", summary_path), encoding="utf-8") as f:
+                summary_words = len(re.findall(r"\b[\w-]+\b", f.read()))
+            summary_meta = load(os.path.join(CORPUS, "files", summary_path.replace("summary.ru.md", "summary.meta.json")), {})
+            if summary_meta.get("source_status") == "limited" and not summary_meta.get("source_path"):
+                # An archived abstract or conference page is not the full paper.
+                text_path = None
         urls = n.get("source_urls") or []
         works.append(
             {
@@ -148,6 +164,7 @@ def main():
                 "importance": curation["importance"].get(wid) or n.get("importance"),
                 "summary": t.get("summary") or n.get("summary_short") or "",
                 "hasText": bool(text_path),
+                "hasRetelling": bool(summary_path),
             }
         )
         sections = card_sections(n["path"])
@@ -161,6 +178,9 @@ def main():
             "url": urls[0] if urls else None,
             "links": [l for l in links.get(wid, []) if l["url"] != (urls[0] if urls else None)],
             "textPath": text_path,
+            "summaryPath": summary_path,
+            "summaryStatus": summary_meta.get("source_status", "legacy") if summary_path else None,
+            "summaryWords": summary_words,
         }
 
     works.sort(

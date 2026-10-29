@@ -1,19 +1,6 @@
----
-id: github-teamcraft-bench-teamcraft-text
-type: material
-title: TeamCraft
-work_id: github-teamcraft-bench-teamcraft
-source_url: https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: e74cd17a8aa35b7cec5be63274454fa477f2cb33a123000906e05769854187b0
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/README.md](https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # TeamCraft: A Benchmark for Multi-Modal Multi-Agent Systems in Minecraft
 
@@ -24,7 +11,7 @@ link_resolution: Относительные ссылки README преобраз
 [![Datasets](https://img.shields.io/badge/HuggingFace-Datasets-orange.svg)](https://huggingface.co/datasets/teamcraft/teamcraft_data)
 ---
 
-![](https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/images/teamcraft_main.jpg)
+![](images/teamcraft_main.jpg)
 
 </div>
 
@@ -35,7 +22,7 @@ link_resolution: Относительные ссылки README преобраз
 - [2024/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data).
 - [2024/12/06] Publishing the arXiv [paper](https://arxiv.org/abs/2412.05255).  
 
-In this repo, we provide TeamCraft code. This codebase is under [MIT License](https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/LICENSE).
+In this repo, we provide TeamCraft code. This codebase is under [MIT License](LICENSE).
 
 # Installation
 
@@ -166,7 +153,7 @@ docker run -d --name teamcraft-container --gpus all --ulimit nofile=1000000:1000
 
 ## Inference with our models
 
-**(Optional, For Headless Cloud Desktop Only)** Set up [x server](https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/xserver.py):
+**(Optional, For Headless Cloud Desktop Only)** Set up [x server](xserver.py):
 ```bash
 # start tmux session
 $ tmux new -s xserver 
@@ -181,7 +168,7 @@ $ sudo python ./xserver.py 0  # if this throws errors e.g "(EE) Server terminate
 $ export DISPLAY=:0
 ```
 
-Run [eval.py](https://raw.githubusercontent.com/teamcraft-bench/TeamCraft/main/eval.py) for evaluation. It takes the following parameters:
+Run [eval.py](eval.py) for evaluation. It takes the following parameters:
 
 - `--mode`: Evaluation mode; options are `cen` (centralized) and `dec` (decentralized) (default: `cen`)
 - `--ckpt`: Local path or huggingface name to the model checkpoint (default: `teamcraft/TeamCraft-VLA-7B-Cen`)
@@ -309,7 +296,7 @@ for zip in TeamCraft-Data-Dec/*.zip; do echo "Extracting $zip..."; unzip -qo "$z
 ls -lh ./teamcraft_data/10001_1_1.png
 ```
 
-To train, run [finetune_7b_cen.sh](https://raw.githubusercontent.com/llava_teamcraft/scripts/v1_5/finetune_7b_cen.sh) and [finetune_7b_dec.sh](https://raw.githubusercontent.com/llava_teamcraft/scripts/v1_5/finetune_7b_dec.sh): 
+To train, run [finetune_7b_cen.sh](/llava_teamcraft/scripts/v1_5/finetune_7b_cen.sh) and [finetune_7b_dec.sh](/llava_teamcraft/scripts/v1_5/finetune_7b_dec.sh): 
 
 ```bash
 chmod +x ./scripts/v1_5/finetune_7b_cen.sh
@@ -344,11 +331,11 @@ We host pretrained models and dataset on [Hugging Face](https://huggingface.co/t
 
 # Documents
 
-For benchmark environment documents, please refer to [environment document](https://raw.githubusercontent.com/docs/env_doc.md).
+For benchmark environment documents, please refer to [environment document](/docs/env_doc.md).
 
-For task design and available evaluation configure setup, please refer to [task document](https://raw.githubusercontent.com/docs/task_doc.md).
+For task design and available evaluation configure setup, please refer to [task document](/docs/task_doc.md).
 
-For how to desin you own task and configuration, please refer to [customize task document](https://raw.githubusercontent.com/docs/customize_task.md).
+For how to desin you own task and configuration, please refer to [customize task document](/docs/customize_task.md).
 
 
 # System Requirements

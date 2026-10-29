@@ -221,6 +221,14 @@ for (const [index, file] of markdownFiles.entries()) {
   mkdirSync(path.dirname(targetPath), { recursive: true });
   const markdown = redactPublicCredentials(readFileSync(file.absolutePath, "utf8"));
   writeFileSync(targetPath, markdown, "utf8");
+  // Provenance travels with the retelling when rebuilding from the research corpus.
+  if (path.basename(file.absolutePath) === "summary.ru.md") {
+    const metadataPath = path.join(path.dirname(file.absolutePath), "summary.meta.json");
+    if (existsSync(metadataPath)) {
+      const metadata = JSON.parse(readFileSync(metadataPath, "utf8"));
+      writeFileSync(path.join(path.dirname(targetPath), "summary.meta.json"), `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
+    }
+  }
   const document = makeDocumentMetadata(file.relativePath, graphNode, linkedWork);
   document.index = index;
   documents.push(document);
@@ -281,7 +289,7 @@ const searchIndex = {
       },
       {
         path: "non-Markdown source files",
-        reason: "Only local Markdown files are mirrored and full-text indexed; graph.json and navigation.json are copied separately.",
+        reason: "Local Markdown files are mirrored and full-text indexed; retelling provenance sidecars, graph.json and navigation.json are copied separately.",
       },
     ],
     notes: [

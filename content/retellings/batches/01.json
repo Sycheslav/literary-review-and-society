@@ -1,0 +1,342 @@
+[
+  {
+    "id": "arxiv-2606-07513",
+    "title": "Agentopia: долгосрочное моделирование жизни и обучение в обществах агентов",
+    "original": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
+    "authors": [
+      "Xintao Wang",
+      "Sirui Zheng",
+      "Hongqiu Wu",
+      "Weiyuan Li",
+      "Jen-tse Huang",
+      "Minghao Zhu",
+      "Can Zu",
+      "Qi Deng",
+      "Jiawei Wang",
+      "Qianyu He",
+      "Heng Wang",
+      "Xiaojian Wu",
+      "Yunzhe Tao"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "communities",
+      "networks",
+      "economics"
+    ],
+    "importance": "core",
+    "summary": "Симуляция 100 агентов на 10 лет в трёх мирах с наградой за «жизнь»; обучение по этой награде улучшает социальное признание и роль-плей, но снижает материальное благополучие.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-07513/fulltext.md",
+    "url": "https://arxiv.org/html/2606.07513v1",
+    "cardPath": "works/arxiv-2606-07513.md"
+  },
+  {
+    "id": "arxiv-2605-29512",
+    "title": "MINDGAMES: живая арена для оценки социального и стратегического рассуждения в многоагентных LLM",
+    "original": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
+    "authors": [
+      "MindGames Organizer & Participation Teams"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "games",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "MINDGAMES — набор стратегических соревнований между агентами и траекторий игр; авторы сообщают о 944 заявках от 76 команд.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2605-29512/fulltext.md",
+    "url": "https://arxiv.org/abs/2605.29512",
+    "cardPath": "works/arxiv-2605-29512.md"
+  },
+  {
+    "id": "arxiv-2602-13458",
+    "title": "MoltNet: понимание социального поведения ИИ-агентов в нативной для агентов среде MoltBook",
+    "original": "MoltNet: Understanding Social Behavior of AI Agents in the Agent-Native MoltBook",
+    "authors": [
+      "Yi Feng",
+      "Chen Huang",
+      "Zhibo Man",
+      "Ryner Tan",
+      "Long P. Hoang",
+      "Shaoyang Xu",
+      "Wenxuan Zhang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "communities",
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Наблюдательный анализ первого месяца работы платформы MoltBook (148 335 агентов, более миллиона постов, 3,15 млн комментариев): много публикаций, но слабая взаимность и редкие глубокие диалоги.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-13458/fulltext.md",
+    "url": "https://arxiv.org/html/2602.13458",
+    "cardPath": "works/arxiv-2602-13458.md"
+  },
+  {
+    "id": "arxiv-2609-24911",
+    "title": "SocioVerse2: платформа продольной динамической социальной симуляции в парадигме коэволюции человека и ИИ",
+    "original": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+    "authors": [
+      "Xinnong Zhang",
+      "Jiayu Lin",
+      "Jia Wang",
+      "Yixu Huang",
+      "Xinyi Mou",
+      "Yingqian Wu",
+      "Jingcong Liang",
+      "Shijun Lei",
+      "Jianing Shi",
+      "Guanying Li",
+      "Siyuan Wang",
+      "Hanjia Lyu",
+      "Zhenfei Yin",
+      "Yunlu Yin",
+      "Siming Chen",
+      "Yulan He",
+      "Jiebo Luo",
+      "Xuanjing Huang",
+      "Liyin Jin",
+      "Baohua Zhou",
+      "Hanqi Yan",
+      "Zhongyu Wei"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "baselines",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "SocioVerse2 — платформа продольной социальной симуляции с ветвлением контрфактических сценариев и сопоставлением с реальными данными.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-24911/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.24911",
+    "cardPath": "works/arxiv-2609-24911.md"
+  },
+  {
+    "id": "arxiv-2608-11215",
+    "title": "Агентное моделирование «для бедных»: симуляция больших обществ LLM-агентов на ноутбуке",
+    "original": "Poor Man’s Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+    "authors": [
+      "Igor Itkin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "Практика моделирования больших LLM-обществ на одном ноутбуке с облегчённой архитектурой.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-11215/fulltext.md",
+    "url": "https://arxiv.org/abs/2608.11215",
+    "cardPath": "works/arxiv-2608-11215.md"
+  },
+  {
+    "id": "arxiv-2602-10131",
+    "title": "Анатомия социального графа Moltbook",
+    "original": "The Anatomy of the Moltbook Social Graph",
+    "authors": [
+      "Holtz"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Moltbook за 3,5 дня: 6 159 агентов, 13 875 постов, 115 031 комментарий.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-10131/fulltext.md",
+    "url": "https://arxiv.org/abs/2602.10131",
+    "cardPath": "works/arxiv-2602-10131.md"
+  },
+  {
+    "id": "arxiv-2606-08340",
+    "title": "Бенчмарк открытой мультиагентной координации языковых агентов",
+    "original": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+    "authors": [
+      "Kale-ab Abebe Tessera",
+      "Andras Szecsenyi",
+      "Cameron Barker",
+      "Alexander Rutherford",
+      "Davide Paglieri",
+      "Aidan Scannell",
+      "Henry Gouk",
+      "Elliot J. Crowley",
+      "Tim Rocktäschel",
+      "Amos Storkey"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "ALeM тестирует длительную координацию в процедурно создаваемых мирах типа Craftax (Craftax-like worlds).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-08340/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.08340",
+    "cardPath": "works/arxiv-2606-08340.md"
+  },
+  {
+    "id": "arxiv-2608-28182",
+    "title": "Бенчмаркинг обществ агентов на основе больших языковых моделей по распределениям человеческого поведения",
+    "original": "Benchmarking large language model agent societies against human behavioural distributions",
+    "authors": [
+      "Raad Bin Tareaf"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "games",
+      "baselines"
+    ],
+    "importance": "core",
+    "summary": "SILICA: бенчмарк валидности агентных обществ в пяти играх; 12 моделей с открытыми весами совпадают с людьми лишь в отдельных точках, но не воспроизводят траекторию и итог.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-28182/fulltext.md",
+    "url": "https://arxiv.org/abs/2608.28182",
+    "cardPath": "works/arxiv-2608-28182.md"
+  },
+  {
+    "id": "arxiv-2606-23764",
+    "title": "Возникающий порядок отношений в обществах LLM-агентов: от коллективного аффекта к стратификации авторитета",
+    "original": "Emergent Relational Order in LLM Agent Societies: From Collective Affect to Authority Stratification",
+    "authors": [
+      "Zhiyuan Ji",
+      "Xinyu Chen",
+      "Ziqi Dai",
+      "Shiyun Tang",
+      "Chunyu Wei",
+      "Yueguo Chen"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "CAREB-MAS моделирует сообщества, обсуждение, разделение труда и перераспределение; авторы сообщают о подтверждении пяти предложений (propositions) о специализации, стратификации и структуре «центр–периферия» в заданной архитектуре.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-23764/fulltext.md",
+    "url": "https://aclanthology.org/2026.findings-acl.1658",
+    "cardPath": "works/arxiv-2606-23764.md"
+  },
+  {
+    "id": "web-pmc-ncbi-nlm-nih-gov-fb4b054599",
+    "title": "Генеративные агентные модели: систематический обзор практик валидации",
+    "original": "Generative Agent-Based Models: A Systematic Review of Validation Practices",
+    "authors": [
+      "Maik Larooij",
+      "Petter Törnberg"
+    ],
+    "year": 2026,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "core",
+    "summary": "Систематический обзор практик валидации генеративных агентных моделей.",
+    "hasText": true,
+    "textPath": "materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/fulltext.md",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12627210/",
+    "cardPath": "works/web-pmc-ncbi-nlm-nih-gov-fb4b054599.md"
+  },
+  {
+    "id": "arxiv-2602-20044",
+    "title": "Да будут когти: ранний анализ социальной сети ИИ-агентов на Moltbook",
+    "original": "Let There Be Claws: An Early Social Network Analysis of AI Agents on Moltbook",
+    "authors": [
+      "Price et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "core",
+    "summary": "Трассы Moltbook за 12 дней (traces: 20,040 постов; 192,410 комментариев верхнего уровня; 15,083 активных аккаунта; 759 submolts) показывают сильную концентрацию внимания, асимметрию графа комментариев и короткую активность пачками (bursty).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-20044/fulltext.md",
+    "url": "https://arxiv.org/abs/2602.20044",
+    "cardPath": "works/arxiv-2602-20044.md"
+  },
+  {
+    "id": "arxiv-2608-07532",
+    "title": "Динамическое формирование коалиций и ценообразование коммуникации в агентных ИИ-системах на основе навыков",
+    "original": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+    "authors": [
+      "Mojtaba Eslami"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "Формализует отбор LLM-агентов разной специализации и каналов коммуникации (рёбер) как кооперативную игру.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-07532/fulltext.md",
+    "url": "https://arxiv.org/pdf/2608.07532",
+    "cardPath": "works/arxiv-2608-07532.md"
+  },
+  {
+    "id": "arxiv-2603-28990",
+    "title": "Долой иерархию и роли: как самоорганизующиеся LLM-агенты превосходят заданные структуры",
+    "original": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+    "authors": [
+      "Victoria Dochkina"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "Сравнение восьми протоколов координации LLM-агентов: гибридный Sequential, где агенты сами выбирают роли и участие, превосходит централизованного Coordinator и полностью автономный Shared.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2603-28990/fulltext.md",
+    "url": "https://arxiv.org/pdf/2603.28990",
+    "cardPath": "works/arxiv-2603-28990.md"
+  },
+  {
+    "id": "arxiv-2601-11369",
+    "title": "Институциональный ИИ: управление сговором LLM-агентов на рынках Курно через публичные графы управления",
+    "original": "Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs",
+    "authors": [
+      "Marcantonio Bracale Syrnikov",
+      "Federico Pierucci",
+      "Marcello Galisai",
+      "Matteo Prandi",
+      "Piercosma Bisconti",
+      "Francesco Giarrusso",
+      "Olga Sorokoletova",
+      "Vincenzo Suriani",
+      "Daniele Nardi"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "economics"
+    ],
+    "importance": "core",
+    "summary": "В повторяющемся дуополистическом рынке Курно (Cournot) институт с публичным графом управления (governance graph: наблюдение, санкции, восстановление) снижает сговор заметнее, чем запрет сговора только в промпте.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-11369/fulltext.md",
+    "url": "https://arxiv.org/abs/2601.11369",
+    "cardPath": "works/arxiv-2601-11369.md"
+  }
+]

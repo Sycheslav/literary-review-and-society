@@ -1,0 +1,337 @@
+[
+  {
+    "id": "arxiv-2406-04692",
+    "title": "Mixture-of-Agents повышает возможности больших языковых моделей",
+    "original": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+    "authors": [
+      "Junlin Wang",
+      "Jue Wang",
+      "Ben Athiwaratkun",
+      "Ce Zhang"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Mixture-of-Agents объединяет ответы нескольких LLM по слоям; в AlpacaEval 2.0 открытая конфигурация показала 65,1% побед против 57,5% у GPT-4 Omni.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2406-04692/fulltext.md",
+    "url": "https://arxiv.org/abs/2406.04692",
+    "cardPath": "works/arxiv-2406-04692.md"
+  },
+  {
+    "id": "arxiv-2411-07161",
+    "title": "RoundTable: исследование механизма группового принятия решений при мультиагентном сотрудничестве",
+    "original": "RoundTable: Investigating Group Decision-Making Mechanism in Multi-Agent Collaboration",
+    "authors": [
+      "Young-Min Cho",
+      "Raphael Shu",
+      "Nilaksh Das",
+      "Tamer Alkhouli",
+      "Yi-An Lai",
+      "Jason Cai",
+      "Monica Sunkara",
+      "Yi Zhang",
+      "Dan Roth"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "RoundTable — децентрализованная платформа, где агенты вырабатывают кандидаты, обсуждают их и голосуют по заданному правилу.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-07161/fulltext.md",
+    "url": "https://arxiv.org/pdf/2411.07161",
+    "cardPath": "works/arxiv-2411-07161.md"
+  },
+  {
+    "id": "arxiv-2402-04578",
+    "title": "S-Agents: самоорганизующиеся агенты в открытых средах",
+    "original": "S-Agents: Self-organizing Agents in Open-ended Environments",
+    "authors": [
+      "Jiaqi Chen",
+      "Yuxian Jiang",
+      "Jiachen Lu",
+      "Li Zhang"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "games"
+    ],
+    "importance": "supporting",
+    "summary": "S-Agents организует Minecraft-агентов в древовидную иерархию: лидер задаёт гибкий процесс, архитектура «песочные часы» фильтрует информацию, асинхронная коммуникация снимает барьеры синхронного ожидания.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-04578/fulltext.md",
+    "url": "https://arxiv.org/pdf/2402.04578",
+    "cardPath": "works/arxiv-2402-04578.md"
+  },
+  {
+    "id": "arxiv-2404-00806",
+    "title": "Алгоритмический сговор, осуществляемый большими языковыми моделями",
+    "original": "Algorithmic Collusion by Large Language Models",
+    "authors": [
+      "Sara Fish",
+      "Yannai A. Gonczarowski",
+      "Ran I. Shorrer"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "coordination"
+    ],
+    "importance": "supporting",
+    "summary": "Дуополия LLM-агентов, задающих цены, без прямого общения приходит к сверхконкурентным ценам; безобидные различия в формулировках планов заметно меняют ценовой исход.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2404-00806/fulltext.md",
+    "url": "https://arxiv.org/html/2404.00806v5",
+    "cardPath": "works/arxiv-2404-00806.md"
+  },
+  {
+    "id": "arxiv-2402-05120",
+    "title": "Больше агентов — всё, что нужно",
+    "original": "More Agents Is All You Need",
+    "authors": [
+      "Junyou Li",
+      "Qin Zhang",
+      "Yangbin Yu",
+      "Qiang Fu",
+      "Deheng Ye"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Agent Forest выбирает лучший из нескольких независимых ответов одной LLM голосованием; на GSM8K точность растёт с размером ансамбля.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-05120/fulltext.md",
+    "url": "https://arxiv.org/pdf/2402.05120",
+    "cardPath": "works/arxiv-2402-05120.md"
+  },
+  {
+    "id": "arxiv-2409-19338",
+    "title": "Декодирование эхо-камер: симуляции на основе LLM, выявляющие поляризацию в социальных сетях",
+    "original": "Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks",
+    "authors": [
+      "Chenxi Wang",
+      "Zongfang Liu",
+      "Dequan Yang",
+      "Xiuying Chen"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Статья строит языковую агентную симуляцию динамики мнений на трёх типах социальных сетей и сравнивает её с моделями Bounded Confidence и Friedkin–Johnsen.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2409-19338/fulltext.md",
+    "url": "https://arxiv.org/pdf/2409.19338",
+    "cardPath": "works/arxiv-2409-19338.md"
+  },
+  {
+    "id": "arxiv-2406-00392",
+    "title": "Искусственный межпоколенческий интеллект: культурное накопление в обучении с подкреплением",
+    "original": "Artificial Generational Intelligence: Cultural Accumulation in Reinforcement Learning",
+    "authors": [
+      "Jonathan Cook",
+      "Chris Lu",
+      "Edward Hughes",
+      "Joel Z. Leibo",
+      "Jakob Foerster"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Агенты обучения с подкреплением (RL) накапливают навыки из поколения в поколение, совмещая независимое исследование среды с социальным обучением.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2406-00392/fulltext.md",
+    "url": "https://arxiv.org/pdf/2406.00392",
+    "cardPath": "works/arxiv-2406-00392.md"
+  },
+  {
+    "id": "acl-2024.emnlp-main.7",
+    "title": "Исследование социума агентов на основе LLM: сотрудничество и противостояние в игре Avalon",
+    "original": "LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay",
+    "authors": [
+      "Yihuai Lan",
+      "Zhiqiang Hu",
+      "Lei Wang",
+      "Yang Wang",
+      "Deheng Ye",
+      "Peilin Zhao",
+      "Ee-Peng Lim",
+      "Hui Xiong",
+      "Hao Wang"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "games",
+      "communities"
+    ],
+    "importance": "supporting",
+    "summary": "Игроки ChatGPT с тайными ролями Добра/Зла участвуют в Avalon — игре, где важны сотрудничество, обман и неполная информация. Авторы предлагают многоэтапную архитектуру агента и измеряют успех игры и социальные стратегии.",
+    "hasText": true,
+    "textPath": "materials/acl-2024.emnlp-main.7/fulltext.md",
+    "url": "https://aclanthology.org/2024.emnlp-main.7/",
+    "cardPath": "works/acl-2024.emnlp-main.7.md"
+  },
+  {
+    "id": "arxiv-2407-04503",
+    "title": "Когда LLM играют в испорченный телефон: культурные аттракторы как концептуальный инструмент оценки LLM в многоходовых условиях",
+    "original": "When LLMs Play the Telephone Game: Cultural Attractors as Conceptual Tools to Evaluate LLMs in Multi-turn Settings",
+    "authors": [
+      "Jérémy Perez",
+      "Grgur Kovač",
+      "Corentin Léger",
+      "Cédric Colas",
+      "Gaia Molinaro",
+      "Maxime Derex"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Цепочки передачи по типу «испорченного телефона» (telephone-game transmission chains) измеряют, как меняются свойства текста, когда очередной LLM получает результат предыдущего.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2407-04503/fulltext.md",
+    "url": "https://arxiv.org/abs/2407.04503",
+    "cardPath": "works/arxiv-2407-04503.md"
+  },
+  {
+    "id": "web-pmc-ncbi-nlm-nih-gov-580593c8a3",
+    "title": "Мудрость кремниевой толпы: способность LLM-ансамблей к прогнозированию соперничает с точностью человеческой толпы",
+    "original": "Wisdom of the silicon crowd: LLM ensemble prediction capabilities rival human crowd accuracy",
+    "authors": [
+      "Philipp Schoenegger",
+      "Indre Tuminauskaite",
+      "Peter S. Park",
+      "Rafael Valdece Sousa Bastos",
+      "Philip E. Tetlock"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "intelligence"
+    ],
+    "importance": "supporting",
+    "summary": "Сравнивает прогнозы ансамблей LLM (ensemble) с точностью человеческой толпы (crowd accuracy).",
+    "hasText": true,
+    "textPath": "materials/web-pmc-ncbi-nlm-nih-gov-580593c8a3/fulltext.md",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985",
+    "cardPath": "works/web-pmc-ncbi-nlm-nih-gov-580593c8a3.md"
+  },
+  {
+    "id": "arxiv-2410-19599",
+    "title": "Осторожно с использованием LLM в роли суррогатов человека: Scylla Ex Machina",
+    "original": "Take Caution in Using LLMs as Human Surrogates: Scylla Ex Machina",
+    "authors": [
+      "Yuan Gao",
+      "Dokyun Lee",
+      "Gordon Burtch",
+      "Sina Fazelpour"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Эмпирическая статья предупреждает против подмены человеческих участников LLM.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2410-19599/fulltext.md",
+    "url": "https://arxiv.org/html/2410.19599v3",
+    "cardPath": "works/arxiv-2410-19599.md"
+  },
+  {
+    "id": "web-cambridge-org-47d8659e3d",
+    "title": "Синтетическая замена данным опросов людей? Риски больших языковых моделей",
+    "original": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+    "authors": [
+      "Bisbee et al."
+    ],
+    "year": 2024,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "supporting",
+    "summary": "Статья оценивает, можно ли заменить данные опросов людей (survey data) синтетическими ответами LLM.",
+    "hasText": true,
+    "textPath": "materials/web-cambridge-org-47d8659e3d/fulltext.md",
+    "url": "https://www.cambridge.org/core/product/B92267DC26195C7F36E63EA04A47D2FE",
+    "cardPath": "works/web-cambridge-org-47d8659e3d.md"
+  },
+  {
+    "id": "arxiv-2402-07510",
+    "title": "Скрытый сговор между ИИ-агентами: многоагентный обман с помощью стеганографии",
+    "original": "Secret Collusion among AI Agents: Multi-Agent Deception via Steganography",
+    "authors": [
+      "Sumeet Ramesh Motwani",
+      "Mikhail Baranchuk",
+      "Martin Strohmeier",
+      "Vijay Bolina",
+      "Philip H. S. Torr",
+      "Lewis Hammond",
+      "Christian Schroeder de Witt"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "economics",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "Формализуется скрытый сговор, при котором агенты прячут координацию от надзора с помощью стеганографических каналов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-07510/fulltext.md",
+    "url": "https://arxiv.org/pdf/2402.07510",
+    "cardPath": "works/arxiv-2402-07510.md"
+  },
+  {
+    "id": "arxiv-2412-05093",
+    "title": "Смысл и чувствительность: оценка симуляции социальной динамики с помощью больших языковых моделей",
+    "original": "Sense and Sensitivity: Evaluating the simulation of social dynamics via Large Language Models",
+    "authors": [
+      "Da Ju",
+      "Adina Williams",
+      "Brian Karrer",
+      "Maximilian Nickel"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "networks"
+    ],
+    "importance": "supporting",
+    "summary": "Тест микроинструкций LLM против модели Хегсельмана–Краузе: даже удачно подобранный промпт даёт результаты, чувствительные к пробелам и формулировкам.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2412-05093/fulltext.md",
+    "url": "https://arxiv.org/abs/2412.05093",
+    "cardPath": "works/arxiv-2412-05093.md"
+  }
+]

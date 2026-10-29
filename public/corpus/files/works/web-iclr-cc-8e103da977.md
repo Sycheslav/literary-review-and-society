@@ -114,3 +114,8 @@ Workshop summary: LLM deviations from equilibrium; history reduces effect. Не 
 ## Происхождение записи
 
 - `исходники исследований лит обзор/Литературный обзор социумы LLM-агентов.md`, строка 164.
+
+## Подробное изложение на русском
+
+[Открыть подробное русское изложение](../materials/web-iclr-cc-8e103da977/summary.ru.md)
+

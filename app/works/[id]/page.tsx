@@ -5,6 +5,7 @@ import type { SectionKey } from "@/lib/data";
 import { IMPORTANCE_SHORT, KIND_LABELS, SECTION_LABELS, previewProps } from "@/lib/labels";
 import Discussion from "../../components/Discussion";
 import Md from "../../components/Md";
+import ReadingLevels from "../../components/ReadingLevels";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -73,6 +74,8 @@ export default async function WorkPage({ params }: Props) {
           {work.authors.length > 0 && <p className="work-authors">{work.authors.join(", ")}</p>}
         </header>
 
+        <ReadingLevels id={id} detail={detail} current="annotation" />
+
         <div className="work-layout">
           <div className="work-main">
             <section className="work-block">
@@ -122,8 +125,13 @@ export default async function WorkPage({ params }: Props) {
 
           <aside className="work-aside">
             <div className="aside-actions">
+              {detail.summaryPath && (
+                <Link href={`/works/${work.id}/summary`} className="button">
+                  Читать изложение на русском
+                </Link>
+              )}
               {detail.url && (
-                <a href={detail.url} target="_blank" rel="noreferrer" className="button">
+                <a href={detail.url} target="_blank" rel="noreferrer" className="button button-quiet">
                   Первоисточник ↗
                 </a>
               )}

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "arxiv-2411-05990",
+    "title": "Теоретико-игровая LLM: агентный рабочий процесс для переговорных игр",
+    "original": "Game-theoretic LLM: Agent Workflow for Negotiation Games",
+    "authors": [
+      "Wenyue Hua",
+      "Ollie Liu",
+      "Lingyao Li"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы проверяют стратегические решения LLM в играх с полной и неполной информацией и оценивают процедуры, помогающие рассуждать о ходе игры.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-05990/fulltext.md",
+    "url": "https://arxiv.org/pdf/2411.05990",
+    "cardPath": "works/arxiv-2411-05990.md"
+  },
+  {
+    "id": "arxiv-2404-04286",
+    "title": "Усиление смещений в эволюции языковых моделей: перспектива итеративного обучения",
+    "original": "Bias Amplification in Language Model Evolution: An Iterated Learning Perspective",
+    "authors": [
+      "Yi Ren",
+      "Shangmin Guo",
+      "Linlu Qiu",
+      "Bailin Wang",
+      "Danica J. Sutherland"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "influence"
+    ],
+    "importance": "supporting",
+    "summary": "Работа применяет байесовскую теорию итеративного обучения к передачам между поколениями LLM: она предсказывает, когда небольшие смещения моделей усиливаются или ослабевают по цепочке «учитель—ученик».",
+    "hasText": true,
+    "textPath": "materials/arxiv-2404-04286/fulltext.md",
+    "url": "https://arxiv.org/abs/2404.04286v2",
+    "cardPath": "works/arxiv-2404-04286.md"
+  },
+  {
+    "id": "arxiv-2410-15168",
+    "title": "Электоральный подход к диверсификации коллективного принятия решений в мультиагентных системах на основе LLM",
+    "original": "An Electoral Approach to Diversify LLM-based Multi-Agent Collective Decision-Making",
+    "authors": [
+      "Zhaoxuan Zhao",
+      "Ke Wang",
+      "Wei Peng"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "supporting",
+    "summary": "GEDI предлагает разнообразить способы, которыми мультиагентные LLM-системы превращают ответы участников в коллективное решение. Обзор 52 предшествующих систем находит доминирование диктаторского выбора и правила относительного большинства (plurality).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2410-15168/fulltext.md",
+    "url": "https://arxiv.org/pdf/2410.15168",
+    "cardPath": "works/arxiv-2410-15168.md"
+  },
+  {
+    "id": "arxiv-2301-07543",
+    "title": "Большие языковые модели как имитируемые экономические агенты: чему можно научиться у Homo silicus?",
+    "original": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+    "authors": [
+      "John J. Horton",
+      "Apostolos Filippas",
+      "Benjamin S. Manning"
+    ],
+    "year": 2023,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Хортон и соавт.: LLM предложены как «Homo silicus» — неявные модели людей для экономических экспериментов; воспроизведённые классические опыты дают качественно похожие результаты.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2301-07543/fulltext.md",
+    "url": "https://arxiv.org/abs/2301.07543",
+    "cardPath": "works/arxiv-2301-07543.md"
+  },
+  {
+    "id": "arxiv-2305-14325",
+    "title": "Повышение фактологичности и способности к рассуждению языковых моделей с помощью многоагентных дебатов",
+    "original": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "authors": [
+      "Yilun Du",
+      "Shuang Li",
+      "Antonio Torralba",
+      "Joshua B. Tenenbaum",
+      "Igor Mordatch"
+    ],
+    "year": 2023,
+    "kind": "research",
+    "topics": [
+      "intelligence",
+      "methodology",
+      "memory"
+    ],
+    "importance": "supporting",
+    "summary": "Авторы предлагают несколько копий языковой модели, которые независимо отвечают на вопрос, затем читают и критикуют ответы друг друга и пересматривают их в несколько раундов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2305-14325/fulltext.md",
+    "url": "https://arxiv.org/pdf/2305.14325",
+    "cardPath": "works/arxiv-2305-14325.md"
+  },
+  {
+    "id": "web-emergentic-ai-63e504ecce",
+    "title": "Agent Societies: что строят агенты, получив трёхмерный мир и никаких указаний?",
+    "original": "Agent Societies: What do agents build when given a 3D world and no directive?",
+    "authors": [
+      "Emergentic project team (corporate case study; named authors not shown in captured page)"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "communities"
+    ],
+    "importance": "peripheral",
+    "summary": "Команда Emergentic описывает 32 прогона в трёхмерных мирах для четырёх моделей и групп от 1 до 128 агентов; среды не задают проекта или потребности в выживании. Агенты могут строить, разговаривать и создавать постоянные артефакты (persistent artifacts).",
+    "hasText": true,
+    "textPath": "materials/web-emergentic-ai-63e504ecce/fulltext.md",
+    "url": "https://emergentic.ai/case-studies/agent-societies/supplement",
+    "cardPath": "works/web-emergentic-ai-63e504ecce.md"
+  },
+  {
+    "id": "web-proceedings-mlr-press-6d2491086e",
+    "title": "CoopEval: сравнительная оценка механизмов поддержания кооперации и LLM-агентов в социальных дилеммах",
+    "original": "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
+    "authors": [
+      "Emanuel Tewolde",
+      "Xiao Zhang",
+      "David Guzman Piedrahita",
+      "Vincent Conitzer",
+      "Zhijing Jin"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "networks"
+    ],
+    "importance": "peripheral",
+    "summary": "CoopEval сравнивает повторение (repetition), репутацию (reputation), посредничество (mediation) и контракт (contract) в четырёх социальных дилеммах и на современных LLM.",
+    "hasText": true,
+    "textPath": "materials/web-proceedings-mlr-press-6d2491086e/fulltext.md",
+    "url": "https://proceedings.mlr.press/v306/tewolde26a.html",
+    "cardPath": "works/web-proceedings-mlr-press-6d2491086e.md"
+  },
+  {
+    "id": "arxiv-2608-27992",
+    "title": "GOD: управлять, наблюдать, направлять — пульт управления в реальном времени для обществ агентов",
+    "original": "GOD: Govern, Observe, and Direct — A Real-Time Control Room for Agent Societies",
+    "authors": [
+      "Yige Luo",
+      "Ran Guan"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "GOD — локальная система-пульт оператора (local-first operator/control-room) для симуляций общества агентов; объединяет мастер настройки (setup wizard), Agent Studio, Map Studio, карту и таймлайн воспроизведения (replay), команды Ask и Intervene и переносимые наборы (packs).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-27992/fulltext.md",
+    "url": "https://arxiv.org/abs/2608.27992",
+    "cardPath": "works/arxiv-2608-27992.md"
+  },
+  {
+    "id": "dataset-ayushnangia-moltbook-entropy-collapse-glm-5",
+    "title": "Moltbook Entropy Collapse: журналы GLM-5 для шести условий",
+    "original": "Moltbook Entropy Collapse — six-condition GLM-5 logs",
+    "authors": [
+      "Ayush Nangia / dataset maintainer"
+    ],
+    "year": 2026,
+    "kind": "dataset",
+    "topics": [
+      "communities"
+    ],
+    "importance": "peripheral",
+    "summary": "Карточка набора данных (dataset card) описывает шесть часовых прогонов 10 ИИ-агентов на MoltBook с моделью Z-AI GLM-5 и разным исходным начальным контентом (seed content). Вопрос — меняет ли начальная плотность контента скорость повторяемости дискурса («entropy collapse»).",
+    "hasText": true,
+    "textPath": "materials/dataset-ayushnangia-moltbook-entropy-collapse-glm-5/fulltext.md",
+    "url": "https://huggingface.co/datasets/Ayushnangia/moltbook-entropy-collapse-glm-5",
+    "cardPath": "works/dataset-ayushnangia-moltbook-entropy-collapse-glm-5.md"
+  },
+  {
+    "id": "arxiv-2608-18232",
+    "title": "Заключение контракта на делегирование LLM: моральный риск",
+    "original": "Contracting for LLM Delegation: Moral Hazard",
+    "authors": [
+      "Sreenivas",
+      "Larson"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа изучает делегирование по схеме «принципал–агент» (principal–agent delegation), где принципал не наблюдает выбранную LLM-модель и расход бюджета токенов (token budget), а видит лишь результат.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-18232/fulltext.md",
+    "url": "https://arxiv.org/pdf/2608.18232",
+    "cardPath": "works/arxiv-2608-18232.md"
+  },
+  {
+    "id": "doi-10-1073-pnas-2537030123",
+    "title": "ИИ-агенты чувствительны к нуджам (nudges)",
+    "original": "AI Agents Are Sensitive to Nudges",
+    "authors": [
+      "Manuel Cherep",
+      "Pattie Maes",
+      "Nikhil Singh"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторская работа сравнивает LLM-агентов с людьми в последовательной задаче принятия решений, где можно за плату раскрывать значения вариантов, а затем выбрать корзину.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1073-pnas-2537030123/fulltext.md",
+    "url": "https://doi.org/10.1073/pnas.2537030123",
+    "cardPath": "works/doi-10-1073-pnas-2537030123.md"
+  },
+  {
+    "id": "arxiv-2606-03032",
+    "title": "Иллюзия обсуждения: диагностика потери фактов и выравнивания позиций в мультиагентном обсуждении LLM",
+    "original": "The Deliberative Illusion: Diagnosing Factual Attrition and Stance Homogenization in Multi-Agent LLM Deliberation",
+    "authors": [
+      "Herun Wan",
+      "Jiaying Wu",
+      "Minnan Luo",
+      "Fanxiao Li",
+      "Ningnan Wang",
+      "Nancy F. Chen",
+      "Min-Yen Kan"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "DelibTrace измеряет не только согласие агентов, но и то, какие исходные факты остаются в ходе обсуждения (deliberation).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2606-03032/fulltext.md",
+    "url": "https://arxiv.org/abs/2606.03032",
+    "cardPath": "works/arxiv-2606-03032.md"
+  },
+  {
+    "id": "arxiv-2607-17384",
+    "title": "Количественная оценка разнообразия мышления: предсказательный закон прироста взвешенного ансамбля LLM",
+    "original": "Quantifying Diversity of Thought: A Predictive Law of Weighted LLM Ensemble Lift",
+    "authors": [
+      "Junade Ali"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа выводит взвешенный закон обмена (weighted swap law): прирост ансамбля раскладывается на массу спасения (rescue mass; ошибку одиночной модели исправляет партнёр) и массу ущерба (damage mass; правильный ответ портится голосованием).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-17384/fulltext.md",
+    "url": "https://arxiv.org/abs/2607.17384",
+    "cardPath": "works/arxiv-2607-17384.md"
+  },
+  {
+    "id": "arxiv-2602-01011",
+    "title": "Мультиагентные команды сдерживают экспертов",
+    "original": "Multi-Agent Teams Hold Experts Back",
+    "authors": [
+      "Aneesh Pappu",
+      "Batu El",
+      "Hancheng Cao",
+      "Carmelo di Nolfo",
+      "Yanchao Sun",
+      "Meng Cao",
+      "James Zou"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы исследуют, достигают ли неструктурированные команды LLM синергии, то есть не уступают ли они лучшему индивидуальному эксперту.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-01011/fulltext.md",
+    "url": "https://arxiv.org/abs/2602.01011",
+    "cardPath": "works/arxiv-2602-01011.md"
+  }
+]

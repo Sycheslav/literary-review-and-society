@@ -1,32 +1,19 @@
----
-id: github-monocolachannel-project-will-observation-1-text
-type: material
-title: MONOCOLACHANNEL/project-will-observation-1
-work_id: github-monocolachannel-project-will-observation-1
-source_url: https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/README.md
-retrieved_at: '2026-10-27'
-conversion: author_readme
-quality_note: README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно
-  исходного репозитория.
-language: original
-sha256_text: eadd937da9ea734492444680d2f71511173ef809fc5ea3b74d716c626cf3f459
-link_resolution: Относительные ссылки README преобразованы в абсолютные адреса исходного репозитория.
----
-
-> Источник: [https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/README.md](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/README.md). README репозитория, а не полный текст научной статьи. Относительные ссылки разрешаются относительно исходного репозитория.
+Source: https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/README.md
+Retrieved: 2026-10-29
+Type: repository README (project documentation; not a paper)
 
 # Project Will — 観測 #1 データセット（2026-07-21 ロングラン）
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21723921.svg)](https://doi.org/10.5281/zenodo.21723921)
 
-🌐 **English summary: [README_EN.md](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/README_EN.md)**
+🌐 **English summary: [README_EN.md](README_EN.md)**
 
 実効的な制度（役割の割当て・共有規則・権限・契約の履行機構）を与えずに Minecraft へ放った自律 AI 村人 32 人・約 6 時間の**全記録と全分析**です。動画で提示した全ての主張は、このリポジトリのデータから検証できます。
 
 📺 動画: https://youtu.be/Xn0kTCtqDO0
-📄 報告書: [REPORT.md](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/REPORT.md)
-🔎 主張↔データ対応表: [VERIFICATION.md](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/VERIFICATION.md)
-📚 データ辞書: [DATA.md](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/DATA.md)
+📄 報告書: [REPORT.md](REPORT.md)
+🔎 主張↔データ対応表: [VERIFICATION.md](VERIFICATION.md)
+📚 データ辞書: [DATA.md](DATA.md)
 
 ## 観測のあらまし
 
@@ -57,12 +44,12 @@ python tools/find.py --time 03:22 03:25
 - Minecraft Mod（身体）⇄ Python ブレイン（心）⇄ Gemini 3.1 Flash-Lite
 - 9 軸の不満状態（生存・好奇心・共同体）を提示するのみで、行動は一切強制しない
 - 記憶は個体別。情報は「見る・話す・看板を読む」でしか伝わらない
-- 詳細は [REPORT.md §2](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/REPORT.md) を参照
+- 詳細は [REPORT.md §2](REPORT.md) を参照
 
 ## ライセンス / 引用
 
-- データ・文書: **CC BY 4.0** ／ スクリプト: **MIT**（[LICENSE](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/LICENSE)）
-- 引用は [CITATION.cff](https://raw.githubusercontent.com/MONOCOLACHANNEL/project-will-observation-1/main/CITATION.cff) を参照。DOI: [10.5281/zenodo.21723921](https://doi.org/10.5281/zenodo.21723921)（常に最新版へ解決。初版 v1.0 は [10.5281/zenodo.21723922](https://doi.org/10.5281/zenodo.21723922)）
+- データ・文書: **CC BY 4.0** ／ スクリプト: **MIT**（[LICENSE](LICENSE)）
+- 引用は [CITATION.cff](CITATION.cff) を参照。DOI: [10.5281/zenodo.21723921](https://doi.org/10.5281/zenodo.21723921)（常に最新版へ解決。初版 v1.0 は [10.5281/zenodo.21723922](https://doi.org/10.5281/zenodo.21723922)）
 
 ## 著者
 

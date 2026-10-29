@@ -14,6 +14,7 @@ export type Work = {
   importance: Importance;
   summary: string;
   hasText: boolean;
+  hasRetelling: boolean;
 };
 
 export type SectionKey =
@@ -34,6 +35,9 @@ export type WorkDetail = {
   url: string | null;
   links: { label: string; url: string }[];
   textPath: string | null;
+  summaryPath: string | null;
+  summaryStatus: "fulltext" | "repository" | "limited" | "legacy" | null;
+  summaryWords: number;
 };
 
 export type Topic = {
@@ -83,13 +87,13 @@ export function readFullText(textPath: string) {
   return match ? raw.slice(match[0].length) : raw;
 }
 
-export function readSummaryRu(textPath: string) {
+export function readSummaryRu(summaryPath: string) {
   const file = path.join(
     process.cwd(),
     "public",
     "corpus",
     "files",
-    textPath.replace(/fulltext\.md$/, "summary.ru.md")
+    summaryPath
   );
   return existsSync(file) ? readFileSync(file, "utf-8") : null;
 }

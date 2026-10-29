@@ -1,0 +1,208 @@
+[
+  {
+    "id": "openreview-j9VyoX6dex",
+    "title": "ORALMEM: коллективная память после исчезновения свидетелей в обществах LLM (Post-Witness Collective Memory)",
+    "original": "ORALMEM: Post-Witness Collective Memory in LLM Societies",
+    "authors": [
+      "Kulibaba",
+      "Labzin",
+      "Dzhalilov"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "memory"
+    ],
+    "importance": "core",
+    "summary": "Проверяет, сохраняются ли сообщения после стирания индивидуальной памяти свидетелей за счёт устной передачи друг другу.",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://openreview.net/forum?id=j9VyoX6dex",
+    "cardPath": "works/openreview-j9VyoX6dex.md"
+  },
+  {
+    "id": "doi-10-1109-tg-2026-3721624",
+    "title": "The Minority Report: игра на выживание с тремя агентами LLM",
+    "original": "The Minority Report: A Three-Agent LLM Survival Game",
+    "authors": [
+      "Luca Cammarasana"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Три агента на подлодке решают, кого исключить: в 80 запусках соглашение достигнуто в 72, все 8 провалов — в гетерогенных группах; цепочечная память (chain memory) дала 85% против 75% без памяти в таких группах.",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://doi.org/10.1109/TG.2026.3721624",
+    "cardPath": "works/doi-10-1109-tg-2026-3721624.md"
+  },
+  {
+    "id": "doi-10-1162-artl-a-459",
+    "title": "Коммуникация, воплощённость и координация в обществе LLM по мотивам задачи бара Эль-Фароль",
+    "original": "Communication, Embodiment, and Coordination in an El Farol Bar-Inspired LLM Society",
+    "authors": [
+      "Ryosuke Takata",
+      "Atsushi Masumori",
+      "Takashi Ikegami"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "communities",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "В пространственной версии задачи Эль-Фароль LLM-агенты с локальной коммуникацией и задержкой действий поддерживают заполнение бара около порога перегрузки 60 %; хэштеги временно удерживают от ухода.",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://doi.org/10.1162/ARTL.a.459",
+    "cardPath": "works/doi-10-1162-artl-a-459.md"
+  },
+  {
+    "id": "doi-10-1145-3772318-3790442",
+    "title": "Состязательное социальное влияние, управляемое большими языковыми моделями (LLM), в распространении информации онлайн: риски и меры вмешательства",
+    "original": "Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions",
+    "authors": [
+      "Zhuoran Lu",
+      "Gionnieve Lim",
+      "Ming Yin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "influence",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Два рандомизированных эксперимента (randomized experiments) с онлайн-панелью проверяют, меняют ли состязательные комментарии, порождённые LLM (LLM-driven adversarial comments), оценки достоверности и распространения (sharing).",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://doi.org/10.1145/3772318.3790442",
+    "cardPath": "works/doi-10-1145-3772318-3790442.md"
+  },
+  {
+    "id": "web-neurips-cc-ac69b31c1c",
+    "title": "Уязвимость агентов LLM к эксплуатации в аукционах",
+    "original": "Exploitability of LLM Agents in Auctions",
+    "authors": [
+      "Kesari",
+      "Kesari"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "supporting",
+    "summary": "Материал NeurIPS сообщает о приблизительной совместимости стимулов в аукционах и росте манипуляций при увеличении регрета (regret); это краткая запись, а не отдельное исследование.",
+    "hasText": true,
+    "hasRetelling": true,
+    "textPath": "materials/web-neurips-cc-ac69b31c1c/fulltext.md",
+    "url": "https://neurips.cc/virtual/2026/168260",
+    "cardPath": "works/web-neurips-cc-ac69b31c1c.md"
+  },
+  {
+    "id": "web-iclr-cc-8e103da977",
+    "title": "Как LLM меняют равновесие в аукционах",
+    "original": "How LLMs Reshape Equilibrium in Auctions",
+    "authors": [
+      "Zhao",
+      "Chen",
+      "Zhang"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "methodology",
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Исследование LLM-участников торгов (bidders) в аукционах с общей ценностью (common-value auctions) сообщает об отклонении от равновесия (equilibrium); история исходов смягчает его.",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://iclr.cc/virtual/2026/10018190",
+    "cardPath": "works/web-iclr-cc-8e103da977.md"
+  },
+  {
+    "id": "web-papers-ssrn-com-035b5e222b",
+    "title": "Когда слова чего-то стоят: проблемы коммуникации и агентских отношений в LLM-агентах",
+    "original": "When Talk is not Cheap: Communication and Agency Problems in LLM Agents",
+    "authors": [
+      "Shiyun Hu",
+      "Shumiao Ouyang"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Аннотация SSRN (SSRN abstract) сообщает о тесте 93 LLM в игре доверия (Trust Game, Charness–Dufwenberg) и сценарии конфликта финансового советника (financial-advisor conflict scenario).",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6884058",
+    "cardPath": "works/web-papers-ssrn-com-035b5e222b.md"
+  },
+  {
+    "id": "web-ipu-ru-21db9441f8",
+    "title": "Лаборатория №57 «Активных систем» ИПУ РАН: официальные направления",
+    "original": null,
+    "authors": [
+      "ИПУ РАН"
+    ],
+    "year": 2026,
+    "kind": "web_material",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Страница фиксирует исследовательский контекст Лаборатории №57: механизмы управления мультиагентными активными системами, многоуровневые системы и синтез структур/сетей, информационное управление с учётом рефлексивного…",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://www.ipu.ru/node/83140",
+    "cardPath": "works/web-ipu-ru-21db9441f8.md"
+  },
+  {
+    "id": "doi-10-1016-j-knosys-2026-116947",
+    "title": "Обзор симуляции социальных сетей в эпоху LLM: от классических моделей к генеративным агентам",
+    "original": "A survey of social network simulation in the LLM era: From classical models to Generative Agents",
+    "authors": [
+      "Thanh Tam Nguyen",
+      "Trinh Pham",
+      "Viet Huynh",
+      "Minh Hieu Nguyen",
+      "Bay Vo",
+      "Liang Qu",
+      "Jianxin Li",
+      "Hongzhi Yin",
+      "Quoc Viet Hung Nguyen"
+    ],
+    "year": 2026,
+    "kind": "review",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор систематизирует 97 работ за семь десятилетий по пяти парадигмам: модели сетевой структуры, распространение информации, динамика мнений, агентные модели на основе правил (rule-based agent-based models) и агентные симуляции на основе LLM.",
+    "hasText": false,
+    "hasRetelling": true,
+    "textPath": null,
+    "url": "https://doi.org/10.1016/j.knosys.2026.116947",
+    "cardPath": "works/doi-10-1016-j-knosys-2026-116947.md"
+  }
+]

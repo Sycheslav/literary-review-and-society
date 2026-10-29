@@ -25,6 +25,7 @@ verification_status: repository_reviewed
 retrieval_status: fulltext_retrieved
 reviewed_at: '2026-10-27'
 materials:
+- materials/github-monocolachannel-project-will-observation-1/fulltext.md
 - materials/github-monocolachannel-project-will-observation-1/readme-source.md
 - materials/github-monocolachannel-project-will-observation-1/input-notes.md
 related:
@@ -135,3 +136,8 @@ https://github.com/MONOCOLACHANNEL/project-will-observation-1 ; имеются R
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_games.md`, строка 15.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_games.md`, строка 17.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_registry.md`, строка 63.
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/github-monocolachannel-project-will-observation-1/summary.ru.md)
+

@@ -1,0 +1,22 @@
+{
+  "batch": "19",
+  "prepared_at": "2026-10-29",
+  "done": [
+    "github-agentciv-agentciv",
+    "github-google-deepmind-concordia",
+    "github-google-deepmind-meltingpot",
+    "web-mathnet-ru-699966184b",
+    "github-teamcraft-bench-teamcraft",
+    "github-edge-city-agentvillage",
+    "github-wanying-he-awesome-llm-social-simulation",
+    "github-monocolachannel-project-will-observation-1",
+    "web-dixon-ai-818fad3164"
+  ],
+  "limited": [
+    { "id": "openreview-j9VyoX6dex", "reason": "OpenReview record and abstract accessible, but submission PDF/full paper could not be retrieved." },
+    { "id": "doi-10-1109-tg-2026-3721624", "reason": "Author manuscript was readable in ResearchGate's indexed full-text view, but a complete local copy could not be retrieved; metadata marked limited." },
+    { "id": "doi-10-1162-artl-a-459", "reason": "Publisher full text returned 403; only the DOI record and PubMed abstract were available." },
+    { "id": "doi-10-1145-3772318-3790442", "reason": "ACM PDF returned 403; summary uses publisher-rendered article excerpts, with full text and supplement unavailable." },
+    { "id": "web-neurips-cc-ac69b31c1c", "reason": "Official NeurIPS workshop record and abstract available, but no full paper or appendix found." }
+  ]
+}

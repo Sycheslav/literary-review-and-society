@@ -1,0 +1,27 @@
+{
+  "batch": "20",
+  "prepared_at": "2026-10-29",
+  "done": [
+    { "id": "openreview-gFrVsxAEO4", "reason": "Прочитана полная авторская версия arXiv v3; локальный текст, изложение, metadata и ссылка в карточке подготовлены." },
+    { "id": "web-academic-oup-com-a58bb9960d", "reason": "Прочитана полная версия arXiv v7, сопоставлена с принятой статьёй PNAS Nexus; оригинал сохранён." },
+    { "id": "github-stanfordhci-genagents", "reason": "Прочитан README проекта; source_status=repository, локальная копия и ссылка добавлены." },
+    { "id": "web-asc-upenn-edu-1680a84f0f", "reason": "Прочитаны полный оригинал и дополнения; PDF не сохранялся из-за указанного запрета перераспространения, source_path=null." },
+    { "id": "web-pmc-ncbi-nlm-nih-gov-5fc2874029", "reason": "Прочитан полный текст статьи PNAS; оригинал сохранён." },
+    { "id": "github-mesa-mesa-llm", "reason": "Прочитан README и официальная документация Mesa-LLM; source_status=repository." },
+    { "id": "github-ybkim95-agent-scaling", "reason": "Прочитан README репозитория артефактов; source_status=repository, границы относительно связанной статьи отмечены." },
+    { "id": "web-caisconf-org-ab467b6f70", "reason": "Прочитан полный препринт arXiv v2 для статьи CAIS; оригинал сохранён." },
+    { "id": "web-iclr-cc-8e103da977", "reason": "OpenReview PDF не открылся из-за browser verification; изложение ограничено доступной аннотацией и первой страницей, metadata=limited." },
+    { "id": "web-papers-ssrn-com-035b5e222b", "reason": "Доступна только авторская аннотация SSRN; изложение короткое и помечено limited." },
+    { "id": "web-ipu-ru-21db9441f8", "reason": "Институциональная страница, а не экспериментальная статья; доступные сведения пересказаны с явной оговоркой, metadata=limited." },
+    { "id": "web-neurips-cc-8406e8e000", "reason": "Для записи воркшопа найден и прочитан полный связанный препринт arXiv v1 с уточнённым названием; локальная копия сохранена." },
+    { "id": "doi-10-1016-j-knosys-2026-116947", "reason": "Полный PDF закрыт издателем; изложение основано на доступной издательской аннотации/highlights и ограниченных выдержках, metadata=limited." },
+    { "id": "web-repositories-cdlib-org-a35f423a1e", "reason": "Прочитан полный текст препринта arXiv v1; оригинал сохранён." },
+    { "id": "github-microsoft-autogen", "reason": "Прочитан README проекта; source_status=repository, текущий архивный статус отмечен." }
+  ],
+  "limited": [
+    { "id": "web-iclr-cc-8e103da977", "reason": "Полный PDF OpenReview недоступен из-за browser verification challenge; использованы только полная аннотация и индексированная первая страница." },
+    { "id": "web-papers-ssrn-com-035b5e222b", "reason": "SSRN предоставляет аннотацию, но полный текст и методы 47-страничной работы не были доступны для чтения." },
+    { "id": "web-ipu-ru-21db9441f8", "reason": "Это институциональная веб-страница, не исследовательская статья; краткое ограниченное изложение направлений без экспериментальных методов/результатов." },
+    { "id": "doi-10-1016-j-knosys-2026-116947", "reason": "Издательский paywall не дал прочитать полный PDF; использованы только аннотация, highlights и индексированные выдержки." }
+  ]
+}

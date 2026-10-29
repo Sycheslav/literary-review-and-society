@@ -20,6 +20,7 @@ verification_status: fulltext_reviewed
 retrieval_status: access_unresolved
 reviewed_at: '2026-10-27'
 materials:
+- materials/web-dixon-ai-818fad3164/fulltext.md
 - materials/web-dixon-ai-818fad3164/input-notes.md
 related:
 - relation: discusses
@@ -116,3 +117,8 @@ The Village помещает модели в искусственную дере
 - `исходники исследований лит обзор/Дополнительный обзор социумов ИИ-агентов.md`, строка 1117.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_independent.md`, строка 47.
 - `исходники исследований лит обзор/исследования/ресерч 15 субагентов луна/research_extra_registry.md`, строка 57.
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/web-dixon-ai-818fad3164/summary.ru.md)
+

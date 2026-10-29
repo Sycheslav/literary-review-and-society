@@ -1,0 +1,310 @@
+[
+  {
+    "batch": "01",
+    "total": 14,
+    "remaining": [],
+    "completed": 14
+  },
+  {
+    "batch": "02",
+    "total": 14,
+    "remaining": [],
+    "completed": 14
+  },
+  {
+    "batch": "03",
+    "total": 14,
+    "remaining": [],
+    "completed": 14
+  },
+  {
+    "batch": "04",
+    "total": 14,
+    "remaining": [],
+    "completed": 14
+  },
+  {
+    "batch": "05",
+    "total": 14,
+    "remaining": [
+      "arxiv-2602-00685",
+      "arxiv-2606-27845",
+      "arxiv-2507-09083"
+    ],
+    "completed": 11
+  },
+  {
+    "batch": "06",
+    "total": 14,
+    "remaining": [
+      "arxiv-2602-02606",
+      "arxiv-2605-14097",
+      "arxiv-2605-29800"
+    ],
+    "completed": 11
+  },
+  {
+    "batch": "07",
+    "total": 14,
+    "remaining": [
+      "arxiv-2610-22201",
+      "arxiv-2604-17220",
+      "arxiv-2604-20582",
+      "arxiv-2610-31971",
+      "arxiv-2602-11865",
+      "doi-10-1093-pnasnexus-pgag297",
+      "arxiv-2606-29354",
+      "doi-10-1038-s41598-026-42705-7",
+      "acl-2026.findings-emnlp.1716",
+      "arxiv-2604-18005",
+      "arxiv-2604-11312",
+      "arxiv-2510-25595",
+      "arxiv-2610-05041",
+      "arxiv-2609-02580"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "08",
+    "total": 14,
+    "remaining": [
+      "arxiv-2604-00487",
+      "doi-10-1057-s41599-026-07194-z",
+      "arxiv-2606-01637",
+      "acl-2026.acl-srw.1",
+      "arxiv-2609-22600",
+      "arxiv-2601-10825",
+      "arxiv-2606-18264",
+      "arxiv-2607-23982",
+      "arxiv-2606-19911",
+      "arxiv-2605-17036",
+      "doi-10-64898-2026-08-06-26359905",
+      "acl-2026.eacl-long.51",
+      "arxiv-2604-06452",
+      "arxiv-2607-03228"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "09",
+    "total": 14,
+    "remaining": [
+      "arxiv-2607-00233",
+      "doi-10-4218-etrij-2026-0186",
+      "arxiv-2602-16662",
+      "arxiv-2606-00655",
+      "arxiv-2608-18078",
+      "arxiv-2602-03794",
+      "arxiv-2606-01456",
+      "arxiv-2605-11453",
+      "arxiv-2607-05477",
+      "arxiv-2607-01047",
+      "arxiv-2608-26626",
+      "arxiv-2607-19592",
+      "web-ojs-aaai-org-8dc2f386c9",
+      "arxiv-2607-21912"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "10",
+    "total": 14,
+    "remaining": [
+      "arxiv-2607-03695",
+      "doi-10-31737-22212264-2026-2-177-203",
+      "arxiv-2604-14386",
+      "arxiv-2601-21540",
+      "arxiv-2606-18276",
+      "arxiv-2609-19913",
+      "web-hse-ru-3b14505d82",
+      "arxiv-2507-21166",
+      "arxiv-2503-18891",
+      "arxiv-2502-20073",
+      "acl-2025.findings-naacl.448",
+      "arxiv-2510-25779",
+      "arxiv-2503-01935",
+      "arxiv-2509-06235"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "11",
+    "total": 14,
+    "remaining": [
+      "arxiv-2510-17516",
+      "web-cuboulder-ds-github-io-8440afa966",
+      "web-andonlabs-com-8ab433b48d",
+      "arxiv-2506-00073",
+      "arxiv-2411-10184",
+      "arxiv-2507-19183",
+      "arxiv-2502-01587",
+      "arxiv-2509-10147",
+      "arxiv-2501-05171",
+      "arxiv-2506-06166",
+      "arxiv-2502-19130",
+      "arxiv-2508-17536",
+      "arxiv-2504-08640",
+      "arxiv-2509-14485"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "12",
+    "total": 14,
+    "remaining": [
+      "web-elibrary-ru-21c8ac8b53",
+      "arxiv-2506-23276",
+      "arxiv-2505-09289",
+      "arxiv-2508-21740",
+      "arxiv-2507-08960",
+      "arxiv-2510-19107",
+      "arxiv-2502-11649",
+      "arxiv-2502-12504",
+      "arxiv-2506-06958",
+      "arxiv-2503-03800",
+      "arxiv-2512-08296",
+      "web-journals-rudn-ru-2c3482cc4c",
+      "arxiv-2509-26080",
+      "arxiv-2512-03318"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "13",
+    "total": 14,
+    "remaining": [
+      "arxiv-2509-05396",
+      "doi-10-11517-pjsai-jsai2025-0-3o1os44a03",
+      "arxiv-2505-05029",
+      "arxiv-2502-14143",
+      "arxiv-2510-10943",
+      "arxiv-2505-17053",
+      "acl-2025.emnlp-main.267",
+      "web-mlsd2025-ipu-ru-044255dc4c",
+      "arxiv-2504-10286",
+      "arxiv-2505-23796",
+      "arxiv-2506-01332",
+      "arxiv-2502-21037",
+      "arxiv-2402-12348",
+      "arxiv-2407-07086"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "14",
+    "total": 14,
+    "remaining": [
+      "arxiv-2406-04692",
+      "arxiv-2411-07161",
+      "arxiv-2402-04578",
+      "arxiv-2404-00806",
+      "arxiv-2402-05120",
+      "arxiv-2409-19338",
+      "arxiv-2406-00392",
+      "acl-2024.emnlp-main.7",
+      "arxiv-2407-04503",
+      "web-pmc-ncbi-nlm-nih-gov-580593c8a3",
+      "arxiv-2410-19599",
+      "web-cambridge-org-47d8659e3d",
+      "arxiv-2402-07510",
+      "arxiv-2412-05093"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "15",
+    "total": 14,
+    "remaining": [
+      "arxiv-2411-05990",
+      "arxiv-2404-04286",
+      "arxiv-2410-15168",
+      "arxiv-2301-07543",
+      "arxiv-2305-14325",
+      "web-emergentic-ai-63e504ecce",
+      "web-proceedings-mlr-press-6d2491086e",
+      "arxiv-2608-27992",
+      "dataset-ayushnangia-moltbook-entropy-collapse-glm-5",
+      "arxiv-2608-18232",
+      "doi-10-1073-pnas-2537030123",
+      "arxiv-2606-03032",
+      "arxiv-2607-17384",
+      "arxiv-2602-01011"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "16",
+    "total": 14,
+    "remaining": [
+      "arxiv-2603-20281",
+      "doi-10-1073-pnas-2538145123",
+      "arxiv-2604-24698",
+      "arxiv-2610-07535",
+      "arxiv-2601-15047",
+      "arxiv-2610-31165",
+      "arxiv-2605-00914",
+      "web-aivillageblog-substack-com-c64f797f2d",
+      "arxiv-2606-02646",
+      "arxiv-2504-04072",
+      "arxiv-2503-22726",
+      "arxiv-2508-18321",
+      "arxiv-2504-10157",
+      "arxiv-2507-05723"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "17",
+    "total": 14,
+    "remaining": [
+      "arxiv-2508-08242",
+      "arxiv-2508-14918",
+      "arxiv-2501-06322",
+      "arxiv-2505-12349",
+      "arxiv-2507-19364",
+      "doi-10-1038-s41562-025-02172-y",
+      "arxiv-2504-02234",
+      "web-ojs-aaai-org-b14a3753ac",
+      "arxiv-2510-03310",
+      "arxiv-2506-19806",
+      "arxiv-2312-15524",
+      "web-proceedings-iclr-cc-17a3d0fa45",
+      "arxiv-2410-04360",
+      "arxiv-2403-19267"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "18",
+    "total": 14,
+    "remaining": [
+      "arxiv-2411-00114",
+      "web-jasss-org-8692bababb",
+      "arxiv-2411-10109",
+      "arxiv-2402-02053",
+      "arxiv-2406-14981",
+      "arxiv-2403-11807",
+      "arxiv-2402-05863",
+      "arxiv-2405-03862",
+      "arxiv-2411-19211",
+      "arxiv-2412-03563",
+      "arxiv-2310-10826",
+      "doi-10-3758-s13428-023-02307-x",
+      "arxiv-2403-05020",
+      "web-ijassa-ipu-ru-d088ecedc9"
+    ],
+    "completed": 0
+  },
+  {
+    "batch": "19",
+    "total": 14,
+    "remaining": [],
+    "completed": 14
+  },
+  {
+    "batch": "20",
+    "total": 15,
+    "remaining": [],
+    "completed": 15
+  }
+]

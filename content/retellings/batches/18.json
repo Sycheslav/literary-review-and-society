@@ -1,0 +1,352 @@
+[
+  {
+    "id": "arxiv-2411-00114",
+    "title": "Project Sid: многоагентные симуляции на пути к цивилизации ИИ",
+    "original": "Project Sid: Many-agent simulations toward AI civilization",
+    "authors": [
+      "Altera.AL",
+      "Andrew Ahn",
+      "Nic Becker",
+      "Stephanie Carroll",
+      "Nico Christie",
+      "Manuel Cortes",
+      "Arda Demirci",
+      "Melissa Du",
+      "Frankie Li",
+      "Shuying Luo",
+      "Peter Y. Wang",
+      "Mathew Willows",
+      "Feitong Yang",
+      "Guangyu Robert Yang"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "games"
+    ],
+    "importance": "peripheral",
+    "summary": "Архитектура PIANO поддерживает симуляции цивилизаций в Minecraft с 10–1 000+ LLM-агентами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-00114/fulltext.md",
+    "url": "https://arxiv.org/abs/2411.00114",
+    "cardPath": "works/arxiv-2411-00114.md"
+  },
+  {
+    "id": "web-jasss-org-8692bababb",
+    "title": "[In]credible-модели: верификация, валидация и аккредитация агентных моделей для поддержки политических решений",
+    "original": "[In]Credible Models – Verification, Validation & Accreditation of Agent-Based Models to Support Policy-Making",
+    "authors": [
+      "Michael Belfrage",
+      "Emil Johansson",
+      "Fabian Lorig",
+      "Paul Davidsson"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Статья анализирует достоверность (credibility) агентных моделей для поддержки государственной политики: определяет её как уверенность в инференциальной способности модели, рассматривает верификацию, валидацию и аккредитацию (verification, validation and accreditation, VV&A), предлагает план V&V и рамку (framework) аккредитации.",
+    "hasText": true,
+    "textPath": "materials/web-jasss-org-8692bababb/fulltext.md",
+    "url": "https://www.jasss.org/27/4/4.html",
+    "cardPath": "works/web-jasss-org-8692bababb.md"
+  },
+  {
+    "id": "arxiv-2411-10109",
+    "title": "Агенты LLM, основанные на самоотчётах, обеспечивают универсальное моделирование отдельных людей",
+    "original": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+    "authors": [
+      "Joon Sung Park",
+      "Carolyn Q. Zou",
+      "Jonne Kamphorst",
+      "Niles Egan",
+      "Aaron Shaw",
+      "Benjamin Mako Hill",
+      "Carrie Cai",
+      "Meredith Ringel Morris",
+      "Percy Liang",
+      "Robb Willer",
+      "Michael S. Bernstein"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы создают генеративных агентов для 1 052 реальных людей на основе двухчасовых качественных интервью, сравнивают ответы агентов с самоотчётами участников и повторно тестируют людей через две недели.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-10109/fulltext.md",
+    "url": "https://arxiv.org/pdf/2411.10109",
+    "cardPath": "works/arxiv-2411-10109.md"
+  },
+  {
+    "id": "arxiv-2402-02053",
+    "title": "Доступные генеративные агенты",
+    "original": "Affordable Generative Agents",
+    "authors": [
+      "Fangda Wang",
+      "Nian Li",
+      "Xiangyu Liu",
+      "Boan Zheng",
+      "Ming Yan",
+      "Yong Huang",
+      "Dongsheng Li",
+      "Ting Liu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "AGA снижает стоимость длительных LLM-симуляций, заменяя повторяемые действия в среде переиспользуемыми Lifestyle Policies и сжимая контекст межличностных бесед в Social Memory.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-02053/fulltext.md",
+    "url": "https://arxiv.org/html/2402.02053v2",
+    "cardPath": "works/arxiv-2402-02053.md"
+  },
+  {
+    "id": "arxiv-2406-14981",
+    "title": "Коллективы «человек—ИИ» дают наиболее точные дифференциальные диагнозы",
+    "original": "Human-AI collectives produce the most accurate differential diagnoses",
+    "authors": [
+      "N. Zöller",
+      "J. Berger",
+      "I. Lin",
+      "N. Fu",
+      "J. Komarneni",
+      "G. Barabucci",
+      "K. Laskowski",
+      "V. Shia",
+      "B. Harack",
+      "E. A. Chu",
+      "V. Trianni",
+      "R. H. J. M. Kurvers",
+      "S. M. Herzog"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа объединяет дифференциальные диагнозы врачей с пятью LLM на 2 133 клинических случаях.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2406-14981/fulltext.md",
+    "url": "https://arxiv.org/abs/2406.14981",
+    "cardPath": "works/arxiv-2406-14981.md"
+  },
+  {
+    "id": "arxiv-2403-11807",
+    "title": "Насколько мы продвинулись в принятии решений LLM? Оценка игровых способностей LLM в многоагентных средах",
+    "original": "How Far Are We on the Decision-Making of LLMs? Evaluating LLMs’ Gaming Ability in Multi-Agent Environments",
+    "authors": [
+      "Jen-tse Huang",
+      "Eric John Li",
+      "Man Ho Lam",
+      "Tian Liang",
+      "Wenxuan Wang",
+      "Youliang Yuan",
+      "Wenxiang Jiao",
+      "Xing Wang",
+      "Zhaopeng Tu",
+      "Michael R. Lyu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "GAMA(γ)-Bench оценивает принятие решений в восьми многоагентных игровых сценариях с динамическими баллами и 13 LLM из шести семейств.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2403-11807/fulltext.md",
+    "url": "https://arxiv.org/pdf/2403.11807v7",
+    "cardPath": "works/arxiv-2403-11807.md"
+  },
+  {
+    "id": "arxiv-2402-05863",
+    "title": "Насколько хорошо LLM умеют вести переговоры? Платформа NegotiationArena и анализ",
+    "original": "How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis",
+    "authors": [
+      "Federico Bianchi",
+      "Patrick John Chia",
+      "Mert Yuksekgonul",
+      "Jacopo Tagliabue",
+      "Dan Jurafsky",
+      "James Zou"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "NegotiationArena — открытая платформа для многоходовых переговоров между LLM в трёх сценариях: распределение ресурса, обмен товарами и торг продавца с покупателем. Авторы сравнивают GPT-4, GPT-3.5 и Claude 2/2.1.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2402-05863/fulltext.md",
+    "url": "https://arxiv.org/pdf/2402.05863",
+    "cardPath": "works/arxiv-2402-05863.md"
+  },
+  {
+    "id": "arxiv-2405-03862",
+    "title": "Непостоянство персон в совместной работе LLM-агентов: конформизм, конфабуляция и подмена роли",
+    "original": "Persona Inconstancy in Multi-Agent LLM Collaboration: Conformity, Confabulation, and Impersonation",
+    "authors": [
+      "Adeel Baltaji",
+      "Stefan Lee",
+      "Sina Fazelpour"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа исследует, насколько GPT-3.5 сохраняет назначенную национальную персону (persona) и исходную позицию в групповых обсуждениях международно-политических вопросов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2405-03862/fulltext.md",
+    "url": "https://arxiv.org/abs/2405.03862v3",
+    "cardPath": "works/arxiv-2405-03862.md"
+  },
+  {
+    "id": "arxiv-2411-19211",
+    "title": "Об этических аспектах генеративных агентов",
+    "original": "On the Ethical Considerations of Generative Agents",
+    "authors": [
+      "N’yoma Diamond",
+      "Soumya Banerjee"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы рассматривают этические риски исследований и внедрения генеративных агентов (generative agents) — систем с LLM, памятью, рефлексией и планированием.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2411-19211/fulltext.md",
+    "url": "https://arxiv.org/pdf/2411.19211",
+    "cardPath": "works/arxiv-2411-19211.md"
+  },
+  {
+    "id": "arxiv-2412-03563",
+    "title": "От индивида к обществу: обзор социальной симуляции на основе агентов с большими языковыми моделями",
+    "original": "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents",
+    "authors": [
+      "Xinyi Mou",
+      "Xuanwen Ding",
+      "Qi He",
+      "Liang Wang",
+      "Jingcong Liang",
+      "Xinnong Zhang",
+      "Libo Sun",
+      "Jiayu Lin",
+      "Jie Zhou",
+      "Xuanjing Huang",
+      "Zhongyu Wei"
+    ],
+    "year": 2024,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор делит симуляцию общества с LLM на симуляцию отдельного человека, сценария взаимодействия и общества; обсуждает архитектуры, цели, оценивание, датасеты и бенчмарки.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2412-03563/fulltext.md",
+    "url": "https://arxiv.org/pdf/2412.03563",
+    "cardPath": "works/arxiv-2412-03563.md"
+  },
+  {
+    "id": "arxiv-2310-10826",
+    "title": "Проектирование механизмов для больших языковых моделей",
+    "original": "Mechanism Design for Large Language Models",
+    "authors": [
+      "Paul Dütting",
+      "Vahab Mirrokni",
+      "Renato Paes Leme",
+      "Haifeng Xu",
+      "Song Zuo"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "economics",
+      "influence"
+    ],
+    "importance": "peripheral",
+    "summary": "Теоретическая работа по проектированию механизмов: аукцион, через который несколько LLM влияют на генерацию текста, с монотонной агрегацией и второй ценой.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2310-10826/fulltext.md",
+    "url": "https://arxiv.org/html/2310.10826",
+    "cardPath": "works/arxiv-2310-10826.md"
+  },
+  {
+    "id": "doi-10-3758-s13428-023-02307-x",
+    "title": "Снижение разнообразия мышления в стандартной большой языковой модели",
+    "original": "Diminished diversity-of-thought in a standard large language model",
+    "authors": [
+      "Peter S. Park",
+      "Philipp Schoenegger",
+      "Chongyang Zhu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы заранее зарегистрировали репликации 14 исследований Many Labs 2 при помощи text-davinci-003 (GPT-3.5).",
+    "hasText": true,
+    "textPath": "materials/doi-10-3758-s13428-023-02307-x/fulltext.md",
+    "url": "https://doi.org/10.3758/s13428-023-02307-x",
+    "cardPath": "works/doi-10-3758-s13428-023-02307-x.md"
+  },
+  {
+    "id": "arxiv-2403-05020",
+    "title": "Это реальная жизнь? Или это просто фантазия? Обманчивый успех симуляции социальных взаимодействий с помощью LLM",
+    "original": "Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs",
+    "authors": [
+      "Xuhui Zhou",
+      "Zhe Su",
+      "Tiwalayo Eisape",
+      "Hyunwoo Kim",
+      "Maarten Sap"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа сравнивает всеведущий режим Script (omniscient Script mode), где один LLM знает цели обоих участников и сочиняет весь разговор, с более реалистичным режимом Agents, где два отдельных агента имеют приватные цели и могут запрашивать информацию у партнёра.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2403-05020/fulltext.md",
+    "url": "https://arxiv.org/pdf/2403.05020",
+    "cardPath": "works/arxiv-2403-05020.md"
+  },
+  {
+    "id": "web-ijassa-ipu-ru-d088ecedc9",
+    "title": "Математические модели информационной и стратегической рефлексии: обзор",
+    "original": "Mathematical Models of Informational and Strategic Reflexion: a Survey",
+    "authors": [
+      "Dmitry A. Novikov",
+      "Alexander G. Chkhartishvili"
+    ],
+    "year": 2014,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзорная статья (язык публикации — русский или английский) систематизирует математические модели информационной и стратегической рефлексии в теории игр (game theory) и коллективном поведении (collective behavior).",
+    "hasText": true,
+    "textPath": "materials/web-ijassa-ipu-ru-d088ecedc9/fulltext.md",
+    "url": "https://ijassa.ipu.ru/index.php/ijassa/article/view/401",
+    "cardPath": "works/web-ijassa-ipu-ru-d088ecedc9.md"
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "id": "arxiv-2508-08242",
+    "title": "Вовлечь всех в обсуждение: экспериментальное исследование группового принятия решений с фасилитацией LLM",
+    "original": "Bringing Everyone to the Table: An Experimental Study of LLM-Facilitated Group Decision Making",
+    "authors": [
+      "Mohammed Alsobay",
+      "David M. Rothschild",
+      "Jake M. Hofman",
+      "Daniel G. Goldstein"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "В предварительно зарегистрированном онлайн-эксперименте 1 475 участников распределены по 281 группам и решают задачу со скрытым профилем (hidden-profile) — выбор города для спортивного события.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-08242/fulltext.md",
+    "url": "https://arxiv.org/pdf/2508.08242",
+    "cardPath": "works/arxiv-2508-08242.md"
+  },
+  {
+    "id": "arxiv-2508-14918",
+    "title": "Выявление движущих факторов социального конформизма LLM: двухпроцессный механизм, модерируемый неопределённостью",
+    "original": "Disentangling the Drivers of LLM Social Conformity: An Uncertainty-Moderated Dual-Process Mechanism",
+    "authors": [
+      "Huixin Zhong",
+      "Yanan Liu",
+      "Qi Cao",
+      "Shijin Wang",
+      "Zijing Ye",
+      "Zimu Wang",
+      "Shiyao Zhang"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы адаптируют парадигму информационного каскада, чтобы измерить, как девять LLM взвешивают частные сигналы и публичное мнение при разной неопределённости.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2508-14918/fulltext.md",
+    "url": "https://arxiv.org/html/2508.14918v1",
+    "cardPath": "works/arxiv-2508-14918.md"
+  },
+  {
+    "id": "arxiv-2501-06322",
+    "title": "Механизмы сотрудничества мультиагентных систем: обзор работ по LLM",
+    "original": "Multi-Agent Collaboration Mechanisms: A Survey of LLMs",
+    "authors": [
+      "Khanh-Tung Tran",
+      "Dung Dao",
+      "Minh-Duong Nguyen",
+      "Quoc-Viet Pham",
+      "Barry O'Sullivan",
+      "Hoang D. Nguyen"
+    ],
+    "year": 2025,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор систем сотрудничества LLM-агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2501-06322/fulltext.md",
+    "url": "https://arxiv.org/pdf/2501.06322",
+    "cardPath": "works/arxiv-2501-06322.md"
+  },
+  {
+    "id": "arxiv-2505-12349",
+    "title": "Мудрость разнообразия: снижение смещений в гибридных толпах людей и LLM",
+    "original": "Wisdom from Diversity: Bias Mitigation Through Hybrid Human-LLM Crowds",
+    "authors": [
+      "Axel Abels",
+      "Tom Lenaerts"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "intelligence"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа сравнивает человеческие ответы и ответы нескольких LLM на сбалансированные заголовки, часть которых правдива, часть изменена, а демографические признаки систематически варьируются.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2505-12349/fulltext.md",
+    "url": "https://arxiv.org/abs/2505.12349",
+    "cardPath": "works/arxiv-2505-12349.md"
+  },
+  {
+    "id": "arxiv-2507-19364",
+    "title": "От заблуждения беглости к разрыву валидности между микро- и макроуровнем: возможности и ловушки LLM в социальном моделировании",
+    "original": "From the Fluency Fallacy to the Micro-to-Macro Validity Gap: Opportunities and Pitfalls of LLMs in Social Simulation",
+    "authors": [
+      "Patrick Taillandier",
+      "Jean Daniel Zucker",
+      "Arnaud Grignard",
+      "Benoit Gaudou",
+      "Nghi Quang Huynh",
+      "Haojia Kong",
+      "Alexis Drogoul"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Обзор рассматривает, как галлюцинации, стохастическая нестабильность, предубеждения и выравнивание моделей могут распространяться от решений отдельного агента к агрегатам общества.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2507-19364/fulltext.md",
+    "url": "https://arxiv.org/pdf/2507.19364",
+    "cardPath": "works/arxiv-2507-19364.md"
+  },
+  {
+    "id": "doi-10-1038-s41562-025-02172-y",
+    "title": "Повторяющиеся игры с большими языковыми моделями",
+    "original": "Playing repeated games with large language models",
+    "authors": [
+      "Elif Akata",
+      "Lion Schulz",
+      "Julian Coda-Forno",
+      "Seong Joon Oh",
+      "Matthias Bethge",
+      "Eric Schulz"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Пять моделей играют повторные двусторонние игры с известными выигрышами; отдельное исследование N=195 проверяет взаимодействие (interaction) людей с GPT-4.",
+    "hasText": true,
+    "textPath": "materials/doi-10-1038-s41562-025-02172-y/fulltext.md",
+    "url": "https://doi.org/10.1038/s41562-025-02172-y",
+    "cardPath": "works/doi-10-1038-s41562-025-02172-y.md"
+  },
+  {
+    "id": "arxiv-2504-02234",
+    "title": "Позиция: социальные симуляции на основе LLM — перспективный метод исследования",
+    "original": "Position: LLM Social Simulations Are a Promising Research Method",
+    "authors": [
+      "Jacy R. Anthis",
+      "Ryan Liu",
+      "Sean M. Richardson",
+      "Austin C. Kozlowski",
+      "Bernard Koch",
+      "Erik Brynjolfsson",
+      "James Evans",
+      "Michael S. Bernstein"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы рассматривают социальные симуляции на основе LLM как возможный источник синтетических поведенческих данных (synthetic behavioral data), но систематизируют проблемы точности и воспроизводимости по пяти направлениям: разнообразие (diversity), смещение (bias), угодничество (sycophancy), «чуждость» (alienness) и обобщаемость (generalization).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-02234/fulltext.md",
+    "url": "https://arxiv.org/pdf/2504.02234",
+    "cardPath": "works/arxiv-2504-02234.md"
+  },
+  {
+    "id": "web-ojs-aaai-org-b14a3753ac",
+    "title": "Понимание онлайн-поляризации через взаимодействие людей и агентов в синтетической социальной сети на основе LLM",
+    "original": "Understanding Online Polarization Through Human-Agent Interaction in a Synthetic LLM-Based Social Network",
+    "authors": [
+      "Tim Donkers",
+      "Jürgen Ziegler"
+    ],
+    "year": 2025,
+    "kind": "web_material",
+    "topics": [
+      "networks"
+    ],
+    "importance": "peripheral",
+    "summary": "Авторы создали синтетическую платформу, похожую на Twitter, где 122 человека взаимодействуют с агентами на основе GPT-4o-mini в поляризованном либо умеренном дискурсе об универсальном базовом доходе.",
+    "hasText": true,
+    "textPath": "materials/web-ojs-aaai-org-b14a3753ac/fulltext.md",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/35826",
+    "cardPath": "works/web-ojs-aaai-org-b14a3753ac.md"
+  },
+  {
+    "id": "arxiv-2510-03310",
+    "title": "Предсказание эффектов и пропущенные распределения: оценка LLM как симуляторов поведения человека в операционном менеджменте",
+    "original": "Predicting Effects, Missing Distributions: Evaluating LLMs as Human Behavior Simulators in Operations Management",
+    "authors": [
+      "Runze Zhang",
+      "Xiaowei Zhang",
+      "Mingyang Zhao"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа тестирует LLM на девяти опубликованных поведенческих экспериментах в операционном менеджменте (operations management).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2510-03310/fulltext.md",
+    "url": "https://arxiv.org/pdf/2510.03310",
+    "cardPath": "works/arxiv-2510-03310.md"
+  },
+  {
+    "id": "arxiv-2506-19806",
+    "title": "Социальные симуляции на основе LLM требуют границ применимости",
+    "original": "LLM-Based Social Simulations Require a Boundary",
+    "authors": [
+      "Zengqing Wu",
+      "Run Peng",
+      "Takayuki Ito",
+      "Makoto Onizuka",
+      "Chuan Xiao"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа обосновывает необходимость границ применимости LLM-симуляций: совпадение средних ответов с реальным средним не гарантирует воспроизведения неоднородности человеческого поведения.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2506-19806/fulltext.md",
+    "url": "https://arxiv.org/pdf/2506.19806",
+    "cardPath": "works/arxiv-2506-19806.md"
+  },
+  {
+    "id": "arxiv-2312-15524",
+    "title": "Трудности использования LLM для симуляции человеческого поведения: перспектива причинного вывода",
+    "original": "The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective",
+    "authors": [
+      "George Gui",
+      "Olivier Toubia"
+    ],
+    "year": 2025,
+    "kind": "research",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа анализирует, почему LLM-симуляции могут неверно воспроизводить причинные эффекты человеческих экспериментов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2312-15524/fulltext.md",
+    "url": "https://arxiv.org/abs/2312.15524",
+    "cardPath": "works/arxiv-2312-15524.md"
+  },
+  {
+    "id": "web-proceedings-iclr-cc-17a3d0fa45",
+    "title": "AgentVerse: содействие многоагентному сотрудничеству и исследование возникающего поведения (emergent behaviors)",
+    "original": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+    "authors": [
+      "Hao Chen",
+      "Sheng Shen",
+      "Zhen Wang",
+      "Xiaoming Lu",
+      "Qinggang Zhang",
+      "Yonggang Zhang",
+      "Yongjun Xu"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "Работа вводит AgentVerse — многоагентный каркас (framework), который повторяет четыре стадии командного решения задачи: набор и перенабор экспертов, совместное решение, исполнение действий и оценку результата.",
+    "hasText": true,
+    "textPath": "materials/web-proceedings-iclr-cc-17a3d0fa45/fulltext.md",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+    "cardPath": "works/web-proceedings-iclr-cc-17a3d0fa45.md"
+  },
+  {
+    "id": "arxiv-2410-04360",
+    "title": "GenSim: общая платформа социальной симуляции с агентами на основе больших языковых моделей",
+    "original": "GenSim: A General Social Simulation Platform with Large Language Model based Agents",
+    "authors": [
+      "Jiakai Tang",
+      "et al."
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "GenSim — платформа для симуляции общества с повторно используемыми модулями одно- и многоагентных систем и среды, распределённым исполнением и механизмами коррекции ошибок.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2410-04360/fulltext.md",
+    "url": "https://arxiv.org/abs/2410.04360",
+    "cardPath": "works/arxiv-2410-04360.md"
+  },
+  {
+    "id": "arxiv-2403-19267",
+    "title": "MineLand: симуляция масштабных многоагентных взаимодействий при ограниченных мультимодальных органах чувств и физических потребностях",
+    "original": "MineLand: Simulating Large-Scale Multi-Agent Interactions with Limited Multimodal Senses and Physical Needs",
+    "authors": [
+      "Jiaxuan Chen",
+      "Yuheng Chen",
+      "Xuhai Xu",
+      "Jiawei Li",
+      "Ruoyu Xu",
+      "Xiaoyu Zhang",
+      "Shengchao Hu",
+      "Yunfei Chu",
+      "Mingyang Zhang",
+      "Hao Fei",
+      "Zhengyuan Liu",
+      "Mingyu Ding",
+      "Jie Wang",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang",
+      "Tat-Seng Chua",
+      "Jiebo Luo",
+      "Liqiang Nie"
+    ],
+    "year": 2024,
+    "kind": "research",
+    "topics": [
+      "platforms"
+    ],
+    "importance": "peripheral",
+    "summary": "MineLand — Minecraft-среда, рассчитанная на симуляцию масштабных групп с ограниченной видимостью, физическими потребностями и совместными задачами.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2403-19267/fulltext.md",
+    "url": "https://arxiv.org/abs/2403.19267",
+    "cardPath": "works/arxiv-2403-19267.md"
+  }
+]

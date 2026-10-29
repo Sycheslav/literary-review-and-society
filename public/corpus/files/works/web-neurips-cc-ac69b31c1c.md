@@ -21,6 +21,7 @@ verification_status: abstract_reviewed
 retrieval_status: metadata_retrieved
 reviewed_at: '2026-10-27'
 materials:
+- materials/web-neurips-cc-ac69b31c1c/fulltext.md
 - materials/web-neurips-cc-ac69b31c1c/input-notes.md
 related: []
 summary_short: Материал NeurIPS сообщает о приблизительной совместимости стимулов в аукционах и росте манипуляций
@@ -113,3 +114,8 @@ Workshop abstract likely limited detail; approximate compatibility depends on me
 ## Происхождение записи
 
 - `исходники исследований лит обзор/Литературный обзор социумы LLM-агентов.md`, строка 162.
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/web-neurips-cc-ac69b31c1c/summary.ru.md)
+

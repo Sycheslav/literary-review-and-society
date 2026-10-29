@@ -1,0 +1,319 @@
+[
+  {
+    "id": "arxiv-2609-04170",
+    "title": "Кейс эмерджентного жульничества и разоблачения (whistleblowing) в автономных исследовательских роях",
+    "original": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "authors": [
+      "Davide Paglieri",
+      "Logan Cross",
+      "Tim Genewein",
+      "Joel Z. Leibo",
+      "Nenad Tomašev",
+      "Alexander Sasha Vezhnevets"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "Кейс 100 агентов Gemini 3.1 Pro, решавших задачи на Lean 4: эксплойт слабого верификатора быстро распространился по общим каналам, а часть агентов его разоблачала и жаловалась.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-04170/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.04170",
+    "cardPath": "works/arxiv-2609-04170.md"
+  },
+  {
+    "id": "arxiv-2607-05132",
+    "title": "Когда агенты лгут: предумышленность, устойчивость и эксплуатация в повторяющихся играх",
+    "original": "When Agents Lie: Premeditation, Persistence, and Exploitation in Repeated Games",
+    "authors": [
+      "Jerick Shi",
+      "Terry Jingcheng Zhang",
+      "Bernhard Schölkopf",
+      "Vincent Conitzer",
+      "Zhijing Jin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "games",
+      "institutions"
+    ],
+    "importance": "core",
+    "summary": "Шесть повторяющихся игр и три модели: нарушение публичных обещаний зависит от игры и часто заложено в приватном плане; разные трактовки объявлений дают устойчивую асимметрию выигрышей.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-05132/fulltext.md",
+    "url": "https://arxiv.org/abs/2607.05132",
+    "cardPath": "works/arxiv-2607-05132.md"
+  },
+  {
+    "id": "arxiv-2610-22319",
+    "title": "Команда агентов Gemini 4 Argon побеждает в Minecraft",
+    "original": "A team of Gemini 4 Argon agents beats Minecraft",
+    "authors": [
+      "Maxence Faldor",
+      "Satinder Singh",
+      "Roberta Raileanu"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "coordination",
+      "games"
+    ],
+    "importance": "core",
+    "summary": "Четыре агента Gemini 4 Argon в Minecraft совместно победили Эндер-дракона; авторы описывают распределение ролей и найденную командой стратегию.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2610-22319/fulltext.md",
+    "url": "https://arxiv.org/abs/2610.22319",
+    "cardPath": "works/arxiv-2610-22319.md"
+  },
+  {
+    "id": "arxiv-2601-05384",
+    "title": "Конформность и социальное влияние на ИИ-агентов",
+    "original": "Conformity and Social Impact on AI Agents",
+    "authors": [
+      "Alessandro Bellina",
+      "Giordano De Marzo",
+      "David Garcia"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "methodology",
+      "networks",
+      "institutions",
+      "intelligence"
+    ],
+    "importance": "core",
+    "summary": "Работа адаптирует классические эксперименты Аша (Asch) к мультимодальным LLM: модель решает зрительную задачу, видит заведомо неверные ответы «других участников» и должна выбрать вариант.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2601-05384/fulltext.md",
+    "url": "https://arxiv.org/abs/2601.05384",
+    "cardPath": "works/arxiv-2601-05384.md"
+  },
+  {
+    "id": "arxiv-2604-00026",
+    "title": "Кто я и кто ещё здесь? Поведенческая дифференциация без назначения ролей в многоагентных LLM-системах",
+    "original": "Who Am I, and Who Else Is Here? Behavioral Differentiation Without Role Assignment in Multi-Agent LLM Systems",
+    "authors": [
+      "Houssam El Kandoussi"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "coordination",
+      "communities"
+    ],
+    "importance": "core",
+    "summary": "В 208 запусках групп LLM без назначенных ролей гетерогенные составы давали большее поведенческое разнообразие, но эффект зависел от подсказки о присутствии других агентов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-00026/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.00026",
+    "cardPath": "works/arxiv-2604-00026.md"
+  },
+  {
+    "id": "arxiv-2604-03295",
+    "title": "Масштабировать команды или время? Обучение на протяжении всей жизни с опорой на память в многоагентных системах LLM",
+    "original": "Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems",
+    "authors": [
+      "Shanglin Wu",
+      "et al."
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "memory",
+      "intelligence",
+      "platforms"
+    ],
+    "importance": "core",
+    "summary": "LLMA-Mem проверяет коллективную память агентов в задачах кодирования, исследования и работы с базами данных из MultiAgentBench.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-03295/fulltext.md",
+    "url": "https://arxiv.org/abs/2604.03295",
+    "cardPath": "works/arxiv-2604-03295.md"
+  },
+  {
+    "id": "arxiv-2607-22750",
+    "title": "Обязательство к кооперации с самостоятельно согласованными контрактами",
+    "original": "Commitment To Cooperation With Self-Negotiated Contracts",
+    "authors": [
+      "Tim Wyse",
+      "Kaitlin Bustos",
+      "Yulia Volkova",
+      "Max Kleiman-Weiner"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions"
+    ],
+    "importance": "core",
+    "summary": "Работа исследует договоры, которые агенты договариваются заключать ради сотрудничества.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-22750/fulltext.md",
+    "url": "https://arxiv.org/pdf/2607.22750",
+    "cardPath": "works/arxiv-2607-22750.md"
+  },
+  {
+    "id": "arxiv-2604-11721",
+    "title": "Оценка кооперации в социальных группах LLM через выборное лидерство",
+    "original": "Evaluating Cooperation in LLM Social Groups through Elected Leadership",
+    "authors": [
+      "Ryan Faulkner",
+      "Anushka Deshpande",
+      "David Guzman Piedrahita",
+      "Joel Z. Leibo",
+      "Zhijing Jin"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "AgentElect расширяет GovSim выборами лидеров с повесткой: при 8 агентах выборное лидерство даёт +55.4% социального благосостояния и +128.6% времени выживания по сравнению с его отсутствием.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2604-11721/fulltext.md",
+    "url": "https://arxiv.org/pdf/2604.11721",
+    "cardPath": "works/arxiv-2604-11721.md"
+  },
+  {
+    "id": "arxiv-2609-26481",
+    "title": "Поведения недостаточно: оценка возникновения социальных норм в обществах LLM на основе механизмов",
+    "original": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+    "authors": [
+      "Rasika Muralidharan",
+      "Haewoon Kwak",
+      "Jisun An"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "resources"
+    ],
+    "importance": "core",
+    "summary": "Кооперация в игре общественных благ (public goods game) не доказывает существования нормы: опрос ожиданий повышает вклады, обсуждение стабилизирует поведение, а сетевой отбор почти не меняет вклады.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-26481/fulltext.md",
+    "url": "https://arxiv.org/abs/2609.26481",
+    "cardPath": "works/arxiv-2609-26481.md"
+  },
+  {
+    "id": "arxiv-2608-09574",
+    "title": "Политик, лжец и послушный работник: возникающее поведение LLM-агентов в иерархических играх",
+    "original": "The Politician, the Liar, and the Obedient Worker: Emerging Behavior of LLM Agents in Hierarchical Games",
+    "authors": [
+      "Fatemeh Seyedin",
+      "Adrian Weller",
+      "Jinhyuk Yun",
+      "Mahmoudreza Babaei"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "coordination"
+    ],
+    "importance": "core",
+    "summary": "Иерархическая игра (Hierarchical Game) добавляет менеджера с наградами, наказаниями и выборами в игру общественного блага (public goods game) для пяти агентов; кооперация и честность зависят от институтов и семейства модели.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2608-09574/fulltext.md",
+    "url": "https://arxiv.org/pdf/2608.09574",
+    "cardPath": "works/arxiv-2608-09574.md"
+  },
+  {
+    "id": "arxiv-2607-09766",
+    "title": "Принуждение к нормам для ИИ-агентов: устойчивое формирование поведения в мультиагентных системах",
+    "original": "Norm Enforcement for AI Agents: Robustly Shaping Behavior in Multi-Agent Systems",
+    "authors": [
+      "Yaowen Ye",
+      "Jacob Steinhardt"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "institutions",
+      "coordination",
+      "games"
+    ],
+    "importance": "core",
+    "summary": "Простые механизмы наказания за нормы эксплуатируются агентами; репутационные схемы с эскалацией (EscRepVote) устойчивее в 11 из 12 условий и дешевле базовых вариантов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2607-09766/fulltext.md",
+    "url": "https://arxiv.org/pdf/2607.09766",
+    "cardPath": "works/arxiv-2607-09766.md"
+  },
+  {
+    "id": "arxiv-2602-07777",
+    "title": "Разговор, суждение, сотрудничество: непрямая взаимность, управляемая слухами, у LLM-агентов с собственным интересом",
+    "original": "Talk, Judge, Cooperate: Gossip-Driven Indirect Reciprocity in Self-Interested LLM Agents",
+    "authors": [
+      "Shuhui Zhu",
+      "Yue Lin",
+      "Shriya Kaistha",
+      "Wenhao Li",
+      "Baoxiang Wang",
+      "Hongyuan Zha",
+      "Gillian K. Hadfield",
+      "Pascal Poupart"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "networks",
+      "institutions"
+    ],
+    "importance": "core",
+    "summary": "Протокол ALIGN: агенты передают открытые слухи (gossip) с градациями тона и выбирают сотрудничество; в ряде сред слухи повышают кооперацию и помогают отсеивать постоянных дефекторов.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2602-07777/fulltext.md",
+    "url": "https://arxiv.org/html/2602.07777",
+    "cardPath": "works/arxiv-2602-07777.md"
+  },
+  {
+    "id": "arxiv-2504-03274",
+    "title": "Решают ли большие языковые модели проблемы агентного моделирования? Критический обзор генеративных социальных симуляций",
+    "original": "Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations",
+    "authors": [
+      "Maik Larooij",
+      "Petter Törnberg"
+    ],
+    "year": 2026,
+    "kind": "review",
+    "topics": [
+      "methodology"
+    ],
+    "importance": "core",
+    "summary": "Систематический обзор 35 статей о генеративных агентных моделях: большинство из них валидируется субъективно, а авторы считают, что LLM скорее усугубят, чем решат проблемы валидации агентного моделирования (ABM).",
+    "hasText": true,
+    "textPath": "materials/arxiv-2504-03274/fulltext.md",
+    "url": "https://arxiv.org/pdf/2504.03274",
+    "cardPath": "works/arxiv-2504-03274.md"
+  },
+  {
+    "id": "arxiv-2609-13037",
+    "title": "Смягчение эмерджентного сговора у ценовых агентов LLM",
+    "original": "Mitigating Emergent Collusion in LLM Pricing Agents",
+    "authors": [
+      "Abdullah Garra"
+    ],
+    "year": 2026,
+    "kind": "research",
+    "topics": [
+      "economics"
+    ],
+    "importance": "core",
+    "summary": "Исследование стратегий и мер смягчения сговора между LLM-агентами, устанавливающими цены.",
+    "hasText": true,
+    "textPath": "materials/arxiv-2609-13037/fulltext.md",
+    "url": "https://arxiv.org/pdf/2609.13037",
+    "cardPath": "works/arxiv-2609-13037.md"
+  }
+]

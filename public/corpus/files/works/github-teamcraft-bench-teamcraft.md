@@ -19,6 +19,7 @@ verification_status: source_consolidated
 retrieval_status: fulltext_retrieved
 reviewed_at: '2026-10-27'
 materials:
+- materials/github-teamcraft-bench-teamcraft/fulltext.md
 - materials/github-teamcraft-bench-teamcraft/readme-source.md
 related: []
 summary_short: Официальный код, Docker-образ, датасет и VLA-чекпойнты benchmark TeamCraft для мультимодальных командных
@@ -113,3 +114,8 @@ importance_basis: editorial
 Тематические сопоставления и связанные работы приведены в разделах: [Игровые общества и длительные взаимодействия](../topics/games.md), [Архитектуры, платформы и масштабирование](../topics/platforms.md).
 
 ## Происхождение записи
+
+## Подробное изложение на русском
+
+[Читать подробное русское изложение](../materials/github-teamcraft-bench-teamcraft/summary.ru.md)
+

@@ -105,6 +105,10 @@ importance_basis: editorial
 - [Локальный текст: fulltext.md](../materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/fulltext.md).
 - [Все уникальные исходные сведения](../materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/input-notes.md).
 
+## Подробное изложение на русском
+
+[Открыть русское изложение](../materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary.ru.md).
+
 ## Связанные работы
 
 - discusses: [arxiv-2504-03274](arxiv-2504-03274.md).
@@ -113,3 +117,4 @@ importance_basis: editorial
 
 - `исходники исследований лит обзор/Дополнительный обзор социумов ИИ-агентов.md`, строка 21.
 - `исходники исследований лит обзор/Дополнительный обзор социумов ИИ-агентов.md`, строка 61.
+
