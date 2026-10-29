@@ -1802,16 +1802,41 @@ body:has(.graph-page) .site-footer {
 .page-comment-composer {
   position: fixed;
   z-index: 92;
+  right: 24px;
+  bottom: 76px;
   display: grid;
   gap: 10px;
-  width: min(340px, calc(100vw - 24px));
-  max-height: 82vh;
+  width: min(380px, calc(100vw - 24px));
+  max-height: min(72vh, 720px);
   overflow: auto;
-  padding: 15px;
+  padding: 18px;
   border: 1px solid var(--line-2);
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 8px 28px rgb(20 28 38 / 20%);
+  animation: card-in 160ms ease;
+}
+
+.page-comment-selection-action {
+  position: fixed;
+  z-index: 91;
+  display: none;
+  min-height: 36px;
+  padding: 0 11px;
+  border: 1px solid var(--accent);
+  border-radius: 18px;
+  background: #fff;
+  color: var(--accent-ink);
+  box-shadow: 0 3px 14px rgb(20 28 38 / 18%);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.page-comment-selection-action:hover {
+  background: var(--accent-soft);
 }
 
 .page-comment-quote {
@@ -1899,7 +1924,16 @@ body:has(.graph-page) .site-footer {
     max-height: 72dvh;
   }
   .page-comment-composer {
-    max-height: 78dvh;
+    right: 12px;
+    bottom: 66px;
+    left: 12px;
+    width: auto;
+    max-height: 72dvh;
+    padding: 16px;
+  }
+  .page-comment-selection-action {
+    display: inline-flex;
+    align-items: center;
   }
   .page-comment-notice {
     right: 12px;

@@ -23,7 +23,7 @@ type Comment = {
 };
 
 type LoadedComments = { targetId: string; comments: Comment[]; unavailable: boolean };
-type Draft = { anchor: TextAnchor; left: number; top: number };
+type Draft = { anchor: TextAnchor; left: number; top: number; mobile: boolean };
 type Pin = { id: number; number: number; left: number; top: number; quote: string };
 
 type HighlightRuntime = {
@@ -36,6 +36,7 @@ const MODERATION_KEY = "literature-explorer-moderation-key";
 const HIGHLIGHT_NAME = "page-comments";
 const ACTIVE_HIGHLIGHT_NAME = "page-comment-active";
 const MAX_QUOTE_LENGTH = 1_000;
+const SELECTION_DELAY_MS = 400;
 const EMPTY_COMMENTS: Comment[] = [];
 
 function readStorage(key: string) {
@@ -127,6 +128,7 @@ export default function PageComments() {
   const formId = `page-comment-${targetId.replace(/[^a-z0-9]/gi, "-")}`;
   const [loaded, setLoaded] = useState<LoadedComments | null>(null);
   const [showComments, setShowComments] = useState(false);
+  const [composerOpen, setComposerOpen] = useState(false);
   const [activeCommentId, setActiveCommentId] = useState<number | null>(null);
   const [pins, setPins] = useState<Pin[]>([]);
   const [draft, setDraft] = useState<Draft | null>(null);
@@ -138,6 +140,7 @@ export default function PageComments() {
   const [error, setError] = useState("");
   const [selectionNotice, setSelectionNotice] = useState("");
   const rangesRef = useRef<Map<number, Range>>(new Map());
+  const selectionTimerRef = useRef<number | null>(null);
 
   const comments = loaded?.targetId === targetId ? loaded.comments : EMPTY_COMMENTS;
   const unavailable = loaded?.targetId === targetId && loaded.unavailable;
@@ -151,7 +154,10 @@ export default function PageComments() {
 
   useEffect(() => {
     const controller = new AbortController();
+    if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
+    selectionTimerRef.current = null;
     setDraft(null);
+    setComposerOpen(false);
     setActiveCommentId(null);
     setError("");
 
@@ -230,28 +236,39 @@ export default function PageComments() {
 
   const prepareSelection = useCallback((event: Event) => {
     const target = event.target;
-    if (target instanceof Element && target.closest("[data-text-comment-ui]")) return;
+    if (target instanceof Element && target.closest("[data-text-comment-ui]")) {
+      if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
+      selectionTimerRef.current = null;
+      return;
+    }
     if (
       document.activeElement instanceof Element &&
       document.activeElement.closest("[data-text-comment-ui]")
     ) {
+      if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
+      selectionTimerRef.current = null;
       return;
     }
 
-    window.setTimeout(() => {
+    if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
+    selectionTimerRef.current = window.setTimeout(() => {
+      selectionTimerRef.current = null;
       const selection = window.getSelection();
       if (!selection || selection.isCollapsed || selection.rangeCount === 0) {
         setDraft(null);
+        setComposerOpen(false);
         return;
       }
 
       const anchor = anchorFromSelection(selection, buildTextIndex(document.body));
       if (!anchor) {
         setDraft(null);
+        setComposerOpen(false);
         return;
       }
       if (Array.from(anchor.selectedQuote).length > MAX_QUOTE_LENGTH) {
         setDraft(null);
+        setComposerOpen(false);
         setSelectionNotice("Выделенный фрагмент длиннее 1 000 знаков. Выберите фрагмент покороче.");
         window.setTimeout(() => setSelectionNotice(""), 4_000);
         return;
@@ -259,32 +276,39 @@ export default function PageComments() {
 
       const range = selection.getRangeAt(0);
       const rect = range.getBoundingClientRect();
-      const width = Math.min(340, window.innerWidth - 24);
-      const left = Math.max(12, Math.min(rect.left, window.innerWidth - width - 12));
-      const top = Math.max(12, Math.min(rect.bottom + 10, window.innerHeight - 300));
+      const mobile = window.matchMedia("(max-width: 600px)").matches;
+      const actionWidth = Math.min(136, window.innerWidth - 24);
+      const left = Math.max(
+        12,
+        Math.min(rect.left + rect.width / 2 - actionWidth / 2, window.innerWidth - actionWidth - 12),
+      );
+      let top = rect.top - 44;
+      if (top < 8) top = rect.bottom + 8;
+      top = Math.max(8, Math.min(top, window.innerHeight - 48));
       setError("");
-      setDraft({ anchor, left, top });
-    }, 0);
+      setDraft({ anchor, left, top, mobile });
+      setComposerOpen(false);
+      if (!mobile) setShowComments(false);
+    }, SELECTION_DELAY_MS);
   }, []);
 
   useEffect(() => {
-    let selectionTimer = 0;
-    const onSelectionChange = (event: Event) => {
-      window.clearTimeout(selectionTimer);
-      selectionTimer = window.setTimeout(() => prepareSelection(event), 250);
-    };
     document.addEventListener("mouseup", prepareSelection);
     document.addEventListener("keyup", prepareSelection);
-    document.addEventListener("selectionchange", onSelectionChange);
+    document.addEventListener("selectionchange", prepareSelection);
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setDraft(null);
+      if (event.key !== "Escape") return;
+      if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
+      selectionTimerRef.current = null;
+      setDraft(null);
+      setComposerOpen(false);
     };
     document.addEventListener("keydown", closeOnEscape);
     return () => {
-      window.clearTimeout(selectionTimer);
+      if (selectionTimerRef.current !== null) window.clearTimeout(selectionTimerRef.current);
       document.removeEventListener("mouseup", prepareSelection);
       document.removeEventListener("keyup", prepareSelection);
-      document.removeEventListener("selectionchange", onSelectionChange);
+      document.removeEventListener("selectionchange", prepareSelection);
       document.removeEventListener("keydown", closeOnEscape);
     };
   }, [prepareSelection]);
@@ -328,6 +352,7 @@ export default function PageComments() {
       }));
       setBody("");
       setDraft(null);
+      setComposerOpen(false);
       setShowComments(true);
       setActiveCommentId(created.id);
       window.getSelection()?.removeAllRanges();
@@ -376,6 +401,19 @@ export default function PageComments() {
     setAuthor(value);
   }
 
+  function dismissComposer() {
+    setDraft(null);
+    setComposerOpen(false);
+    setBody("");
+    setError("");
+  }
+
+  function openComposer() {
+    setComposerOpen(true);
+    setShowComments(false);
+    setError("");
+  }
+
   const activeComment = activeCommentId === null ? null : comments.find((comment) => comment.id === activeCommentId);
 
   return (
@@ -396,10 +434,21 @@ export default function PageComments() {
 
       {selectionNotice && <p className="page-comment-notice" role="status">{selectionNotice}</p>}
 
-      {draft && (
-        <form
-          className="page-comment-composer"
+      {draft?.mobile && !composerOpen && (
+        <button
+          type="button"
+          className="page-comment-selection-action"
           style={{ left: draft.left, top: draft.top }}
+          onClick={openComposer}
+          aria-label="Оставить комментарий к выделенному тексту"
+        >
+          Комментировать
+        </button>
+      )}
+
+      {draft && (!draft.mobile || composerOpen) && (
+        <form
+          className={`page-comment-composer${draft.mobile ? " is-mobile" : ""}`}
           onSubmit={submit}
           aria-label="Новый комментарий к выделенному тексту"
         >
@@ -438,7 +487,7 @@ export default function PageComments() {
           />
           {error && <p className="error">{error}</p>}
           <div className="page-comment-actions">
-            <button type="button" className="link-button" onClick={() => setDraft(null)}>
+            <button type="button" className="link-button" onClick={dismissComposer}>
               Отмена
             </button>
             <button type="submit" className="button" disabled={sending}>
@@ -528,7 +577,7 @@ export default function PageComments() {
         className={`page-comment-toggle${showComments ? " is-open" : ""}`}
         onClick={() => setShowComments((open) => !open)}
         aria-expanded={showComments}
-        aria-controls="page-comment-panel"
+        aria-controls={showComments ? "page-comment-panel" : undefined}
       >
         {showComments ? "Скрыть комментарии" : "Комментарии"}
         <span>{loading ? "…" : comments.length}</span>
