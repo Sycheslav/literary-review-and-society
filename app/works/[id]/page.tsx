@@ -125,6 +125,7 @@ export default async function WorkPage({ params }: Props) {
 
           <aside className="work-aside">
             <div className="aside-actions">
+              <Link href={`/economics/studies/${work.id}`} className="button button-quiet">Экономика исследования</Link>
               {detail.summaryPath && (
                 <Link href={`/works/${work.id}/summary`} className="button">
                   Читать изложение на русском

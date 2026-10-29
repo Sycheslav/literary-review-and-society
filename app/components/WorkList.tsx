@@ -14,6 +14,7 @@ export function WorkRow({ work }: { work: Work }) {
           </span>
         </span>
       </Link>
+      <Link className="econ-row-link" href={`/economics/studies/${work.id}`}>Экономика исследования →</Link>
     </li>
   );
 }

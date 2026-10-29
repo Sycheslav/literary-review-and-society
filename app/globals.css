@@ -1445,3 +1445,11 @@ body:has(.graph-page) .site-footer {
     padding-left: 0;
   }
 }
+
+
+/* Ссылка на экономический паспорт в списках работ */
+.econ-row-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  margin: 0 1rem 0.65rem;
+}
