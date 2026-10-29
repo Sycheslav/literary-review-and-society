@@ -2,9 +2,9 @@
   "total": 281,
   "counts": {
     "repository": 9,
-    "fulltext": 89,
+    "fulltext": 139,
     "limited": 9,
-    "missing": 174
+    "missing": 124
   },
   "errors": [],
   "warnings": [
@@ -565,17 +565,23 @@
     {
       "id": "arxiv-2602-00685",
       "title": "HumanStudy-Bench: к дизайну ИИ-агентов для симуляции участников исследований",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2602-00685/summary.ru.md",
+      "words": 1826
     },
     {
       "id": "arxiv-2606-27845",
       "title": "LLM-агенты как статические игроки level-k в поведенческих играх",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-27845/summary.ru.md",
+      "words": 1995
     },
     {
       "id": "arxiv-2507-09083",
       "title": "LLM-участники аукционов воспроизводят порядок сложности механизмов, характерный для людей",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2507-09083/summary.ru.md",
+      "words": 3091
     },
     {
       "id": "arxiv-2604-01020",
@@ -671,37 +677,51 @@
     {
       "id": "arxiv-2602-02606",
       "title": "Гендерная динамика и гомофилия в социальной сети LLM-агентов",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2602-02606/summary.ru.md",
+      "words": 1693
     },
     {
       "id": "arxiv-2605-14097",
       "title": "Групповая динамика в реальном времени при фасилитации LLM: данные задачи распределения благотворительных пожертвований",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2605-14097/summary.ru.md",
+      "words": 1563
     },
     {
       "id": "arxiv-2605-29800",
       "title": "Девять судей, два эффективных голоса: коррелированные ошибки подрывают панели оценки LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2605-29800/summary.ru.md",
+      "words": 1679
     },
     {
       "id": "arxiv-2610-22201",
       "title": "Децентрализованные рабочие процессы LLM на основе последовательных аукционов",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2610-22201/summary.ru.md",
+      "words": 1846
     },
     {
       "id": "arxiv-2604-17220",
       "title": "Динамика когнитивной гетерогенности: поведенческие смещения в многоэтапных цепочках поставок при симуляции на основе LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-17220/summary.ru.md",
+      "words": 1737
     },
     {
       "id": "arxiv-2604-20582",
       "title": "Доверие, ложь и долгая память: эмерджентная социальная динамика и репутация в многораундовом Avalon с агентами LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-20582/summary.ru.md",
+      "words": 1620
     },
     {
       "id": "arxiv-2610-31971",
       "title": "Знать, кому доверять, недостаточно: разрыв между доверием и согласием в повторяющихся многосторонних переговорах LLM (TASMAN)",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2610-31971/summary.ru.md",
+      "words": 2337
     },
     {
       "id": "arxiv-2602-11865",
@@ -711,22 +731,30 @@
     {
       "id": "doi-10-1093-pnasnexus-pgag297",
       "title": "Как большие языковые модели оценивают человеческую кооперацию и влияют на неё",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/doi-10-1093-pnasnexus-pgag297/summary.ru.md",
+      "words": 1804
     },
     {
       "id": "arxiv-2606-29354",
       "title": "Когда LLM вырабатывают языки: символьная коммуникация для эффективного многоагентного рассуждения",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-29354/summary.ru.md",
+      "words": 2390
     },
     {
       "id": "doi-10-1038-s41598-026-42705-7",
       "title": "Когда сотрудничество терпит неудачу: состязательное влияние, основанное на убеждении, в многоагентных дебатах больших языковых моделей",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/doi-10-1038-s41598-026-42705-7/summary.ru.md",
+      "words": 1705
     },
     {
       "id": "acl-2026.findings-emnlp.1716",
       "title": "Коллаборативная ОС для мультиагентных систем (MAS-OS)",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/acl-2026.findings-emnlp.1716/summary.ru.md",
+      "words": 1794
     },
     {
       "id": "arxiv-2604-18005",
@@ -736,47 +764,65 @@
     {
       "id": "arxiv-2604-11312",
       "title": "Коллективная динамика мнений в структурированных популяциях LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-11312/summary.ru.md",
+      "words": 1691
     },
     {
       "id": "arxiv-2510-25595",
       "title": "Коммуникация и верификация в LLM-агентах для совместной работы в условиях информационной асимметрии",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2510-25595/summary.ru.md",
+      "words": 1793
     },
     {
       "id": "arxiv-2610-05041",
       "title": "Коммуникация формирует коллективный вывод в самоадаптирующихся обществах LLM: данные из игры Mafia",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2610-05041/summary.ru.md",
+      "words": 2180
     },
     {
       "id": "arxiv-2609-02580",
       "title": "Конкурентное рыночное поведение LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2609-02580/summary.ru.md",
+      "words": 1583
     },
     {
       "id": "arxiv-2604-00487",
       "title": "Конкуренция и кооперация LLM-агентов в играх",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-00487/summary.ru.md",
+      "words": 1793
     },
     {
       "id": "doi-10-1057-s41599-026-07194-z",
       "title": "Кризис как катализатор: оценка этической согласованности и кооперации LLM в сценариях с высокими ставками",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/doi-10-1057-s41599-026-07194-z/summary.ru.md",
+      "words": 1920
     },
     {
       "id": "arxiv-2606-01637",
       "title": "Легче ввести в заблуждение, чем поправить: вредные и полезные пересмотры ответов при конформизме LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-01637/summary.ru.md",
+      "words": 1615
     },
     {
       "id": "acl-2026.acl-srw.1",
       "title": "Многоагентное рассуждение повышает вычислительную эффективность: парето-оптимальное масштабирование на этапе инференса",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/acl-2026.acl-srw.1/summary.ru.md",
+      "words": 2447
     },
     {
       "id": "arxiv-2609-22600",
       "title": "Могут ли агенты адаптировать свои институты и жертвовать собой во время коллапса? Исполняемое самоуправление в общем ресурсе GovSim",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2609-22600/summary.ru.md",
+      "words": 2965
     },
     {
       "id": "arxiv-2601-10825",
@@ -786,7 +832,9 @@
     {
       "id": "arxiv-2606-18264",
       "title": "Моделирование каскадов языка вражды с агентами на основе нескольких LLM: эмпирическая основа, точность моделирования и стратегии вмешательства",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-18264/summary.ru.md",
+      "words": 2871
     },
     {
       "id": "arxiv-2607-23982",
@@ -796,12 +844,16 @@
     {
       "id": "arxiv-2606-19911",
       "title": "Мультиагентная транзактивная память",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-19911/summary.ru.md",
+      "words": 1850
     },
     {
       "id": "arxiv-2605-17036",
       "title": "Надёжность и эффективность автономных ИИ-агентов в управлении цепочками поставок",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2605-17036/summary.ru.md",
+      "words": 2218
     },
     {
       "id": "doi-10-64898-2026-08-06-26359905",
@@ -811,22 +863,30 @@
     {
       "id": "acl-2026.eacl-long.51",
       "title": "Не доверяйте генеративным агентам имитацию коммуникации в социальных сетях без проверки их эмпирической реалистичности",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/acl-2026.eacl-long.51/summary.ru.md",
+      "words": 1893
     },
     {
       "id": "arxiv-2604-06452",
       "title": "Обучение прерыванию в многоагентной коммуникации на естественном языке",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-06452/summary.ru.md",
+      "words": 1764
     },
     {
       "id": "arxiv-2607-03228",
       "title": "Организационная память для исполнения агентных бизнес-процессов",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-03228/summary.ru.md",
+      "words": 1451
     },
     {
       "id": "arxiv-2607-00233",
       "title": "От сигналов к структуре: как архитектура памяти определяет возникновение языка у агентов LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-00233/summary.ru.md",
+      "words": 1780
     },
     {
       "id": "doi-10-4218-etrij-2026-0186",
@@ -836,42 +896,58 @@
     {
       "id": "arxiv-2602-16662",
       "title": "Оценка коллективного поведения сотен агентов на основе LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2602-16662/summary.ru.md",
+      "words": 1694
     },
     {
       "id": "arxiv-2606-00655",
       "title": "Поведение при масштабировании многоагентных систем на основе одной LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-00655/summary.ru.md",
+      "words": 1861
     },
     {
       "id": "arxiv-2608-18078",
       "title": "Позиционная статья: риски сговора между ИИ-агентами с рассуждением обосновывают требования сертификации при принятии рыночных решений",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2608-18078/summary.ru.md",
+      "words": 2418
     },
     {
       "id": "arxiv-2602-03794",
       "title": "Понимание масштабирования агентов в мультиагентных системах на основе LLM через разнообразие",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2602-03794/summary.ru.md",
+      "words": 1936
     },
     {
       "id": "arxiv-2606-01456",
       "title": "Правдивые ИИ-советники: предрегистрированный бенчмарк честности больших языковых моделей при рассогласовании предпочтений",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-01456/summary.ru.md",
+      "words": 1805
     },
     {
       "id": "arxiv-2605-11453",
       "title": "Предсказательные карты многоагентных рассуждений: спектр представления преемника (successor representation) для коммуникационных топологий LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2605-11453/summary.ru.md",
+      "words": 1881
     },
     {
       "id": "arxiv-2607-05477",
       "title": "Протоколы принятия решений в многоагентных диалогах больших языковых моделей",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-05477/summary.ru.md",
+      "words": 1952
     },
     {
       "id": "arxiv-2607-01047",
       "title": "Разговорная сложность: агентные коллективы LLM как интерпретируемые субстраты",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-01047/summary.ru.md",
+      "words": 1409
     },
     {
       "id": "arxiv-2608-26626",
@@ -881,27 +957,37 @@
     {
       "id": "arxiv-2607-19592",
       "title": "Самосовершенствование, центрированное на знаниях",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-19592/summary.ru.md",
+      "words": 2085
     },
     {
       "id": "web-ojs-aaai-org-8dc2f386c9",
       "title": "Симуляция как алиби: как общественный порядок передаётся на аутсорсинг агентам LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/web-ojs-aaai-org-8dc2f386c9/summary.ru.md",
+      "words": 1983
     },
     {
       "id": "arxiv-2607-21912",
       "title": "Совместимость надёжности и распространения ошибок в мультиагентных сетях LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-21912/summary.ru.md",
+      "words": 1714
     },
     {
       "id": "arxiv-2607-03695",
       "title": "Социальные сети агентов LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2607-03695/summary.ru.md",
+      "words": 2099
     },
     {
       "id": "doi-10-31737-22212264-2026-2-177-203",
       "title": "Сравнительный анализ поведения больших языковых моделей и людей в игре «Диктатор»",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/doi-10-31737-22212264-2026-2-177-203/summary.ru.md",
+      "words": 1781
     },
     {
       "id": "web-neurips-cc-ac69b31c1c",
@@ -913,22 +999,30 @@
     {
       "id": "arxiv-2604-14386",
       "title": "Формирование коалиций в сетях агентов LLM: анализ устойчивости и гарантии сходимости",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2604-14386/summary.ru.md",
+      "words": 2042
     },
     {
       "id": "arxiv-2601-21540",
       "title": "Формирование консенсуса мнений в сетях больших языковых моделей",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2601-21540/summary.ru.md",
+      "words": 1528
     },
     {
       "id": "arxiv-2606-18276",
       "title": "Характеристика эволюции мнений сетевых LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2606-18276/summary.ru.md",
+      "words": 1974
     },
     {
       "id": "arxiv-2609-19913",
       "title": "Цифровые двойники динамики мнений: генеративная LLM-рамка для социальных сетей",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2609-19913/summary.ru.md",
+      "words": 2082
     },
     {
       "id": "web-hse-ru-3b14505d82",
@@ -938,17 +1032,23 @@
     {
       "id": "arxiv-2507-21166",
       "title": "AGORA: стимулирование эмерджентной способности группы LLM через групповую дистилляцию",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2507-21166/summary.ru.md",
+      "words": 1812
     },
     {
       "id": "arxiv-2503-18891",
       "title": "AgentDropout: динамическое исключение агентов для экономного по токенам и высокопроизводительного мультиагентного сотрудничества на основе LLM",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2503-18891/summary.ru.md",
+      "words": 1925
     },
     {
       "id": "arxiv-2502-20073",
       "title": "Collab-Overcooked: бенчмаркинг и оценка больших языковых моделей как агентов совместной работы",
-      "status": "missing"
+      "status": "fulltext",
+      "path": "materials/arxiv-2502-20073/summary.ru.md",
+      "words": 1859
     },
     {
       "id": "acl-2025.findings-naacl.448",
