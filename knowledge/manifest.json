@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "data_version": "44d93fef268cf96d7b20a492f7c88eb960150e01548bae844fba57ffb101ed2a",
+  "data_version": "486879dd3d8fa0227eb5786877cf41548526d1f2c8e2dccc28c349b85aefedd2",
   "counts": {
     "works": 281,
     "topics": 13,
@@ -3059,8 +3059,8 @@
     },
     {
       "path": "overview.md",
-      "bytes": 9114,
-      "sha256": "6a79e5554565f727504f3bd04a7e0fd17d97a21e9b1c40ebff4c9ab152357c5f"
+      "bytes": 9138,
+      "sha256": "301e041a6ff55197d0a0c4c346e00f0d941b62eec4d8085229d023125cc27cfc"
     },
     {
       "path": "economics/snapshot.json",
@@ -4509,13 +4509,13 @@
     },
     {
       "path": "bundle.json",
-      "bytes": 10926630,
-      "sha256": "da70128ee9a3267e86b3bce8647291166d2b3e2915c67f4eeef74a6d3649d5b8"
+      "bytes": 10926654,
+      "sha256": "4de02bc9621aeb9d2c70cfbf83a9f28db1b707ef105405eb075dee4d91c004b6"
     },
     {
       "path": "llms.txt",
       "bytes": 2152,
-      "sha256": "2d8bc8489acc74839378688d815ac182efa62ecfb780f007446dab826d67eaa7"
+      "sha256": "562fdc3e6f3f1bebbe7e51e78aa1a29a403925eeb03e1ea5245f935926ea3909"
     }
   ]
 }
