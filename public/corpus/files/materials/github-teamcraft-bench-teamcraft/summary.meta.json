@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2412.05255",
   "source_path": "materials/github-teamcraft-bench-teamcraft/fulltext.md",
   "source_version": "arXiv:2412.05255v1, 2024-12-06",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "TeamCraft — бенчмарк из 55 000 задач для команд мультимодальных агентов в Minecraft: централизованная модель 7B выполняет здание в 42 % тестовых случаев, но на новом числе агентов падает до 2 %, а децентрализованные агенты дублируют работу; демонстрации сгенерированы планировщиком.",
+  "rewritten_at": "2026-10-31"
 }

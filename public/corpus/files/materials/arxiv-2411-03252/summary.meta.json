@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2411.03252v1",
   "source_path": "materials/arxiv-2411-03252/fulltext.md",
   "source_version": "v1",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Десять агентов одной модели Llama-2-7b-chat в решётке 50×50 без заданных личностей и памяти расходятся по ходам, хештегам и MBTI-типам; статистических тестов нет, а личность и эмоции оцениваются по выходам классификаторов и LLM.",
+  "rewritten_at": "2026-10-31"
 }

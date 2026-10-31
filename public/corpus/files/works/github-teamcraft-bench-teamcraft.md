@@ -2,11 +2,17 @@
 id: github-teamcraft-bench-teamcraft
 type: work
 title: TeamCraft
-authors: []
-year: null
-source_kind: project
-venue: null
-publication_status: Статус публикации требует библиографической сверки
+authors:
+- Qian Long
+- Zhi Li
+- Ran Gong
+- Ying Nian Wu
+- Demetri Terzopoulos
+- Xiaofeng Gao
+year: 2024
+source_kind: research
+venue: arXiv:2412.05255v1 (препринт, 6 декабря 2024)
+publication_status: Препринт arXiv:2412.05255v1; публикация в журнале или на конференции в тексте не указана
 topics:
 - games
 - platforms
@@ -62,9 +68,9 @@ importance_basis: editorial
 
 ## Библиография и проверка
 
-- **Авторы:** В исходных записях не установлены; см. первоисточник.
-- **Год:** не установлен.
-- **Площадка / статус:** ; Статус публикации требует библиографической сверки.
+- **Авторы:** Qian Long, Zhi Li, Ran Gong, Ying Nian Wu, Demetri Terzopoulos, Xiaofeng Gao (по тексту статьи).
+- **Год:** 2024 (arXiv:2412.05255v1 от 6 декабря 2024).
+- **Площадка / статус:** препринт arXiv:2412.05255v1; публикация в журнале или на конференции в тексте не указана.
 - **Проверка содержания:** Сведения объединены из исходных обзоров; содержательная сверка не завершена.
 - **Доступность оригинала:** fulltext_retrieved. Получение текста не означает завершённую содержательную проверку.
 
