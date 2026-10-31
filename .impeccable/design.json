@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T00:00:00Z",
+  "title": "Design System: Социумы ИИ-агентов",
+  "extensions": {
+    "colorMeta": {
+      "ink-blue": { "role": "primary", "displayName": "Чернильно-синий", "canonical": "#1d4f91" },
+      "margin-ochre": { "role": "secondary", "displayName": "Охра полей", "canonical": "#b27b15" },
+      "paper-grey": { "role": "neutral", "displayName": "Серая бумага", "canonical": "#f6f7f9" },
+      "pencil": { "role": "neutral", "displayName": "Карандаш", "canonical": "#5a616b" }
+    },
+    "shadows": [
+      { "name": "xs", "value": "0 1px 3px rgb(20 28 38 / 12%)", "purpose": "Метки комментариев, активная таблетка" },
+      { "name": "sm", "value": "0 2px 8px rgb(20 28 38 / 6%)", "purpose": "Поле поверх графа" },
+      { "name": "md", "value": "0 4px 16px rgb(20 28 38 / 11%)", "purpose": "Плавающие кнопки и подсказки" },
+      { "name": "lg", "value": "0 10px 30px rgb(20 28 38 / 13%), 0 1px 3px rgb(20 28 38 / 6%)", "purpose": "Всплывающие карточки и панели" }
+    ],
+    "motion": [
+      { "name": "appear", "value": "140–160ms ease, opacity + translateY(3–4px)", "purpose": "Появление всплывающих элементов" }
+    ],
+    "breakpoints": [
+      { "name": "panel", "value": "600px" },
+      { "name": "mobile", "value": "820px" },
+      { "name": "aside", "value": "1080px" }
+    ]
+  },
+  "components": [
+    { "name": "Primary Button", "kind": "button", "refersTo": "button-primary", "description": "Основное действие.", "html": "<button class=\"ds-btn\">Открыть оригинал</button>", "css": ".ds-btn{height:40px;padding:0 18px;border:1px solid #1d4f91;border-radius:4px;background:#1d4f91;color:#fff;font:700 15px 'PT Sans',sans-serif;cursor:pointer}.ds-btn:hover{background:#143a6b;border-color:#143a6b}.ds-btn:focus-visible{outline:2px solid #1d4f91;outline-offset:2px}" },
+    { "name": "Quiet Button", "kind": "button", "refersTo": "button-quiet", "description": "Вторичное действие.", "html": "<button class=\"ds-btn-q\">Подробное изложение</button>", "css": ".ds-btn-q{height:40px;padding:0 18px;border:1px solid #cfd4da;border-radius:4px;background:#fff;color:#1d4f91;font:700 15px 'PT Sans',sans-serif;cursor:pointer}.ds-btn-q:hover{background:#edf2f9;border-color:#1d4f91}" },
+    { "name": "Input", "kind": "input", "refersTo": "input", "description": "Поле поиска и фильтров.", "html": "<input class=\"ds-input\" placeholder=\"Название, автор или слово из аннотации\">", "css": ".ds-input{height:42px;padding:0 12px;border:1px solid #cfd4da;border-radius:4px;background:#fff;color:#15191e;font:15px 'PT Sans',sans-serif}.ds-input:focus{outline:none;border-color:#1d4f91;box-shadow:0 0 0 1px #1d4f91}" },
+    { "name": "Subnav", "kind": "nav", "refersTo": "subnav-pill-active", "description": "Подменю раздела.", "html": "<nav class=\"ds-sub\"><a>Направления</a><a aria-current=\"page\">Работы</a></nav>", "css": ".ds-sub{display:flex;gap:4px;font:15px 'PT Sans',sans-serif}.ds-sub a{padding:6px 12px;border-radius:4px;color:#5a616b}.ds-sub a:hover{background:#edf2f9;color:#15191e}.ds-sub a[aria-current]{background:#edf2f9;color:#1d4f91}" },
+    { "name": "Reading Levels", "kind": "custom", "description": "Три уровня чтения работы.", "html": "<div class=\"ds-rl\"><a aria-current=\"page\"><small>1 · Кратко</small><span>Аннотация</span></a><a><small>2 · На русском</small><span>Подробное изложение</span></a><a><small>3 · Полный текст</small><span>Открыть оригинал</span></a></div>", "css": ".ds-rl{display:flex;gap:8px;font:17px 'PT Sans',sans-serif}.ds-rl a{flex:1;padding:12px 16px;border:1px solid #e3e6ea;border-radius:4px;color:#3a414b}.ds-rl a:hover{background:#f6f7f9}.ds-rl a[aria-current]{background:#edf2f9;border-color:#1d4f91;color:#143a6b}.ds-rl small{display:block;font-size:12px;color:#5a616b}.ds-rl span{display:block;font-weight:700}" }
+  ],
+  "narrative": {
+    "northStar": "Справочник на полях лабораторного журнала",
+    "keyCharacteristics": ["белая бумага и линейки 1px вместо карточек", "PT Serif для голоса обзора, PT Sans для интерфейса и текста", "один акцент — чернильно-синий; охра только в пометках читателей", "нумерация и капительные метки как навигационный аппарат", "статусы источника и оговорки всегда видны"],
+    "rules": [
+      { "name": "Правило одного акцента", "body": "Синий — единственный цвет действия.", "section": "colors" },
+      { "name": "Правило охры", "body": "Охра означает пометку человека; обзор её не использует.", "section": "colors" },
+      { "name": "Правило шкалы", "body": "Новых чисел в font-size не бывает: только var(--text-*).", "section": "typography" },
+      { "name": "Правило плоской страницы", "body": "Тень означает «лежит поверх»; карточки в потоке текста её не получают.", "section": "elevation" }
+    ]
+  }
+}
