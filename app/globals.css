@@ -7,7 +7,7 @@
   --ink: #15191e;
   --ink-2: #3a414b;
   --muted: #69717c;
-  --faint: #9aa1ab;
+  --faint: #72777f;
   --line: #e3e6ea;
   --line-2: #cfd4da;
   --accent: #1d4f91;
@@ -161,6 +161,7 @@ a:hover {
 .header-search input:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
 }
 
 .site-footer {
@@ -693,12 +694,14 @@ body:has(.section-about) .site-footer {
 
 .filters {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) repeat(3, auto);
+  grid-template-columns: minmax(240px, 1fr) repeat(3, minmax(0, auto));
   gap: 10px;
   margin-top: 28px;
 }
 .filters input,
 .filters select {
+  width: 100%;
+  min-width: 0;
   height: 42px;
   padding: 0 12px;
   font-size: 15.5px;
@@ -715,6 +718,7 @@ body:has(.section-about) .site-footer {
 .filters select:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
 }
 .filter-status {
   margin-top: 16px;
@@ -1038,6 +1042,7 @@ body:has(.section-about) .site-footer {
 .comment-form input:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
 }
 .comment-form-row {
   display: flex;
@@ -1153,6 +1158,7 @@ body:has(.graph-page) .site-footer {
 .graph-search input:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), 0 2px 8px rgb(21 25 30 / 5%);
 }
 .graph-search-results {
   margin-top: 4px;
@@ -1421,8 +1427,8 @@ body:has(.graph-page) .site-footer {
 /* ---------- Узкие экраны ---------- */
 
 @media (max-width: 1080px) {
-  .header-search {
-    display: none;
+  .header-search input {
+    width: 140px;
   }
   .work-layout {
     grid-template-columns: 1fr;
@@ -1436,6 +1442,12 @@ body:has(.graph-page) .site-footer {
     gap: 24px;
   }
   .chapter-toc {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-search {
     display: none;
   }
 }
@@ -1490,7 +1502,7 @@ body:has(.graph-page) .site-footer {
     grid-template-columns: 1fr;
   }
   .filters {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .filters select {
     max-width: none;
@@ -1910,6 +1922,7 @@ body:has(.graph-page) .site-footer {
 .page-comment-composer textarea:focus {
   outline: none;
   border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
 }
 
 .page-comment-composer textarea {

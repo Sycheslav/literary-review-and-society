@@ -10,6 +10,8 @@ type Props = {
   topics: { id: string; title: string }[];
   initialQuery: string;
   initialTopic: string;
+  initialKind: string;
+  initialYear: string;
 };
 
 const GROUPS: Importance[] = ["core", "supporting", "peripheral"];
@@ -27,20 +29,22 @@ function matchesYear(work: Work, year: string) {
   return String(work.year) === year;
 }
 
-export default function Catalog({ works, topics, initialQuery, initialTopic }: Props) {
+export default function Catalog({ works, topics, initialQuery, initialTopic, initialKind, initialYear }: Props) {
   const [query, setQuery] = useState(initialQuery);
   const [topic, setTopic] = useState(topics.some((t) => t.id === initialTopic) ? initialTopic : "");
-  const [kind, setKind] = useState("");
-  const [year, setYear] = useState("");
+  const [kind, setKind] = useState(initialKind in KIND_LABELS ? initialKind : "");
+  const [year, setYear] = useState(YEARS.some((y) => y.value === initialYear) ? initialYear : "");
   const [expanded, setExpanded] = useState<Set<Importance>>(new Set(["core"]));
 
   useEffect(() => {
     const params = new URLSearchParams();
     if (query.trim()) params.set("q", query.trim());
     if (topic) params.set("topic", topic);
+    if (kind) params.set("kind", kind);
+    if (year) params.set("year", year);
     const next = params.size ? `?${params}` : window.location.pathname;
     window.history.replaceState(null, "", next);
-  }, [query, topic]);
+  }, [query, topic, kind, year]);
 
   const filtering = Boolean(query.trim() || topic || kind || year);
 
@@ -108,14 +112,16 @@ export default function Catalog({ works, topics, initialQuery, initialTopic }: P
         </select>
       </div>
 
-      {filtering && (
-        <p className="filter-status">
-          Найдено {visible.length} {worksWord(visible.length)}.{" "}
-          <button type="button" className="link-button" onClick={reset}>
-            Сбросить
-          </button>
-        </p>
-      )}
+      <div aria-live="polite">
+        {filtering && (
+          <p className="filter-status">
+            Найдено {visible.length} {worksWord(visible.length)}.{" "}
+            <button type="button" className="link-button" onClick={reset}>
+              Сбросить
+            </button>
+          </p>
+        )}
+      </div>
 
       <div className="work-groups">
         {GROUPS.map((group) => {
