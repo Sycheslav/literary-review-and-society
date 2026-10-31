@@ -11,7 +11,7 @@ html_url: "https://literature-review.up.railway.app/"
 
 [К индексу](index.md) · [Страница сайта](https://literature-review.up.railway.app/)
 
-Набор: 281 работ, 13 направлений, 22 глав и 281 подробных изложений.
+Набор: 281 работ, 13 направлений, 23 глав и 281 подробных изложений.
 
 - [Обзор и основные выводы](overview.md)
 - [Как пользоваться, поиск, HTTP и Git](guide.md)

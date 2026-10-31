@@ -2212,6 +2212,13 @@
       "title": "Открытые решения для обсуждения",
       "markdown_url": "https://literature-review.up.railway.app/knowledge/concept/decisions.md",
       "html_url": "https://literature-review.up.railway.app/concept/decisions"
+    },
+    {
+      "id": "concept:ideas",
+      "type": "concept",
+      "title": "Восемь идей для первой серии",
+      "markdown_url": "https://literature-review.up.railway.app/knowledge/concept/ideas.md",
+      "html_url": "https://literature-review.up.railway.app/concept/ideas"
     }
   ],
   "edges": [
@@ -5914,6 +5921,12 @@
     {
       "source": "concept:outputs",
       "target": "concept:decisions",
+      "type": "next_chapter",
+      "provenance": "data/concept.json:chapters (order)"
+    },
+    {
+      "source": "concept:decisions",
+      "target": "concept:ideas",
       "type": "next_chapter",
       "provenance": "data/concept.json:chapters (order)"
     }

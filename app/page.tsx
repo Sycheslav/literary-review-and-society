@@ -62,7 +62,7 @@ export default function HomePage() {
               <Link href="/concept/experiments">Портфель экспериментов</Link>
             </li>
             <li>
-              <Link href="/concept">Все 22 главы →</Link>
+              <Link href="/concept">Все 23 главы →</Link>
             </li>
           </ul>
         </div>
