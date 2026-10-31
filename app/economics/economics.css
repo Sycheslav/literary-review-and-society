@@ -608,12 +608,6 @@
   width: 100%;
   min-width: 0;
 }
-.econ-field input:focus,
-.econ-field select:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: var(--focus-ring);
-}
 .econ-field input[aria-invalid="true"] {
   border-color: var(--danger);
 }

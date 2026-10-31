@@ -96,7 +96,7 @@
   --graph-edge-dim: rgb(52 70 96 / 0.035);
   --graph-edge-active: rgb(29 79 145 / 0.55);
   --control-h: 40px;
-  --focus-ring: 0 0 0 1px var(--accent);
+  --focus-ring: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
   --header-h: 65px;
   --sticky-top: calc(var(--header-h) + 24px);
 }
@@ -132,6 +132,46 @@ a:hover {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+/* Поля ввода показывают фокус всегда, в том числе после щелчка мышью.
+   :not() поднимает специфичность выше правил вида «.filters input». */
+:is(input, select, textarea):focus:not([type="checkbox"], [type="radio"]) {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 200;
+  top: 8px;
+  left: 8px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+main:focus {
+  outline: none;
+}
+.skip-link:focus {
+  transform: none;
+  color: var(--on-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 ::selection {
@@ -262,11 +302,6 @@ table,
   border: 1px solid var(--line-2);
   border-radius: var(--radius-sm);
   background: var(--surface);
-}
-.header-search input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: var(--focus-ring);
 }
 
 .site-footer {
@@ -844,12 +879,6 @@ body:has(.section-about) .site-footer {
   max-width: 280px;
   padding-right: 28px;
 }
-.filters input:focus,
-.filters select:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: var(--focus-ring);
-}
 .filter-status {
   margin-top: 16px;
   font-size: var(--text-md);
@@ -1171,12 +1200,6 @@ body:has(.section-about) .site-footer {
   font: inherit;
   font-size: var(--text-md);
 }
-.comment-form textarea:focus,
-.comment-form input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: var(--focus-ring);
-}
 .comment-form-row {
   display: flex;
   gap: 8px;
@@ -1250,9 +1273,6 @@ body:has(.graph-page) .site-footer {
 @keyframes graph-spin {
   to { transform: rotate(360deg); }
 }
-@media (prefers-reduced-motion: reduce) {
-  .graph-spinner { animation: none; }
-}
 .graph-hover {
   position: absolute;
   z-index: 5;
@@ -1312,8 +1332,6 @@ body:has(.graph-page) .site-footer {
   box-shadow: var(--shadow-sm);
 }
 .graph-search input:focus {
-  outline: none;
-  border-color: var(--accent);
   box-shadow: var(--focus-ring), var(--shadow-sm);
 }
 .graph-search-results {
@@ -2146,12 +2164,6 @@ body:has(.graph-page) .site-footer {
   font-size: var(--text-sm);
 }
 
-.page-comment-label input:focus,
-.page-comment-composer textarea:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: var(--focus-ring);
-}
 
 .page-comment-composer textarea {
   resize: vertical;

@@ -33,6 +33,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ru" className={`${sans.variable} ${serif.variable}`}>
       <body>
+        <a href="#main" className="skip-link">
+          Перейти к содержанию
+        </a>
         <header className="site-header">
           <div className="container site-header-inner">
             <Link href="/" className="brand">
@@ -46,7 +49,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </div>
           <SiteSubNav />
         </header>
-        <main>{children}</main>
+        <main id="main" tabIndex={-1}>{children}</main>
         <footer className="site-footer">
           <div className="container">
             <p>
