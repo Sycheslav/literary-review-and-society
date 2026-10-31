@@ -107,7 +107,7 @@ export default function MethodologyPage() {
 
       <section id="rules" className="econ-section">
         <h2>Чего не делать</h2>
-        <ul className="econ-rules" style={{ marginTop: 16 }}>
+        <ul className="econ-rules mt-md">
           {RULES.map((r) => (
             <li key={r}>{r}</li>
           ))}

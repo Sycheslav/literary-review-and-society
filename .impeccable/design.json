@@ -92,7 +92,7 @@
       "refersTo": "input",
       "description": "Поле поиска и фильтров.",
       "html": "<input class=\"ds-input\" placeholder=\"Название, автор или слово из аннотации\">",
-      "css": ".ds-input{height:42px;padding:0 12px;border:1px solid #cfd4da;border-radius:4px;background:#fff;color:#15191e;font:15px 'PT Sans',sans-serif}.ds-input:focus{outline:none;border-color:#1d4f91;box-shadow:0 0 0 1px #1d4f91}"
+      "css": ".ds-input{height:40px;padding:0 12px;border:1px solid #cfd4da;border-radius:4px;background:#fff;color:#15191e;font:15px 'PT Sans',sans-serif}.ds-input:focus{outline:none;border-color:#1d4f91;box-shadow:0 0 0 1px #1d4f91}"
     },
     {
       "name": "Subnav",

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { formatSnapshotDate } from "@/lib/economics";
-import EconNav from "./econ-nav";
 import "./economics.css";
 
 export default function EconomicsLayout({ children }: { children: React.ReactNode }) {
@@ -15,7 +14,6 @@ export default function EconomicsLayout({ children }: { children: React.ReactNod
           </nav>
           <span className="econ-snap">Тарифы на {formatSnapshotDate()} · черновик для обсуждения</span>
         </div>
-        <EconNav />
         {children}
       </div>
     </section>

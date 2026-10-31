@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-type Item = { href: string; label: string };
+type Item = { href: string; label: string; exact?: boolean };
 type Section = Item & { roots: string[]; sub?: Item[] };
 
 const SECTIONS: Section[] = [
@@ -26,7 +26,19 @@ const SECTIONS: Section[] = [
     ],
   },
   { href: "/concept", label: "Концепция", roots: ["/concept"] },
-  { href: "/economics", label: "Экономика", roots: ["/economics"] },
+  {
+    href: "/economics",
+    label: "Экономика",
+    roots: ["/economics"],
+    sub: [
+      { href: "/economics", label: "Обзор", exact: true },
+      { href: "/economics/models", label: "Цены моделей" },
+      { href: "/economics/studies", label: "Затраты исследований" },
+      { href: "/economics/calculator", label: "Калькулятор" },
+      { href: "/economics/infrastructure", label: "Свои GPU" },
+      { href: "/economics/methodology", label: "Как считать" },
+    ],
+  },
 ];
 
 function isUnder(pathname: string, root: string) {
@@ -66,7 +78,7 @@ export function SiteSubNav() {
           <Link
             key={item.href}
             href={item.href}
-            aria-current={isUnder(pathname, item.href) ? "page" : undefined}
+            aria-current={(item.exact ? pathname === item.href : isUnder(pathname, item.href)) ? "page" : undefined}
           >
             {item.label}
           </Link>

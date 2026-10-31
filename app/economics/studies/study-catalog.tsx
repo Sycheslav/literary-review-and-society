@@ -129,7 +129,7 @@ export default function StudyCatalog({ rows, topics, evidence }: { rows: StudyRo
         <table className="econ-table">
           <thead>
             <tr>
-              <th style={{ width: 36 }}>
+              <th className="col-check">
                 <span className="visually-hidden">Сравнить</span>
               </th>
               <th>Работа</th>
@@ -192,8 +192,8 @@ export default function StudyCatalog({ rows, topics, evidence }: { rows: StudyRo
 
       {selected.length > 0 && (
         <div className="compare-tray" aria-label="Сравнение работ">
-          <div className="econ-toolbar" style={{ margin: 0 }}>
-            <b style={{ color: "var(--ink)" }}>Сравнение · {selected.length} из 4</b>
+          <div className="econ-toolbar flush">
+            <b className="econ-strong">Сравнение · {selected.length} из 4</b>
             <button type="button" className="link-button" onClick={() => update({ compare: "" })}>
               Очистить
             </button>

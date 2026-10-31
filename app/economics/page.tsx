@@ -133,7 +133,7 @@ export default function EconomicsPage() {
             бюджетные модели
           </span>
           <span>
-            <i style={{ background: "#93b6e4" }} />
+            <i style={{ background: "var(--s-dim)" }} />
             модели для контроля качества
           </span>
         </div>

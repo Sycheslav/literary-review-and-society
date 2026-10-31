@@ -342,7 +342,7 @@ ${result.notes.length ? `\n## Примечания\n${result.notes.map((x) => `-
         ) : (
           <p className="calc-warn">{result.reason}</p>
         )}
-        <div className="econ-actions" style={{ marginTop: 18 }}>
+        <div className="econ-actions mt-md">
           <button
             type="button"
             className="button"
@@ -362,7 +362,7 @@ ${result.notes.length ? `\n## Примечания\n${result.notes.map((x) => `-
             JSON
           </button>
         </div>
-        <p className="econ-field-hint" style={{ marginTop: 10 }}>
+        <p className="econ-field-hint mt-sm">
           Тарифы на {new Date(snapshotDate).toLocaleDateString("ru-RU")}. Ссылка сохраняет параметры и дату снимка.
         </p>
       </aside>
@@ -605,7 +605,7 @@ function Curve({ work, low, high }: { work: number[]; low?: number[]; high?: num
         </text>
       </svg>
       <p className="econ-field-hint">
-        Раунд {h + 1}: <b style={{ color: "var(--ink)" }}>{fmtUsd(work[h])}</b>
+        Раунд {h + 1}: <b className="econ-strong">{fmtUsd(work[h])}</b>
         {low && high ? ` · коридор сценариев ${fmtUsd(low[h])}–${fmtUsd(high[h])}` : ""}. Наведите курсор на график.
       </p>
     </>

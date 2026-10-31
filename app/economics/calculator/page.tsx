@@ -12,7 +12,7 @@ export default function CalculatorPage() {
         и поменяйте параметры; ссылка на расчёт откроет его у коллеги в том же виде. Значения по умолчанию
         демонстрационные, их нужно заменить замерами пилота.
       </p>
-      <div style={{ marginTop: 28 }}>
+      <div className="mt-lg">
         <Calculator models={models} snapshotDate={snapshotDate} />
       </div>
     </>

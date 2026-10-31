@@ -16,9 +16,9 @@ export default function InfrastructurePage() {
         доля стоимости оборудования. Главное — не посчитать одни и те же часы или расходы дважды.
       </p>
 
-      <section className="econ-section" style={{ marginTop: 36 }}>
+      <section className="econ-section mt-xl">
         <h2>Три варианта</h2>
-        <div className="econ-grid" style={{ marginTop: 16 }}>
+        <div className="econ-grid mt-md">
           <div className="econ-card">
             <h3>Аренда вычислений</h3>
             <ul>

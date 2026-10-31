@@ -7,6 +7,8 @@
   --s3: #1baf7a;
   --s4: #eda100;
   --s5: #e87ba4;
+  /* Контрольная серия: та же синяя, приглушённая */
+  --s-dim: color-mix(in srgb, var(--s1) 50%, var(--surface));
   padding-bottom: 72px;
 }
 .econ-head {
@@ -15,35 +17,6 @@
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
-}
-.econ-nav {
-  display: flex;
-  gap: 4px;
-  margin: 4px 0 36px;
-  padding: 4px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  background: var(--bg-alt);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-}
-.econ-nav a {
-  padding: 7px 14px;
-  border-radius: var(--radius-sm);
-  font-size: var(--text-md);
-  white-space: nowrap;
-  color: var(--ink-2);
-}
-.econ-nav a:hover {
-  background: var(--surface);
-  text-decoration: none;
-  color: var(--ink);
-}
-.econ-nav a[aria-current="page"] {
-  background: var(--surface);
-  color: var(--accent-ink);
-  font-weight: 700;
-  box-shadow: var(--shadow-xs);
 }
 .econ-snap {
   font-size: var(--text-xs);
@@ -90,7 +63,6 @@
 .econ-answer {
   padding: 22px 24px;
   border: 1px solid var(--line);
-  border-top: 3px solid var(--accent);
   border-radius: var(--radius-md);
   background: var(--surface);
   box-shadow: var(--shadow-md);
@@ -244,11 +216,21 @@
   padding: 16px;
   border-radius: var(--radius-md);
   background: var(--bg-alt);
-  border-top: 4px solid var(--c, var(--s1));
 }
 .econ-part b {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
   margin-bottom: 4px;
+}
+.econ-part b::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  margin-top: 0.4em;
+  border-radius: var(--radius-sm);
+  background: var(--c, var(--s1));
 }
 .econ-part p {
   font-size: var(--text-md);
@@ -366,7 +348,7 @@
   background: var(--s1);
 }
 .hbars-bar.is-control {
-  background: #93b6e4;
+  background: var(--s-dim);
 }
 .hbars-range {
   position: absolute;
@@ -615,7 +597,7 @@
 }
 .econ-field input,
 .econ-field select {
-  height: 40px;
+  height: var(--control-h);
   padding: 0 10px;
   border: 1px solid var(--line-2);
   border-radius: var(--radius-sm);
@@ -628,9 +610,9 @@
 }
 .econ-field input:focus,
 .econ-field select:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: -1px;
+  outline: none;
   border-color: var(--accent);
+  box-shadow: var(--focus-ring);
 }
 .econ-field input[aria-invalid="true"] {
   border-color: var(--danger);
@@ -684,7 +666,6 @@
   gap: 8px;
 }
 .econ-actions .button {
-  height: 36px;
   font-size: var(--text-sm);
   padding: 0 14px;
 }
@@ -787,7 +768,6 @@
   top: var(--sticky-top);
   padding: 22px 24px;
   border: 1px solid var(--line);
-  border-top: 3px solid var(--accent);
   border-radius: var(--radius-md);
   background: var(--surface);
   box-shadow: var(--shadow-md);
@@ -947,7 +927,7 @@
 .econ-formula {
   margin: 12px 0;
   padding: 14px 18px;
-  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
   background: var(--accent-soft);
   font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
   font-size: var(--text-sm);
@@ -1017,4 +997,49 @@
   .calc-total {
     font-size: var(--text-5xl);
   }
+}
+
+/* ---------- Отступы и раскладки страниц экономики ---------- */
+.econ .mt-sm {
+  margin-top: 12px;
+}
+.econ .mt-md {
+  margin-top: 16px;
+}
+.econ .mt-lg {
+  margin-top: 32px;
+}
+.econ .mt-xl {
+  margin-top: 40px;
+}
+.econ .flush-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+.econ .flush {
+  margin: 0;
+}
+.econ .calc-fields-pad {
+  padding: 8px 0 0;
+}
+.econ .econ-grid-gpu {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.econ .econ-grid-study {
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+}
+.econ .econ-narrow {
+  max-width: 800px;
+}
+.econ .econ-strong {
+  color: var(--ink);
+}
+.econ .col-check {
+  width: 36px;
+}
+.econ .econ-card.is-surface {
+  background: var(--surface);
+}
+.econ .ev-card-num.is-large {
+  font-size: var(--text-5xl);
 }

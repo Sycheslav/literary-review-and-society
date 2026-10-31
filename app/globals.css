@@ -85,6 +85,8 @@
   --shadow-lg: 0 10px 30px rgb(var(--shadow-rgb) / 13%), 0 1px 3px rgb(var(--shadow-rgb) / 6%);
 
   /* Липкая шапка: высота и отступ для липких колонок и якорей */
+  --control-h: 40px;
+  --focus-ring: 0 0 0 1px var(--accent);
   --header-h: 65px;
   --sticky-top: calc(var(--header-h) + 24px);
 }
@@ -254,7 +256,7 @@ table,
 .header-search input:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent);
+  box-shadow: var(--focus-ring);
 }
 
 .site-footer {
@@ -358,7 +360,7 @@ table,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
+  height: var(--control-h);
   padding: 0 18px;
   border: 1px solid var(--accent);
   border-radius: var(--radius-sm);
@@ -820,7 +822,7 @@ body:has(.section-about) .site-footer {
 .filters select {
   width: 100%;
   min-width: 0;
-  height: 42px;
+  height: var(--control-h);
   padding: 0 12px;
   font-size: var(--text-md);
   color: var(--ink);
@@ -836,7 +838,7 @@ body:has(.section-about) .site-footer {
 .filters select:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent);
+  box-shadow: var(--focus-ring);
 }
 .filter-status {
   margin-top: 16px;
@@ -1163,7 +1165,7 @@ body:has(.section-about) .site-footer {
 .comment-form input:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent);
+  box-shadow: var(--focus-ring);
 }
 .comment-form-row {
   display: flex;
@@ -1265,7 +1267,7 @@ body:has(.graph-page) .site-footer {
 }
 .graph-search input {
   width: 100%;
-  height: 40px;
+  height: var(--control-h);
   padding: 0 12px;
   border: 1px solid var(--line-2);
   border-radius: var(--radius-sm);
@@ -1276,7 +1278,7 @@ body:has(.graph-page) .site-footer {
 .graph-search input:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent), var(--shadow-sm);
+  box-shadow: var(--focus-ring), var(--shadow-sm);
 }
 .graph-search-results {
   margin-top: 4px;
@@ -2112,7 +2114,7 @@ body:has(.graph-page) .site-footer {
 .page-comment-composer textarea:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent);
+  box-shadow: var(--focus-ring);
 }
 
 .page-comment-composer textarea {
