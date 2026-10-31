@@ -85,6 +85,16 @@
   --shadow-lg: 0 10px 30px rgb(var(--shadow-rgb) / 13%), 0 1px 3px rgb(var(--shadow-rgb) / 6%);
 
   /* Липкая шапка: высота и отступ для липких колонок и якорей */
+  /* Граф: узлы по значимости, рёбра и приглушение при выборе */
+  --graph-core: var(--accent);
+  --graph-supporting: #6f8db6;
+  --graph-peripheral: #7f91a8;
+  --graph-topic: var(--ink);
+  --graph-topic-dim: var(--faint);
+  --graph-dim: #e6e9ee;
+  --graph-edge: rgb(52 70 96 / 0.13);
+  --graph-edge-dim: rgb(52 70 96 / 0.035);
+  --graph-edge-active: rgb(29 79 145 / 0.55);
   --control-h: 40px;
   --focus-ring: 0 0 0 1px var(--accent);
   --header-h: 65px;
@@ -1220,10 +1230,28 @@ body:has(.graph-page) .site-footer {
 .graph-status {
   position: absolute;
   inset: 0;
-  display: grid;
-  place-items: center;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--surface);
   color: var(--muted);
   font-size: var(--text-md);
+}
+.graph-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--line-2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: graph-spin 0.8s linear infinite;
+}
+@keyframes graph-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .graph-spinner { animation: none; }
 }
 .graph-hover {
   position: absolute;
@@ -1257,6 +1285,14 @@ body:has(.graph-page) .site-footer {
   height: 9px;
   margin-right: 6px;
   border-radius: 50%;
+  vertical-align: -1px;
+}
+.graph-legend .is-topic { background: var(--graph-topic); }
+.graph-legend .is-core { background: var(--graph-core); }
+.graph-legend .is-supporting { background: var(--graph-supporting); }
+.graph-legend .is-peripheral { border: 2px solid var(--graph-peripheral); background: var(--surface); }
+.graph-list-link {
+  font-weight: 700;
 }
 .graph-search {
   position: absolute;

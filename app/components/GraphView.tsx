@@ -24,16 +24,23 @@ type GData = {
   edges: [string, string][];
 };
 
-const COLORS = {
-  core: "#1d4f91",
-  supporting: "#7b97bd",
-  peripheral: "#bcc7d5",
-  topic: "#16191d",
-  dim: "#e6e9ee",
-  edge: "rgba(52, 70, 96, 0.13)",
-  edgeDim: "rgba(52, 70, 96, 0.035)",
-  edgeActive: "rgba(29, 79, 145, 0.55)",
-};
+/** Цвета графа берутся из CSS-токенов `--graph-*` в globals.css: canvas не видит CSS напрямую. */
+function readColors() {
+  const css = getComputedStyle(document.documentElement);
+  const v = (name: string) => css.getPropertyValue(name).trim();
+  return {
+    core: v("--graph-core"),
+    supporting: v("--graph-supporting"),
+    peripheral: v("--graph-peripheral"),
+    topic: v("--graph-topic"),
+    topicDim: v("--graph-topic-dim"),
+    dim: v("--graph-dim"),
+    surface: v("--surface"),
+    edge: v("--graph-edge"),
+    edgeDim: v("--graph-edge-dim"),
+    edgeActive: v("--graph-edge-active"),
+  };
+}
 const SIZES = { core: 16, supporting: 10, peripheral: 7, topic: 24 };
 
 type Selected = { kind: "work"; work: GWork } | { kind: "topic"; topic: GTopic };
@@ -44,6 +51,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
   const highlightRef = useRef<(id: string | null) => void>(() => {});
   const [data, setData] = useState<GData | null>(null);
   const [error, setError] = useState(false);
+  const [ready, setReady] = useState(false);
   const [selected, setSelected] = useState<Selected | null>(null);
   const [hover, setHover] = useState<{ x: number; y: number; label: string } | null>(null);
   const [query, setQuery] = useState("");
@@ -74,21 +82,27 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
 
     import("vis-network/standalone").then(({ Network, DataSet }) => {
       if (disposed) return;
+      const COLORS = readColors();
       const face = getComputedStyle(document.body).fontFamily;
       const labelFont = (color: string) => ({
         face,
-        size: 44,
+        size: 58,
         color,
-        strokeWidth: 12,
-        strokeColor: "#ffffff",
+        strokeWidth: 14,
+        strokeColor: COLORS.surface,
         vadjust: 6,
       });
 
       const baseNode = (id: string) => {
         const work = lookup.works.get(id);
         if (work) {
-          const color = COLORS[work.importance] ?? COLORS.peripheral;
-          return { color: { background: color, border: color, hover: { background: color, border: color } } };
+          // Фоновые работы — кольцом: так их не спутать с дополняющими даже без цвета.
+          if (work.importance === "peripheral") {
+            const ring = { background: COLORS.surface, border: COLORS.peripheral };
+            return { borderWidth: 2, color: { ...ring, hover: ring } };
+          }
+          const color = COLORS[work.importance];
+          return { borderWidth: 0, color: { background: color, border: color, hover: { background: color, border: color } } };
         }
         return {
           color: {
@@ -148,6 +162,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
       );
       networkRef.current = network;
       network.fit({ animation: false });
+      network.once("afterDrawing", () => !disposed && setReady(true));
 
       const neighbours = new Map<string, Set<string>>();
       data.edges.forEach(([a, b]) => {
@@ -166,7 +181,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
             return {
               id: n.id,
               color: { background: COLORS.dim, border: COLORS.dim, hover: { background: COLORS.dim, border: COLORS.dim } },
-              ...(isTopic ? { font: labelFont("#a3abb6") } : {}),
+              ...(isTopic ? { font: labelFont(COLORS.topicDim) } : {}),
             };
           }),
         );
@@ -236,13 +251,18 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
       .slice(0, 8);
   }, [data, query]);
 
+  const animation = () =>
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? false
+      : { duration: 500, easingFunction: "easeInOutQuad" as const };
+
   function focusWork(work: GWork) {
     setQuery("");
     setSelected({ kind: "work", work });
     highlightRef.current(work.id);
     networkRef.current?.focus(work.id, {
       scale: 1.4,
-      animation: { duration: 500, easingFunction: "easeInOutQuad" },
+      animation: animation(),
     });
   }
 
@@ -253,7 +273,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
     highlightRef.current(id);
     networkRef.current?.focus(id, {
       scale: 1.4,
-      animation: { duration: 500, easingFunction: "easeInOutQuad" },
+      animation: animation(),
     });
   }
 
@@ -264,9 +284,19 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
 
   return (
     <div className={full ? "graph graph-full" : "graph"}>
-      <div ref={containerRef} className="graph-canvas" aria-label="Граф знаний: работы и направления" />
+      <div
+        ref={containerRef}
+        className="graph-canvas"
+        role="img"
+        aria-label="Граф знаний: работы и направления. Те же связи доступны списком в разделе «Направления»."
+      />
 
-      {!data && !error && <p className="graph-status">Загрузка карты…</p>}
+      {!ready && !error && (
+        <p className="graph-status" role="status">
+          <span className="graph-spinner" aria-hidden="true" />
+          Строим карту связей…
+        </p>
+      )}
       {error && <p className="graph-status">Не удалось загрузить карту. Обновите страницу.</p>}
 
       {hover && !selected && (
@@ -322,11 +352,12 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
         </div>
       )}
 
-      <div className="graph-legend" aria-hidden="true">
-        <span><i style={{ background: COLORS.topic }} />Направление</span>
-        <span><i style={{ background: COLORS.core }} />Ключевая работа</span>
-        <span><i style={{ background: COLORS.supporting }} />Дополняющая</span>
-        <span><i style={{ background: COLORS.peripheral }} />Фоновая</span>
+      <div className="graph-legend">
+        <span aria-hidden="true"><i className="is-topic" />Направление</span>
+        <span aria-hidden="true"><i className="is-core" />Ключевая работа</span>
+        <span aria-hidden="true"><i className="is-supporting" />Дополняющая</span>
+        <span aria-hidden="true"><i className="is-peripheral" />Фоновая</span>
+        <Link href="/topics" className="graph-list-link">Списком →</Link>
       </div>
 
       {selected && (
