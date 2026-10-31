@@ -283,7 +283,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
   }
 
   return (
-    <div className={full ? "graph graph-full" : "graph"}>
+    <div className="graph">
       <div
         ref={containerRef}
         className="graph-canvas"

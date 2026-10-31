@@ -448,7 +448,7 @@ export default function PageComments() {
 
       {draft && (!draft.mobile || composerOpen) && (
         <form
-          className={`page-comment-composer${draft.mobile ? " is-mobile" : ""}`}
+          className="page-comment-composer"
           onSubmit={submit}
           aria-label="Новый комментарий к выделенному тексту"
         >

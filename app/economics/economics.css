@@ -846,11 +846,6 @@
   font-size: var(--text-xs);
   color: var(--ink-2);
 }
-.calc-msg {
-  margin-top: 10px;
-  font-size: var(--text-sm);
-  color: var(--ok);
-}
 .calc-sigma {
   margin-top: 8px;
   font-size: var(--text-xs);

@@ -77,11 +77,10 @@ export default function Catalog({ works, topics, initialQuery, initialTopic, ini
   }
 
   return (
-    <div className="catalog">
+    <div>
       <div className="filters">
         <input
           type="search"
-          className="filter-search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Название, автор или слово из аннотации"

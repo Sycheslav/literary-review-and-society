@@ -18,7 +18,7 @@ export default function ConceptPage() {
 
         <div className="concept-parts">
           {CONCEPT_PARTS.map((part) => (
-            <div key={part.title} className="concept-part">
+            <div key={part.title}>
               <h2 className="block-title">{part.title}</h2>
               <ol className="chapter-list">
                 {part.chapters.map((num) => {

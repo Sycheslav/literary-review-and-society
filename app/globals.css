@@ -742,8 +742,8 @@ table,
 .agent-access p {
   margin: 0;
 }
-.agent-access-title {
-  margin-bottom: 3px !important;
+.agent-access .agent-access-title {
+  margin-bottom: 3px;
   color: var(--ink);
 }
 .agent-access a {

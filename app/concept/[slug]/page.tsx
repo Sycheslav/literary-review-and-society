@@ -67,7 +67,7 @@ export default async function ChapterPage({ params }: Props) {
 
             <nav className="chapter-pager" aria-label="Соседние главы">
               {prev ? (
-                <Link href={`/concept/${prev.slug}`} className="pager-prev">
+                <Link href={`/concept/${prev.slug}`}>
                   <small>← Предыдущая</small>
                   <span>
                     {prev.num}. {prev.title}
