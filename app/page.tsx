@@ -14,8 +14,12 @@ export default function HomePage() {
     <>
       <section className="hero">
         <div className="container">
-          <p className="eyebrow">Литературный обзор · Лаборатория № 57 ИПУ РАН</p>
-          <h1>Социумы ИИ-агентов</h1>
+          <p className="eyebrow">
+            Литературный обзор · <span className="nowrap">Лаборатория № 57 ИПУ РАН</span>
+          </p>
+          <h1>
+            Социумы <span className="nowrap">ИИ-агентов</span>
+          </h1>
           <p className="lead">
             Исследования и практические проекты о группах языковых агентов: как они передают
             информацию, выбирают партнёров, распределяют работу, договариваются при разных интересах,
