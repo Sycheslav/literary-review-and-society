@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-31",
+  "works": [
+    {
+      "id": "arxiv-2610-22319",
+      "words_whitespace": 1141,
+      "words_audit": 1149,
+      "annotation_words": 108,
+      "short_words": 33,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2601-11369",
+      "words_whitespace": 1186,
+      "words_audit": 1197,
+      "annotation_words": 110,
+      "short_words": 32,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2602-07777",
+      "words_whitespace": 1211,
+      "words_audit": 1242,
+      "annotation_words": 109,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2602-10131",
+      "words_whitespace": 1153,
+      "words_audit": 1178,
+      "annotation_words": 108,
+      "short_words": 32,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2604-03295",
+      "words_whitespace": 1207,
+      "words_audit": 1249,
+      "annotation_words": 109,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2606-23764",
+      "words_whitespace": 1155,
+      "words_audit": 1192,
+      "annotation_words": 106,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2608-11215",
+      "words_whitespace": 1137,
+      "words_audit": 1168,
+      "annotation_words": 110,
+      "short_words": 29,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2609-26481",
+      "words_whitespace": 1207,
+      "words_audit": 1247,
+      "annotation_words": 116,
+      "short_words": 28,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2507-01413",
+      "words_whitespace": 1073,
+      "words_audit": 1111,
+      "annotation_words": 113,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2508-15510",
+      "words_whitespace": 1122,
+      "words_audit": 1169,
+      "annotation_words": 111,
+      "short_words": 29,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2511-21783",
+      "words_whitespace": 1122,
+      "words_audit": 1157,
+      "annotation_words": 113,
+      "short_words": 29,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2601-05384",
+      "words_whitespace": 1076,
+      "words_audit": 1117,
+      "annotation_words": 102,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2602-00755",
+      "words_whitespace": 1105,
+      "words_audit": 1131,
+      "annotation_words": 112,
+      "short_words": 29,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2602-03775",
+      "words_whitespace": 1150,
+      "words_audit": 1173,
+      "annotation_words": 116,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2602-13458",
+      "words_whitespace": 1159,
+      "words_audit": 1171,
+      "annotation_words": 119,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2603-16128",
+      "words_whitespace": 1285,
+      "words_audit": 1320,
+      "annotation_words": 116,
+      "short_words": 34,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2604-11721",
+      "words_whitespace": 1273,
+      "words_audit": 1309,
+      "annotation_words": 110,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2605-04264",
+      "words_whitespace": 1416,
+      "words_audit": 1425,
+      "annotation_words": 106,
+      "short_words": 31,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2605-29512",
+      "words_whitespace": 1416,
+      "words_audit": 1448,
+      "annotation_words": 112,
+      "short_words": 30,
+      "format": 2
+    },
+    {
+      "id": "arxiv-2606-07513",
+      "words_whitespace": 1453,
+      "words_audit": 1500,
+      "annotation_words": 114,
+      "short_words": 28,
+      "format": 2
+    }
+  ]
+}

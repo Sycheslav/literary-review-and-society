@@ -27,21 +27,21 @@
       "title": "Agentopia: долгосрочное моделирование жизни и обучение в обществах агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2606-07513/summary.ru.md",
-      "words": 1439
+      "words": 1500
     },
     {
       "id": "arxiv-2605-29512",
       "title": "MINDGAMES: живая арена для оценки социального и стратегического рассуждения в многоагентных LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2605-29512/summary.ru.md",
-      "words": 1355
+      "words": 1448
     },
     {
       "id": "arxiv-2602-13458",
       "title": "MoltNet: понимание социального поведения ИИ-агентов в нативной для агентов среде MoltBook",
       "status": "fulltext",
       "path": "materials/arxiv-2602-13458/summary.ru.md",
-      "words": 1306
+      "words": 1171
     },
     {
       "id": "openreview-j9VyoX6dex",
@@ -69,14 +69,14 @@
       "title": "Агентное моделирование «для бедных»: симуляция больших обществ LLM-агентов на ноутбуке",
       "status": "fulltext",
       "path": "materials/arxiv-2608-11215/summary.ru.md",
-      "words": 1357
+      "words": 1168
     },
     {
       "id": "arxiv-2602-10131",
       "title": "Анатомия социального графа Moltbook",
       "status": "fulltext",
       "path": "materials/arxiv-2602-10131/summary.ru.md",
-      "words": 1223
+      "words": 1178
     },
     {
       "id": "arxiv-2606-08340",
@@ -97,7 +97,7 @@
       "title": "Возникающий порядок отношений в обществах LLM-агентов: от коллективного аффекта к стратификации авторитета",
       "status": "fulltext",
       "path": "materials/arxiv-2606-23764/summary.ru.md",
-      "words": 1463
+      "words": 1192
     },
     {
       "id": "web-pmc-ncbi-nlm-nih-gov-fb4b054599",
@@ -132,7 +132,7 @@
       "title": "Институциональный ИИ: управление сговором LLM-агентов на рынках Курно через публичные графы управления",
       "status": "fulltext",
       "path": "materials/arxiv-2601-11369/summary.ru.md",
-      "words": 1330
+      "words": 1197
     },
     {
       "id": "arxiv-2609-04170",
@@ -153,7 +153,7 @@
       "title": "Команда агентов Gemini 4 Argon побеждает в Minecraft",
       "status": "fulltext",
       "path": "materials/arxiv-2610-22319/summary.ru.md",
-      "words": 1145
+      "words": 1149
     },
     {
       "id": "doi-10-1162-artl-a-459",
@@ -167,7 +167,7 @@
       "title": "Конформность и социальное влияние на ИИ-агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2601-05384/summary.ru.md",
-      "words": 1230
+      "words": 1117
     },
     {
       "id": "arxiv-2604-00026",
@@ -181,7 +181,7 @@
       "title": "Масштабировать команды или время? Обучение на протяжении всей жизни с опорой на память в многоагентных системах LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2604-03295/summary.ru.md",
-      "words": 1348
+      "words": 1249
     },
     {
       "id": "arxiv-2607-22750",
@@ -195,14 +195,14 @@
       "title": "Оценка кооперации в социальных группах LLM через выборное лидерство",
       "status": "fulltext",
       "path": "materials/arxiv-2604-11721/summary.ru.md",
-      "words": 1344
+      "words": 1309
     },
     {
       "id": "arxiv-2609-26481",
       "title": "Поведения недостаточно: оценка возникновения социальных норм в обществах LLM на основе механизмов",
       "status": "fulltext",
       "path": "materials/arxiv-2609-26481/summary.ru.md",
-      "words": 1352
+      "words": 1247
     },
     {
       "id": "arxiv-2608-09574",
@@ -223,7 +223,7 @@
       "title": "Разговор, суждение, сотрудничество: непрямая взаимность, управляемая слухами, у LLM-агентов с собственным интересом",
       "status": "fulltext",
       "path": "materials/arxiv-2602-07777/summary.ru.md",
-      "words": 1371
+      "words": 1242
     },
     {
       "id": "arxiv-2504-03274",
@@ -251,28 +251,28 @@
       "title": "Социальные симулякры в естественной среде: сообщества ИИ-агентов на Moltbook",
       "status": "fulltext",
       "path": "materials/arxiv-2603-16128/summary.ru.md",
-      "words": 2104
+      "words": 1320
     },
     {
       "id": "arxiv-2605-04264",
       "title": "Управляемая совместная память как искусственный отбор в мультиагентных системах на основе LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2605-04264/summary.ru.md",
-      "words": 1531
+      "words": 1425
     },
     {
       "id": "arxiv-2602-00755",
       "title": "Эволюционный отбор интерпретируемых конституций для координации мультиагентных систем",
       "status": "fulltext",
       "path": "materials/arxiv-2602-00755/summary.ru.md",
-      "words": 1855
+      "words": 1131
     },
     {
       "id": "arxiv-2602-03775",
       "title": "Эмпирическое исследование коллективного поведения и социальной динамики агентов больших языковых моделей",
       "status": "fulltext",
       "path": "materials/arxiv-2602-03775/summary.ru.md",
-      "words": 2259
+      "words": 1173
     },
     {
       "id": "web-ojs-aaai-org-05ecebb82a",
@@ -307,7 +307,7 @@
       "title": "NetworkGames: моделирование кооперации в сетевых играх с LLM-агентами, управляемыми личностными профилями",
       "status": "fulltext",
       "path": "materials/arxiv-2511-21783/summary.ru.md",
-      "words": 1982
+      "words": 1157
     },
     {
       "id": "arxiv-2508-05344",
@@ -356,7 +356,7 @@
       "title": "Оценка сговора LLM-агентов в двойных аукционах",
       "status": "fulltext",
       "path": "materials/arxiv-2507-01413/summary.ru.md",
-      "words": 1262
+      "words": 1111
     },
     {
       "id": "arxiv-2503-13657",
@@ -377,7 +377,7 @@
       "title": "Сверхаддитивное сотрудничество у агентов на основе языковых моделей",
       "status": "fulltext",
       "path": "materials/arxiv-2508-15510/summary.ru.md",
-      "words": 1162
+      "words": 1169
     },
     {
       "id": "arxiv-2505-11556",

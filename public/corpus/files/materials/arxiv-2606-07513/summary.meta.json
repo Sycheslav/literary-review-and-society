@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2606.07513v1",
   "source_path": "materials/arxiv-2606-07513/fulltext.md",
   "source_version": "arXiv v1 (HTML)",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Agentopia обучает модель на отобранных траекториях трёх миров и повышает CoSER Test с 42,51 до 49,16, однако награда задана исследователями, материальная удовлетворённость падает, а независимых повторов обучения нет.",
+  "rewritten_at": "2026-10-31"
 }

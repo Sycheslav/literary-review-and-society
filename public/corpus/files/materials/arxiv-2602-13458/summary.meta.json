@@ -3,6 +3,9 @@
   "source_status": "fulltext",
   "source_url": "https://arxiv.org/html/2602.13458",
   "source_path": "materials/arxiv-2602-13458/fulltext.md",
-  "source_version": "arXiv HTML v1",
-  "prepared_at": "2026-10-29"
+  "source_version": "arXiv HTML v2",
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Месяц MoltBook показывает массовую генерацию при слабой взаимности: 65,6 % постов без комментариев; дрейф профилей и конфликт связаны с контекстом, но наблюдательный анализ не устанавливает действие стимулов или эмоциональное заражение.",
+  "rewritten_at": "2026-10-31"
 }

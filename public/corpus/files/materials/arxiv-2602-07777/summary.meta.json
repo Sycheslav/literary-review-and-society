@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2602.07777v2",
   "source_path": "materials/arxiv-2602-07777/fulltext.md",
   "source_version": "2602.07777v2",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Публичные оценки ALIGN подняли кооперацию DeepSeek-V3.1 Reasoner от нуля до 100 % в игре пожертвования, однако «бесконечный» сценарий наблюдали только 36 раундов, а канал, память и тона сообщений задали исследователи.",
+  "rewritten_at": "2026-10-31"
 }
