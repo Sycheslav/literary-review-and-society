@@ -4,5 +4,8 @@
   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12627210/",
   "source_path": "materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/fulltext.md",
   "source_version": "Journal article, DOI 10.1007/s10462-025-11412-6",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Систематический обзор 35 работ о генеративных агентных моделях: 15 из них опираются только на субъективную оценку, а LLM, по выводу авторов, проблему валидации не решают; оговорка — один кодировщик без проверки согласованности.",
+  "rewritten_at": "2026-10-31"
 }

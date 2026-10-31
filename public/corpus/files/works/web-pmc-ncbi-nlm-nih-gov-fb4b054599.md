@@ -5,7 +5,7 @@ title: 'Generative Agent-Based Models: A Systematic Review of Validation Practic
 authors:
 - Maik Larooij
 - Petter Törnberg
-year: 2026
+year: '2025 (онлайн), 2026 (выпуск)'
 source_kind: review
 venue: Artificial Intelligence Review; PMC full text
 publication_status: Опубликованная обзорная статья; полный открытый текст PMC проверен.
@@ -60,7 +60,7 @@ importance_basis: editorial
 ## Библиография и проверка
 
 - **Авторы:** Maik Larooij; Petter Törnberg
-- **Год:** 2026.
+- **Год:** 2025 (онлайн), 2026 (выпуск).
 - **Площадка / статус:** Artificial Intelligence Review; PMC full text; Опубликованная обзорная статья; полный открытый текст PMC проверен..
 - **Проверка содержания:** Проверены полный текст и существенные разделы метода/результатов.
 - **Доступность оригинала:** fulltext_retrieved. Получение текста не означает завершённую содержательную проверку.

@@ -55,7 +55,7 @@ html_url: "https://literature-review.up.railway.app/works"
 - [AutoGen: фреймворк многоагентных диалогов](github-microsoft-autogen.md) · 2023 · ID: github-microsoft-autogen · направления: platforms
 - [Project Will: наблюдение деревни Minecraft без заранее введённых институтов](github-monocolachannel-project-will-observation-1.md) · 2026 · ID: github-monocolachannel-project-will-observation-1 · направления: methodology, institutions, games, communities
 - [genagents: генеративные агенты, отвечающие от имени реальных людей](github-stanfordhci-genagents.md) · 2024 · ID: github-stanfordhci-genagents · направления: methodology, memory, intelligence
-- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](github-teamcraft-bench-teamcraft.md) · год неизвестен · ID: github-teamcraft-bench-teamcraft · направления: games, platforms
+- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](github-teamcraft-bench-teamcraft.md) · 2024 · ID: github-teamcraft-bench-teamcraft · направления: games, platforms
 - [Awesome LLM Social Simulation: указатель литературы и ресурсов](github-wanying-he-awesome-llm-social-simulation.md) · 2026 · ID: github-wanying-he-awesome-llm-social-simulation · направления: methodology
 - [Agent Scaling: код и артефакты к статье «Capable language models can outgrow the benefits of collaboration»](github-ybkim95-agent-scaling.md) · 2026 · ID: github-ybkim95-agent-scaling · направления: platforms, coordination, memory, communities
 - [Масштабирование совместной работы мультиагентных систем на основе больших языковых моделей](openreview-gFrVsxAEO4.md) · 2025 · ID: openreview-gFrVsxAEO4 · направления: platforms, memory, communities

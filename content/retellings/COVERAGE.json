@@ -7,7 +7,6 @@
   },
   "errors": [],
   "warnings": [
-    "github-google-deepmind-meltingpot: only 634 words; inspect completeness",
     "github-wanying-he-awesome-llm-social-simulation: only 562 words; inspect completeness",
     "github-stanfordhci-genagents: only 647 words; inspect completeness",
     "github-mesa-mesa-llm: only 598 words; inspect completeness",
@@ -20,7 +19,7 @@
       "title": "AgentCiv: воспроизводимый открытый стенд «цивилизации» агентов",
       "status": "repository",
       "path": "materials/github-agentciv-agentciv/summary.ru.md",
-      "words": 721
+      "words": 1141
     },
     {
       "id": "arxiv-2606-07513",
@@ -48,21 +47,21 @@
       "title": "ORALMEM: коллективная память после исчезновения свидетелей в обществах LLM (Post-Witness Collective Memory)",
       "status": "limited",
       "path": "materials/openreview-j9VyoX6dex/summary.ru.md",
-      "words": 487
+      "words": 951
     },
     {
       "id": "arxiv-2609-24911",
       "title": "SocioVerse2: платформа продольной динамической социальной симуляции в парадигме коэволюции человека и ИИ",
       "status": "fulltext",
       "path": "materials/arxiv-2609-24911/summary.ru.md",
-      "words": 1499
+      "words": 2069
     },
     {
       "id": "doi-10-1109-tg-2026-3721624",
       "title": "The Minority Report: игра на выживание с тремя агентами LLM",
       "status": "limited",
       "path": "materials/doi-10-1109-tg-2026-3721624/summary.ru.md",
-      "words": 937
+      "words": 1054
     },
     {
       "id": "arxiv-2608-11215",
@@ -83,14 +82,14 @@
       "title": "Бенчмарк открытой мультиагентной координации языковых агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2606-08340/summary.ru.md",
-      "words": 1288
+      "words": 2283
     },
     {
       "id": "arxiv-2608-28182",
       "title": "Бенчмаркинг обществ агентов на основе больших языковых моделей по распределениям человеческого поведения",
       "status": "fulltext",
       "path": "materials/arxiv-2608-28182/summary.ru.md",
-      "words": 1437
+      "words": 1908
     },
     {
       "id": "arxiv-2606-23764",
@@ -104,7 +103,7 @@
       "title": "Генеративные агентные модели: систематический обзор практик валидации",
       "status": "fulltext",
       "path": "materials/web-pmc-ncbi-nlm-nih-gov-fb4b054599/summary.ru.md",
-      "words": 1145
+      "words": 1860
     },
     {
       "id": "arxiv-2602-20044",
@@ -118,7 +117,7 @@
       "title": "Динамическое формирование коалиций и ценообразование коммуникации в агентных ИИ-системах на основе навыков",
       "status": "fulltext",
       "path": "materials/arxiv-2608-07532/summary.ru.md",
-      "words": 1322
+      "words": 1704
     },
     {
       "id": "arxiv-2603-28990",
@@ -160,7 +159,7 @@
       "title": "Коммуникация, воплощённость и координация в обществе LLM по мотивам задачи бара Эль-Фароль",
       "status": "limited",
       "path": "materials/doi-10-1162-artl-a-459/summary.ru.md",
-      "words": 408
+      "words": 890
     },
     {
       "id": "arxiv-2601-05384",
@@ -188,7 +187,7 @@
       "title": "Обязательство к кооперации с самостоятельно согласованными контрактами",
       "status": "fulltext",
       "path": "materials/arxiv-2607-22750/summary.ru.md",
-      "words": 1346
+      "words": 1960
     },
     {
       "id": "arxiv-2604-11721",
@@ -209,14 +208,14 @@
       "title": "Политик, лжец и послушный работник: возникающее поведение LLM-агентов в иерархических играх",
       "status": "fulltext",
       "path": "materials/arxiv-2608-09574/summary.ru.md",
-      "words": 1364
+      "words": 1764
     },
     {
       "id": "arxiv-2607-09766",
       "title": "Принуждение к нормам для ИИ-агентов: устойчивое формирование поведения в мультиагентных системах",
       "status": "fulltext",
       "path": "materials/arxiv-2607-09766/summary.ru.md",
-      "words": 1202
+      "words": 2099
     },
     {
       "id": "arxiv-2602-07777",
@@ -237,14 +236,14 @@
       "title": "Смягчение эмерджентного сговора у ценовых агентов LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2609-13037/summary.ru.md",
-      "words": 1428
+      "words": 1826
     },
     {
       "id": "doi-10-1145-3772318-3790442",
       "title": "Состязательное социальное влияние, управляемое большими языковыми моделями (LLM), в распространении информации онлайн: риски и меры вмешательства",
       "status": "limited",
       "path": "materials/doi-10-1145-3772318-3790442/summary.ru.md",
-      "words": 1151
+      "words": 1245
     },
     {
       "id": "arxiv-2603-16128",
@@ -279,28 +278,28 @@
       "title": "Языково обоснованная коэволюция мнений и связей: парное переподключение с агентами на основе больших языковых моделей",
       "status": "fulltext",
       "path": "materials/web-ojs-aaai-org-05ecebb82a/summary.ru.md",
-      "words": 2045
+      "words": 1694
     },
     {
       "id": "arxiv-2504-00587",
       "title": "AgentNet: децентрализованная эволюционная координация для мультиагентных систем на основе LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2504-00587/summary.ru.md",
-      "words": 1808
+      "words": 1787
     },
     {
       "id": "arxiv-2502-08691",
       "title": "AgentSociety: крупномасштабная симуляция генеративных агентов на основе LLM помогает понимать человеческое поведение и общество",
       "status": "fulltext",
       "path": "materials/arxiv-2502-08691/summary.ru.md",
-      "words": 2166
+      "words": 1751
     },
     {
       "id": "arxiv-2506-03532",
       "title": "GA-S³: комплексная симуляция социальных сетей с групповыми агентами",
       "status": "fulltext",
       "path": "materials/arxiv-2506-03532/summary.ru.md",
-      "words": 2041
+      "words": 1711
     },
     {
       "id": "arxiv-2511-21783",
@@ -314,21 +313,21 @@
       "title": "NomicLaw: эмерджентное доверие и стратегическая аргументация LLM в ходе совместного правотворчества",
       "status": "fulltext",
       "path": "materials/arxiv-2508-05344/summary.ru.md",
-      "words": 1934
+      "words": 1684
     },
     {
       "id": "arxiv-2505-07581",
       "title": "YuLan-OneSim: к следующему поколению социальных симуляторов с большими языковыми моделями",
       "status": "fulltext",
       "path": "materials/arxiv-2505-07581/summary.ru.md",
-      "words": 2052
+      "words": 1634
     },
     {
       "id": "arxiv-2412-07646",
       "title": "В поисках структуры: исследование возникающей коммуникации с большими языковыми моделями",
       "status": "fulltext",
       "path": "materials/arxiv-2412-07646/summary.ru.md",
-      "words": 1644
+      "words": 1611
     },
     {
       "id": "arxiv-2510-05174",
@@ -349,7 +348,7 @@
       "title": "Генеративная эмерджентная коммуникация: большая языковая модель как коллективная модель мира",
       "status": "fulltext",
       "path": "materials/arxiv-2501-00226/summary.ru.md",
-      "words": 1193
+      "words": 1397
     },
     {
       "id": "arxiv-2507-01413",
@@ -384,14 +383,14 @@
       "title": "Систематические сбои коллективного рассуждения при распределённой информации в мультиагентных LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2505-11556/summary.ru.md",
-      "words": 1257
+      "words": 2220
     },
     {
       "id": "arxiv-2504-17950",
       "title": "Совместная работа действие за действием: многоагентная LLM-структура для воплощённых рассуждений",
       "status": "fulltext",
       "path": "materials/arxiv-2504-17950/summary.ru.md",
-      "words": 1275
+      "words": 1902
     },
     {
       "id": "arxiv-2510-19299",
@@ -405,28 +404,35 @@
       "title": "Формирование общих языков: индуктивные смещения людей и больших языковых моделей в эмерджентной коммуникации",
       "status": "fulltext",
       "path": "materials/doi-10-24963-ijcai-2025-1144/summary.ru.md",
-      "words": 1312
+      "words": 1556
     },
     {
       "id": "arxiv-2411-12977",
       "title": "MindForge: наделение воплощённых агентов теорией разума для пожизненного культурного обучения",
       "status": "fulltext",
       "path": "materials/arxiv-2411-12977/summary.ru.md",
-      "words": 1318
+      "words": 2448
     },
     {
       "id": "arxiv-2411-11581",
       "title": "OASIS: открытая платформа симуляции социальных взаимодействий миллиона агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2411-11581/summary.ru.md",
-      "words": 1189
+      "words": 2028
+    },
+    {
+      "id": "github-teamcraft-bench-teamcraft",
+      "title": "TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft",
+      "status": "fulltext",
+      "path": "materials/github-teamcraft-bench-teamcraft/summary.ru.md",
+      "words": 1357
     },
     {
       "id": "arxiv-2408-00818",
       "title": "Y Social: цифровой двойник социальной медиаплатформы на основе LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2408-00818/summary.ru.md",
-      "words": 1139
+      "words": 1614
     },
     {
       "id": "arxiv-2403-08251",
@@ -440,7 +446,7 @@
       "title": "Воплощённые LLM-агенты учатся сотрудничать в организованных командах",
       "status": "fulltext",
       "path": "materials/arxiv-2403-12482/summary.ru.md",
-      "words": 1255
+      "words": 1826
     },
     {
       "id": "arxiv-2412-10270",
@@ -454,7 +460,7 @@
       "title": "Многоагентная симуляция распространения новостей на основе больших языковых моделей при различных структурах сети",
       "status": "fulltext",
       "path": "materials/arxiv-2410-13909/summary.ru.md",
-      "words": 1277
+      "words": 1421
     },
     {
       "id": "arxiv-2404-16698",
@@ -468,21 +474,21 @@
       "title": "Спонтанное возникновение индивидуальности агентов в ходе социальных взаимодействий в сообществах на основе LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2411-03252/summary.ru.md",
-      "words": 1539
+      "words": 1426
     },
     {
       "id": "arxiv-2409-00993",
       "title": "Эволюция социальных норм у LLM-агентов на естественном языке",
       "status": "fulltext",
       "path": "materials/arxiv-2409-00993/summary.ru.md",
-      "words": 1392
+      "words": 1270
     },
     {
       "id": "github-google-deepmind-concordia",
       "title": "Concordia: библиотека генеративных агентных симуляций",
       "status": "repository",
       "path": "materials/github-google-deepmind-concordia/summary.ru.md",
-      "words": 731
+      "words": 1033
     },
     {
       "id": "arxiv-2304-03442",
@@ -496,35 +502,28 @@
       "title": "SOTOPIA: интерактивная оценка социального интеллекта языковых агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2310-11667/summary.ru.md",
-      "words": 1553
+      "words": 1762
     },
     {
       "id": "arxiv-2311-11388",
       "title": "Машинная культура",
       "status": "fulltext",
       "path": "materials/arxiv-2311-11388/summary.ru.md",
-      "words": 1562
+      "words": 1269
     },
     {
       "id": "github-google-deepmind-meltingpot",
       "title": "Melting Pot: набор сред для проверки социальной компетентности агентов",
       "status": "repository",
       "path": "materials/github-google-deepmind-meltingpot/summary.ru.md",
-      "words": 634
+      "words": 1035
     },
     {
       "id": "web-mathnet-ru-699966184b",
       "title": "Механизмы функционирования социально-экономических систем с сообщением информации",
       "status": "fulltext",
       "path": "materials/web-mathnet-ru-699966184b/summary.ru.md",
-      "words": 977
-    },
-    {
-      "id": "github-teamcraft-bench-teamcraft",
-      "title": "TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft",
-      "status": "fulltext",
-      "path": "materials/github-teamcraft-bench-teamcraft/summary.ru.md",
-      "words": 1030
+      "words": 1440
     },
     {
       "id": "github-edge-city-agentvillage",

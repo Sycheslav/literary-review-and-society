@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/abs/2606.08340",
   "source_path": "materials/arxiv-2606-08340/fulltext.md",
   "source_version": "arXiv v1",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Авторы проверяют координацию 13 LLM и четырёх MARL-алгоритмов в игре alem: средняя итоговая награда LLM около 6%, а на самом трудном уровне Gemini по координации сопоставима с MARL, однако выводы ограничены одной средой и постановкой zero-shot.",
+  "rewritten_at": "2026-10-31"
 }

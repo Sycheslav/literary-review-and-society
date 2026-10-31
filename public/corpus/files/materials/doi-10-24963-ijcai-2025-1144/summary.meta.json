@@ -4,5 +4,8 @@
   "source_url": "https://ijcai.org/proceedings/2025/1144.pdf",
   "source_path": "materials/doi-10-24963-ijcai-2025-1144/fulltext.md",
   "source_version": "IJCAI-25 proceedings version",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Люди и LLM играют в референциальную игру и создают общий словарь; языки, подобранные под LLM, содержат меньше уникальных меток и больше повторов, а смешанные пары дают язык ближе к человеческому; выборка мала, а стимулы и правила заданы авторами.",
+  "rewritten_at": "2026-10-31"
 }

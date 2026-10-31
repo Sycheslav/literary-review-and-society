@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2504.17950v1",
   "source_path": "materials/arxiv-2504-17950/fulltext.md",
   "source_version": "2504.17950v1",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Мультиагентная платформа mindcraft и бенчмарк MineCollab в Minecraft: при росте команды с двух до пяти агентов успех в кулинарии и крафте падает с уровня около 90 % до менее 30 %, а обязательный план снижает его более чем на 15 %; задачи и знания распределяет сценарий.",
+  "rewritten_at": "2026-10-31"
 }

@@ -408,6 +408,13 @@
       "html_url": "https://literature-review.up.railway.app/works/arxiv-2411-11581"
     },
     {
+      "id": "github-teamcraft-bench-teamcraft",
+      "type": "work",
+      "title": "TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft",
+      "markdown_url": "https://literature-review.up.railway.app/knowledge/works/github-teamcraft-bench-teamcraft.md",
+      "html_url": "https://literature-review.up.railway.app/works/github-teamcraft-bench-teamcraft"
+    },
+    {
       "id": "arxiv-2408-00818",
       "type": "work",
       "title": "Y Social: цифровой двойник социальной медиаплатформы на основе LLM",
@@ -504,13 +511,6 @@
       "title": "Механизмы функционирования социально-экономических систем с сообщением информации",
       "markdown_url": "https://literature-review.up.railway.app/knowledge/works/web-mathnet-ru-699966184b.md",
       "html_url": "https://literature-review.up.railway.app/works/web-mathnet-ru-699966184b"
-    },
-    {
-      "id": "github-teamcraft-bench-teamcraft",
-      "type": "work",
-      "title": "TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft",
-      "markdown_url": "https://literature-review.up.railway.app/knowledge/works/github-teamcraft-bench-teamcraft.md",
-      "html_url": "https://literature-review.up.railway.app/works/github-teamcraft-bench-teamcraft"
     },
     {
       "id": "github-edge-city-agentvillage",
@@ -3099,6 +3099,18 @@
       "provenance": "data/details.json:related"
     },
     {
+      "source": "github-teamcraft-bench-teamcraft",
+      "target": "topic-games",
+      "type": "belongs_to_topic",
+      "provenance": "data/works.json:topics"
+    },
+    {
+      "source": "github-teamcraft-bench-teamcraft",
+      "target": "topic-platforms",
+      "type": "belongs_to_topic",
+      "provenance": "data/works.json:topics"
+    },
+    {
       "source": "arxiv-2408-00818",
       "target": "topic-platforms",
       "type": "belongs_to_topic",
@@ -3379,18 +3391,6 @@
       "target": "web-ipu-ru-11912d9943",
       "type": "related_to",
       "provenance": "data/details.json:related"
-    },
-    {
-      "source": "github-teamcraft-bench-teamcraft",
-      "target": "topic-games",
-      "type": "belongs_to_topic",
-      "provenance": "data/works.json:topics"
-    },
-    {
-      "source": "github-teamcraft-bench-teamcraft",
-      "target": "topic-platforms",
-      "type": "belongs_to_topic",
-      "provenance": "data/works.json:topics"
     },
     {
       "source": "github-edge-city-agentvillage",

@@ -9,8 +9,8 @@ authors:
 - Shanika Karunasekera
 year: 2026
 source_kind: web_material
-venue: ICWSM 2026, 20(1), 972–988; DOI 10.1609/icwsm.v20i1.42677
-publication_status: Рецензируемая публикация ICWSM; полный PDF проверен.
+venue: ICWSM 2026, с. 972–988; DOI не подтверждён по тексту
+publication_status: Публикация в трудах ICWSM 2026; рецензирование в тексте не указано; полный PDF проверен.
 topics:
 - networks
 language: en
@@ -61,7 +61,7 @@ importance_basis: editorial
 
 - **Авторы:** Chenhao Gu; Ling Luo; Zainab Razia Zaidi; Shanika Karunasekera
 - **Год:** 2026.
-- **Площадка / статус:** ICWSM 2026, 20(1), 972–988; DOI 10.1609/icwsm.v20i1.42677; Рецензируемая публикация ICWSM; полный PDF проверен..
+- **Площадка / статус:** ICWSM 2026, с. 972–988; DOI не подтверждён по тексту; публикация в трудах ICWSM 2026; рецензирование в тексте не указано; полный PDF проверен.
 - **Проверка содержания:** Проверены полный текст и существенные разделы метода/результатов.
 - **Доступность оригинала:** fulltext_retrieved. Получение текста не означает завершённую содержательную проверку.
 

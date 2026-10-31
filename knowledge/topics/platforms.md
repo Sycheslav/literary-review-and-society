@@ -32,12 +32,12 @@ html_url: "https://literature-review.up.railway.app/topics/platforms"
 - [Сверхаддитивное сотрудничество у агентов на основе языковых моделей](../works/arxiv-2508-15510.md) · 2025 · core · ID: arxiv-2508-15510
 - [Формирование общих языков: индуктивные смещения людей и больших языковых моделей в эмерджентной коммуникации](../works/doi-10-24963-ijcai-2025-1144.md) · 2025 · core · ID: doi-10-24963-ijcai-2025-1144
 - [OASIS: открытая платформа симуляции социальных взаимодействий миллиона агентов](../works/arxiv-2411-11581.md) · 2024 · core · ID: arxiv-2411-11581
+- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](../works/github-teamcraft-bench-teamcraft.md) · 2024 · core · ID: github-teamcraft-bench-teamcraft
 - [Y Social: цифровой двойник социальной медиаплатформы на основе LLM](../works/arxiv-2408-00818.md) · 2024 · core · ID: arxiv-2408-00818
 - [Concordia: библиотека генеративных агентных симуляций](../works/github-google-deepmind-concordia.md) · 2023 · core · ID: github-google-deepmind-concordia
 - [Generative Agents: интерактивные симулякры человеческого поведения](../works/arxiv-2304-03442.md) · 2023 · core · ID: arxiv-2304-03442
 - [SOTOPIA: интерактивная оценка социального интеллекта языковых агентов](../works/arxiv-2310-11667.md) · 2023 · core · ID: arxiv-2310-11667
 - [Melting Pot: набор сред для проверки социальной компетентности агентов](../works/github-google-deepmind-meltingpot.md) · 2021 · core · ID: github-google-deepmind-meltingpot
-- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](../works/github-teamcraft-bench-teamcraft.md) · год неизвестен · core · ID: github-teamcraft-bench-teamcraft
 - [Agent Village at Edge Esmeralda: персональные агенты в человеческом временном поселении](../works/github-edge-city-agentvillage.md) · 2026 · supporting · ID: github-edge-city-agentvillage
 - [Агенты LLM преодолевают «штраф за машинность» при справедливом поведении, но не при эгоистичном или альтруистичном](../works/doi-10-1093-nsr-nwag223.md) · 2026 · supporting · ID: doi-10-1093-nsr-nwag223
 - [Коллаборативная ОС для мультиагентных систем (MAS-OS)](../works/acl-2026.findings-emnlp.1716.md) · 2026 · supporting · ID: acl-2026.findings-emnlp.1716

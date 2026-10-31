@@ -4,5 +4,8 @@
   "source_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/42677/50237/46778",
   "source_path": "materials/web-ojs-aaai-org-05ecebb82a/fulltext.md",
   "source_version": "ICWSM 2026 PDF, 20(1), pp. 972-988",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Языковые агенты одновременно меняют мнения и подписки в симуляции на трёх наборах; лучшая из пяти LLM даёт меньшую ошибку структуры в 10 из 12 сочетаний, но численная модель точнее по пути и ассортативности на Bluesky, а точность позиции скромна.",
+  "rewritten_at": "2026-10-31"
 }

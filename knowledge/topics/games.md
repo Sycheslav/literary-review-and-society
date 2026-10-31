@@ -30,7 +30,7 @@ html_url: "https://literature-review.up.railway.app/topics/games"
 - [Принуждение к нормам для ИИ-агентов: устойчивое формирование поведения в мультиагентных системах](../works/arxiv-2607-09766.md) · 2026 · core · ID: arxiv-2607-09766
 - [Оценка сговора LLM-агентов в двойных аукционах](../works/arxiv-2507-01413.md) · 2025 · core · ID: arxiv-2507-01413
 - [Совместная работа действие за действием: многоагентная LLM-структура для воплощённых рассуждений](../works/arxiv-2504-17950.md) · 2025 · core · ID: arxiv-2504-17950
-- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](../works/github-teamcraft-bench-teamcraft.md) · год неизвестен · core · ID: github-teamcraft-bench-teamcraft
+- [TeamCraft: бенчмарк командной работы мультимодальных агентов в Minecraft](../works/github-teamcraft-bench-teamcraft.md) · 2024 · core · ID: github-teamcraft-bench-teamcraft
 - [Project Will: наблюдение деревни Minecraft без заранее введённых институтов](../works/github-monocolachannel-project-will-observation-1.md) · 2026 · supporting · ID: github-monocolachannel-project-will-observation-1
 - [Доверие, ложь и долгая память: эмерджентная социальная динамика и репутация в многораундовом Avalon с агентами LLM](../works/arxiv-2604-20582.md) · 2026 · supporting · ID: arxiv-2604-20582
 - [Коммуникация формирует коллективный вывод в самоадаптирующихся обществах LLM: данные из игры Mafia](../works/arxiv-2610-05041.md) · 2026 · supporting · ID: arxiv-2610-05041

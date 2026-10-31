@@ -4,5 +4,8 @@
   "source_url": "https://github.com/google-deepmind/concordia",
   "source_path": "materials/github-google-deepmind-concordia/readme-source.md",
   "source_version": "README snapshot retrieved 2026-10-29",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Открытая библиотека Google DeepMind для агентных симуляций: генеративные агенты описывают действия на языке, а Game Master выносит последствия; README даёт архитектуру и пример, но не содержит метрик, поэтому эмпирических выводов нет.",
+  "rewritten_at": "2026-10-31"
 }

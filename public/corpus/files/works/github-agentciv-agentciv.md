@@ -3,7 +3,7 @@ id: github-agentciv-agentciv
 type: work
 title: 'AgentCiv: воспроизводимый открытый стенд «цивилизации» агентов'
 authors:
-- AgentCiv contributors
+- Mark E. Mala
 year: 2026
 source_kind: project
 venue: GitHub repository
@@ -16,9 +16,9 @@ identifiers:
 - github-agentciv-agentciv
 source_urls:
 - https://github.com/agentciv/agentciv
-verification_status: abstract_reviewed
+verification_status: repository_reviewed
 retrieval_status: fulltext_retrieved
-reviewed_at: '2026-10-27'
+reviewed_at: '2026-10-31'
 materials:
 - materials/github-agentciv-agentciv/readme-source.md
 - materials/github-agentciv-agentciv/input-notes.md
@@ -40,7 +40,7 @@ tags:
 - кодовый проект
 - методология
 - сообщества
-agents_count: зависит от конфигурации проекта
+agents_count: '12 в демонстрационном прогоне (README)'
 importance_basis: editorial
 ---
 
@@ -53,7 +53,7 @@ importance_basis: editorial
 > AgentCiv — открытый проект симуляции цивилизации, в README которого описаны 12 агентов и 70 шагов без заранее заданных социальных ролей.
 
 - **Значимость для обзора:** ключевая — Ценность для Лаб. 57 — доступный код, среда или данные по теме методологии, сообществ; репозиторий помогает изучать и воспроизводить связанное исследование, но сам по себе не является новым эмпирическим результатом.
-- **Число агентов:** зависит от конфигурации проекта
+- **Число агентов:** 12 в демонстрационном прогоне (README)
 - **Ключевые слова:** кодовый проект, методология, сообщества
 
 **Главные результаты**
@@ -64,10 +64,10 @@ importance_basis: editorial
 
 ## Библиография и проверка
 
-- **Авторы:** AgentCiv contributors
+- **Авторы:** Mark E. Mala (создатель проекта, по README)
 - **Год:** 2026.
 - **Площадка / статус:** GitHub repository; Источник проверен; см. ограничения и уровень публикации в карточке..
-- **Проверка содержания:** Проверена аннотация; подробности полного текста не подтверждены.
+- **Проверка содержания:** Проверен README-снимок от 2026-10-29 целиком; код, конфигурации, журналы прогонов и статьи репозитория не проверялись.
 - **Доступность оригинала:** fulltext_retrieved. Получение текста не означает завершённую содержательную проверку.
 
 ## Короткая аннотация

@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2411.12977v6",
   "source_path": "materials/arxiv-2411-12977/fulltext.md",
   "source_version": "2411.12977v6",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Открытые модели в Minecraft учатся у GPT-4-наставника через общение и явное моделирование партнёра: Mistral-7B поднимается с 7 % до 37,5 % на сборе земли, но задачи простые, а равные агенты без эксперта прироста не дают.",
+  "rewritten_at": "2026-10-31"
 }
