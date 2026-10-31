@@ -151,7 +151,7 @@ export default function Catalog({ works, topics, initialQuery, initialTopic, ini
                           <span>{[authorsShort(w.authors), w.year].filter(Boolean).join(" · ")}</span>
                         </span>
                       </Link>
-                      <Link className="econ-row-link" href={`/economics/studies/${w.id}`}>Экономика исследования →</Link>
+                      <Link className="econ-row-link" href={`/economics/studies/${w.id}`} aria-label={`Экономика исследования: ${w.title}`}>Экономика</Link>
                     </li>
                   ))}
                 </ul>

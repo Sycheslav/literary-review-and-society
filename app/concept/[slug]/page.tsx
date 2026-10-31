@@ -22,6 +22,27 @@ export default async function ChapterPage({ params }: Props) {
   const prev = chapters[index - 1];
   const next = chapters[index + 1];
 
+  const toc = (
+    <ol>
+      {chapters.map((c) => (
+        <li key={c.slug}>
+          <Link href={`/concept/${c.slug}`} aria-current={c.slug === chapter.slug ? "page" : undefined}>
+            <span>{c.num}.</span> {c.title}
+          </Link>
+          {c.slug === chapter.slug && c.sections.length > 0 && (
+            <ol className="chapter-toc-sub">
+              {c.sections.map((s) => (
+                <li key={s.id}>
+                  <a href={`#${s.id}`}>{s.title}</a>
+                </li>
+              ))}
+            </ol>
+          )}
+        </li>
+      ))}
+    </ol>
+  );
+
   return (
     <section className="section page-top">
       <div className="container">
@@ -30,24 +51,7 @@ export default async function ChapterPage({ params }: Props) {
         </nav>
         <div className="chapter-layout">
           <aside className="chapter-toc" aria-label="Главы">
-            <ol>
-              {chapters.map((c) => (
-                <li key={c.slug}>
-                  <Link href={`/concept/${c.slug}`} aria-current={c.slug === chapter.slug ? "page" : undefined}>
-                    <span>{c.num}.</span> {c.title}
-                  </Link>
-                  {c.slug === chapter.slug && c.sections.length > 0 && (
-                    <ol className="chapter-toc-sub">
-                      {c.sections.map((s) => (
-                        <li key={s.id}>
-                          <a href={`#${s.id}`}>{s.title}</a>
-                        </li>
-                      ))}
-                    </ol>
-                  )}
-                </li>
-              ))}
-            </ol>
+            {toc}
           </aside>
 
           <article className="chapter-main">
@@ -55,6 +59,10 @@ export default async function ChapterPage({ params }: Props) {
               Глава {chapter.num}
             </p>
             <h1 className="chapter-heading">{chapter.title}</h1>
+            <details className="chapter-toc-mobile">
+              <summary>Содержание главы и другие главы</summary>
+              <nav aria-label="Главы">{toc}</nav>
+            </details>
             <Md className="chapter-text">{chapter.body}</Md>
 
             <nav className="chapter-pager" aria-label="Соседние главы">

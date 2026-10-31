@@ -57,7 +57,14 @@ export default async function SummaryPage({ params }: Props) {
             </aside>
           )}
         </div>
-        <div className="retelling-end"><ReadingLevels id={id} detail={detail} current="summary" /></div>
+        <nav className="retelling-end" aria-label="Другие уровни чтения">
+          <Link href={`/works/${id}`}>← Аннотация</Link>
+          {detail.textPath ? (
+            <Link href={`/works/${id}/text`}>Полный текст оригинала →</Link>
+          ) : detail.url && (
+            <a href={detail.url} target="_blank" rel="noreferrer">Первоисточник ↗</a>
+          )}
+        </nav>
       </div>
     </article>
   );

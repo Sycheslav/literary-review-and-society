@@ -348,7 +348,7 @@ table,
 .note {
   margin: 16px 0 32px;
   padding: 12px 16px;
-  border-left: 3px solid var(--line-2);
+  border-radius: var(--radius-sm);
   background: var(--bg-alt);
   color: var(--ink-2);
   font-size: var(--text-md);
@@ -463,7 +463,7 @@ table,
   color: var(--ink);
 }
 .prose blockquote {
-  border-left: 3px solid var(--line-2);
+  border-left: 2px solid var(--line-2);
   padding-left: 14px;
   color: var(--muted);
 }
@@ -550,16 +550,17 @@ table,
 }
 .start-list li {
   display: grid;
-  grid-template-columns: 36px 1fr;
+  grid-template-columns: 44px 1fr;
   gap: 12px;
-  padding: 22px 0;
+  padding: 24px 0;
   border-bottom: 1px solid var(--line);
 }
 .start-num {
   font-family: var(--serif);
-  font-size: var(--text-2xl);
-  color: var(--faint);
-  line-height: 1.3;
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
 }
 .start-question {
   font-family: var(--serif);
@@ -685,7 +686,7 @@ table,
   gap: 24px;
   margin-top: 24px;
   padding: 14px 16px;
-  border-left: 3px solid var(--accent);
+  border: 1px solid var(--line);
   border-radius: var(--radius-sm);
   background: var(--bg-alt);
   color: var(--ink-2);
@@ -706,7 +707,7 @@ table,
 body:has(.section-about) .site-footer {
   margin-top: 32px;
 }
-@media (max-width: 560px) {
+@media (max-width: 600px) {
   .agent-access {
     align-items: flex-start;
     flex-direction: column;
@@ -721,6 +722,9 @@ body:has(.section-about) .site-footer {
 }
 .work-group + .work-group {
   margin-top: 8px;
+}
+.work-group:is([open], :has(.work-list)) + .work-group {
+  margin-top: 40px;
 }
 .work-group > summary,
 .work-group-head {
@@ -768,6 +772,10 @@ body:has(.section-about) .site-footer {
 }
 
 .work-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 24px;
+  align-items: start;
   border-bottom: 1px solid var(--line);
 }
 .work-row {
@@ -1046,23 +1054,25 @@ body:has(.section-about) .site-footer {
 
 /* Three reading depths, shared by the annotation, retelling and original. */
 .reading-levels {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
   margin: 28px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 .reading-levels > a {
-  flex: 1 1 185px;
-  padding: 12px 16px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
+  min-height: 44px;
+  padding: 10px 16px;
   color: var(--ink-2);
 }
+.reading-levels > a + a { border-left: 1px solid var(--line); }
 .reading-levels > a:hover { background: var(--bg-alt); text-decoration: none; }
 .reading-levels > a[aria-current="page"] {
   background: var(--accent-soft);
-  border-color: var(--accent);
   color: var(--accent-ink);
+  box-shadow: inset 0 -2px 0 var(--accent);
 }
 .reading-levels small { display: block; font-size: var(--text-2xs); color: var(--muted); }
 .reading-levels span { display: block; font-weight: 700; }
@@ -1074,9 +1084,9 @@ body:has(.section-about) .site-footer {
 .retelling-aside { align-self: start; position: sticky; top: var(--sticky-top); font-size: var(--text-sm); }
 .retelling-aside ol { list-style: none; padding: 0; }
 .retelling-aside li { margin-top: 10px; line-height: 1.4; }
-.retelling-end { margin-top: 40px; }
-.source-notice { padding: 16px 20px; border-left: 3px solid var(--accent); background: var(--bg-alt); margin-bottom: 28px; }
-@media (max-width: 1000px) {
+.retelling-end { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); font-size: var(--text-ui); }
+.source-notice { padding: 16px 20px; border: 1px solid var(--line-2); border-radius: var(--radius-sm); background: var(--bg-alt); margin-bottom: 28px; }
+@media (max-width: 1080px) {
   .retelling-layout { display: flex; flex-direction: column; gap: 24px; }
   .retelling-aside { position: static; order: -1; }
   .retelling-aside ol { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0 24px; }
@@ -1460,15 +1470,49 @@ body:has(.graph-page) .site-footer {
   font-size: var(--text-sm);
   line-height: 1.4;
 }
-.chapter-toc a {
+.chapter-toc-mobile {
+  display: none;
+  margin: 20px 0 8px;
+  border-block: 1px solid var(--line);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+.chapter-toc-mobile > summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--ink-2);
+}
+.chapter-toc-mobile > summary::-webkit-details-marker {
+  display: none;
+}
+.chapter-toc-mobile > summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: var(--faint);
+}
+.chapter-toc-mobile[open] > summary::after {
+  content: "−";
+}
+.chapter-toc-mobile > nav {
+  padding-bottom: 16px;
+}
+.chapter-toc a,
+.chapter-toc-mobile a {
   display: block;
   padding: 4px 0;
   color: var(--ink-2);
 }
-.chapter-toc a span {
+.chapter-toc a span,
+.chapter-toc-mobile a span {
   color: var(--faint);
 }
-.chapter-toc a[aria-current="page"] {
+.chapter-toc a[aria-current="page"],
+.chapter-toc-mobile a[aria-current="page"] {
   color: var(--ink);
   font-weight: 700;
 }
@@ -1535,8 +1579,8 @@ body:has(.graph-page) .site-footer {
 /* ---------- Узкие экраны ---------- */
 
 @media (max-width: 1080px) {
-  .header-search input {
-    width: 140px;
+  .header-search {
+    display: none;
   }
   .work-layout {
     grid-template-columns: 1fr;
@@ -1552,11 +1596,8 @@ body:has(.graph-page) .site-footer {
   .chapter-toc {
     display: none;
   }
-}
-
-@media (max-width: 900px) {
-  .header-search {
-    display: none;
+  .chapter-toc-mobile {
+    display: block;
   }
 }
 
@@ -1564,10 +1605,10 @@ body:has(.graph-page) .site-footer {
   :root {
     --gutter: 16px;
     --section-y: 48px;
-    --header-h: 95px; /* шапка переносится в две строки */
+    --header-h: 100px; /* шапка переносится в две строки */
   }
   :root:has(.site-subnav) {
-    --header-h: 136px;
+    --header-h: 149px;
   }
   .container {
     padding: 0 var(--gutter);
@@ -1585,16 +1626,16 @@ body:has(.graph-page) .site-footer {
     scrollbar-width: none;
   }
   .site-nav a {
-    padding: 8px 0 10px;
+    padding: 12px 0;
   }
   .site-subnav-links {
     gap: 2px;
-    height: 40px;
+    height: 48px;
     overflow-x: auto;
     scrollbar-width: none;
   }
   .site-subnav-links a {
-    padding: 6px 10px;
+    padding: 11px 10px;
   }
   .hero {
     padding: 48px 0 40px;
@@ -1653,12 +1694,39 @@ body:has(.graph-page) .site-footer {
   }
 }
 
+@media (max-width: 600px) {
+  .reading-levels > a {
+    padding: 8px 10px;
+  }
+  .reading-levels span {
+    display: none;
+  }
+  .reading-levels small {
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: inherit;
+  }
+}
 
-/* Ссылка на экономический паспорт в списках работ */
+
+/* Ссылка на экономический паспорт в списках работ: тише названия работы */
 .econ-row-link {
-  display: inline-block;
-  font-size: var(--text-sm);
-  margin: 0 1rem 0.65rem;
+  padding: 16px 0 12px;
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+.econ-row-link:hover {
+  color: var(--accent);
+}
+@media (max-width: 600px) {
+  .work-list li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .econ-row-link {
+    justify-self: start;
+    margin-top: -8px;
+    padding: 0 0 12px;
+  }
 }
 
 /* ---------- Комментарии к выделенным фрагментам ---------- */
@@ -1906,7 +1974,7 @@ body:has(.graph-page) .site-footer {
   gap: 4px;
   margin-top: 14px;
   padding: 11px 12px;
-  border-left: 3px solid var(--mark-rule);
+  border-left: 2px solid var(--mark-rule);
   background: var(--mark-paper);
   font-size: var(--text-xs);
 }
@@ -1957,6 +2025,12 @@ body:has(.graph-page) .site-footer {
   box-shadow: var(--shadow-xs);
   font: 700 var(--text-2xs) var(--sans);
   cursor: pointer;
+}
+/* Кружок остаётся маленьким, а зона нажатия — 44px */
+.page-comment-pin::before {
+  content: "";
+  position: absolute;
+  inset: -11px;
 }
 
 .page-comment-pin:hover,
@@ -2009,7 +2083,7 @@ body:has(.graph-page) .site-footer {
   max-height: 5.2em;
   overflow: auto;
   padding-left: 10px;
-  border-left: 3px solid var(--mark-rule);
+  border-left: 2px solid var(--mark-rule);
   color: var(--mark-quote);
   font-family: var(--serif);
   font-size: var(--text-sm);

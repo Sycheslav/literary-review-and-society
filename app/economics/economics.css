@@ -976,7 +976,7 @@
   font-size: var(--text-md);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
   .econ-hero,
   .calc {
     grid-template-columns: 1fr;
