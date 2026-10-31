@@ -13,7 +13,7 @@ function resolveHref(href: string): { internal: string; workId?: string } | null
   const text = href.match(/(?:^|\/)materials\/([^/]+)\/fulltext\.md$/);
   if (text) return { internal: `/works/${text[1]}/text` };
   const summary = href.match(/(?:^|\/)materials\/([^/]+)\/summary\.ru\.md$/);
-  if (summary) return { internal: `/works/${summary[1]}/summary` };
+  if (summary) return { internal: `/works/${summary[1]}#retelling` };
   if (/README\.md/.test(href)) return { internal: "/" };
   return null;
 }
@@ -63,7 +63,10 @@ export default function Md({ children, className }: { children: string; classNam
           },
           h3({ children }) {
             const num = typeof children === "string" ? children.match(/^(\d+)\.(\d+)\./) : null;
-            return <h3 id={num ? `p${num[1]}-${num[2]}` : undefined}>{children}</h3>;
+            // Разделы изложения на странице работы опущены на уровень ниже: «### 1. …».
+            const section = !num && typeof children === "string" ? children.match(/^(\d+)\.\s/) : null;
+            const id = num ? `p${num[1]}-${num[2]}` : section ? `section-${section[1]}` : undefined;
+            return <h3 id={id}>{children}</h3>;
           },
         }}
       >

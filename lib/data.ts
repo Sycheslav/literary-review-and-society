@@ -27,6 +27,8 @@ export type SectionKey =
   | "limits";
 
 export type WorkDetail = {
+  /** Аннотация из изложения формата 2; пустая строка, если изложение старого формата. */
+  annotation: string;
   keyFindings: string[];
   agents: string;
   models: string[];

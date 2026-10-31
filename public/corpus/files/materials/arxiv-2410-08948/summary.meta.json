@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2410.08948v2",
   "source_path": "materials/arxiv-2410-08948/fulltext.md",
   "source_version": "arXiv v2; Science Advances 11(20), eadu9368 (2025)",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Популяции из 24 LLM-агентов в игре в имена приходят к общей конвенции и выбирают одно имя при нейтральном выборе отдельного агента, а порог меньшинства для смены колеблется от 2 до 67 %; игра и память заданы жёстко.",
+  "rewritten_at": "2026-10-31"
 }

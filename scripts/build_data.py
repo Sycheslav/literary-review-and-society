@@ -70,6 +70,16 @@ def card_sections(path):
     return out
 
 
+def retelling_lead(text):
+    """Аннотация и главные результаты из изложения формата 2 (они стоят до раздела «1.»)."""
+    parts = {}
+    for part in re.split(r"^## ", text, flags=re.M)[1:]:
+        head, _, body = part.partition("\n")
+        parts[head.strip()] = body.strip()
+    findings = [m.strip() for m in re.findall(r"^- (.+)$", parts.get("Главные результаты", ""), flags=re.M)]
+    return parts.get("Аннотация", ""), findings
+
+
 def clean_title(title):
     return re.sub(r"\s+", " ", title).strip()
 
@@ -150,11 +160,14 @@ def main():
         summary_path = next((p for p in summary_candidates
                              if os.path.isfile(os.path.join(CORPUS, "files", p))
                              and not is_placeholder(os.path.join(CORPUS, "files", p))), None)
-        summary_meta, summary_words = {}, 0
+        summary_meta, summary_words, annotation, lead_findings = {}, 0, "", []
         if summary_path:
             with open(os.path.join(CORPUS, "files", summary_path), encoding="utf-8") as f:
-                summary_words = len(re.findall(r"\b[\w-]+\b", f.read()))
+                summary_text = f.read()
+            summary_words = len(re.findall(r"\b[\w-]+\b", summary_text))
             summary_meta = load(os.path.join(CORPUS, "files", summary_path.replace("summary.ru.md", "summary.meta.json")), {})
+            if summary_meta.get("format") == 2:
+                annotation, lead_findings = retelling_lead(summary_text)
             if summary_meta.get("source_status") == "limited" and not summary_meta.get("source_path"):
                 # An archived abstract or conference page is not the full paper.
                 text_path = None
@@ -169,7 +182,7 @@ def main():
                 "kind": n.get("source_kind"),
                 "topics": n.get("topics") or [],
                 "importance": curation["importance"].get(wid) or n.get("importance"),
-                "summary": t.get("summary") or n.get("summary_short") or "",
+                "summary": summary_meta.get("short") or t.get("summary") or n.get("summary_short") or "",
                 "hasText": bool(text_path),
                 "hasRetelling": bool(summary_path),
             }
@@ -177,7 +190,8 @@ def main():
         sections = card_sections(n["path"])
         sections.update({k: v for k, v in (t.get("sections") or {}).items() if v})
         details[wid] = {
-            "keyFindings": t.get("key_findings") or n.get("key_findings") or [],
+            "annotation": annotation,
+            "keyFindings": lead_findings or t.get("key_findings") or n.get("key_findings") or [],
             "agents": t.get("agents") or n.get("agents_count") or "",
             "models": n.get("models") or [],
             "sections": sections,

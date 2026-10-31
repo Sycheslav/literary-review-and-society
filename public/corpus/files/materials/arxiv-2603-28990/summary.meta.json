@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2603.28990v1",
   "source_path": "materials/arxiv-2603-28990/fulltext.md",
   "source_version": "arXiv v1 (HTML)",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Синтетический эксперимент на 25 000 прогонах: протокол Sequential, где порядок ходов задан, а роль выбирает агент, дал на задачах L3 качество на 12–14 % выше центрального Coordinator, но оценивал LLM-судья, а протокол и задачи заданы автором.",
+  "rewritten_at": "2026-10-31"
 }

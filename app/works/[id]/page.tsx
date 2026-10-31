@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getDetail, getTopics, getWork, getWorks } from "@/lib/data";
+import { getDetail, getTopics, getWork, getWorks, readSummaryRu } from "@/lib/data";
 import type { SectionKey } from "@/lib/data";
 import { IMPORTANCE_SHORT, KIND_LABELS, SECTION_LABELS, previewProps } from "@/lib/labels";
 import Discussion from "../../components/Discussion";
@@ -25,6 +25,20 @@ function meaningful(value: string) {
   return v && !v.startsWith("не ") && v !== "—";
 }
 
+/** Делит изложение на паспорт источника и разделы; у формата 2 аннотация и результаты выводятся отдельно. */
+function splitRetelling(raw: string, withLead: boolean) {
+  const text = raw.replace(/^# [^\r\n]+\r?\n+/, "");
+  const first = text.search(/^## /m);
+  const passport = (first < 0 ? text : text.slice(0, first)).trim();
+  let body = first < 0 ? "" : text.slice(first);
+  if (withLead) body = body.replace(/^## (Аннотация|Главные результаты)\r?\n[\s\S]*?(?=^## )/gm, "");
+  const headings = Array.from(body.matchAll(/^## (\d+)\.\s+(.+)$/gm), (m) => ({
+    id: `section-${m[1]}`, title: `${m[1]}. ${m[2].trim()}`,
+  }));
+  // Разделы изложения — подразделы блока «Подробное изложение».
+  return { passport, headings, body: body.replace(/^(#{2,5}) /gm, "#$1 ") };
+}
+
 function hostOf(url: string) {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -43,7 +57,12 @@ export default async function WorkPage({ params }: Props) {
   const related = detail.related.map((rid) => getWork(rid)).filter((w) => w !== undefined);
   const { sections } = detail;
   const hasFindings = detail.keyFindings.length > 0;
-  const collapsed = DETAIL_ORDER.filter((key) => sections[key] && !(key === "results" && !hasFindings));
+  const raw = detail.summaryPath ? readSummaryRu(detail.summaryPath) : null;
+  const retelling = raw ? splitRetelling(raw, Boolean(detail.annotation)) : null;
+  // Изложение заменяет разделы карточки; они остаются только у работ без изложения.
+  const collapsed = retelling
+    ? []
+    : DETAIL_ORDER.filter((key) => sections[key] && !(key === "results" && !hasFindings));
   const kicker = [
     `${IMPORTANCE_SHORT[work.importance]} работа`,
     KIND_LABELS[work.kind],
@@ -74,13 +93,17 @@ export default async function WorkPage({ params }: Props) {
           {work.authors.length > 0 && <p className="work-authors">{work.authors.join(", ")}</p>}
         </header>
 
-        <ReadingLevels id={id} detail={detail} current="annotation" />
+        <ReadingLevels id={id} detail={detail} current="work" />
 
         <div className="work-layout">
           <div className="work-main">
-            <section className="work-block">
+            <section className="work-block" id="annotation">
               <h2 className="block-title">Аннотация</h2>
-              <p className="annotation">{work.summary}</p>
+              {detail.annotation ? (
+                <Md className="annotation">{detail.annotation}</Md>
+              ) : (
+                <p className="annotation">{work.summary}</p>
+              )}
             </section>
 
             {hasFindings && (
@@ -90,14 +113,14 @@ export default async function WorkPage({ params }: Props) {
               </section>
             )}
 
-            {!hasFindings && sections.results && (
+            {!hasFindings && !retelling && sections.results && (
               <section className="work-block">
                 <h2 className="block-title">Результаты</h2>
                 <Md>{sections.results}</Md>
               </section>
             )}
 
-            {sections.conclusions && (
+            {sections.conclusions && !retelling && (
               <section className="work-block">
                 <h2 className="block-title">Выводы авторов</h2>
                 <Md>{sections.conclusions}</Md>
@@ -118,6 +141,44 @@ export default async function WorkPage({ params }: Props) {
               </section>
             )}
 
+            {retelling && (
+              <section className="work-block retelling" id="retelling">
+                <h2 className="block-title">Подробное изложение</h2>
+                {detail.summaryStatus === "limited" && (
+                  <p className="source-notice" role="note">
+                    Полный текст недоступен. Это ограниченное изложение по доступным источникам;
+                    подробности метода и результатов требуют проверки по оригиналу.
+                  </p>
+                )}
+                {detail.summaryStatus === "repository" && (
+                  <p className="note">
+                    Изложение подготовлено по документации проекта. Описанные возможности следует
+                    отличать от экспериментально проверенных результатов.
+                  </p>
+                )}
+                {retelling.headings.length > 0 && (
+                  <nav className="retelling-toc" aria-label="Разделы изложения">
+                    <ol>
+                      {retelling.headings.map((h) => (
+                        <li key={h.id}>
+                          <a href={`#${h.id}`}>{h.title}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  </nav>
+                )}
+                <div className="retelling-text">
+                  <Md>{retelling.body}</Md>
+                </div>
+                {retelling.passport && (
+                  <details className="retelling-source">
+                    <summary>Об источнике изложения</summary>
+                    <Md>{retelling.passport}</Md>
+                  </details>
+                )}
+              </section>
+            )}
+
             <section className="work-block">
               <Discussion targetId={work.id} />
             </section>
@@ -126,10 +187,10 @@ export default async function WorkPage({ params }: Props) {
           <aside className="work-aside">
             <div className="aside-actions">
               <Link href={`/economics/studies/${work.id}`} className="button button-quiet">Экономика исследования</Link>
-              {detail.summaryPath && (
-                <Link href={`/works/${work.id}/summary`} className="button">
-                  Читать изложение на русском
-                </Link>
+              {retelling && (
+                <a href="#retelling" className="button">
+                  Подробное изложение
+                </a>
               )}
               {detail.url && (
                 <a href={detail.url} target="_blank" rel="noreferrer" className="button button-quiet">

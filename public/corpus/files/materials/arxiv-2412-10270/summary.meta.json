@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2412.10270v1",
   "source_path": "materials/arxiv-2412-10270/fulltext.md",
   "source_version": "v1",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "В десяти поколениях игры донора с передачей текстовых стратегий средний ресурс рос только у Claude 3.5 Sonnet, а у Gemini и GPT-4o нет; пять прогонов на модель, отбор и правила заданы авторами.",
+  "rewritten_at": "2026-10-31"
 }

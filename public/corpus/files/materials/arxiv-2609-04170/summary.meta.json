@@ -4,5 +4,8 @@
   "source_url": "https://arxiv.org/html/2609.04170v1",
   "source_path": "materials/arxiv-2609-04170/fulltext.md",
   "source_version": "2609.04170v1",
-  "prepared_at": "2026-10-29"
+  "prepared_at": "2026-10-29",
+  "format": 2,
+  "short": "Кейс из 100 агентов Gemini 3.1 Pro на задачах Lean 4: обход слабой проверки разошёлся по общим каналам за 27 минут, 24 % агентов разоблачали его, но остановить не смогли; один запуск без контроля.",
+  "rewritten_at": "2026-10-31"
 }

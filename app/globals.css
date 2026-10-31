@@ -1117,21 +1117,22 @@ body:has(.section-about) .site-footer {
 }
 .reading-levels small { display: block; font-size: var(--text-2xs); color: var(--muted); }
 .reading-levels span { display: block; font-weight: 700; }
-.retelling-layout { display: grid; grid-template-columns: minmax(0, 780px) 270px; gap: var(--gap-columns); }
 .retelling-text { min-width: 0; overflow-wrap: anywhere; }
 .retelling-text .prose { font-size: var(--text-lg); line-height: 1.75; }
 .retelling-text h2 { scroll-margin-top: var(--sticky-top); }
 .retelling-text table { display: block; overflow-x: auto; }
-.retelling-aside { align-self: start; position: sticky; top: var(--sticky-top); font-size: var(--text-sm); }
-.retelling-aside ol { list-style: none; padding: 0; }
-.retelling-aside li { margin-top: 10px; line-height: 1.4; }
-.retelling-end { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); font-size: var(--text-ui); }
 .source-notice { padding: 16px 20px; border: 1px solid var(--line-2); border-radius: var(--radius-sm); background: var(--bg-alt); margin-bottom: 28px; }
-@media (max-width: 1080px) {
-  .retelling-layout { display: flex; flex-direction: column; gap: 24px; }
-  .retelling-aside { position: static; order: -1; }
-  .retelling-aside ol { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0 24px; }
-}
+/* Изложение внутри страницы работы: оглавление, текст, паспорт источника. */
+.work-block.retelling { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--line); }
+#annotation, #retelling { scroll-margin-top: var(--sticky-top); }
+.annotation.prose p { font: inherit; color: inherit; }
+.retelling-toc { margin-bottom: 28px; font-size: var(--text-sm); }
+.retelling-toc ol { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 6px 24px; }
+.retelling-toc li { line-height: 1.4; }
+.retelling-text h3 { scroll-margin-top: var(--sticky-top); }
+.retelling-source { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--line); font-size: var(--text-sm); }
+.retelling-source summary { cursor: pointer; color: var(--muted); }
+.retelling-source .prose { margin-top: 10px; }
 
 /* ---------- Обсуждение ---------- */
 

@@ -111,7 +111,7 @@
       "title": "Да будут когти: ранний анализ социальной сети ИИ-агентов на Moltbook",
       "status": "fulltext",
       "path": "materials/arxiv-2602-20044/summary.ru.md",
-      "words": 1323
+      "words": 1916
     },
     {
       "id": "arxiv-2608-07532",
@@ -125,7 +125,7 @@
       "title": "Долой иерархию и роли: как самоорганизующиеся LLM-агенты превосходят заданные структуры",
       "status": "fulltext",
       "path": "materials/arxiv-2603-28990/summary.ru.md",
-      "words": 1515
+      "words": 1992
     },
     {
       "id": "arxiv-2601-11369",
@@ -139,14 +139,14 @@
       "title": "Кейс эмерджентного жульничества и разоблачения (whistleblowing) в автономных исследовательских роях",
       "status": "fulltext",
       "path": "materials/arxiv-2609-04170/summary.ru.md",
-      "words": 1334
+      "words": 1605
     },
     {
       "id": "arxiv-2607-05132",
       "title": "Когда агенты лгут: предумышленность, устойчивость и эксплуатация в повторяющихся играх",
       "status": "fulltext",
       "path": "materials/arxiv-2607-05132/summary.ru.md",
-      "words": 1306
+      "words": 1950
     },
     {
       "id": "arxiv-2610-22319",
@@ -174,7 +174,7 @@
       "title": "Кто я и кто ещё здесь? Поведенческая дифференциация без назначения ролей в многоагентных LLM-системах",
       "status": "fulltext",
       "path": "materials/arxiv-2604-00026/summary.ru.md",
-      "words": 1275
+      "words": 1904
     },
     {
       "id": "arxiv-2604-03295",
@@ -230,7 +230,7 @@
       "title": "Решают ли большие языковые модели проблемы агентного моделирования? Критический обзор генеративных социальных симуляций",
       "status": "fulltext",
       "path": "materials/arxiv-2504-03274/summary.ru.md",
-      "words": 1180
+      "words": 1326
     },
     {
       "id": "arxiv-2609-13037",
@@ -335,14 +335,14 @@
       "title": "Возникающая координация в мультиагентных языковых моделях",
       "status": "fulltext",
       "path": "materials/arxiv-2510-05174/summary.ru.md",
-      "words": 1961
+      "words": 1918
     },
     {
       "id": "arxiv-2410-08948",
       "title": "Возникающие социальные конвенции и коллективное смещение в популяциях LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2410-08948/summary.ru.md",
-      "words": 2053
+      "words": 1978
     },
     {
       "id": "arxiv-2501-00226",
@@ -363,14 +363,14 @@
       "title": "Почему мультиагентные LLM-системы терпят неудачу?",
       "status": "fulltext",
       "path": "materials/arxiv-2503-13657/summary.ru.md",
-      "words": 1249
+      "words": 1642
     },
     {
       "id": "arxiv-2509-18052",
       "title": "Принципы PIMMUR: обеспечение валидности коллективного поведения обществ LLM",
       "status": "fulltext",
       "path": "materials/arxiv-2509-18052/summary.ru.md",
-      "words": 1212
+      "words": 2125
     },
     {
       "id": "arxiv-2508-15510",
@@ -398,7 +398,7 @@
       "title": "Учимся дружить: коучинг LLM-агентов к возникновению социальных связей",
       "status": "fulltext",
       "path": "materials/arxiv-2510-19299/summary.ru.md",
-      "words": 1120
+      "words": 1576
     },
     {
       "id": "doi-10-24963-ijcai-2025-1144",
@@ -433,7 +433,7 @@
       "title": "Возникновение социальных норм в обществах генеративных агентов: принципы и архитектура",
       "status": "fulltext",
       "path": "materials/arxiv-2403-08251/summary.ru.md",
-      "words": 1237
+      "words": 1587
     },
     {
       "id": "arxiv-2403-12482",
@@ -447,7 +447,7 @@
       "title": "Культурная эволюция кооперации среди LLM-агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2412-10270/summary.ru.md",
-      "words": 1521
+      "words": 1730
     },
     {
       "id": "arxiv-2410-13909",
@@ -461,7 +461,7 @@
       "title": "Сотрудничать или рухнуть: возникновение устойчивой кооперации в обществе LLM-агентов",
       "status": "fulltext",
       "path": "materials/arxiv-2404-16698/summary.ru.md",
-      "words": 1618
+      "words": 1846
     },
     {
       "id": "arxiv-2411-03252",
@@ -489,7 +489,7 @@
       "title": "Generative Agents: интерактивные симулякры человеческого поведения",
       "status": "fulltext",
       "path": "materials/arxiv-2304-03442/summary.ru.md",
-      "words": 1505
+      "words": 1569
     },
     {
       "id": "arxiv-2310-11667",

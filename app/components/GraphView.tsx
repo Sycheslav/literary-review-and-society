@@ -379,8 +379,8 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
               <p className="graph-card-text">{selected.work.summary}</p>
               <div className="aside-actions">
                 {selected.work.hasRetelling && (
-                  <Link href={`/works/${selected.work.id}/summary`} className="button">
-                    Читать изложение на русском
+                  <Link href={`/works/${selected.work.id}#retelling`} className="button">
+                    Читать подробное изложение
                   </Link>
                 )}
                 <Link href={`/works/${selected.work.id}`} className="button button-quiet">

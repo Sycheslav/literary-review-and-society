@@ -50,7 +50,16 @@ def audit():
         if status in {"fulltext", "repository"} and not source_path and not meta.get("source_note"):
             errors.append(f"{wid}: reviewed source not saved")
         headings = [int(n) for n in re.findall(r"^## (\d+)\.\s", text, re.M)]
-        if headings != list(range(1, 11)):
+        # Формат 2: аннотация и главные результаты вместо раздела «1. Главный вопрос и ответ».
+        if meta.get("format") == 2:
+            if headings != list(range(1, 10)):
+                errors.append(f"{wid}: expected numbered sections 1..9, found {headings}")
+            for lead in ("## Аннотация", "## Главные результаты"):
+                if lead not in text:
+                    errors.append(f"{wid}: format 2 needs «{lead[3:]}»")
+            if not meta.get("short"):
+                errors.append(f"{wid}: format 2 needs a short catalog summary")
+        elif headings != list(range(1, 11)):
             errors.append(f"{wid}: expected numbered sections 1..10, found {headings}")
         if status == "limited" and not re.search(r"недоступ|ограничен|только аннотац|не получен", text[:2000], re.I):
             errors.append(f"{wid}: limited source needs a notice at the start")
