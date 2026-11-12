@@ -683,7 +683,7 @@ table,
 }
 .topic-list a {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   column-gap: 16px;
   padding: 18px 0;
   color: var(--ink);
@@ -1713,7 +1713,10 @@ body:has(.graph-page) .site-footer {
   .concept-teaser-inner,
   .concept-parts,
   .topic-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .topic-list a {
+    grid-template-columns: minmax(0, 1fr);
   }
   .filters {
     grid-template-columns: minmax(0, 1fr);
