@@ -48,7 +48,7 @@ export default function Discussion({ targetId }: { targetId: string }) {
 
   const load = useCallback(async () => {
     try {
-      const response = await fetch(`/api/comments?targetId=${encodeURIComponent(targetId)}`);
+      const response = await fetch(`/literature/api/comments?targetId=${encodeURIComponent(targetId)}`);
       if (!response.ok) throw new Error(String(response.status));
       const json = (await response.json()) as { comments: Comment[] };
       setComments(json.comments);
@@ -73,7 +73,7 @@ export default function Discussion({ targetId }: { targetId: string }) {
     setSending(true);
     setError("");
     try {
-      const response = await fetch("/api/comments", {
+      const response = await fetch("/literature/api/comments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ targetId, authorName: author.trim(), body: body.trim(), selectedQuote: null }),
@@ -92,7 +92,7 @@ export default function Discussion({ targetId }: { targetId: string }) {
 
   async function remove(id: number) {
     if (!window.confirm("Удалить комментарий?")) return;
-    const response = await fetch(`/api/comments/${id}`, {
+    const response = await fetch(`/literature/api/comments/${id}`, {
       method: "DELETE",
       headers: { "X-Moderation-Key": moderationKey },
     });

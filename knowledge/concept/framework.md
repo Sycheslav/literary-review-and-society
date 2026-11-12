@@ -4,14 +4,14 @@ type: "concept"
 title: "3. Связь с «Верхумом» и деятельностью лаборатории"
 chapter: 3
 status: "project_proposal"
-html_url: "https://literature-review.up.railway.app/concept/framework"
+html_url: "https://socialgraph-labs.com/literature/concept/framework"
 ---
 
 # 3. Связь с «Верхумом» и деятельностью лаборатории
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/framework)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/concept/framework)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

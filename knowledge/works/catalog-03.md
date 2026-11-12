@@ -2,14 +2,14 @@
 id: "catalog:3"
 type: "index"
 title: "Каталог работ: 101–150"
-html_url: "https://literature-review.up.railway.app/works"
+html_url: "https://socialgraph-labs.com/literature/works"
 ---
 
 # Каталог работ: 101–150
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works)
 
 - [NomicLaw: эмерджентное доверие и стратегическая аргументация LLM в ходе совместного правотворчества](arxiv-2508-05344.md) · 2025 · ID: arxiv-2508-05344 · направления: methodology, institutions, resources
 - [Вовлечь всех в обсуждение: экспериментальное исследование группового принятия решений с фасилитацией LLM](arxiv-2508-08242.md) · 2025 · ID: arxiv-2508-08242 · направления: intelligence

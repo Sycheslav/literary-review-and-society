@@ -2,14 +2,14 @@
 id: "topic-methodology"
 type: "topic"
 title: "Методология, валидация и сравнение с людьми"
-html_url: "https://literature-review.up.railway.app/topics/methodology"
+html_url: "https://socialgraph-labs.com/literature/topics/methodology"
 ---
 
 # Методология, валидация и сравнение с людьми
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/methodology)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/methodology)
 
 ### Что здесь сравнивается
 

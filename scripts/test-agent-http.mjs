@@ -2,8 +2,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 
-const base = process.argv[2] ?? 'http://localhost:3000';
-const publicBase = 'https://literature-review.up.railway.app';
+const base = process.argv[2] ?? 'http://localhost:3000/literature';
+const publicBase = 'https://socialgraph-labs.com/literature';
 const timeout = () => AbortSignal.timeout(60000);
 const local = url => url.replace(publicBase, base);
 async function get(p, init) { return fetch(p.startsWith('http') ? local(p) : base + p, { signal: timeout(), ...init }); }
@@ -33,7 +33,7 @@ const sourceGraph = JSON.parse(fs.readFileSync('data/graph.json', 'utf8'));
 assert.deepEqual(graph.nodes, sourceGraph.nodes); assert.deepEqual(graph.edges, sourceGraph.edges);
 for (const p of ['/', '/works/arxiv-2304-03442', '/topics/methodology', '/concept/experiments', '/economics/methodology']) {
   const r = await get(p); assert.equal(r.status, 200, p); const text = await r.text(); assert.match(text, /<h1/);
-  assert.ok(!text.includes('href="/agents"') && !text.includes('href="/SKILL.md"') && !text.includes('href="/knowledge/'), `Agent interface leaked into human page: ${p}`);
+  assert.ok(!text.includes('href="/agents"') && !text.includes('href="/SKILL.md"') && !text.includes('href="/knowledge/'), `Unprefixed agent link in human page: ${p}`);
 }
 assert.equal((await get('/agents')).status, 404);
 const sitemap = await get('/sitemap.xml'); assert.equal(sitemap.status, 200); assert.ok(!(await sitemap.text()).includes(`<loc>${publicBase}/agents</loc>`));
@@ -69,7 +69,11 @@ assert.ok(llms.includes('/knowledge/index.md'));
 const index = await read('/knowledge/index.md'); assert.ok(index.includes('experiments/index.md'));
 const experiments = await read('/knowledge/experiments/index.md'); assert.ok(experiments.includes('../concept/experiments.md'));
 const chapter = await read('/knowledge/concept/experiments.md');
-assert.match(chapter, /13\.1\./); assert.match(chapter, /13\.8\./); assert.match(chapter, /project_proposal/);
+const chapterNumber = chapter.match(/^chapter: (\d+)$/m)?.[1];
+assert.ok(chapterNumber);
+assert.ok(chapter.includes(`### ${chapterNumber}.1.`));
+assert.ok(chapter.includes(`### ${chapterNumber}.8.`));
+assert.match(chapter, /project_proposal/);
 for (const [question, terms, topic] of [
   ['Материалы к первому пилоту: распределение при частной информации', 'сговор', 'economics'],
   ['Устойчивые связи и помощь с издержками', 'reciprocity', 'networks'],

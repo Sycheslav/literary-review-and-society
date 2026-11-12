@@ -2,14 +2,14 @@
 id: "topic-games"
 type: "topic"
 title: "Игровые общества и длительные взаимодействия"
-html_url: "https://literature-review.up.railway.app/topics/games"
+html_url: "https://socialgraph-labs.com/literature/topics/games"
 ---
 
 # Игровые общества и длительные взаимодействия
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/games)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/games)
 
 ### Игровые среды и длительное взаимодействие
 

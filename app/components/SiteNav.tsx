@@ -54,6 +54,7 @@ export default function SiteNav() {
   const current = findSection(pathname);
   return (
     <nav className="site-nav" aria-label="Разделы сайта">
+      <a href="https://socialgraph-labs.com/">Эксперименты</a>
       {SECTIONS.map((section) => (
         <Link
           key={section.href}

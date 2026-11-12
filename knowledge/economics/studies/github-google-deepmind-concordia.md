@@ -3,7 +3,7 @@ id: "economics:github-google-deepmind-concordia"
 type: "economics"
 title: "Экономика: Concordia: библиотека генеративных агентных симуляций"
 work_id: "github-google-deepmind-concordia"
-html_url: "https://literature-review.up.railway.app/economics/studies/github-google-deepmind-concordia"
+html_url: "https://socialgraph-labs.com/literature/economics/studies/github-google-deepmind-concordia"
 topics: ["platforms","coordination","memory","communities"]
 ---
 
@@ -11,7 +11,7 @@ topics: ["platforms","coordination","memory","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../../index.md) · [Страница сайта](https://literature-review.up.railway.app/economics/studies/github-google-deepmind-concordia)
+[К индексу](../../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/economics/studies/github-google-deepmind-concordia)
 
 [Карточка работы](../../works/github-google-deepmind-concordia.md) · [Экономика](../index.md)
 

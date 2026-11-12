@@ -2,14 +2,14 @@
 id: "knowledge"
 type: "index"
 title: "Социумы ИИ-агентов: граф знаний"
-html_url: "https://literature-review.up.railway.app/"
+html_url: "https://socialgraph-labs.com/literature/"
 ---
 
 # Социумы ИИ-агентов: граф знаний
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](index.md) · [Страница сайта](https://literature-review.up.railway.app/)
+[К индексу](index.md) · [Страница сайта](https://socialgraph-labs.com/literature/)
 
 Набор: 281 работ, 13 направлений, 23 глав и 281 подробных изложений.
 

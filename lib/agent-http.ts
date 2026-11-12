@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-export const SITE_URL = "https://literature-review.up.railway.app";
+export const SITE_URL = "https://socialgraph-labs.com/literature";
 const directory = path.join(process.cwd(), "knowledge");
 
 type Manifest = {

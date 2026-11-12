@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985/"
 source_version: "Science Advances 10(45), 2024; DOI 10.1126/sciadv.adp1528"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/summary"
 topics: ["methodology","intelligence"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","intelligence"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-pmc-ncbi-nlm-nih-gov-580593c8a3/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -2,14 +2,14 @@
 id: "topic-resources"
 type: "topic"
 title: "Общие и распределённые ресурсы"
-html_url: "https://literature-review.up.railway.app/topics/resources"
+html_url: "https://socialgraph-labs.com/literature/topics/resources"
 ---
 
 # Общие и распределённые ресурсы
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/resources)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/resources)
 
 ### Общий ресурс и распределённые решения
 

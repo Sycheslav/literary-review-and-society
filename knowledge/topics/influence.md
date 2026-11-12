@@ -2,14 +2,14 @@
 id: "topic-influence"
 type: "topic"
 title: "Информационное влияние, манипуляции и защита"
-html_url: "https://literature-review.up.railway.app/topics/influence"
+html_url: "https://socialgraph-labs.com/literature/topics/influence"
 ---
 
 # Информационное влияние, манипуляции и защита
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/influence)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/influence)
 
 ### Влияние, ошибки и манипуляции
 

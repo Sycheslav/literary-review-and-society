@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://ijassa.ipu.ru/index.php/ijassa/article/download/401/339"
 source_version: "Advances in Systems Science and Applications, 2014, Vol. 14, No. 3, pp. 254–278"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-ijassa-ipu-ru-d088ecedc9/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ijassa-ipu-ru-d088ecedc9/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-ijassa-ipu-ru-d088ecedc9/summary)
 
 Редакционное изложение, не оригинал публикации.
 

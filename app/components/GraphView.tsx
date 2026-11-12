@@ -66,7 +66,7 @@ export default function GraphView({ full = false, view }: { full?: boolean; view
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/graph-data")
+    fetch("/literature/graph-data")
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((json: GData) => !cancelled && setData(json))
       .catch(() => !cancelled && setError(true));

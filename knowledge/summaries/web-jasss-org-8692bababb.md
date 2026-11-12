@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://www.jasss.org/27/4/4.html"
 source_version: "JASSS 27(4), 2024, version of record"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-jasss-org-8692bababb/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-jasss-org-8692bababb/summary"
 topics: ["methodology"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-jasss-org-8692bababb/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-jasss-org-8692bababb/summary)
 
 Редакционное изложение, не оригинал публикации.
 

@@ -8,7 +8,7 @@ kind: "project"
 importance: "core"
 status: "working_summary"
 source_url: "https://github.com/agentciv/agentciv"
-html_url: "https://literature-review.up.railway.app/works/github-agentciv-agentciv"
+html_url: "https://socialgraph-labs.com/literature/works/github-agentciv-agentciv"
 topics: ["methodology","communities"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["methodology","communities"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/github-agentciv-agentciv)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/github-agentciv-agentciv)
 
 **Авторы:** Mark E. Mala  
 **Год:** 2026  

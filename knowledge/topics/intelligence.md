@@ -2,14 +2,14 @@
 id: "topic-intelligence"
 type: "topic"
 title: "Коллективный интеллект, дебаты и конформизм"
-html_url: "https://literature-review.up.railway.app/topics/intelligence"
+html_url: "https://socialgraph-labs.com/literature/topics/intelligence"
 ---
 
 # Коллективный интеллект, дебаты и конформизм
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/intelligence)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/intelligence)
 
 ### Коллективное решение и согласие
 

@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://journals.rudn.ru/miph/article/view/45258"
 source_version: "журнальная версия, 33(2), 2025, с. 214–225"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-journals-rudn-ru-2c3482cc4c/summary"
 topics: ["platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-journals-rudn-ru-2c3482cc4c/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-journals-rudn-ru-2c3482cc4c/summary)
 
 Редакционное изложение, не оригинал публикации.
 

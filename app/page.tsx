@@ -199,7 +199,7 @@ export default function HomePage() {
                   <p className="agent-access-title"><strong>Для ИИ-агентов</strong></p>
                   <p>Передайте файл агенту, чтобы он мог читать обзор и искать материалы.</p>
                 </div>
-                <a href="/SKILL.md" download="SKILL.md">Скачать SKILL.md</a>
+                <a href="/literature/SKILL.md" download="SKILL.md">Скачать SKILL.md</a>
               </div>
             </div>
           </details>

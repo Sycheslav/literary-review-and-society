@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   description:
     "Обзор исследований о сообществах языковых агентов: связи, роли, нормы, институты, коллективная память. Лаборатория № 57 ИПУ РАН.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/literature/favicon.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -43,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <span className="brand-sub">Обзор исследований · Лаб. 57 ИПУ РАН</span>
             </Link>
             <SiteNav />
-            <form action="/works" className="header-search" role="search">
+            <form action="/literature/works" className="header-search" role="search">
               <input type="search" name="q" placeholder="Поиск работ" aria-label="Поиск работ" />
             </form>
           </div>

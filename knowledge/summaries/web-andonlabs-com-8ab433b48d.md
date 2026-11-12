@@ -7,7 +7,7 @@ status: "working_summary"
 source_status: "fulltext"
 source_url: "https://andonlabs.com/evals/vending-bench-arena"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-andonlabs-com-8ab433b48d/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-andonlabs-com-8ab433b48d/summary"
 topics: ["resources"]
 ---
 
@@ -15,7 +15,7 @@ topics: ["resources"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-andonlabs-com-8ab433b48d/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-andonlabs-com-8ab433b48d/summary)
 
 Редакционное изложение, не оригинал публикации.
 

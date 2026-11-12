@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://ojs.aaai.org/index.php/ICWSM/article/download/35826/37980"
 source_version: "ICWSM 2025 proceedings"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-ojs-aaai-org-b14a3753ac/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-ojs-aaai-org-b14a3753ac/summary"
 topics: ["networks"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["networks"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-ojs-aaai-org-b14a3753ac/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-ojs-aaai-org-b14a3753ac/summary)
 
 Редакционное изложение, не оригинал публикации.
 

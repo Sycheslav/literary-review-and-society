@@ -2,14 +2,14 @@
 id: "topic-platforms"
 type: "topic"
 title: "Архитектуры, платформы и масштабирование"
-html_url: "https://literature-review.up.railway.app/topics/platforms"
+html_url: "https://socialgraph-labs.com/literature/topics/platforms"
 ---
 
 # Архитектуры, платформы и масштабирование
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/topics/platforms)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/topics/platforms)
 
 ### Инфраструктура и её влияние на результаты
 

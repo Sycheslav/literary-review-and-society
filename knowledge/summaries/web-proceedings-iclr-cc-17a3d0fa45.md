@@ -8,7 +8,7 @@ source_status: "fulltext"
 source_url: "https://proceedings.iclr.cc/paper_files/paper/2024/file/578e65cdee35d00c708d4c64bce32971-Paper-Conference.pdf"
 source_version: "ICLR 2024, proceedings PDF"
 prepared_at: "2026-10-29"
-html_url: "https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45/summary"
+html_url: "https://socialgraph-labs.com/literature/works/web-proceedings-iclr-cc-17a3d0fa45/summary"
 topics: ["platforms"]
 ---
 
@@ -16,7 +16,7 @@ topics: ["platforms"]
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/works/web-proceedings-iclr-cc-17a3d0fa45/summary)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/works/web-proceedings-iclr-cc-17a3d0fa45/summary)
 
 Редакционное изложение, не оригинал публикации.
 

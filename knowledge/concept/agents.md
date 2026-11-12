@@ -4,14 +4,14 @@ type: "concept"
 title: "7. Устройство агента"
 chapter: 7
 status: "project_proposal"
-html_url: "https://literature-review.up.railway.app/concept/agents"
+html_url: "https://socialgraph-labs.com/literature/concept/agents"
 ---
 
 # 7. Устройство агента
 
 Рабочий обзор для обсуждения. Аннотации и переводы требуют сверки с первоисточником перед цитированием. Предложения проекта не являются результатами проведённых экспериментов.
 
-[К индексу](../index.md) · [Страница сайта](https://literature-review.up.railway.app/concept/agents)
+[К индексу](../index.md) · [Страница сайта](https://socialgraph-labs.com/literature/concept/agents)
 
 **Социальная организация ИИ-агентов, коллективное решение задач и экспериментальная программа Лаборатории № 57 «Активных систем» ИПУ РАН**
 

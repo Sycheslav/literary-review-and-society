@@ -161,7 +161,7 @@ export default function PageComments() {
     setActiveCommentId(null);
     setError("");
 
-    fetch(`/api/comments?targetId=${encodeURIComponent(targetId)}`, {
+    fetch(`/literature/api/comments?targetId=${encodeURIComponent(targetId)}`, {
       cache: "no-store",
       signal: controller.signal,
     })
@@ -324,7 +324,7 @@ export default function PageComments() {
     setSending(true);
     setError("");
     try {
-      const response = await fetch("/api/comments", {
+      const response = await fetch("/literature/api/comments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -381,7 +381,7 @@ export default function PageComments() {
   async function removeComment(event: ReactMouseEvent<HTMLButtonElement>, id: number) {
     event.stopPropagation();
     if (!window.confirm("Удалить комментарий?")) return;
-    const response = await fetch(`/api/comments/${id}`, {
+    const response = await fetch(`/literature/api/comments/${id}`, {
       method: "DELETE",
       headers: { "X-Moderation-Key": moderationKey },
     });
