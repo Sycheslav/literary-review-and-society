@@ -1,0 +1,1804 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lab57:analysis:0.1.0-draft",
+  "title": "Analysis package draft",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "work_id",
+    "revision",
+    "concept_revision",
+    "sources",
+    "answers",
+    "findings",
+    "results_extraction_scope",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0-draft"
+    },
+    "work_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "concept_revision": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "version",
+          "access",
+          "read_scope"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hash": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "access": {
+            "type": "string"
+          },
+          "read_scope": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "answers": {
+      "type": "array",
+      "minItems": 90,
+      "maxItems": 90,
+      "items": {
+        "$ref": "#/$defs/answer"
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q01"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q02"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q03"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q04"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q05"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q06"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q07"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q08"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q09"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q10"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q11"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q12"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q13"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q14"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q15"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q16"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q17"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q18"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q19"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q20"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q21"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q22"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q23"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q24"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q25"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q26"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q27"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q28"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q29"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q30"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q31"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q32"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q33"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q34"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q35"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q36"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q37"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q38"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q39"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q40"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q41"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q42"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q43"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q44"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q45"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q46"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q47"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q48"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q49"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q50"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q51"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q52"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q53"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q54"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q55"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q56"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q57"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q58"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q59"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q60"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q61"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q62"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q63"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q64"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q65"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q66"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q67"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q68"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q69"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q70"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q71"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q72"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q73"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q74"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q75"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q76"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q77"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q78"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q79"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q80"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q81"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q82"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q83"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q84"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q85"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q86"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q87"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q88"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q89"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "question_id": {
+                "const": "Q90"
+              }
+            },
+            "required": [
+              "question_id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/finding"
+      }
+    },
+    "results_extraction_scope": {
+      "type": "object",
+      "required": [
+        "checked",
+        "omitted",
+        "limitations"
+      ],
+      "properties": {
+        "checked": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "omitted": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewer",
+        "coverage"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_reviewed",
+            "changes_requested",
+            "accepted_partial",
+            "accepted_full"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coverage": {
+          "type": "string"
+        }
+      }
+    },
+    "profile_extensions": {
+      "type": "object"
+    },
+    "scores": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "ru_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "source_version",
+        "locator"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string"
+        },
+        "source_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file_page": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "printed_page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "code_commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "required": [
+        "question_id",
+        "status",
+        "value",
+        "evidence",
+        "searched_source_refs",
+        "note_en"
+      ],
+      "properties": {
+        "question_id": {
+          "enum": [
+            "Q01",
+            "Q02",
+            "Q03",
+            "Q04",
+            "Q05",
+            "Q06",
+            "Q07",
+            "Q08",
+            "Q09",
+            "Q10",
+            "Q11",
+            "Q12",
+            "Q13",
+            "Q14",
+            "Q15",
+            "Q16",
+            "Q17",
+            "Q18",
+            "Q19",
+            "Q20",
+            "Q21",
+            "Q22",
+            "Q23",
+            "Q24",
+            "Q25",
+            "Q26",
+            "Q27",
+            "Q28",
+            "Q29",
+            "Q30",
+            "Q31",
+            "Q32",
+            "Q33",
+            "Q34",
+            "Q35",
+            "Q36",
+            "Q37",
+            "Q38",
+            "Q39",
+            "Q40",
+            "Q41",
+            "Q42",
+            "Q43",
+            "Q44",
+            "Q45",
+            "Q46",
+            "Q47",
+            "Q48",
+            "Q49",
+            "Q50",
+            "Q51",
+            "Q52",
+            "Q53",
+            "Q54",
+            "Q55",
+            "Q56",
+            "Q57",
+            "Q58",
+            "Q59",
+            "Q60",
+            "Q61",
+            "Q62",
+            "Q63",
+            "Q64",
+            "Q65",
+            "Q66",
+            "Q67",
+            "Q68",
+            "Q69",
+            "Q70",
+            "Q71",
+            "Q72",
+            "Q73",
+            "Q74",
+            "Q75",
+            "Q76",
+            "Q77",
+            "Q78",
+            "Q79",
+            "Q80",
+            "Q81",
+            "Q82",
+            "Q83",
+            "Q84",
+            "Q85",
+            "Q86",
+            "Q87",
+            "Q88",
+            "Q89",
+            "Q90"
+          ]
+        },
+        "status": {
+          "enum": [
+            "reported",
+            "not_reported",
+            "not_applicable",
+            "not_checked",
+            "source_unavailable"
+          ]
+        },
+        "value": {},
+        "origin": {
+          "enum": [
+            "author_claim",
+            "reported_result",
+            "reviewer_inference",
+            "lab_proposal"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "searched_source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note_en": {
+          "type": "string"
+        },
+        "record_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "reported"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence": {
+                "minItems": 1
+              },
+              "value": {
+                "not": {
+                  "type": "null"
+                }
+              }
+            },
+            "required": [
+              "origin"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_reported"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "searched_source_refs": {
+                "minItems": 1
+              },
+              "value": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "not_applicable",
+                  "not_checked",
+                  "source_unavailable"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "note_en": {
+                "minLength": 1
+              },
+              "value": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "finding": {
+      "type": "object",
+      "required": [
+        "finding_id",
+        "claim_en",
+        "origin",
+        "condition",
+        "metric",
+        "value",
+        "comparison",
+        "sample",
+        "uncertainty",
+        "limitations",
+        "evidence"
+      ],
+      "properties": {
+        "finding_id": {
+          "type": "string"
+        },
+        "claim_en": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "author_claim",
+            "reported_result",
+            "reviewer_inference",
+            "lab_proposal"
+          ]
+        },
+        "condition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metric": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {},
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "comparison": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sample": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "uncertainty": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "review": {
+            "properties": {
+              "status": {
+                "const": "accepted_full"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        },
+        "required": [
+          "review"
+        ]
+      },
+      "then": {
+        "properties": {
+          "answers": {
+            "not": {
+              "contains": {
+                "properties": {
+                  "status": {
+                    "const": "not_checked"
+                  }
+                },
+                "required": [
+                  "status"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
