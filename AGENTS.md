@@ -1,3 +1,7 @@
+# Agent entry point
+
+For literature, agent, or research-concept work in this repository, read and follow [.agents/skills/ai-societies-knowledge/SKILL.md](.agents/skills/ai-societies-knowledge/SKILL.md). Its detailed guidance has one canonical source at [content/agent-skill/SKILL.md](content/agent-skill/SKILL.md); the site build publishes it at /literature/SKILL.md. Begin with /literature/llms.txt to discover the English project concept, H1–H10 catalogue, analysis workflow, and compatible knowledge routes.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

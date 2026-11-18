@@ -56,8 +56,22 @@ assert.equal(bundle.data_version, manifest.data_version);
 assert.equal(bundle.documents.length, manifest.counts.documents);
 for (const d of bundle.documents) assert.equal(d.text, read(d.path), `Bundle mismatch: ${d.path}`);
 const expectCount = (type, n) => assert.equal(bundle.documents.filter(d => d.type === type).length, n, `Coverage: ${type}`);
-expectCount('work', works.length); expectCount('topic', topics.length); expectCount('concept', concept.chapters.length);
+expectCount('work', works.length); expectCount('topic', topics.length);
 expectCount('summary', works.filter(w => details[w.id].summaryPath).length);
+const englishConceptPaths = ['concept/en.md', 'concept/hypotheses-en.md'];
+expectCount('concept', concept.chapters.length + englishConceptPaths.length);
+for (const p of englishConceptPaths) {
+  const doc = bundle.documents.find(d => d.path === p);
+  assert.ok(doc, `Missing English concept document: ${p}`);
+  assert.equal(doc.type, 'concept', `Wrong type for English concept document: ${p}`);
+  assert.ok(doc.text.includes('language: "en"'), `Missing English language metadata: ${p}`);
+  assert.ok(doc.text.includes('status: "working_translation"'), `Missing working status: ${p}`);
+}
+assert.ok(read('index.md').includes('(concept/en.md)'), 'English concept missing from knowledge index');
+assert.ok(read('index.md').includes('(concept/hypotheses-en.md)'), 'English hypotheses missing from knowledge index');
+assert.ok(read('concept/index.md').includes('(en.md)'), 'English concept missing from concept index');
+assert.ok(read('llms.txt').includes('/knowledge/concept/en.md'), 'English concept missing from machine index');
+assert.ok(read('llms.txt').includes('/knowledge/concept/hypotheses-en.md'), 'English hypotheses missing from machine index');
 for (const w of works) {
   const text = read(`works/${w.id}.md`);
   assert.ok(text.includes(w.summary), `Lost annotation: ${w.id}`);

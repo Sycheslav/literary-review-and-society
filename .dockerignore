@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.vinext
+.wrangler
+.sites-runtime
+work
+.env*
+knowledge/en/snapshots/f201918220d6348b776c1dc5b5854a59c3e00cbc8949458c7bc5cb5269ce17ad.json
+knowledge/en/snapshots/.gitignore

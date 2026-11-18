@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "data_version": "cf88cc7fb8205bc9632f1ecb0278af4f0cec34017f184f4cd40b556308112fdd",
+  "data_version": "2cedbb3db90fd64856f481367c0f5c37c16902f554bb2a35beaad0488669b9d7",
   "counts": {
     "works": 281,
     "topics": 13,
     "chapters": 23,
     "summaries": 281,
-    "documents": 894,
+    "documents": 896,
     "nodes": 317,
     "edges": 618
   },
@@ -3009,8 +3009,18 @@
     },
     {
       "path": "concept/index.md",
-      "bytes": 7084,
-      "sha256": "befa9e8303aa467d66580b3d49590dff499015fa4331303b5894e94440e6e805"
+      "bytes": 7328,
+      "sha256": "a50fd35c313030f1e24f6a4f5c14d61bb0a33e371680957e889c9c6a34551be2"
+    },
+    {
+      "path": "concept/en.md",
+      "bytes": 71687,
+      "sha256": "1007a4984dae287116d2a6e42a079c9be47179a02c244f23c0309ed3c2ae539f"
+    },
+    {
+      "path": "concept/hypotheses-en.md",
+      "bytes": 22365,
+      "sha256": "fc342290087e608f915ddd3a2564b2a2229def7638d8b72bdd5d5cdd1beef2d7"
     },
     {
       "path": "topics/index.md",
@@ -4494,8 +4504,8 @@
     },
     {
       "path": "SKILL.md",
-      "bytes": 11298,
-      "sha256": "40feb0afe3e29e89872b77b1332a51c6095387257015564d2e305520ac196ad6"
+      "bytes": 10698,
+      "sha256": "cebf9dc83851d92ba11cb8c4611cf29161171cf48d34e2ae3b213c7070af9836"
     },
     {
       "path": "guide.md",
@@ -4504,18 +4514,18 @@
     },
     {
       "path": "index.md",
-      "bytes": 1865,
-      "sha256": "b50b47ac45ef67bf0d6aaaa4e1c7f2c8552a4da6c670791e3a6ea4b392d49350"
+      "bytes": 2015,
+      "sha256": "87b7c7d82b31fec8958cbd08673253f48fd82ac45289c7857ad5e62be4d6e407"
     },
     {
       "path": "bundle.json",
-      "bytes": 10987722,
-      "sha256": "e5ddd8fc1e37949a11f7b945d3710a3780df1539bb9c8f168fe134fbe567f9e2"
+      "bytes": 11082850,
+      "sha256": "2ca50d4924999aa112dacb33634b70e98dfcb4344df9acd20e4eee4623f4d3f4"
     },
     {
       "path": "llms.txt",
-      "bytes": 2138,
-      "sha256": "07e0f0b3ca2f739bf4f44986745bb810143b026ca3484a8d49d9274b59f0c3e4"
+      "bytes": 3841,
+      "sha256": "37de6dd427b1412a7d4af4de3a9886f4dd211df3b233a1d3cc184f9edd527e72"
     }
   ]
 }

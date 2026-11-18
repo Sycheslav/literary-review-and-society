@@ -18,6 +18,13 @@ html_url: "https://socialgraph-labs.com/literature/concept"
 
 Здесь собраны замысел проекта, рабочие понятия, правила методологии, идеи экспериментов и план. Пересказы публикаций находятся в литературном графе и карточках работ.
 
+## English agent materials
+
+- [English concept: chapters 0–22](en.md) — working translation for discussion, not an approved programme.
+- [English H1–H10 catalogue](hypotheses-en.md) — prospective hypotheses, not findings.
+
+## Chapters
+
 - [0. Термины и определения](terms.md) — Понятия «Верхума», теории активных систем и наших экспериментов: краткие определения и источники.
 - [1. Проект в нескольких абзацах](project.md) — Что исследуем, почему прогнозирование и как проект связан с «Верхумом» и теорией активных систем.
 - [2. Цели, границы и ожидаемый вклад](goals.md) — Теоретическая, прикладная и методическая цели; где проходят границы выводов.

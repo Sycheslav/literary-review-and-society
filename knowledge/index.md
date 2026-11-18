@@ -15,7 +15,9 @@ html_url: "https://socialgraph-labs.com/literature/"
 
 - [Обзор и основные выводы](overview.md)
 - [Как пользоваться, поиск, HTTP и Git](guide.md)
-- [Концепция проекта](concept/index.md)
+- [Концепция проекта (русский)](concept/index.md)
+- [AI Society: English concept, chapters 0–22](concept/en.md)
+- [H1–H10: English hypothesis catalogue](concept/hypotheses-en.md)
 - [Направления](topics/index.md)
 - [Исследования](works/index.md)
 - [Эксперименты и гипотезы](experiments/index.md)

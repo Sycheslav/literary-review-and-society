@@ -14,7 +14,8 @@
     "prebuild": "npm run knowledge:build && npm run knowledge:check",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "knowledge:en:build": "python tools/literature-en-export/build_registry.py"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
